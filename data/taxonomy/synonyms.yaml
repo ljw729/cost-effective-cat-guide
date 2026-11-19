@@ -1,0 +1,61 @@
+# 搜索同义词组：用户的口语说法 → 规范标签。
+# 搜索时，查询命中组内任意一个词，等同于搜索该组的全部词。
+# 只写真实会出现的说法；不要为了 SEO 堆词。
+- tag: urethral-obstruction
+  terms: [尿闭, 尿不出来, 尿不出, 排不出尿, 尿道堵塞, 尿道梗阻, 蹲猫砂盆没尿, 一直蹲猫砂, 尿频, 少尿, 尿血, urinary blockage, blocked cat, can't pee]
+- tag: vomiting
+  terms: [呕吐, 吐, 一直吐, 老是吐, 吐毛球, 干呕, vomit, vomiting, throwing up]
+- tag: water-fountain
+  terms: [饮水机, 自动饮水机, 循环饮水机, 流动水, 喝水少, 不爱喝水, water fountain, fountain]
+- tag: hydration
+  terms: [饮水, 喝水, 饮水量, 水碗, 水盆, 多喝水, drinking, water intake]
+- tag: lily
+  terms: [百合, 萱草, 黄花菜, 鲜花, 花束, 花瓶水, 花粉, lily, lilies, daylily]
+- tag: permethrin
+  terms: [扑灭司林, 苄氯菊酯, 狗用驱虫药, 犬用滴剂, 驱虫滴剂, permethrin, dog flea treatment]
+- tag: allium
+  terms: [洋葱, 大蒜, 葱, 韭菜, 蒜, onion, garlic, chives]
+- tag: milk
+  terms: [牛奶, 喝牛奶, 奶, 乳糖, 宠物牛奶, 羊奶, milk, dairy, lactose]
+- tag: high-rise
+  terms: [坠楼, 跳楼, 掉下楼, 封窗, 纱窗, 阳台, 高楼综合征, 窗户, fall, high-rise, window screen, balcony]
+- tag: microchip
+  terms: [芯片, 宠物芯片, 走失, 丢猫, 猫丢了, 身份牌, 项圈, microchip, lost cat, ID tag]
+- tag: litter-box
+  terms: [猫砂盆, 猫厕所, 乱尿, 乱拉, 不用猫砂盆, 随地大小便, 猫砂, 封闭式猫砂盆, litter box, litter tray, house soiling]
+- tag: vaccine
+  terms: [疫苗, 打疫苗, 猫三联, 狂犬疫苗, 加强针, 免疫, vaccine, vaccination, booster]
+- tag: checkup
+  terms: [体检, 年检, 看兽医, 宠物医院, 检查, 不出门要体检吗, checkup, wellness exam, vet visit]
+- tag: neuter
+  terms: [绝育, 去势, 结扎, 阉割, 绝育年龄, 几个月绝育, spay, neuter, desex]
+- tag: senior
+  terms: [老年猫, 老猫, 高龄猫, 年纪大, 七岁, 十岁, senior cat, old cat, elderly cat]
+- tag: blood-pressure
+  terms: [血压, 高血压, 量血压, blood pressure, hypertension]
+- tag: dental
+  terms: [牙齿, 刷牙, 牙结石, 口臭, 牙龈, 洁牙, 洗牙, 牙膏, dental, teeth, toothbrushing, tartar]
+- tag: anesthesia-free-dental
+  terms: [免麻洁牙, 无麻醉洗牙, 不打麻药洗牙, 麻醉洗牙, anesthesia-free dental, non-anesthetic dental]
+- tag: weight
+  terms: [体重, 肥胖, 太胖, 减肥, 胖猫, 体况评分, BCS, 称重, weight, obesity, overweight, body condition]
+- tag: homemade-diet
+  terms: [自制猫饭, 猫饭, 自己做猫饭, 生骨肉, 手作猫饭, homemade diet, home-cooked]
+- tag: raw-diet
+  terms: [生食, 生骨肉, 生肉, BARF, 冻干, raw food, raw diet, raw meat]
+- tag: complete-balanced
+  terms: [猫粮, 主粮, 全价, 营养完整, 营养均衡, AAFCO, FEDIAF, 怎么选猫粮, 猫粮标签, cat food, complete and balanced]
+- tag: play
+  terms: [玩耍, 逗猫棒, 陪猫玩, 捕猎游戏, 无聊, 精力旺盛, 半夜跑酷, play, wand toy, hunting]
+- tag: scratching
+  terms: [抓挠, 猫抓板, 挠沙发, 磨爪, 剪指甲, 去爪, scratching, scratcher, declaw]
+- tag: multicat
+  terms: [多猫, 第二只猫, 再养一只, 两只猫, 猫打架, 新猫介绍, 孤独, 陪伴, multi-cat, second cat, companion]
+- tag: carrier
+  terms: [航空箱, 猫包, 外出包, 去医院, 进航空箱, carrier, cat carrier]
+- tag: food-puzzle
+  terms: [益智喂食, 漏食球, 慢食碗, 自动喂食器, 少量多餐, puzzle feeder, slow feeder]
+- tag: hidden-illness
+  terms: [隐藏疾病, 生病了看不出来, 精神不好, 没精神, 躲起来, 食欲下降, 不吃东西, hiding illness, lethargic, not eating]
+- tag: treats
+  terms: [零食, 猫条, 冻干零食, 罐头零食, treats, snacks]

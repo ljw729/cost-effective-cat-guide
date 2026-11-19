@@ -1,0 +1,133 @@
+# 一级分类。id 稳定不变（用于 URL 和文件夹）；name 支持多语言。
+# high_risk: true → 条目必须 medical_review_required，且至少一个 Tier 1 来源。
+# review_months: 复核周期（stale detector 使用）。
+- id: safety
+  order: 1
+  name: { zh: 安全, en: Safety }
+  high_risk: false
+  review_months: 36
+- id: toxins
+  order: 2
+  name: { zh: 有毒物质, en: Toxins }
+  high_risk: true
+  review_months: 18
+- id: nutrition
+  order: 3
+  name: { zh: 饮食与营养, en: Diet & Nutrition }
+  high_risk: false
+  review_months: 24
+- id: weight
+  order: 4
+  name: { zh: 体重管理, en: Weight Management }
+  high_risk: false
+  review_months: 24
+- id: urinary
+  order: 5
+  name: { zh: 饮水与泌尿健康, en: Hydration & Urinary Health }
+  high_risk: true
+  review_months: 18
+- id: litter
+  order: 6
+  name: { zh: 猫砂盆, en: Litter Box }
+  high_risk: false
+  review_months: 36
+- id: prevention
+  order: 7
+  name: { zh: 医疗预防, en: Preventive Care }
+  high_risk: true
+  review_months: 18
+- id: dental
+  order: 8
+  name: { zh: 牙齿, en: Dental }
+  high_risk: false
+  review_months: 24
+- id: behavior
+  order: 9
+  name: { zh: 行为与心理需求, en: Behavior & Wellbeing }
+  high_risk: false
+  review_months: 36
+- id: multicat
+  order: 10
+  name: { zh: 多猫家庭, en: Multi-cat Homes }
+  high_risk: false
+  review_months: 36
+- id: kitten
+  order: 11
+  name: { zh: 幼猫, en: Kittens }
+  high_risk: false
+  review_months: 24
+- id: senior
+  order: 12
+  name: { zh: 老年猫, en: Senior Cats }
+  high_risk: true
+  review_months: 18
+- id: early-signs
+  order: 13
+  name: { zh: 常见疾病早期信号, en: Early Warning Signs }
+  high_risk: true
+  review_months: 18
+- id: emergency
+  order: 14
+  name: { zh: 紧急情况, en: Emergencies }
+  high_risk: true
+  review_months: 12
+- id: vet-visits
+  order: 15
+  name: { zh: 医院与就医, en: Vet Visits }
+  high_risk: false
+  review_months: 36
+- id: saving
+  order: 16
+  name: { zh: 养猫省钱, en: Saving Money }
+  high_risk: false
+  review_months: 36
+- id: worth-buying
+  order: 17
+  name: { zh: 值得买吗, en: Is It Worth Buying? }
+  high_risk: false
+  review_months: 24
+- id: buying-guide
+  order: 18
+  name: { zh: 用品选购原则, en: How to Choose Supplies }
+  high_risk: false
+  review_months: 36
+- id: body-language
+  order: 19
+  name: { zh: 猫行为语言, en: Cat Body Language }
+  high_risk: false
+  review_months: 36
+- id: adoption
+  order: 20
+  name: { zh: 领养与买猫, en: Adopting or Buying }
+  high_risk: false
+  review_months: 36
+- id: new-cat
+  order: 21
+  name: { zh: 新猫到家, en: Bringing a Cat Home }
+  high_risk: false
+  review_months: 36
+- id: travel
+  order: 22
+  name: { zh: 旅行·搬家·寄养, en: Travel, Moving & Boarding }
+  high_risk: false
+  review_months: 36
+- id: preparedness
+  order: 23
+  name: { zh: 家庭应急, en: Emergency Preparedness }
+  high_risk: false
+  review_months: 36
+- id: budget
+  order: 24
+  name: { zh: 预算体系, en: Budgeting }
+  high_risk: false
+  review_months: 36
+- id: dont
+  order: 25
+  name: { zh: 不要做什么, en: "Don'ts" }
+  high_risk: false
+  review_months: 24
+- id: myths
+  order: 26
+  name: { zh: 误区, en: Myths }
+  high_risk: false
+  review_months: 24

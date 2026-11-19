@@ -1,0 +1,31 @@
+{
+  "name": "cost-effective-cat-guide",
+  "version": "0.1.0",
+  "private": true,
+  "description": "高性价比猫猫指南 — evidence-based, structured cat care knowledge base",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "validate": "tsx scripts/validate.ts",
+    "dedupe": "tsx scripts/check-duplicates.ts",
+    "stale": "tsx scripts/check-stale.ts",
+    "verify:sources": "tsx scripts/verify-sources.ts",
+    "check:links": "tsx scripts/check-links.ts",
+    "build:guide": "tsx scripts/build-guide.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "check": "npm run typecheck && npm run validate && npm run dedupe && npm test && npm run build:guide -- --check"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vitest": "^5.1.1",
+    "yaml": "^2.9.1"
+  }
+}

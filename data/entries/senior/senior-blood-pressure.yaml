@@ -2,18 +2,21 @@ id: CG-0018
 slug: senior-blood-pressure
 type: recommendation
 title: 老年猫体检时要量血压
-summary: 高血压在老年猫中很常见，常伴随慢性肾病或甲亢，平时很难察觉。老年猫体检时请兽医量血压，包括看起来健康的猫。
+summary: 高血压在老年猫中很常见，常伴随慢性肾病或甲亢，平时很难察觉。老年猫每次体检都请兽医量血压，包括看起来健康的猫。
 category: senior
 tags: [senior, blood-pressure]
-recommendation: 猫进入老年阶段后，请兽医把血压测量纳入常规体检，即使猫看起来很健康。
+recommendation: 猫 7 岁以后至少每年测一次血压，11 岁以后每 6 到 12 个月测一次；有慢性肾病、甲亢等风险因素的猫，按兽医要求更频繁地测。
 why_it_matters: >-
-  ISFM 共识指南指出，高血压在老年猫中常见，常与慢性肾病、甲亢同时出现，严重时会损害眼睛、心脏和血管、大脑和肾脏。
-  但临床上很少常规测量血压，导致高血压可能被漏诊。2021 年 AAFP 老年猫指南把血压测量列为看起来健康和患病老年猫的基础检查项目。
+  ISFM 共识指南指出，高血压在老年猫中常见，常与慢性肾病、甲亢同时出现，会损害眼睛、心脏和血管、大脑和肾脏，而且损害可能不可逆。
+  临床上很少常规测量血压，导致高血压可能被漏诊。指南建议：健康的 7 到 10 岁猫至少每年测一次，11 岁及以上至少每 6 到 12 个月测一次；
+  有风险因素的猫应立即测量，并至少每 3 到 6 个月复查。2021 年 AAFP 老年猫指南也建议 10 岁以上的猫每次体检都测血压。
+  严重的眼部损害常表现为突然失明、双侧瞳孔放大，往往已不可逆；15% 到 46% 的高血压猫出现神经症状，如迷失方向、抽搐、走路不稳。
 how_to_do_it:
   - 老年猫体检时，主动问兽医是否需要测血压。
   - 测量前让猫在安静环境里适应一会儿，结果更可靠。
 warning_signs:
-  - 突然看不见东西、走路撞墙、瞳孔明显放大：尽快就医。
+  - 突然看不见东西、走路撞墙、双眼瞳孔明显放大：尽快就医。
+  - 迷失方向、抽搐、走路不稳：尽快就医。
 applies_to: [senior]
 urgency: important
 related: [CG-0016]
@@ -26,19 +29,19 @@ scores:
   harm_potential: 0
 evidence:
   level: B
-  summary: 两份 ISFM/AAFP 指南一致支持老年猫常规测血压；指南基于文献综述，同时说明很多方面仍需要更多数据。
-  gaps:
-    - "NEED REVIEW: 正文的“突然失明”警示来自对高血压眼部损害的一般描述，具体表现需要在指南全文中核对。"
+  summary: >-
+    两份 ISFM/AAFP 指南一致支持老年猫常规测血压；指南基于文献综述，同时说明很多方面仍需要更多数据。
+    两份指南的年龄分段不同（高血压指南：7 到 10 岁、11 岁及以上；老年猫指南：10 岁以上），本条按高血压指南的频率表写。
 medical_review_required: true
 review_status: ai_researched
 created: 2026-11-20
 last_reviewed: 2026-11-20
 sources:
   - id: isfm-hypertension-2017
-    supports: 高血压在老年猫中常见，常与慢性肾病和甲亢相关；可损害眼、心血管、脑和肾；临床很少常规测血压，可能导致漏诊。
+    supports: 高血压在老年猫中常见，常与慢性肾病和甲亢相关；可损害眼、心血管、脑和肾；常规测血压少，可能漏诊；监测频率表：健康 3 到 6 岁可考虑每年，7 到 10 岁至少每年，11 岁及以上至少每 6 到 12 个月，有风险因素立即测并每 3 到 6 个月复查；严重眼部损害常表现为失明和双侧瞳孔散大，往往不可逆；15% 到 46% 出现神经症状。
     support_check: ai_checked
-    locator: Abstract
+    locator: Abstract；Table 1；Ocular and neurological target organ damage
   - id: aafp-senior-care-2021
-    supports: 血压测量列为看似健康和患病老年猫的基础检查项目。
+    supports: 血压测量列为看似健康和患病老年猫的基础检查项目；10 岁以上的猫每次检查都测血压能提供重要信息，高血压风险随年龄增加。
     support_check: ai_checked
-    locator: Abstract
+    locator: Abstract；Physical examination

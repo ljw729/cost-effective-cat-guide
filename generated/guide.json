@@ -3,15 +3,15 @@
   "generated_from": "data/ (do not edit generated files by hand)",
   "stats": {
     "entries": 28,
-    "sources": 31,
+    "sources": 33,
     "by_evidence": {
       "B": 19,
       "C": 9
     },
     "by_grade": {
       "S": 4,
-      "A": 6,
-      "B": 8,
+      "A": 7,
+      "B": 7,
       "C": 3,
       "D": 2
     },
@@ -698,7 +698,7 @@
         "permethrin"
       ],
       "recommendation": "只给猫使用明确标注适用于猫的驱虫产品。绝不使用狗用产品，也不要把大规格产品分装给猫用。",
-      "why_it_matters": "澳大利亚一家转诊医院回顾的 42 例猫扑灭司林中毒中，大多数是主人直接给猫用了狗用扑灭司林滴剂。 常见症状有震颤和肌肉抽动（86%）、抽搐（33%）、发热等；约三分之一的猫出现并发症，需要密集治疗。 尽管包装上有醒目警告，这类病例仍在持续发生。",
+      "why_it_matters": "澳大利亚一家转诊医院回顾的 42 例猫扑灭司林中毒中，41 例是主人直接给猫用了狗用扑灭司林滴剂，其中 3 例是主人把一支药分给几只狗和猫用。 该研究汇总的其他报告中，也有猫因接触用过药的狗而中毒的病例。 常见症状有震颤和肌肉抽动（86%）、抽搐（33%）、发热等；约三分之一的猫出现并发症，需要密集治疗。 尽管包装上有醒目警告，这类病例仍在持续发生。",
       "how_to_do_it": [
         "买驱虫药前看清适用动物和体重范围；不确定就问兽医。",
         "家里的狗用了含扑灭司林的产品，要按说明书和兽医建议，在一段时间内避免猫和狗密切接触。",
@@ -729,7 +729,7 @@
         "summary": "回顾性病例系列清楚描述了暴露来源（狗用滴剂直接用在猫身上）、症状和并发症。 尚未纳入指南级来源，因此评为 B。",
         "gaps": [
           "TODO: 纳入 iCatCare 的扑灭司林中毒资料（第一轮抓取没有拿到正文）。",
-          "NEED REVIEW: 与用药后的狗隔离多久，目前没有核实过的来源，所以正文没有写具体时长。"
+          "UNKNOWN: 与用药后的狗隔离多久才安全，已读来源（含 Boland 2010 全文）没有给出时长，所以正文只写“按说明书和兽医建议”。"
         ]
       },
       "medical_review_required": true,
@@ -764,6 +764,7 @@
           "doi": "10.1016/j.jfms.2009.09.018",
           "pmid": "19897392",
           "url": "https://doi.org/10.1016/j.jfms.2009.09.018",
+          "pmcid": "PMC10911430",
           "source_type": "case_series",
           "tier": 1,
           "sample_size": "42 cats, one referral hospital, Sydney",
@@ -771,13 +772,13 @@
           "verification": {
             "exists": true,
             "metadata_match": true,
-            "read_level": "abstract",
+            "read_level": "full_text",
             "checked": "2026-11-20",
-            "method": "Crossref + Europe PMC abstract"
+            "method": "Crossref + full text on PMC (pmc.ncbi.nlm.nih.gov article page)"
           },
-          "supports": "42 例中多数是狗用扑灭司林滴剂直接用于猫；震颤或肌颤 86%、抽搐 33%；33% 出现并发症；尽管有标签警告，病例仍持续发生且可能致命。",
+          "supports": "42 例中 41 例将狗用扑灭司林滴剂直接用于猫，3 例主人把一支药分给几只狗和猫；震颤或肌颤 86%、抽搐 33%；33% 出现并发症；汇总的其他报告中包括接触用药狗的暴露途径；尽管有标签警告，病例仍持续发生且可能致命。",
           "support_check": "ai_checked",
-          "locator": "Abstract"
+          "locator": "Abstract；Results；Table 2"
         }
       ],
       "url_path": "/entries/never-use-dog-flea-products-on-cats/"
@@ -889,15 +890,17 @@
       "tags": [
         "vaccine"
       ],
-      "recommendation": "和兽医一起，根据猫的年龄、生活方式（是否外出、是否多猫、是否寄养）、来源和当地疾病情况，制定疫苗方案：核心疫苗按计划接种，非核心疫苗按风险评估决定。",
-      "why_it_matters": "2020 年 AAHA/AAFP 猫疫苗指南把疫苗分为核心疫苗（建议所有猫接种）和非核心疫苗（根据个体风险评估决定）。 兽医应根据猫的生命阶段、生活方式、来源，以及环境和流行病学因素制定个体化方案。指南还指出，注射部位肉瘤仍然罕见。 每次接种疫苗都应同时做全面体检。",
+      "recommendation": "和兽医一起，根据猫的年龄、生活方式（是否外出、是否多猫、是否寄养）、来源和当地疾病情况制定疫苗方案：核心疫苗按计划接种，非核心疫苗按风险评估决定。",
+      "why_it_matters": "2020 年 AAHA/AAFP 猫疫苗指南把疫苗分为核心疫苗（建议所有猫接种）和非核心疫苗（根据个体风险评估决定）。 宠物猫的核心疫苗是：猫泛白细胞减少症病毒（猫瘟，FPV）、猫疱疹病毒 1 型（FHV-1）、猫杯状病毒（FCV）、狂犬病，以及 1 岁以下猫的猫白血病病毒（FeLV）。 1 岁以上低风险的成年猫，猫白血病疫苗属于非核心疫苗。 指南的大致时间框架是：猫瘟、疱疹、杯状病毒的联苗从不早于 6 周龄开始，每 3 到 4 周一针，直到 16 到 20 周龄； 考虑在 6 月龄（而不是 1 岁）加强一次，以缩小幼猫母源抗体干扰造成的保护空档；之后每 3 年一次。狂犬病疫苗按疫苗说明书和当地法律执行。 指南还指出，注射部位肉瘤仍然罕见，每次接种都应同时做全面体检。",
       "how_to_do_it": [
         "第一次带猫看兽医时，说清楚猫是否外出、家里有几只猫、会不会寄养。",
         "保存好疫苗记录（照片或电子记录），寄养、搬家、出境时都会用到。",
-        "生活方式改变时（比如开始外出、家里来了新猫），告诉兽医重新评估。"
+        "生活方式改变时（比如开始外出、家里来了新猫），告诉兽医重新评估。",
+        "要寄养时，问兽医是否需要提前加强。"
       ],
       "exceptions": [
-        "狂犬病疫苗在很多地区受法律规定约束，以当地要求为准。"
+        "怀孕的母猫和不满 4 周龄的幼猫应避免接种。",
+        "患有逆转录病毒感染（如猫白血病、猫艾滋）的猫，兽医可能会避开某些活疫苗。"
       ],
       "applies_to": [
         "all",
@@ -907,7 +910,7 @@
         "outdoor"
       ],
       "urgency": "important",
-      "region_notes": "哪些疫苗属于核心、多久加强一次、狂犬病疫苗的法律要求，因国家和地区而异。请以当地兽医和法规为准。",
+      "region_notes": "指南来自北美。哪些疫苗属于核心、加强间隔、狂犬病疫苗的法律要求，因国家和地区而异，也取决于当地能买到哪些疫苗。具体方案以当地兽医和法规为准。",
       "scores": {
         "benefit": 5,
         "risk_reduction": 4,
@@ -918,10 +921,7 @@
       },
       "evidence": {
         "level": "B",
-        "summary": "主要兽医组织的共识指南，基于专家组对现有证据的评估。具体疫苗种类和间隔属于兽医决策，本条只给出原则。",
-        "gaps": [
-          "NEED REVIEW: 核心疫苗的具体组成和加强间隔需要在指南全文中核对，并按地区说明。第一轮只读到摘要。"
-        ]
+        "summary": "主要兽医组织的共识指南，基于专家组对现有证据的评估。本条转述了指南的分类和时间框架，但具体接种方案属于兽医决策。 指南编写获得了疫苗生产企业的教育资助（见来源的利益冲突说明）。"
       },
       "medical_review_required": true,
       "review_status": "ai_researched",
@@ -955,20 +955,22 @@
           "container": "Journal of Feline Medicine and Surgery",
           "doi": "10.1177/1098612X20941784",
           "url": "https://doi.org/10.1177/1098612X20941784",
+          "pmcid": "PMC11135662",
           "source_type": "guideline",
           "tier": 1,
+          "conflict_of_interest": "Development funded by an educational grant to AAHA from vaccine manufacturers (Boehringer Ingelheim, Elanco, Merck Animal Health, Zoetis).",
           "accessed": "2026-11-20",
           "notes": "Also published in JAAHA 56(4):249-265 (DOI 10.5326/JAAHA-MS-7123).",
           "verification": {
             "exists": true,
             "metadata_match": true,
-            "read_level": "abstract",
+            "read_level": "full_text",
             "checked": "2026-11-20",
-            "method": "Crossref + Europe PMC abstract"
+            "method": "Crossref + full text on PMC (pmc.ncbi.nlm.nih.gov article page)"
           },
-          "supports": "疫苗分为核心（建议所有猫）和非核心（个体化风险评估）；按生命阶段、生活方式、来源和流行病学因素制定方案；注射部位肉瘤仍不常见；接种时应做全面体检。",
+          "supports": "核心疫苗为 FHV-1、FCV、FPV、狂犬病和 1 岁以下猫的 FeLV；非核心包括 1 岁以上猫的 FeLV、衣原体、支气管败血波氏杆菌；FPV+FHV-1+FCV 不早于 6 周龄开始，每 3 到 4 周一次至 16 到 20 周龄，考虑 6 月龄加强，之后每 3 年；狂犬按说明书和当地法律；避免给怀孕母猫和不满 4 周龄幼猫接种；逆转录病毒感染的猫考虑避免活疫苗；注射部位肉瘤不常见；接种时应做全面体检。",
           "support_check": "ai_checked",
-          "locator": "Abstract"
+          "locator": "Vaccine categories；Table 2（Core vaccines for pet cats）；Abstract"
         }
       ],
       "url_path": "/entries/vaccines-core-plus-lifestyle/"
@@ -1320,12 +1322,13 @@
         "weight"
       ],
       "recommendation": "每月给猫称一次体重并记录，同时用体况评分（摸肋骨、看腰线）判断胖瘦；体重持续上升或下降时咨询兽医。",
-      "why_it_matters": "康奈尔大学猫健康中心指出，肥胖是猫最常见的营养相关问题，会加重骨关节炎、糖尿病等问题。 兽医常用 9 分制体况评分，4.5 到 5 分为理想体型，通过摸肋骨、侧面看腹部轮廓、从上方看腰线来判断。 不明原因的体重下降同样值得注意，可能是疾病的早期信号。",
+      "why_it_matters": "康奈尔大学猫健康中心指出，肥胖是猫最常见的营养相关问题，会加重骨关节炎、糖尿病等问题。 兽医常用 9 分制体况评分，4.5 到 5 分为理想体型，通过摸肋骨、侧面看腹部轮廓、从上方看腰线来判断。 2021 年 AAHA/AAFP 生命阶段指南把记录体重、体况评分和肌肉评分列为每个生命阶段体检的重要组成部分，用于及早发现变化和趋势， 并建议定期拍猫的背面和侧面照片，帮助主人发现细微变化。不明原因的体重下降同样值得注意，可能是疾病的早期信号。",
       "how_to_do_it": [
         "人抱猫称重，减去人的体重；或用婴儿秤。每月同一时间称。",
         "记录在手机里，方便看趋势和给兽医看。",
         "摸肋骨：轻轻能摸到、但看不出来，通常比较理想；摸不到可能偏胖，肋骨很突出可能偏瘦。",
-        "从上往下看，肋骨后面应该有轻微的腰线。"
+        "从上往下看，肋骨后面应该有轻微的腰线。",
+        "每隔几个月从正上方和侧面各拍一张照片，方便对比。"
       ],
       "exceptions": [
         "长毛猫要用手摸，不能只看。"
@@ -1356,7 +1359,7 @@
         "level": "B",
         "summary": "大学兽医学院资料描述了体况评分方法和肥胖的健康影响；体况评分是兽医营养评估的标准组成部分。",
         "gaps": [
-          "TODO: 核对 WSAVA 营养评估指南和 AAHA 2021 营养指南中的体况评分与肌肉评分要求（第一轮只核对了元数据）。"
+          "TODO: 核对 WSAVA 营养评估指南和 AAHA 2021 营养指南（仍只核对了元数据）。"
         ]
       },
       "medical_review_required": false,
@@ -1399,6 +1402,36 @@
           "supports": "肥胖会加重骨关节炎、糖尿病和心血管问题；描述 9 分制体况评分（4.5 到 5 分为理想），以及摸肋骨、看侧面、看上方的方法。",
           "support_check": "ai_checked",
           "locator": "页面全文"
+        },
+        {
+          "id": "aaha-aafp-life-stage-2021",
+          "title": "2021 AAHA/AAFP Feline Life Stage Guidelines",
+          "organization": "AAHA / AAFP",
+          "authors": [
+            "Quimby",
+            "Gowland",
+            "Carney"
+          ],
+          "year": 2021,
+          "container": "Journal of Feline Medicine and Surgery",
+          "doi": "10.1177/1098612X21993657",
+          "url": "https://doi.org/10.1177/1098612X21993657",
+          "pmcid": "PMC10812130",
+          "source_type": "guideline",
+          "tier": 1,
+          "conflict_of_interest": "Development funded by an educational grant to AAHA from Boehringer Ingelheim, CareCredit, Dechra, Hill's Pet Nutrition, IDEXX, Merck Animal Health and Zoetis; several task force members disclose industry consultancy or speaking fees.",
+          "accessed": "2026-11-20",
+          "notes": "Also published in JAAHA 57(2):51-72 (DOI 10.5326/JAAHA-MS-7189).",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "full_text",
+            "checked": "2026-11-20",
+            "method": "Crossref + full text on PMC (pmc.ncbi.nlm.nih.gov article page)"
+          },
+          "supports": "体重、体况评分（BCS）和肌肉评分（MCS）是所有生命阶段体检的重要组成部分，用于及早发现变化和趋势；建议拍背面和侧面照片监测体况，帮助主人发现细微变化。",
+          "support_check": "ai_checked",
+          "locator": "Life stage nutrition and weight management"
         },
         {
           "id": "wsava-nutritional-assessment-2011",
@@ -1453,24 +1486,168 @@
       "url_path": "/entries/monthly-body-condition-check/"
     },
     {
+      "id": "CG-0012",
+      "slug": "slow-weight-loss-with-vet",
+      "type": "dont",
+      "title": "胖猫不要自己突然节食",
+      "summary": "胖猫突然不吃东西，可能引发致命的脂肪肝。减肥要慢，每周约减体重的 1% 到 2%，在兽医指导下进行。",
+      "category": "weight",
+      "tags": [
+        "weight"
+      ],
+      "recommendation": "超重的猫在兽医指导下制定减重计划，目标是缓慢减重（每周约 1% 到 2%）；不要自行断食或大幅减量。",
+      "why_it_matters": "康奈尔大学猫健康中心指出，猫脂肪肝（肝脂沉积症）几乎总是在猫不吃东西之后或同时发生，在肥胖的猫中发生率明显更高，如果不及时逆转可能致命。 康奈尔也建议逐步减重，大约每周减体重的 1% 到 2%，并在兽医指导下进行。",
+      "how_to_do_it": [
+        "先带猫看兽医，确认理想体重和每天该吃多少。",
+        "用秤称量食物，而不是用“一把”“一碗”估计。",
+        "每 2 到 4 周称一次体重，按兽医建议调整。",
+        "增加互动游戏，用益智喂食器让猫吃得慢一些（见 CG-0023）。"
+      ],
+      "do_not": [
+        "不要突然让猫一两天不吃东西。",
+        "不要用“饿几顿就瘦了”的办法减肥。"
+      ],
+      "warning_signs": [
+        "猫完全不吃东西超过一天，尤其是胖猫：联系兽医。"
+      ],
+      "applies_to": [
+        "adult",
+        "senior"
+      ],
+      "urgency": "important",
+      "related": [
+        "CG-0011",
+        "CG-0023"
+      ],
+      "scores": {
+        "benefit": 4,
+        "risk_reduction": 4,
+        "money_cost": 2,
+        "time_cost": 2,
+        "effort": 3,
+        "harm_potential": 0,
+        "rationale": "避免脂肪肝这种可能致命的并发症，同时能有效减重。"
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "大学兽医学院资料给出了缓慢减重的速度、兽医指导的要求，以及厌食与脂肪肝、肥胖的关系。",
+        "gaps": [
+          "UNKNOWN: 猫不吃东西多久会开始有脂肪肝风险，已读来源没有给出具体天数，所以正文没有写。",
+          "TODO: 核对 AAHA 2021 营养与体重管理指南中的减重速度建议。"
+        ]
+      },
+      "medical_review_required": false,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "体重管理",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "A",
+        "uncapped_grade": "A",
+        "score": 2.61,
+        "breakdown": {
+          "value": 4,
+          "confidence": 0.85,
+          "burden": 1.75,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "cornell-obesity",
+          "title": "Obesity",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/node/4071",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No publication date on page; year is the access year. Prevalence figures on the page are attributed to a quoted lecturer and undated — do not cite them as current prevalence.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "建议逐步减重，大约每周减体重的 1% 到 2%；减重应在兽医指导下进行。",
+          "support_check": "ai_checked",
+          "locator": "页面全文"
+        },
+        {
+          "id": "cornell-hepatic-lipidosis",
+          "title": "Hepatic Lipidosis",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/node/4062",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No publication date on page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "肝脂沉积症的发生几乎总是伴随或继发于厌食；在肥胖猫中发生率明显更高，也可见于看起来健康的猫；不及时逆转可致命。页面没有给出不吃东西多少天会有风险。",
+          "support_check": "ai_checked",
+          "locator": "页面全文"
+        },
+        {
+          "id": "aaha-nutrition-weight-2021",
+          "title": "2021 AAHA Nutrition and Weight Management Guidelines for Dogs and Cats",
+          "organization": "AAHA",
+          "authors": [
+            "Cline",
+            "Burns",
+            "Coe"
+          ],
+          "year": 2021,
+          "container": "Journal of the American Animal Hospital Association",
+          "doi": "10.5326/JAAHA-MS-7232",
+          "url": "https://doi.org/10.5326/JAAHA-MS-7232",
+          "source_type": "guideline",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "metadata_only",
+            "checked": "2026-11-20",
+            "method": "Crossref; abstract/full text not reachable in round 1"
+          },
+          "supports": "犬猫营养与体重管理指南。",
+          "support_check": "pending"
+        }
+      ],
+      "url_path": "/entries/slow-weight-loss-with-vet/"
+    },
+    {
       "id": "CG-0018",
       "slug": "senior-blood-pressure",
       "type": "recommendation",
       "title": "老年猫体检时要量血压",
-      "summary": "高血压在老年猫中很常见，常伴随慢性肾病或甲亢，平时很难察觉。老年猫体检时请兽医量血压，包括看起来健康的猫。",
+      "summary": "高血压在老年猫中很常见，常伴随慢性肾病或甲亢，平时很难察觉。老年猫每次体检都请兽医量血压，包括看起来健康的猫。",
       "category": "senior",
       "tags": [
         "senior",
         "blood-pressure"
       ],
-      "recommendation": "猫进入老年阶段后，请兽医把血压测量纳入常规体检，即使猫看起来很健康。",
-      "why_it_matters": "ISFM 共识指南指出，高血压在老年猫中常见，常与慢性肾病、甲亢同时出现，严重时会损害眼睛、心脏和血管、大脑和肾脏。 但临床上很少常规测量血压，导致高血压可能被漏诊。2021 年 AAFP 老年猫指南把血压测量列为看起来健康和患病老年猫的基础检查项目。",
+      "recommendation": "猫 7 岁以后至少每年测一次血压，11 岁以后每 6 到 12 个月测一次；有慢性肾病、甲亢等风险因素的猫，按兽医要求更频繁地测。",
+      "why_it_matters": "ISFM 共识指南指出，高血压在老年猫中常见，常与慢性肾病、甲亢同时出现，会损害眼睛、心脏和血管、大脑和肾脏，而且损害可能不可逆。 临床上很少常规测量血压，导致高血压可能被漏诊。指南建议：健康的 7 到 10 岁猫至少每年测一次，11 岁及以上至少每 6 到 12 个月测一次； 有风险因素的猫应立即测量，并至少每 3 到 6 个月复查。2021 年 AAFP 老年猫指南也建议 10 岁以上的猫每次体检都测血压。 严重的眼部损害常表现为突然失明、双侧瞳孔放大，往往已不可逆；15% 到 46% 的高血压猫出现神经症状，如迷失方向、抽搐、走路不稳。",
       "how_to_do_it": [
         "老年猫体检时，主动问兽医是否需要测血压。",
         "测量前让猫在安静环境里适应一会儿，结果更可靠。"
       ],
       "warning_signs": [
-        "突然看不见东西、走路撞墙、瞳孔明显放大：尽快就医。"
+        "突然看不见东西、走路撞墙、双眼瞳孔明显放大：尽快就医。",
+        "迷失方向、抽搐、走路不稳：尽快就医。"
       ],
       "applies_to": [
         "senior"
@@ -1489,10 +1666,7 @@
       },
       "evidence": {
         "level": "B",
-        "summary": "两份 ISFM/AAFP 指南一致支持老年猫常规测血压；指南基于文献综述，同时说明很多方面仍需要更多数据。",
-        "gaps": [
-          "NEED REVIEW: 正文的“突然失明”警示来自对高血压眼部损害的一般描述，具体表现需要在指南全文中核对。"
-        ]
+        "summary": "两份 ISFM/AAFP 指南一致支持老年猫常规测血压；指南基于文献综述，同时说明很多方面仍需要更多数据。 两份指南的年龄分段不同（高血压指南：7 到 10 岁、11 岁及以上；老年猫指南：10 岁以上），本条按高血压指南的频率表写。"
       },
       "medical_review_required": true,
       "review_status": "ai_researched",
@@ -1526,19 +1700,21 @@
           "container": "Journal of Feline Medicine and Surgery",
           "doi": "10.1177/1098612X17693500",
           "url": "https://doi.org/10.1177/1098612X17693500",
+          "pmcid": "PMC11119534",
           "source_type": "consensus_statement",
           "tier": 1,
+          "conflict_of_interest": "Supported by an educational grant from Ceva to the ISFM; panel declares no conflicts.",
           "accessed": "2026-11-20",
           "verification": {
             "exists": true,
             "metadata_match": true,
-            "read_level": "abstract",
+            "read_level": "full_text",
             "checked": "2026-11-20",
-            "method": "Crossref + Europe PMC abstract"
+            "method": "Crossref + full text on PMC (pmc.ncbi.nlm.nih.gov article page)"
           },
-          "supports": "高血压在老年猫中常见，常与慢性肾病和甲亢相关；可损害眼、心血管、脑和肾；临床很少常规测血压，可能导致漏诊。",
+          "supports": "高血压在老年猫中常见，常与慢性肾病和甲亢相关；可损害眼、心血管、脑和肾；常规测血压少，可能漏诊；监测频率表：健康 3 到 6 岁可考虑每年，7 到 10 岁至少每年，11 岁及以上至少每 6 到 12 个月，有风险因素立即测并每 3 到 6 个月复查；严重眼部损害常表现为失明和双侧瞳孔散大，往往不可逆；15% 到 46% 出现神经症状。",
           "support_check": "ai_checked",
-          "locator": "Abstract"
+          "locator": "Abstract；Table 1；Ocular and neurological target organ damage"
         },
         {
           "id": "aafp-senior-care-2021",
@@ -1553,19 +1729,21 @@
           "container": "Journal of Feline Medicine and Surgery",
           "doi": "10.1177/1098612X211021538",
           "url": "https://doi.org/10.1177/1098612X211021538",
+          "pmcid": "PMC10812122",
           "source_type": "guideline",
           "tier": 1,
+          "conflict_of_interest": "Supported by an educational grant to the AAFP from Boehringer Ingelheim, IDEXX, Merck Animal Health, Purina Pro Plan Veterinary Diets, Royal Canin and Zoetis.",
           "accessed": "2026-11-20",
           "verification": {
             "exists": true,
             "metadata_match": true,
-            "read_level": "abstract",
+            "read_level": "full_text",
             "checked": "2026-11-20",
-            "method": "Crossref + Europe PMC abstract"
+            "method": "Crossref + full text on PMC (pmc.ncbi.nlm.nih.gov article page)"
           },
-          "supports": "血压测量列为看似健康和患病老年猫的基础检查项目。",
+          "supports": "血压测量列为看似健康和患病老年猫的基础检查项目；10 岁以上的猫每次检查都测血压能提供重要信息，高血压风险随年龄增加。",
           "support_check": "ai_checked",
-          "locator": "Abstract"
+          "locator": "Abstract；Physical examination"
         }
       ],
       "url_path": "/entries/senior-blood-pressure/"
@@ -1749,148 +1927,30 @@
       "url_path": "/entries/onion-garlic-and-allium/"
     },
     {
-      "id": "CG-0012",
-      "slug": "slow-weight-loss-with-vet",
-      "type": "dont",
-      "title": "胖猫不要自己突然节食",
-      "summary": "猫减肥要慢，每周大约减体重的 1% 到 2%，并在兽医指导下进行。不要自己突然大幅减少食物。",
-      "category": "weight",
-      "tags": [
-        "weight"
-      ],
-      "recommendation": "超重的猫在兽医指导下制定减重计划，目标是缓慢减重（每周约 1% 到 2%）；不要自行突然断食或大幅减量。",
-      "why_it_matters": "康奈尔大学猫健康中心建议逐步减重，大约每周减体重的 1% 到 2%，并且应在兽医指导下进行。",
-      "how_to_do_it": [
-        "先带猫看兽医，确认理想体重和每天该吃多少。",
-        "用秤称量食物，而不是用“一把”“一碗”估计。",
-        "每 2 到 4 周称一次体重，按兽医建议调整。",
-        "增加互动游戏，用益智喂食器让猫吃得慢一些（见 CG-0023）。"
-      ],
-      "do_not": [
-        "不要突然让猫一两天不吃东西。"
-      ],
-      "warning_signs": [
-        "猫完全不吃东西超过一天，尤其是胖猫：联系兽医。"
-      ],
-      "applies_to": [
-        "adult",
-        "senior"
-      ],
-      "urgency": "important",
-      "related": [
-        "CG-0011",
-        "CG-0023"
-      ],
-      "scores": {
-        "benefit": 4,
-        "risk_reduction": 3,
-        "money_cost": 2,
-        "time_cost": 2,
-        "effort": 3,
-        "harm_potential": 0
-      },
-      "evidence": {
-        "level": "B",
-        "summary": "大学兽医学院资料给出了缓慢减重的速度和兽医指导的要求。",
-        "gaps": [
-          "NEED REVIEW: 正文没有写“胖猫断食会引起肝脂沉积症”，因为第一轮没有读到支持这一点的来源；它在兽医界广为人知，需要补充来源后再写。",
-          "TODO: 核对 AAHA 2021 营养与体重管理指南中的减重速度建议。"
-        ]
-      },
-      "medical_review_required": false,
-      "review_status": "ai_researched",
-      "created": "2026-11-20",
-      "last_reviewed": "2026-11-20",
-      "category_name": "体重管理",
-      "cost_effectiveness": {
-        "graded": true,
-        "grade": "B",
-        "uncapped_grade": "B",
-        "score": 2.27,
-        "breakdown": {
-          "value": 3.6,
-          "confidence": 0.85,
-          "burden": 1.75,
-          "harm_penalty": 0
-        },
-        "caps": []
-      },
-      "sources": [
-        {
-          "id": "cornell-obesity",
-          "title": "Obesity",
-          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
-          "year": 2026,
-          "container": "Cornell Feline Health Topics",
-          "url": "https://www.vet.cornell.edu/node/4071",
-          "source_type": "organization_page",
-          "tier": 1,
-          "accessed": "2026-11-20",
-          "notes": "No publication date on page; year is the access year. Prevalence figures on the page are attributed to a quoted lecturer and undated — do not cite them as current prevalence.",
-          "verification": {
-            "exists": true,
-            "metadata_match": true,
-            "read_level": "page",
-            "checked": "2026-11-20",
-            "method": "HTTP 200 + page read"
-          },
-          "supports": "建议逐步减重，大约每周减体重的 1% 到 2%；减重应在兽医指导下进行。",
-          "support_check": "ai_checked",
-          "locator": "页面全文"
-        },
-        {
-          "id": "aaha-nutrition-weight-2021",
-          "title": "2021 AAHA Nutrition and Weight Management Guidelines for Dogs and Cats",
-          "organization": "AAHA",
-          "authors": [
-            "Cline",
-            "Burns",
-            "Coe"
-          ],
-          "year": 2021,
-          "container": "Journal of the American Animal Hospital Association",
-          "doi": "10.5326/JAAHA-MS-7232",
-          "url": "https://doi.org/10.5326/JAAHA-MS-7232",
-          "source_type": "guideline",
-          "tier": 1,
-          "accessed": "2026-11-20",
-          "verification": {
-            "exists": true,
-            "metadata_match": true,
-            "read_level": "metadata_only",
-            "checked": "2026-11-20",
-            "method": "Crossref; abstract/full text not reachable in round 1"
-          },
-          "supports": "犬猫营养与体重管理指南。",
-          "support_check": "pending"
-        }
-      ],
-      "url_path": "/entries/slow-weight-loss-with-vet/"
-    },
-    {
       "id": "CG-0014",
       "slug": "litter-box-number-and-placement",
       "type": "recommendation",
       "title": "猫砂盆够数、分开放、每天铲",
-      "summary": "很多“乱尿”和猫砂盆有关。保证数量、分散放在安静好到达的地方、每天清理，几乎不花钱。",
+      "summary": "很多“乱尿”和猫砂盆有关。猫砂盆要够数，分散放在安静、好到达的地方，每天清理。这件事几乎不花钱。",
       "category": "litter",
       "tags": [
         "litter-box",
         "multicat"
       ],
-      "recommendation": "每只猫至少有一个可用的猫砂盆，多猫家庭把猫砂盆分散放在不同位置（不要挤在同一个角落），每天至少铲一次。",
-      "why_it_matters": "2024 年 AAFP 猫间紧张关系指南指出：包括猫砂盆在内的关键资源，应分散在每只猫的活动范围中；如果猫之间出现对抗，需要更多资源。 多猫家庭里，平均每只猫能用到的资源往往比单猫家庭少，这会增加冲突风险。指南中的病例显示，一只猫被其他猫堵在走廊和楼梯上，到不了放猫砂盆的房间，结果在别处排尿。 一项 28 只猫的研究中，在每天清理的前提下，大多数猫对有盖和无盖的猫砂盆没有偏好。",
+      "recommendation": "单猫家庭准备两个猫砂盆，放在两个不同的地方。多猫家庭常用的经验法则是“猫砂盆比猫多一个”，但更重要的是分散放置， 让每一群关系好的猫都有自己的如厕点；关系不好的猫要有各自的猫砂盆。每天至少铲一次。",
+      "why_it_matters": "2014 年 AAFP/ISFM 乱尿行为指南建议：单猫家庭放两个猫砂盆在两个地方；多猫家庭“至少比猫多一个”是历来的经验法则，但不是硬性要求。 关系好的猫可能愿意共用，关系不好的猫应有各自的如厕点；多层住宅每层至少一个。挨在一起的几个猫砂盆，在猫看来只是一个大盆。 2024 年 AAFP 猫间紧张关系指南补充：多猫家庭里平均每只猫能用到的资源往往更少，冲突风险更高；指南中的病例显示，一只猫被其他猫堵在走廊和楼梯上，去不了放猫砂盆的房间，结果在别处排尿。",
       "how_to_do_it": [
-        "常用的经验法则是“猫砂盆数量 = 猫的数量 + 1”（来源核对中，见证据说明）。",
-        "放在安静、容易到达的地方，远离食物和水；不要放在洗衣机旁等突然有噪音的地方。",
-        "多层住宅每层都放一个。",
-        "每天至少铲一次，定期整盆清洗。"
+        "放在安静、容易到达的地方，远离食物和水；不要放在洗衣机旁等会突然有噪音的地方。",
+        "不要把几个猫砂盆并排放；如果必须放得近，开口不要相对，最好成直角或隔一个拐角，方便猫离开时避开另一只猫。",
+        "多层住宅每层至少放一个。",
+        "每天至少铲一次，按需添砂；每 1 到 4 周整盆清洗一次，用肥皂和热水，不要用刺激性化学品或含氨的产品。",
+        "一个猫砂盆一直没人用，在其他盆有猫在用的前提下可以撤掉。"
       ],
       "exceptions": [
-        "老年猫或关节不好的猫需要低入口的猫砂盆。"
+        "老年猫或关节不好的猫需要低入口、容易进出的猫砂盆。"
       ],
       "warning_signs": [
-        "猫突然开始在猫砂盆外排泄，先排除疾病：尤其公猫频繁蹲盆却没尿，见 CG-0007。"
+        "猫突然开始在猫砂盆外排泄，先排除疾病。尤其是公猫频繁蹲盆却没尿，见 CG-0007。"
       ],
       "applies_to": [
         "all",
@@ -1913,10 +1973,7 @@
       },
       "evidence": {
         "level": "B",
-        "summary": "AAFP 指南（2024 猫间紧张关系、2014 乱尿行为）支持资源充足、分散放置。2014 指南本身说明：相关研究常常缺乏，部分建议来自作者的临床经验。 “数量 = 猫数 + 1”是兽医界常用的经验法则，本项目尚未在指南全文中核对到原文。",
-        "gaps": [
-          "NEED REVIEW: “猫数 + 1”的具体出处待在 2014 AAFP/ISFM 乱尿指南全文中核对。"
-        ]
+        "summary": "两份 AAFP 系列指南都支持资源充足、分散放置。2014 年指南本身说明相关研究常常缺乏，部分建议来自作者的临床经验； 指南把“比猫多一个”明确称为历来的经验法则、不是硬性要求。"
       },
       "medical_review_required": false,
       "review_status": "ai_researched",
@@ -1937,6 +1994,36 @@
         "caps": []
       },
       "sources": [
+        {
+          "id": "aafp-isfm-house-soiling-2014",
+          "title": "AAFP and ISFM Guidelines for Diagnosing and Solving House-Soiling Behavior in Cats",
+          "organization": "AAFP / ISFM",
+          "authors": [
+            "Carney",
+            "Sadek",
+            "Curtis"
+          ],
+          "year": 2014,
+          "container": "Journal of Feline Medicine and Surgery",
+          "doi": "10.1177/1098612X14539092",
+          "url": "https://doi.org/10.1177/1098612X14539092",
+          "pmcid": "PMC11148882",
+          "source_type": "guideline",
+          "tier": 1,
+          "conflict_of_interest": "No specific grant. One author is a key opinion leader for Elanco and Ceva.",
+          "accessed": "2026-11-20",
+          "notes": "The abstract states that research is often lacking and some recommendations reflect the authors' clinical experience.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "full_text",
+            "checked": "2026-11-20",
+            "method": "Crossref + full text on PMC (pmc.ncbi.nlm.nih.gov article page)"
+          },
+          "supports": "单猫家庭两个猫砂盆放两处；多猫家庭“至少比猫多一个”是历来的经验法则但非硬性要求；无亲和关系的猫应有各自如厕点；多层住宅每层至少一个；相邻的猫砂盆被猫视为一个大盆，开口不应相对；远离食物和水；每天至少清理一次，每 1 到 4 周清洗，用肥皂和热水，避免含氨产品；摘要说明部分建议来自临床经验。",
+          "support_check": "ai_checked",
+          "locator": "Litter box number and location；Managing the litter box；Abstract（Evidence base）"
+        },
         {
           "id": "aafp-intercat-tension-2024",
           "title": "2024 AAFP intercat tension guidelines: recognition, prevention and management",
@@ -1959,37 +2046,9 @@
             "checked": "2026-11-20",
             "method": "Crossref + Europe PMC open-access full text"
           },
-          "supports": "所有关键资源（安全处、食物、水、猫砂盆、抓挠面）应分布在每只猫的活动范围中；出现对抗时需要更多资源；多猫家庭人均资源常常减少，冲突风险增加；病例中猫因被堵住到不了猫砂盆而在别处排尿。",
+          "supports": "所有关键资源（含猫砂盆）应分布在每只猫的活动范围中；出现对抗时需要更多资源；多猫家庭人均资源常常减少，冲突风险增加；病例中猫因被堵住到不了猫砂盆而在别处排尿。",
           "support_check": "ai_checked",
           "locator": "Pillar 2；Myth 1 附近的病例"
-        },
-        {
-          "id": "aafp-isfm-house-soiling-2014",
-          "title": "AAFP and ISFM Guidelines for Diagnosing and Solving House-Soiling Behavior in Cats",
-          "organization": "AAFP / ISFM",
-          "authors": [
-            "Carney",
-            "Sadek",
-            "Curtis"
-          ],
-          "year": 2014,
-          "container": "Journal of Feline Medicine and Surgery",
-          "doi": "10.1177/1098612X14539092",
-          "url": "https://doi.org/10.1177/1098612X14539092",
-          "source_type": "guideline",
-          "tier": 1,
-          "accessed": "2026-11-20",
-          "notes": "The abstract states that research is often lacking and some recommendations reflect the authors' clinical experience.",
-          "verification": {
-            "exists": true,
-            "metadata_match": true,
-            "read_level": "abstract",
-            "checked": "2026-11-20",
-            "method": "Crossref + Europe PMC abstract"
-          },
-          "supports": "乱尿行为的诊断与处理指南；摘要说明相关研究常缺乏，部分建议来自临床经验。",
-          "support_check": "ai_checked",
-          "locator": "Abstract（Evidence base）"
         },
         {
           "id": "grigg-2012-covered-litter-box",
@@ -2026,18 +2085,18 @@
       "id": "CG-0016",
       "slug": "regular-checkups-even-indoor",
       "type": "recommendation",
-      "title": "室内猫也要定期体检，年纪越大越频繁",
-      "summary": "猫很会隐藏不适，不出门也会生病。定期体检能早发现问题，随着年龄增长，检查要更频繁。",
+      "title": "室内猫也要每年体检，老年猫每半年一次",
+      "summary": "猫很会隐藏不适，不出门也会生病。所有猫至少每年体检一次，10 岁以上的老年猫至少每 6 个月一次。",
       "category": "prevention",
       "tags": [
         "checkup",
         "hidden-illness"
       ],
       "myth_claim": "猫不出门就不需要看兽医",
-      "recommendation": "按猫的生命阶段定期带它做健康检查；室内猫也一样。进入老年后，检查和化验要更频繁。",
-      "why_it_matters": "2021 年 AAHA/AAFP 猫生命阶段指南把猫的一生分为幼猫、青年、成年、老年和临终五个阶段，并为每个阶段给出体检内容的框架， 涵盖行为与环境、排泄、营养与体重、口腔、寄生虫、疫苗和化验等。指南专门讨论了如何克服带猫看兽医的障碍，因为这是猫医疗中最难的部分之一。 2021 年 AAFP 老年猫指南建议随着年龄增长增加检查频率，并把血压测量列为老年猫（包括看起来健康的猫）的基础检查项目。",
+      "recommendation": "所有猫（包括室内猫）至少每年做一次健康检查；10 岁以上的老年猫至少每 6 个月一次；有慢性病的猫按兽医的复诊计划，通常更频繁。",
+      "why_it_matters": "2021 年 AAHA/AAFP 猫生命阶段指南建议所有猫至少每年体检一次，并按个体需要增加频率；老年猫至少每 6 个月一次，有慢性病的更频繁。 指南把猫的一生分为幼猫（不满 1 岁）、青年（1 到 6 岁）、成年（7 到 10 岁）、老年（10 岁以上）和临终阶段， 并为每个阶段列出体检内容，包括行为与环境、排泄、营养与体重、口腔、寄生虫、疫苗和化验。 指南专门讨论了如何克服带猫看兽医的障碍，因为这是猫医疗中最难的部分之一。 2021 年 AAFP 老年猫指南建议随年龄增长增加检查频率，并把血压测量列为老年猫（包括看起来健康的猫）的基础检查项目。",
       "how_to_do_it": [
-        "和兽医讨论适合你家猫的体检频率。",
+        "把体检日期和疫苗一起记在日历里。",
         "平时记录体重、食欲、喝水、猫砂盆情况，体检时带上（见 CG-0028）。",
         "提前训练猫适应航空箱，可以减少就医压力。"
       ],
@@ -2066,10 +2125,7 @@
       },
       "evidence": {
         "level": "B",
-        "summary": "两份 AAFP 系列指南支持按生命阶段定期体检，老年猫增加频率。这是专家共识，没有随机研究比较不同体检频率的健康结局。",
-        "gaps": [
-          "NEED REVIEW: “成年猫至少每年一次”“老年猫每 6 个月一次”这样的具体频率，第一轮只读到摘要，尚未在指南全文中核对，所以正文没有写死数字。"
-        ]
+        "summary": "两份 AAFP 系列指南给出了明确的体检频率，属于专家共识；没有随机研究比较不同体检频率的健康结局。 两份指南的编写都得到了动物药企、诊断和宠物食品企业的教育资助（见来源的利益冲突说明）。"
       },
       "medical_review_required": true,
       "review_status": "ai_researched",
@@ -2103,20 +2159,22 @@
           "container": "Journal of Feline Medicine and Surgery",
           "doi": "10.1177/1098612X21993657",
           "url": "https://doi.org/10.1177/1098612X21993657",
+          "pmcid": "PMC10812130",
           "source_type": "guideline",
           "tier": 1,
+          "conflict_of_interest": "Development funded by an educational grant to AAHA from Boehringer Ingelheim, CareCredit, Dechra, Hill's Pet Nutrition, IDEXX, Merck Animal Health and Zoetis; several task force members disclose industry consultancy or speaking fees.",
           "accessed": "2026-11-20",
           "notes": "Also published in JAAHA 57(2):51-72 (DOI 10.5326/JAAHA-MS-7189).",
           "verification": {
             "exists": true,
             "metadata_match": true,
-            "read_level": "abstract",
+            "read_level": "full_text",
             "checked": "2026-11-20",
-            "method": "Crossref + Europe PMC abstract"
+            "method": "Crossref + full text on PMC (pmc.ncbi.nlm.nih.gov article page)"
           },
-          "supports": "把猫的一生分为五个阶段，提供按生命阶段的体检框架（行为、排泄、营养体重、口腔、寄生虫、疫苗、化验）；讨论如何克服带猫就医的障碍。",
+          "supports": "工作组建议所有猫至少每年体检一次，按个体需要增加；老年猫至少每 6 个月一次，有慢性病的更频繁；生命阶段划分为幼猫（不满 1 岁）、青年（1 到 6 岁）、成年（7 到 10 岁）、老年（10 岁以上）；讨论如何克服就医障碍。",
           "support_check": "ai_checked",
-          "locator": "Abstract"
+          "locator": "Discussion items for all life stages；Table 2"
         },
         {
           "id": "aafp-senior-care-2021",
@@ -2131,15 +2189,17 @@
           "container": "Journal of Feline Medicine and Surgery",
           "doi": "10.1177/1098612X211021538",
           "url": "https://doi.org/10.1177/1098612X211021538",
+          "pmcid": "PMC10812122",
           "source_type": "guideline",
           "tier": 1,
+          "conflict_of_interest": "Supported by an educational grant to the AAFP from Boehringer Ingelheim, IDEXX, Merck Animal Health, Purina Pro Plan Veterinary Diets, Royal Canin and Zoetis.",
           "accessed": "2026-11-20",
           "verification": {
             "exists": true,
             "metadata_match": true,
-            "read_level": "abstract",
+            "read_level": "full_text",
             "checked": "2026-11-20",
-            "method": "Crossref + Europe PMC abstract"
+            "method": "Crossref + full text on PMC (pmc.ncbi.nlm.nih.gov article page)"
           },
           "supports": "随年龄增长增加检查频率；血压测量列为看似健康和患病老年猫的基础检查项目。",
           "support_check": "ai_checked",
@@ -2278,14 +2338,14 @@
       "slug": "anesthesia-free-dental-cleaning",
       "type": "dont",
       "title": "免麻洁牙不能代替兽医的麻醉下洁牙",
-      "summary": "完整的口腔检查、牙科 X 光和彻底洁治通常需要全身麻醉。免麻洁牙看起来省钱又安全，但做不到这些。",
+      "summary": "不打麻醉时，没法检查和清洁牙龈线以下的部分，而牙周病主要就发生在那里。免麻洁牙看起来省钱又安全，但做不到这些。",
       "category": "dental",
       "tags": [
         "anesthesia-free-dental",
         "dental"
       ],
-      "recommendation": "需要洁牙时，选择兽医在全身麻醉下进行的口腔检查和洁治；不要用免麻醉洁牙代替。担心麻醉风险时，和兽医讨论术前检查和麻醉方案。",
-      "why_it_matters": "康奈尔大学猫健康中心指出，洁治（刮除牙结石）通常需要麻醉，牙科 X 光检查需要麻醉。 2019 年 AAHA 牙科指南给出了口腔评估、洁牙和牙周治疗的 12 步流程，并对全身麻醉、疼痛管理和设备提出要求，以保证治疗安全有效。 只刮掉牙齿表面看得见的结石，不等于解决了牙周病。",
+      "recommendation": "需要洁牙时，选择兽医在全身麻醉下进行的口腔检查和洁治；不要用免麻洁牙代替。担心麻醉风险时，和兽医讨论麻醉前检查和麻醉方案。",
+      "why_it_matters": "美国兽医牙科学院（AVDC）2024 年的立场声明指出：在不麻醉的动物身上，不可能清洁每颗牙齿的牙龈下区域，也不可能做完整的口腔检查； 免麻刮牙不能代替麻醉下的完整牙科治疗。在清醒的动物嘴里使用尖锐器械，不符合减少动物恐惧和压力的做法，动物一动还可能伤到口腔组织。 康奈尔大学猫健康中心也指出，洁治通常需要麻醉，牙科 X 光检查需要麻醉。只刮掉牙齿表面看得见的结石，不等于解决了牙周病。",
       "how_to_do_it": [
         "让兽医检查口腔，判断是否需要洁牙。",
         "老年猫或有慢性病的猫，问兽医需要哪些麻醉前检查。",
@@ -2313,10 +2373,7 @@
       },
       "evidence": {
         "level": "C",
-        "summary": "大学兽医学院资料说明洁治和牙科 X 光需要麻醉；AAHA 指南的洁牙流程以全身麻醉为前提。 第一轮还没读到这些机构专门评价免麻洁牙的原文，因此评为 C。",
-        "gaps": [
-          "NEED REVIEW: 核对 AAHA 2019 指南全文和美国兽医牙科学院（AVDC）对免麻洁牙的立场声明（第一轮网站拒绝抓取）。"
-        ]
+        "summary": "美国兽医牙科学院的立场声明明确反对免麻刮牙，大学兽医学院资料和 AAHA 指南的洁牙流程都以麻醉为前提。 本条目前评为 C；纳入 AVDC 立场声明后，按本项目规则可考虑上调为 B，等待维护者确认（证据等级上调需人工确认）。"
       },
       "medical_review_required": true,
       "review_status": "ai_researched",
@@ -2337,6 +2394,28 @@
         "caps": []
       },
       "sources": [
+        {
+          "id": "avdc-anesthesia-free-dentistry-2024",
+          "title": "Position statement: Anesthesia-Free Dentistry (dental scaling without anesthesia)",
+          "organization": "American Veterinary Dental College (AVDC)",
+          "year": 2024,
+          "container": "avdc.org",
+          "url": "https://avdc.org/about/",
+          "source_type": "consensus_statement",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "Adopted by the AVDC Board of Directors, April 2024. Full statement PDF linked from the page (https://avdc.org/download/30/position-statements/2876/dental-scaling-without-anesthesia.pdf), not separately fetched.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "Page read (statement text on avdc.org/about)"
+          },
+          "supports": "在清醒动物身上不可能清洁每颗牙齿的龈下区域，也不可能完成完整口腔检查；在未麻醉的宠物身上进行洁治是不恰当的；免麻刮牙不能替代麻醉下的完整牙科治疗；在清醒动物口中使用锐器不符合减少恐惧和压力的做法，头部移动可能造成口腔组织损伤。",
+          "support_check": "ai_checked",
+          "locator": "Anesthesia-Free Dentistry (AFD) 立场声明"
+        },
         {
           "id": "cornell-dental-disease",
           "title": "Feline Dental Disease",
@@ -2464,15 +2543,16 @@
           "container": "Journal of Feline Medicine and Surgery",
           "doi": "10.1177/1098612X13477537",
           "url": "https://doi.org/10.1177/1098612X13477537",
+          "pmcid": "PMC11383066",
           "source_type": "guideline",
           "tier": 1,
           "accessed": "2026-11-20",
           "verification": {
             "exists": true,
             "metadata_match": true,
-            "read_level": "abstract",
+            "read_level": "full_text",
             "checked": "2026-11-20",
-            "method": "Crossref + Europe PMC abstract"
+            "method": "Crossref + full text on PMC (pmc.ncbi.nlm.nih.gov article page)"
           },
           "supports": "满足环境需求是必需而非可选的；与身体健康、情绪和行为相关；以五大支柱为框架；适用于所有家猫，不论生活方式。",
           "support_check": "ai_checked",
@@ -2716,19 +2796,19 @@
       "id": "CG-0015",
       "slug": "how-to-choose-a-litter-box",
       "type": "buying_guide",
-      "title": "买猫砂盆看什么",
-      "summary": "大、好进出、好清洗，比“封闭”“智能”更重要。有盖还是无盖，大多数猫在盆干净时并不在乎。",
+      "title": "买猫砂盆和猫砂看什么",
+      "summary": "盆要大（约猫身长的 1.5 倍）、好进出、好清洗；猫砂选细颗粒、无香味、结团的。贵的“除臭”“智能”功能不是重点。",
       "category": "buying-guide",
       "tags": [
         "litter-box"
       ],
-      "recommendation": "选猫砂盆时优先看：够大（猫能在里面转身）、入口高度适合猫、容易清洗。 有盖还是无盖不是关键；如果不确定你的猫喜欢哪种，可以两种都放，看它用哪个。",
-      "why_it_matters": "一项 28 只猫的研究中，整体上猫对有盖和无盖猫砂盆没有偏好；8 只猫表现出偏好（4 只偏好有盖、4 只偏好无盖）。 作者建议给猫提供不同款式供它选择。价格更高的封闭式或自动猫砂盆，并没有研究显示更受猫欢迎。",
+      "recommendation": "猫砂盆选长方形、长度约为猫从鼻尖到尾根长度的 1.5 倍，入口高度适合你的猫，容易清洗；能用无盖的就用无盖的。 猫砂选细沙状、无香味、可结团的，铺至少 3 厘米深。不要用盆垫、格栅和除臭粉。",
+      "why_it_matters": "2014 年 AAFP/ISFM 乱尿行为指南指出，猫砂盆的大小和数量一样重要，一般来说越大越好，很多市售猫砂盆都太小；指南建议长度约为猫身长的 1.5 倍。 储物箱、水泥搅拌盘等大号容器都可以当猫砂盆。 有盖还是无盖：研究显示猫对两者的偏好大致各半，盆的干净程度可能比有没有盖更重要；指南建议尽量用无盖的，方便观察和经常清理，小号有盖盆可能让大体型猫无法正常蹲姿。 猫砂是卖给人的，不是卖给猫的：“有香味”“除臭”这类卖点是讲给人听的，猫常常反感带香味的猫砂和除臭剂，而且没有任何产品能免去定期清理。",
       "how_to_do_it": [
-        "尺寸：越大越好，至少要让猫在里面能转身。",
+        "尺寸：量一下猫从鼻尖到尾根的长度，乘以 1.5。买不到就用大号储物箱代替。",
         "入口：幼猫、老年猫、关节不好的猫选低入口。",
-        "材质：好洗、不容易留味。",
-        "款式：不确定时有盖、无盖各放一个，观察猫的选择。",
+        "款式：优先无盖；不确定猫的偏好时，有盖、无盖各放一个，看它用哪个。",
+        "猫砂：细颗粒、无香味、结团，至少 3 厘米深。不确定时并排放几种猫砂，让猫自己选。",
         "自动猫砂盆：不是必需品；用之前保留普通猫砂盆，确认猫愿意用。"
       ],
       "exceptions": [
@@ -2751,9 +2831,9 @@
       },
       "evidence": {
         "level": "C",
-        "summary": "关于有盖与无盖只有一项小样本研究；关于尺寸有一项研究，本项目尚未读到其结果。 “越大越好”目前是兽医行为学界的常见建议，证据有限。",
+        "summary": "尺寸、猫砂和有盖无盖的建议来自 2014 年 AAFP/ISFM 指南，指南引用了少量偏好研究（有盖与无盖、尺寸），样本都不大； 指南自己说明部分建议来自临床经验。因此评为 C。",
         "gaps": [
-          "TODO: 读取 Guy 2014 猫砂盆尺寸偏好研究的结果（第一轮只核对了元数据）。",
+          "TODO: 直接读取 Guy 2014 猫砂盆尺寸偏好研究（指南提到一项研究中成年猫偏好 86 × 39 厘米的大盆，本项目尚未核对这一研究原文）。",
           "自动猫砂盆对猫的接受度和健康影响，目前没有找到研究（UNKNOWN）。"
         ]
       },
@@ -2776,6 +2856,36 @@
         "caps": []
       },
       "sources": [
+        {
+          "id": "aafp-isfm-house-soiling-2014",
+          "title": "AAFP and ISFM Guidelines for Diagnosing and Solving House-Soiling Behavior in Cats",
+          "organization": "AAFP / ISFM",
+          "authors": [
+            "Carney",
+            "Sadek",
+            "Curtis"
+          ],
+          "year": 2014,
+          "container": "Journal of Feline Medicine and Surgery",
+          "doi": "10.1177/1098612X14539092",
+          "url": "https://doi.org/10.1177/1098612X14539092",
+          "pmcid": "PMC11148882",
+          "source_type": "guideline",
+          "tier": 1,
+          "conflict_of_interest": "No specific grant. One author is a key opinion leader for Elanco and Ceva.",
+          "accessed": "2026-11-20",
+          "notes": "The abstract states that research is often lacking and some recommendations reflect the authors' clinical experience.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "full_text",
+            "checked": "2026-11-20",
+            "method": "Crossref + full text on PMC (pmc.ncbi.nlm.nih.gov article page)"
+          },
+          "supports": "猫砂盆大小与数量同样重要，越大越好，很多市售盆太小；建议长方形、长度约为猫身长 1.5 倍；可用储物箱等替代；猫对有盖与无盖偏好各半，清洁可能更重要，建议尽量用无盖；猫砂宜细沙状、无香味、结团、至少 3 厘米深，避免盆垫、格栅和除臭粉；猫常反感有香味的猫砂和除臭剂，没有产品能免去定期清理。",
+          "support_check": "ai_checked",
+          "locator": "Litter box size；Covered versus open litter boxes；Litter"
+        },
         {
           "id": "grigg-2012-covered-litter-box",
           "title": "Litter box preference in domestic cats: covered versus uncovered",
@@ -2904,15 +3014,17 @@
           "container": "Journal of Feline Medicine and Surgery",
           "doi": "10.1177/1098612X211021538",
           "url": "https://doi.org/10.1177/1098612X211021538",
+          "pmcid": "PMC10812122",
           "source_type": "guideline",
           "tier": 1,
+          "conflict_of_interest": "Supported by an educational grant to the AAFP from Boehringer Ingelheim, IDEXX, Merck Animal Health, Purina Pro Plan Veterinary Diets, Royal Canin and Zoetis.",
           "accessed": "2026-11-20",
           "verification": {
             "exists": true,
             "metadata_match": true,
-            "read_level": "abstract",
+            "read_level": "full_text",
             "checked": "2026-11-20",
-            "method": "Crossref + Europe PMC abstract"
+            "method": "Crossref + full text on PMC (pmc.ncbi.nlm.nih.gov article page)"
           },
           "supports": "视频和连续的历史测量数据被纳入每只猫的评估；鼓励主人参与照护的每一步。",
           "support_check": "ai_checked",
@@ -3358,13 +3470,10 @@
       "myth_claim": "猫爱喝牛奶，牛奶对猫有营养。",
       "myth_verdict": "mostly_incorrect",
       "recommendation": "不需要给猫喝牛奶。如果猫喝牛奶后拉稀，就别再给了。所谓“宠物牛奶”属于零食，算在零食热量里。",
-      "why_it_matters": "ASPCA 动物中毒控制中心指出，宠物体内没有足够多的乳糖酶来分解乳糖，牛奶和奶制品可能引起腹泻或其他消化不适。 猫只要吃营养完整的主食，就不需要从牛奶中获得任何营养。",
+      "why_it_matters": "ASPCA 动物中毒控制中心指出，宠物体内没有足够多的乳糖酶来分解乳糖，牛奶和奶制品可能引起腹泻或其他消化不适。 康奈尔大学猫健康中心也指出，一般不建议把牛奶当零食给猫，因为很多猫乳糖不耐受，吃奶制品后可能出现胃肠问题。 猫只要吃营养完整的主食，就不需要从牛奶中获得任何营养。",
       "how_to_do_it": [
         "给猫准备干净的饮用水。",
         "想给奶类零食，少量试，观察有没有拉稀，并算进零食总量（见 CG-0010）。"
-      ],
-      "exceptions": [
-        "幼猫在断奶前需要母乳或专门的幼猫代乳品，不能用普通牛奶代替。"
       ],
       "applies_to": [
         "all"
@@ -3383,10 +3492,10 @@
       },
       "evidence": {
         "level": "C",
-        "summary": "来自权威动物中毒控制机构的公开资料，但页面说的是“宠物”，没有单独讨论成年猫的乳糖酶水平。 不同猫对乳糖的耐受度可能不同，因此判定为“大多错误”而非“完全错误”。",
+        "summary": "两个机构的公开资料一致：ASPCA 说的是“宠物”整体，康奈尔明确说“很多猫”乳糖不耐受。 “很多”不等于“全部”，不同猫的耐受度可能不同，因此判定为“大多错误”而非“完全错误”。 本条目前评为 C；加入康奈尔针对猫的说法后，可考虑上调为 B，等待维护者确认。",
         "gaps": [
-          "TODO: 补充猫乳糖耐受的兽医营养学来源。",
-          "NEED REVIEW: 幼猫代乳品的说法需要补充来源。"
+          "TODO: 补充测量猫乳糖酶或乳糖耐受的研究。",
+          "TODO: 孤儿幼猫该喝什么（代乳品）另写一条，需要先找到可读的兽医来源。原先关于幼猫代乳品的一句话因为没有来源支持已删除。"
         ]
       },
       "medical_review_required": false,
@@ -3425,6 +3534,28 @@
           "supports": "宠物没有大量乳糖酶，牛奶和奶制品可能引起腹泻或其他消化不适（页面未单独讨论猫）。",
           "support_check": "ai_checked",
           "locator": "Milk and Dairy 段落"
+        },
+        {
+          "id": "cornell-feeding",
+          "title": "Feeding Your Cat",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feeding-your-cat",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "Page states it was updated 2026-04-30.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "一般不建议把牛奶当零食给猫，很多猫乳糖不耐受，吃奶制品可能出现胃肠问题。",
+          "support_check": "ai_checked",
+          "locator": "页面全文（零食段落）"
         }
       ],
       "url_path": "/entries/milk-is-good-for-cats/"

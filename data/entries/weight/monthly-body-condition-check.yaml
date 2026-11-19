@@ -9,12 +9,14 @@ recommendation: 每月给猫称一次体重并记录，同时用体况评分（�
 why_it_matters: >-
   康奈尔大学猫健康中心指出，肥胖是猫最常见的营养相关问题，会加重骨关节炎、糖尿病等问题。
   兽医常用 9 分制体况评分，4.5 到 5 分为理想体型，通过摸肋骨、侧面看腹部轮廓、从上方看腰线来判断。
-  不明原因的体重下降同样值得注意，可能是疾病的早期信号。
+  2021 年 AAHA/AAFP 生命阶段指南把记录体重、体况评分和肌肉评分列为每个生命阶段体检的重要组成部分，用于及早发现变化和趋势，
+  并建议定期拍猫的背面和侧面照片，帮助主人发现细微变化。不明原因的体重下降同样值得注意，可能是疾病的早期信号。
 how_to_do_it:
   - 人抱猫称重，减去人的体重；或用婴儿秤。每月同一时间称。
   - 记录在手机里，方便看趋势和给兽医看。
   - 摸肋骨：轻轻能摸到、但看不出来，通常比较理想；摸不到可能偏胖，肋骨很突出可能偏瘦。
   - 从上往下看，肋骨后面应该有轻微的腰线。
+  - 每隔几个月从正上方和侧面各拍一张照片，方便对比。
 exceptions:
   - 长毛猫要用手摸，不能只看。
 warning_signs:
@@ -34,7 +36,7 @@ evidence:
   level: B
   summary: 大学兽医学院资料描述了体况评分方法和肥胖的健康影响；体况评分是兽医营养评估的标准组成部分。
   gaps:
-    - "TODO: 核对 WSAVA 营养评估指南和 AAHA 2021 营养指南中的体况评分与肌肉评分要求（第一轮只核对了元数据）。"
+    - "TODO: 核对 WSAVA 营养评估指南和 AAHA 2021 营养指南（仍只核对了元数据）。"
 medical_review_required: false
 review_status: ai_researched
 created: 2026-11-20
@@ -44,6 +46,10 @@ sources:
     supports: 肥胖会加重骨关节炎、糖尿病和心血管问题；描述 9 分制体况评分（4.5 到 5 分为理想），以及摸肋骨、看侧面、看上方的方法。
     support_check: ai_checked
     locator: 页面全文
+  - id: aaha-aafp-life-stage-2021
+    supports: 体重、体况评分（BCS）和肌肉评分（MCS）是所有生命阶段体检的重要组成部分，用于及早发现变化和趋势；建议拍背面和侧面照片监测体况，帮助主人发现细微变化。
+    support_check: ai_checked
+    locator: Life stage nutrition and weight management
   - id: wsava-nutritional-assessment-2011
     supports: 把体况评分作为营养评估的组成部分。
     support_check: pending

@@ -13,11 +13,13 @@
   container: Journal of Feline Medicine and Surgery
   doi: 10.1177/1098612X21993657
   url: https://doi.org/10.1177/1098612X21993657
+  pmcid: PMC10812130
   source_type: guideline
   tier: 1
+  conflict_of_interest: "Development funded by an educational grant to AAHA from Boehringer Ingelheim, CareCredit, Dechra, Hill's Pet Nutrition, IDEXX, Merck Animal Health and Zoetis; several task force members disclose industry consultancy or speaking fees."
   accessed: 2026-11-20
   notes: Also published in JAAHA 57(2):51-72 (DOI 10.5326/JAAHA-MS-7189).
-  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: Crossref + Europe PMC abstract }
+  verification: { exists: true, metadata_match: true, read_level: full_text, checked: 2026-11-20, method: Crossref + full text on PMC (pmc.ncbi.nlm.nih.gov article page) }
 
 - id: aafp-senior-care-2021
   title: 2021 AAFP Feline Senior Care Guidelines
@@ -27,10 +29,12 @@
   container: Journal of Feline Medicine and Surgery
   doi: 10.1177/1098612X211021538
   url: https://doi.org/10.1177/1098612X211021538
+  pmcid: PMC10812122
   source_type: guideline
   tier: 1
+  conflict_of_interest: "Supported by an educational grant to the AAFP from Boehringer Ingelheim, IDEXX, Merck Animal Health, Purina Pro Plan Veterinary Diets, Royal Canin and Zoetis."
   accessed: 2026-11-20
-  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: Crossref + Europe PMC abstract }
+  verification: { exists: true, metadata_match: true, read_level: full_text, checked: 2026-11-20, method: Crossref + full text on PMC (pmc.ncbi.nlm.nih.gov article page) }
 
 - id: aaha-aafp-vaccination-2020
   title: 2020 AAHA/AAFP Feline Vaccination Guidelines
@@ -40,11 +44,13 @@
   container: Journal of Feline Medicine and Surgery
   doi: 10.1177/1098612X20941784
   url: https://doi.org/10.1177/1098612X20941784
+  pmcid: PMC11135662
   source_type: guideline
   tier: 1
+  conflict_of_interest: "Development funded by an educational grant to AAHA from vaccine manufacturers (Boehringer Ingelheim, Elanco, Merck Animal Health, Zoetis)."
   accessed: 2026-11-20
   notes: Also published in JAAHA 56(4):249-265 (DOI 10.5326/JAAHA-MS-7123).
-  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: Crossref + Europe PMC abstract }
+  verification: { exists: true, metadata_match: true, read_level: full_text, checked: 2026-11-20, method: Crossref + full text on PMC (pmc.ncbi.nlm.nih.gov article page) }
 
 - id: aafp-isfm-environmental-needs-2013
   title: AAFP and ISFM Feline Environmental Needs Guidelines
@@ -54,10 +60,11 @@
   container: Journal of Feline Medicine and Surgery
   doi: 10.1177/1098612X13477537
   url: https://doi.org/10.1177/1098612X13477537
+  pmcid: PMC11383066
   source_type: guideline
   tier: 1
   accessed: 2026-11-20
-  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: Crossref + Europe PMC abstract }
+  verification: { exists: true, metadata_match: true, read_level: full_text, checked: 2026-11-20, method: Crossref + full text on PMC (pmc.ncbi.nlm.nih.gov article page) }
 
 - id: aafp-isfm-house-soiling-2014
   title: AAFP and ISFM Guidelines for Diagnosing and Solving House-Soiling Behavior in Cats
@@ -67,11 +74,13 @@
   container: Journal of Feline Medicine and Surgery
   doi: 10.1177/1098612X14539092
   url: https://doi.org/10.1177/1098612X14539092
+  pmcid: PMC11148882
   source_type: guideline
   tier: 1
+  conflict_of_interest: "No specific grant. One author is a key opinion leader for Elanco and Ceva."
   accessed: 2026-11-20
   notes: The abstract states that research is often lacking and some recommendations reflect the authors' clinical experience.
-  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: Crossref + Europe PMC abstract }
+  verification: { exists: true, metadata_match: true, read_level: full_text, checked: 2026-11-20, method: Crossref + full text on PMC (pmc.ncbi.nlm.nih.gov article page) }
 
 - id: aafp-intercat-tension-2024
   title: "2024 AAFP intercat tension guidelines: recognition, prevention and management"
@@ -94,10 +103,12 @@
   container: Journal of Feline Medicine and Surgery
   doi: 10.1177/1098612X17693500
   url: https://doi.org/10.1177/1098612X17693500
+  pmcid: PMC11119534
   source_type: consensus_statement
   tier: 1
+  conflict_of_interest: "Supported by an educational grant from Ceva to the ISFM; panel declares no conflicts."
   accessed: 2026-11-20
-  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: Crossref + Europe PMC abstract }
+  verification: { exists: true, metadata_match: true, read_level: full_text, checked: 2026-11-20, method: Crossref + full text on PMC (pmc.ncbi.nlm.nih.gov article page) }
 
 - id: aafp-isfm-cat-friendly-interaction-2022
   title: "2022 AAFP/ISFM Cat Friendly Veterinary Interaction Guidelines: Approach and Handling Techniques"
@@ -252,11 +263,12 @@
   doi: 10.1016/j.jfms.2009.09.018
   pmid: "19897392"
   url: https://doi.org/10.1016/j.jfms.2009.09.018
+  pmcid: PMC10911430
   source_type: case_series
   tier: 1
   sample_size: 42 cats, one referral hospital, Sydney
   accessed: 2026-11-20
-  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: Crossref + Europe PMC abstract }
+  verification: { exists: true, metadata_match: true, read_level: full_text, checked: 2026-11-20, method: Crossref + full text on PMC (pmc.ncbi.nlm.nih.gov article page) }
 
 - id: grant-2010-water-fountain
   title: Effect of water source on intake and urine concentration in healthy cats
@@ -416,6 +428,30 @@
   accessed: 2026-11-20
   notes: No publication date on page; year is the access year. Several items on the page are not cat-specific (e.g. grapes/raisins is described for dogs).
   verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: cornell-hepatic-lipidosis
+  title: Hepatic Lipidosis
+  organization: Cornell Feline Health Center, Cornell University College of Veterinary Medicine
+  year: 2026
+  container: Cornell Feline Health Topics
+  url: https://www.vet.cornell.edu/node/4062
+  source_type: organization_page
+  tier: 1
+  accessed: 2026-11-20
+  notes: No publication date on page; year is the access year.
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: avdc-anesthesia-free-dentistry-2024
+  title: "Position statement: Anesthesia-Free Dentistry (dental scaling without anesthesia)"
+  organization: American Veterinary Dental College (AVDC)
+  year: 2024
+  container: avdc.org
+  url: https://avdc.org/about/
+  source_type: consensus_statement
+  tier: 1
+  accessed: 2026-11-20
+  notes: Adopted by the AVDC Board of Directors, April 2024. Full statement PDF linked from the page (https://avdc.org/download/30/position-statements/2876/dental-scaling-without-anesthesia.pdf), not separately fetched.
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: Page read (statement text on avdc.org/about) }
 
 - id: vohc-accepted-products
   title: Accepted Products

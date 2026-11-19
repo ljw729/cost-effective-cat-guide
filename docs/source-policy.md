@@ -77,5 +77,5 @@ Tier 3 只用于**发现问题**（“养猫人经常问什么”），写入 `d
 
 ## 7. 当前已知限制（诚实记录）
 
-- 2026-11 第一轮研究中，SAGE（JFMS）、AVMA 期刊网站和 JAAHA 网站拒绝自动抓取。论文类来源通过 Europe PMC 的公开摘要 / PMC 开放全文核对；没能读到的标记为 `metadata_only`，对应引用保持 `pending`。
+- SAGE（JFMS）、AVMA 期刊网站和 JAAHA 网站拒绝自动抓取。JFMS 论文大多可在 PMC 文章网页读到全文（先用 NCBI ID 转换接口查 PMCID）；其余通过 Europe PMC 摘要核对。没能读到的标记为 `metadata_only`，对应引用保持 `pending`。JAAHA、JAVMA 论文目前多数只能读到摘要。
 - 本项目目前**没有**任何兽医审核过的条目。所有 `support_check` 最高为 `ai_checked`。

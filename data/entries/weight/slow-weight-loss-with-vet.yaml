@@ -2,12 +2,13 @@ id: CG-0012
 slug: slow-weight-loss-with-vet
 type: dont
 title: 胖猫不要自己突然节食
-summary: 猫减肥要慢，每周大约减体重的 1% 到 2%，并在兽医指导下进行。不要自己突然大幅减少食物。
+summary: 胖猫突然不吃东西，可能引发致命的脂肪肝。减肥要慢，每周约减体重的 1% 到 2%，在兽医指导下进行。
 category: weight
 tags: [weight]
-recommendation: 超重的猫在兽医指导下制定减重计划，目标是缓慢减重（每周约 1% 到 2%）；不要自行突然断食或大幅减量。
+recommendation: 超重的猫在兽医指导下制定减重计划，目标是缓慢减重（每周约 1% 到 2%）；不要自行断食或大幅减量。
 why_it_matters: >-
-  康奈尔大学猫健康中心建议逐步减重，大约每周减体重的 1% 到 2%，并且应在兽医指导下进行。
+  康奈尔大学猫健康中心指出，猫脂肪肝（肝脂沉积症）几乎总是在猫不吃东西之后或同时发生，在肥胖的猫中发生率明显更高，如果不及时逆转可能致命。
+  康奈尔也建议逐步减重，大约每周减体重的 1% 到 2%，并在兽医指导下进行。
 how_to_do_it:
   - 先带猫看兽医，确认理想体重和每天该吃多少。
   - 用秤称量食物，而不是用“一把”“一碗”估计。
@@ -15,6 +16,7 @@ how_to_do_it:
   - 增加互动游戏，用益智喂食器让猫吃得慢一些（见 CG-0023）。
 do_not:
   - 不要突然让猫一两天不吃东西。
+  - 不要用“饿几顿就瘦了”的办法减肥。
 warning_signs:
   - 猫完全不吃东西超过一天，尤其是胖猫：联系兽医。
 applies_to: [adult, senior]
@@ -22,16 +24,17 @@ urgency: important
 related: [CG-0011, CG-0023]
 scores:
   benefit: 4
-  risk_reduction: 3
+  risk_reduction: 4
   money_cost: 2
   time_cost: 2
   effort: 3
   harm_potential: 0
+  rationale: 避免脂肪肝这种可能致命的并发症，同时能有效减重。
 evidence:
   level: B
-  summary: 大学兽医学院资料给出了缓慢减重的速度和兽医指导的要求。
+  summary: 大学兽医学院资料给出了缓慢减重的速度、兽医指导的要求，以及厌食与脂肪肝、肥胖的关系。
   gaps:
-    - "NEED REVIEW: 正文没有写“胖猫断食会引起肝脂沉积症”，因为第一轮没有读到支持这一点的来源；它在兽医界广为人知，需要补充来源后再写。"
+    - "UNKNOWN: 猫不吃东西多久会开始有脂肪肝风险，已读来源没有给出具体天数，所以正文没有写。"
     - "TODO: 核对 AAHA 2021 营养与体重管理指南中的减重速度建议。"
 medical_review_required: false
 review_status: ai_researched
@@ -40,6 +43,10 @@ last_reviewed: 2026-11-20
 sources:
   - id: cornell-obesity
     supports: 建议逐步减重，大约每周减体重的 1% 到 2%；减重应在兽医指导下进行。
+    support_check: ai_checked
+    locator: 页面全文
+  - id: cornell-hepatic-lipidosis
+    supports: 肝脂沉积症的发生几乎总是伴随或继发于厌食；在肥胖猫中发生率明显更高，也可见于看起来健康的猫；不及时逆转可致命。页面没有给出不吃东西多少天会有风险。
     support_check: ai_checked
     locator: 页面全文
   - id: aaha-nutrition-weight-2021

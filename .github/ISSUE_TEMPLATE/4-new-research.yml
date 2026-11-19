@@ -1,0 +1,18 @@
+name: 新研究 / 新版指南
+description: 有新的研究或指南可能改变某条结论
+labels: [content, new-research]
+body:
+  - type: input
+    id: source
+    attributes:
+      label: 来源（DOI 或链接）
+    validations: { required: true }
+  - type: input
+    id: entries
+    attributes:
+      label: 可能影响的条目
+  - type: textarea
+    id: summary
+    attributes:
+      label: 研究发现了什么（用自己的话）
+    validations: { required: true }

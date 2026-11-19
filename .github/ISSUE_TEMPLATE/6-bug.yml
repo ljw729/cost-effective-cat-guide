@@ -1,0 +1,17 @@
+name: 网站 / 工具 Bug
+description: 网站、生成的文件或脚本出错
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: 发生了什么
+    validations: { required: true }
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+  - type: input
+    id: env
+    attributes:
+      label: 环境（浏览器 / 设备 / Node 版本）

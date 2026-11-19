@@ -1,0 +1,14 @@
+name: 来源失效
+description: 来源链接打不开、内容变了，或 DOI 指向错误
+labels: [sources]
+body:
+  - type: input
+    id: source
+    attributes:
+      label: 来源 id 或链接
+    validations: { required: true }
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题
+      description: 404、内容已改、DOI 指向另一篇论文……如果找到了新地址或存档链接，请一并附上。

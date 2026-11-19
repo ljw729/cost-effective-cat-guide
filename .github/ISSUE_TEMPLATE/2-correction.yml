@@ -1,0 +1,20 @@
+name: 内容纠错
+description: 某条内容写错了、过时了，或者与来源不符
+labels: [content, correction]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: 条目 id 或标题
+      placeholder: CG-0013
+    validations: { required: true }
+  - type: textarea
+    id: problem
+    attributes:
+      label: 哪里有问题
+    validations: { required: true }
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 依据
+      description: 支持你修改意见的来源（DOI、指南、链接）

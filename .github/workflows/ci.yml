@@ -1,0 +1,65 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    # Weekly: re-verify sources and links, report stale content.
+    - cron: '0 3 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate · Test · Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: TypeScript
+        run: npm run typecheck
+      - name: Schema & content rules
+        run: npm run validate
+      - name: Duplicate check
+        run: npm run dedupe
+      - name: Unit tests
+        run: npm test
+      - name: Generated outputs are up to date
+        run: npm run build:guide -- --check
+
+  sources:
+    name: Citation & link check
+    runs-on: ubuntu-latest
+    # Network checks can fail for reasons outside the PR (publisher outages, rate limits);
+    # they run on every PR but a maintainer may re-run before merging.
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Verify DOIs against Crossref
+        run: npm run verify:sources
+      - name: Check source links
+        run: npm run check:links
+
+  stale:
+    name: Stale content report
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run stale

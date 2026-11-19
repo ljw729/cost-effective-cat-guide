@@ -1,0 +1,28 @@
+name: 医疗信息问题（优先处理）
+description: 内容可能误导就医判断、遗漏危险信号，或存在安全风险
+labels: [medical, priority]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **如果你的猫现在有急症，请立即联系兽医。** 这里只用于报告指南内容的问题。
+  - type: input
+    id: entry
+    attributes:
+      label: 条目 id 或标题
+    validations: { required: true }
+  - type: textarea
+    id: risk
+    attributes:
+      label: 风险是什么
+      description: 例如：可能让人延误就医、漏掉了紧急信号、建议的做法可能造成伤害
+    validations: { required: true }
+  - type: textarea
+    id: sources
+    attributes:
+      label: 依据
+  - type: dropdown
+    id: role
+    attributes:
+      label: 你的身份（自愿填写）
+      options: [执业兽医, 兽医专业学生或从业者, 养猫人, 其他]

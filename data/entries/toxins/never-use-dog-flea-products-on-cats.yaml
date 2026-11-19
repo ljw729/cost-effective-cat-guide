@@ -1,0 +1,47 @@
+id: CG-0005
+slug: never-use-dog-flea-products-on-cats
+type: dont
+title: 不要给猫用狗用驱虫滴剂
+summary: 很多狗用驱虫滴剂含扑灭司林（permethrin），对猫可能致命。只用明确标注“猫用”的产品。
+category: toxins
+tags: [permethrin]
+recommendation: 只给猫使用明确标注适用于猫的驱虫产品。绝不使用狗用产品，也不要把大规格产品分装给猫用。
+why_it_matters: >-
+  澳大利亚一家转诊医院回顾的 42 例猫扑灭司林中毒中，大多数是主人直接给猫用了狗用扑灭司林滴剂。
+  常见症状有震颤和肌肉抽动（86%）、抽搐（33%）、发热等；约三分之一的猫出现并发症，需要密集治疗。
+  尽管包装上有醒目警告，这类病例仍在持续发生。
+how_to_do_it:
+  - 买驱虫药前看清适用动物和体重范围；不确定就问兽医。
+  - 家里的狗用了含扑灭司林的产品，要按说明书和兽医建议，在一段时间内避免猫和狗密切接触。
+  - 把猫用、狗用药品分开存放。
+do_not:
+  - 不要因为狗用的便宜、规格大，就拿来给猫用。
+warning_signs:
+  - 用药后出现发抖、肌肉抽动、走路不稳、流口水、抽搐：立即就医，并带上产品包装。
+applies_to: [all, multi-cat]
+urgency: important
+scores:
+  benefit: 5
+  risk_reduction: 5
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+  rationale: 避免可能致命的中毒，几乎没有额外成本。
+evidence:
+  level: B
+  summary: >-
+    回顾性病例系列清楚描述了暴露来源（狗用滴剂直接用在猫身上）、症状和并发症。
+    尚未纳入指南级来源，因此评为 B。
+  gaps:
+    - "TODO: 纳入 iCatCare 的扑灭司林中毒资料（第一轮抓取没有拿到正文）。"
+    - "NEED REVIEW: 与用药后的狗隔离多久，目前没有核实过的来源，所以正文没有写具体时长。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: boland-2010-permethrin
+    supports: 42 例中多数是狗用扑灭司林滴剂直接用于猫；震颤或肌颤 86%、抽搐 33%；33% 出现并发症；尽管有标签警告，病例仍持续发生且可能致命。
+    support_check: ai_checked
+    locator: Abstract

@@ -1,0 +1,37 @@
+id: CG-0006
+slug: onion-garlic-and-allium
+type: dont
+title: 不要给猫吃洋葱、大蒜和葱类
+summary: 葱属植物（洋葱、大蒜、葱、韭菜）会损伤红细胞，猫比狗更敏感。用这些调味的剩菜也不要喂。
+category: toxins
+tags: [allium]
+recommendation: 不给猫吃洋葱、大蒜、葱、韭菜，以及含这些成分的食物（炖汤、调味肉、含洋葱粉的加工食品等）。
+why_it_matters: ASPCA 动物中毒控制中心指出，葱属植物会引起胃肠刺激和红细胞损伤，可能导致贫血，并说明猫更容易受影响。
+how_to_do_it:
+  - 不喂调过味的人类食物。
+  - 注意加工食品里的洋葱粉、大蒜粉。
+warning_signs:
+  - 吃下较多葱属食物后出现精神差、牙龈发白、呼吸加快：尽快就医。
+applies_to: [all]
+urgency: important
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 来自权威动物中毒控制机构的公开资料；葱属对猫红细胞的毒性在兽医毒理学中是共识。中毒剂量不在本项目收录范围内。
+  gaps:
+    - 尚未纳入兽医毒理学教材或病例研究。
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: aspca-people-foods
+    supports: 葱属（洋葱、大蒜、细香葱）可引起胃肠刺激和红细胞损伤，导致贫血；页面说明猫更易受影响。
+    support_check: ai_checked
+    locator: Onions, Garlic, Chives 段落

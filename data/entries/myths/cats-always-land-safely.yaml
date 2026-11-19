@@ -1,0 +1,38 @@
+id: CG-0025
+slug: cats-always-land-safely
+type: myth
+title: 误区：猫从高处掉下来不会受伤
+summary: 错误。很多坠楼后送医的猫能活下来，但近一半有骨折，约三分之一有胸部创伤。
+category: myths
+tags: [high-rise]
+myth_claim: 猫平衡能力好，从高处掉下来也能安全落地。
+myth_verdict: incorrect
+recommendation: 不要因为“猫会落地”就不封窗。猫坠落后即使能走能跑，也要尽快就医检查。
+why_it_matters: >-
+  一项 119 例猫坠楼病例研究中，96.5% 送医的猫活了下来，但 46.2% 有四肢骨折，33.6% 有胸部创伤，20% 有气胸。
+  “很多猫活下来了”和“猫不会受伤”是两回事。另外，这些数据只包括被送到医院的猫。
+how_to_do_it:
+  - 封窗、封阳台（见 CG-0001）。
+  - 坠落后，即使看起来没事，也要就医检查胸部和四肢。
+applies_to: [all]
+urgency: important
+related: [CG-0001]
+scores:
+  benefit: 5
+  risk_reduction: 5
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 来自单一医院的回顾性病例系列；它只纳入被送医的猫，无法说明所有坠落猫的情况，但足以否定“不会受伤”的说法。
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: vnuk-2004-high-rise
+    supports: 96.5% 存活；46.2% 四肢骨折；33.6% 胸部创伤；20% 气胸；七层及以上伤情更重。
+    support_check: ai_checked
+    locator: Abstract

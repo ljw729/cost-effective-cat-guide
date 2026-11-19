@@ -1,0 +1,44 @@
+id: CG-0018
+slug: senior-blood-pressure
+type: recommendation
+title: 老年猫体检时要量血压
+summary: 高血压在老年猫中很常见，常伴随慢性肾病或甲亢，平时很难察觉。老年猫体检时请兽医量血压，包括看起来健康的猫。
+category: senior
+tags: [senior, blood-pressure]
+recommendation: 猫进入老年阶段后，请兽医把血压测量纳入常规体检，即使猫看起来很健康。
+why_it_matters: >-
+  ISFM 共识指南指出，高血压在老年猫中常见，常与慢性肾病、甲亢同时出现，严重时会损害眼睛、心脏和血管、大脑和肾脏。
+  但临床上很少常规测量血压，导致高血压可能被漏诊。2021 年 AAFP 老年猫指南把血压测量列为看起来健康和患病老年猫的基础检查项目。
+how_to_do_it:
+  - 老年猫体检时，主动问兽医是否需要测血压。
+  - 测量前让猫在安静环境里适应一会儿，结果更可靠。
+warning_signs:
+  - 突然看不见东西、走路撞墙、瞳孔明显放大：尽快就医。
+applies_to: [senior]
+urgency: important
+related: [CG-0016]
+scores:
+  benefit: 4
+  risk_reduction: 4
+  money_cost: 2
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 两份 ISFM/AAFP 指南一致支持老年猫常规测血压；指南基于文献综述，同时说明很多方面仍需要更多数据。
+  gaps:
+    - "NEED REVIEW: 正文的“突然失明”警示来自对高血压眼部损害的一般描述，具体表现需要在指南全文中核对。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: isfm-hypertension-2017
+    supports: 高血压在老年猫中常见，常与慢性肾病和甲亢相关；可损害眼、心血管、脑和肾；临床很少常规测血压，可能导致漏诊。
+    support_check: ai_checked
+    locator: Abstract
+  - id: aafp-senior-care-2021
+    supports: 血压测量列为看似健康和患病老年猫的基础检查项目。
+    support_check: ai_checked
+    locator: Abstract

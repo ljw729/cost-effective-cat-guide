@@ -1,0 +1,56 @@
+id: CG-0014
+slug: litter-box-number-and-placement
+type: recommendation
+title: 猫砂盆够数、分开放、每天铲
+summary: 很多“乱尿”和猫砂盆有关。保证数量、分散放在安静好到达的地方、每天清理，几乎不花钱。
+category: litter
+tags: [litter-box, multicat]
+recommendation: 每只猫至少有一个可用的猫砂盆，多猫家庭把猫砂盆分散放在不同位置（不要挤在同一个角落），每天至少铲一次。
+why_it_matters: >-
+  2024 年 AAFP 猫间紧张关系指南指出：包括猫砂盆在内的关键资源，应分散在每只猫的活动范围中；如果猫之间出现对抗，需要更多资源。
+  多猫家庭里，平均每只猫能用到的资源往往比单猫家庭少，这会增加冲突风险。指南中的病例显示，一只猫被其他猫堵在走廊和楼梯上，到不了放猫砂盆的房间，结果在别处排尿。
+  一项 28 只猫的研究中，在每天清理的前提下，大多数猫对有盖和无盖的猫砂盆没有偏好。
+how_to_do_it:
+  - 常用的经验法则是“猫砂盆数量 = 猫的数量 + 1”（来源核对中，见证据说明）。
+  - 放在安静、容易到达的地方，远离食物和水；不要放在洗衣机旁等突然有噪音的地方。
+  - 多层住宅每层都放一个。
+  - 每天至少铲一次，定期整盆清洗。
+exceptions:
+  - 老年猫或关节不好的猫需要低入口的猫砂盆。
+warning_signs:
+  - 猫突然开始在猫砂盆外排泄，先排除疾病：尤其公猫频繁蹲盆却没尿，见 CG-0007。
+applies_to: [all, multi-cat]
+urgency: important
+related: [CG-0015, CG-0007, CG-0027]
+scores:
+  benefit: 4
+  risk_reduction: 2
+  money_cost: 1
+  time_cost: 2
+  effort: 1
+  harm_potential: 0
+  rationale: 减少乱尿和猫之间的紧张关系；多买一个猫砂盆的成本很低。
+evidence:
+  level: B
+  summary: >-
+    AAFP 指南（2024 猫间紧张关系、2014 乱尿行为）支持资源充足、分散放置。2014 指南本身说明：相关研究常常缺乏，部分建议来自作者的临床经验。
+    “数量 = 猫数 + 1”是兽医界常用的经验法则，本项目尚未在指南全文中核对到原文。
+  gaps:
+    - "NEED REVIEW: “猫数 + 1”的具体出处待在 2014 AAFP/ISFM 乱尿指南全文中核对。"
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: aafp-intercat-tension-2024
+    supports: 所有关键资源（安全处、食物、水、猫砂盆、抓挠面）应分布在每只猫的活动范围中；出现对抗时需要更多资源；多猫家庭人均资源常常减少，冲突风险增加；病例中猫因被堵住到不了猫砂盆而在别处排尿。
+    support_check: ai_checked
+    locator: Pillar 2；Myth 1 附近的病例
+  - id: aafp-isfm-house-soiling-2014
+    supports: 乱尿行为的诊断与处理指南；摘要说明相关研究常缺乏，部分建议来自临床经验。
+    support_check: ai_checked
+    locator: Abstract（Evidence base）
+  - id: grigg-2012-covered-litter-box
+    supports: 28 只猫中，整体上对有盖与无盖猫砂盆的使用没有显著差异；作者推测在每天至少清理一次的情况下，多数猫没有偏好。
+    support_check: ai_checked
+    locator: Abstract

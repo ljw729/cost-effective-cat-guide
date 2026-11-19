@@ -1,0 +1,47 @@
+id: CG-0001
+slug: window-and-balcony-screens
+type: recommendation
+title: 封窗：窗户和阳台装牢固的防护网
+summary: 坠楼是常见且可能致命的意外。在猫能到的窗户和阳台装牢固的防护，花一次钱就能长期管用。
+category: safety
+tags: [high-rise]
+recommendation: 在猫能到达的所有可开启窗户和阳台安装能承受猫扑撞的防护网或防护窗，开窗通风前先确认防护到位。
+why_it_matters: >-
+  一项 119 例猫高楼坠落病例研究中，近六成是不满 1 岁的猫，平均坠落高度为四层，坠落多发生在气温较高、开窗较多的季节。
+  近一半送医的猫有四肢骨折，约三分之一有胸部创伤；从七层及以上坠落伤情更重。大多数送医的猫活了下来，但往往需要手术和较长时间恢复。
+how_to_do_it:
+  - 检查家里所有能打开的窗户、阳台、天窗，包括猫能跳上去的高窗。
+  - 普通蚊纱窗不一定承受得住猫的抓挠和扑撞，选择专门的防护网或防护窗，并确认安装牢固。
+  - 开窗通风时，开口小于猫头的宽度，或只开有防护的窗户。
+  - 幼猫、刚到新家的猫、未绝育的猫更要注意。
+exceptions:
+  - 低楼层同样会受伤，不要因为“楼层不高”就省略防护。
+warning_signs:
+  - 猫坠落后即使看起来正常，也可能有胸部损伤，应尽快就医检查。
+applies_to: [all, kitten, indoor]
+urgency: important
+related: [CG-0025]
+scores:
+  benefit: 5
+  risk_reduction: 5
+  money_cost: 2
+  time_cost: 1
+  effort: 2
+  harm_potential: 0
+  rationale: 可能避免死亡或严重骨折；一次性安装，成本低到中等。
+evidence:
+  level: C
+  summary: >-
+    证据来自坠落病例的回顾性病例系列，描述了受伤类型与年龄、季节、楼层的关系。
+    没有比较“装防护与不装防护”的对照研究，但这项预防措施与受伤机制的关系直接且合理。
+  gaps:
+    - 尚未纳入更多国家和地区的坠落流行病学研究。
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: vnuk-2004-high-rise
+    supports: 119 例坠落病例中 59.6% 不满 1 岁，平均四层，温暖季节更多；46.2% 四肢骨折，33.6% 胸部创伤；七层及以上伤情更重；96.5% 存活。
+    support_check: ai_checked
+    locator: Abstract

@@ -1,0 +1,430 @@
+# 来源注册表（Source Registry）。每条来源只登记一次，条目通过 id 引用。
+# verification.read_level 如实记录我们实际读到的内容：
+#   full_text 全文 · abstract 摘要 · page 网页正文 · metadata_only 只核对了元数据（不能据此标记 support_check）
+# 规则见 docs/source-policy.md。DOI/标题/年份/作者由 `npm run verify:sources` 对 Crossref 自动核对。
+
+# ---------- 指南与共识（Tier 1） ----------
+
+- id: aaha-aafp-life-stage-2021
+  title: 2021 AAHA/AAFP Feline Life Stage Guidelines
+  organization: AAHA / AAFP
+  authors: [Quimby, Gowland, Carney]
+  year: 2021
+  container: Journal of Feline Medicine and Surgery
+  doi: 10.1177/1098612X21993657
+  url: https://doi.org/10.1177/1098612X21993657
+  source_type: guideline
+  tier: 1
+  accessed: 2026-11-20
+  notes: Also published in JAAHA 57(2):51-72 (DOI 10.5326/JAAHA-MS-7189).
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: Crossref + Europe PMC abstract }
+
+- id: aafp-senior-care-2021
+  title: 2021 AAFP Feline Senior Care Guidelines
+  organization: AAFP
+  authors: [Ray, Carney, Boynton]
+  year: 2021
+  container: Journal of Feline Medicine and Surgery
+  doi: 10.1177/1098612X211021538
+  url: https://doi.org/10.1177/1098612X211021538
+  source_type: guideline
+  tier: 1
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: Crossref + Europe PMC abstract }
+
+- id: aaha-aafp-vaccination-2020
+  title: 2020 AAHA/AAFP Feline Vaccination Guidelines
+  organization: AAHA / AAFP
+  authors: [Stone, Brummet, Carozza]
+  year: 2020
+  container: Journal of Feline Medicine and Surgery
+  doi: 10.1177/1098612X20941784
+  url: https://doi.org/10.1177/1098612X20941784
+  source_type: guideline
+  tier: 1
+  accessed: 2026-11-20
+  notes: Also published in JAAHA 56(4):249-265 (DOI 10.5326/JAAHA-MS-7123).
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: Crossref + Europe PMC abstract }
+
+- id: aafp-isfm-environmental-needs-2013
+  title: AAFP and ISFM Feline Environmental Needs Guidelines
+  organization: AAFP / ISFM
+  authors: [Ellis, Rodan, Carney]
+  year: 2013
+  container: Journal of Feline Medicine and Surgery
+  doi: 10.1177/1098612X13477537
+  url: https://doi.org/10.1177/1098612X13477537
+  source_type: guideline
+  tier: 1
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: Crossref + Europe PMC abstract }
+
+- id: aafp-isfm-house-soiling-2014
+  title: AAFP and ISFM Guidelines for Diagnosing and Solving House-Soiling Behavior in Cats
+  organization: AAFP / ISFM
+  authors: [Carney, Sadek, Curtis]
+  year: 2014
+  container: Journal of Feline Medicine and Surgery
+  doi: 10.1177/1098612X14539092
+  url: https://doi.org/10.1177/1098612X14539092
+  source_type: guideline
+  tier: 1
+  accessed: 2026-11-20
+  notes: The abstract states that research is often lacking and some recommendations reflect the authors' clinical experience.
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: Crossref + Europe PMC abstract }
+
+- id: aafp-intercat-tension-2024
+  title: "2024 AAFP intercat tension guidelines: recognition, prevention and management"
+  organization: AAFP
+  authors: [Rodan, Ramos]
+  year: 2024
+  container: Journal of Feline Medicine and Surgery
+  doi: 10.1177/1098612x241263465
+  url: https://doi.org/10.1177/1098612x241263465
+  source_type: guideline
+  tier: 1
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: full_text, checked: 2026-11-20, method: Crossref + Europe PMC open-access full text }
+
+- id: isfm-hypertension-2017
+  title: ISFM Consensus Guidelines on the Diagnosis and Management of Hypertension in Cats
+  organization: ISFM
+  authors: [Taylor, Sparkes, Briscoe]
+  year: 2017
+  container: Journal of Feline Medicine and Surgery
+  doi: 10.1177/1098612X17693500
+  url: https://doi.org/10.1177/1098612X17693500
+  source_type: consensus_statement
+  tier: 1
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: Crossref + Europe PMC abstract }
+
+- id: aafp-isfm-cat-friendly-interaction-2022
+  title: "2022 AAFP/ISFM Cat Friendly Veterinary Interaction Guidelines: Approach and Handling Techniques"
+  organization: AAFP / ISFM
+  authors: [Rodan, Dowgray, Carney]
+  year: 2022
+  container: Journal of Feline Medicine and Surgery
+  doi: 10.1177/1098612X221128760
+  url: https://doi.org/10.1177/1098612X221128760
+  source_type: guideline
+  tier: 1
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: Crossref + Europe PMC abstract }
+
+- id: aaha-dental-2019
+  title: 2019 AAHA Dental Care Guidelines for Dogs and Cats
+  organization: AAHA
+  authors: [Bellows, Berg, Dennis]
+  year: 2019
+  container: Journal of the American Animal Hospital Association
+  doi: 10.5326/JAAHA-MS-6933
+  url: https://doi.org/10.5326/JAAHA-MS-6933
+  source_type: guideline
+  tier: 1
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: Crossref + Europe PMC abstract; publisher site blocks automated access }
+
+- id: aaha-nutrition-weight-2021
+  title: 2021 AAHA Nutrition and Weight Management Guidelines for Dogs and Cats
+  organization: AAHA
+  authors: [Cline, Burns, Coe]
+  year: 2021
+  container: Journal of the American Animal Hospital Association
+  doi: 10.5326/JAAHA-MS-7232
+  url: https://doi.org/10.5326/JAAHA-MS-7232
+  source_type: guideline
+  tier: 1
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: metadata_only, checked: 2026-11-20, method: Crossref; abstract/full text not reachable in round 1 }
+
+- id: wsava-nutritional-assessment-2011
+  title: WSAVA Nutritional Assessment Guidelines
+  organization: WSAVA Global Nutrition Committee
+  authors: [Freeman, Becvarova]
+  year: 2011
+  container: Journal of Small Animal Practice
+  doi: 10.1111/j.1748-5827.2011.01079.x
+  url: https://doi.org/10.1111/j.1748-5827.2011.01079.x
+  source_type: guideline
+  tier: 1
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: metadata_only, checked: 2026-11-20, method: Crossref }
+
+- id: sadek-2018-feeding-programs
+  title: "Feline feeding programs: Addressing behavioural needs to improve feline health and wellbeing"
+  organization: AAFP / ISFM
+  authors: [Sadek, Hamper, Horwitz]
+  year: 2018
+  container: Journal of Feline Medicine and Surgery
+  doi: 10.1177/1098612X18791877
+  url: https://doi.org/10.1177/1098612X18791877
+  source_type: consensus_statement
+  tier: 1
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: metadata_only, checked: 2026-11-20, method: Crossref; no abstract in Europe PMC }
+
+# ---------- 原始研究（Tier 1） ----------
+
+- id: vnuk-2004-high-rise
+  title: "Feline high-rise syndrome: 119 cases (1998-2001)"
+  organization: Journal of Feline Medicine and Surgery
+  authors: [Vnuk]
+  year: 2004
+  container: Journal of Feline Medicine and Surgery
+  doi: 10.1016/j.jfms.2003.07.001
+  pmid: "15363762"
+  url: https://doi.org/10.1016/j.jfms.2003.07.001
+  source_type: case_series
+  tier: 1
+  sample_size: 119 cats, single clinic, Croatia
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: Crossref + Europe PMC abstract }
+
+- id: lord-2009-microchips-shelters
+  title: Characterization of animals with microchips entering animal shelters
+  organization: Journal of the American Veterinary Medical Association
+  authors: [Lord, Ingwersen, Gray]
+  year: 2009
+  container: Journal of the American Veterinary Medical Association
+  doi: 10.2460/javma.235.2.160
+  pmid: "19601734"
+  url: https://doi.org/10.2460/javma.235.2.160
+  source_type: cross_sectional
+  tier: 1
+  sample_size: 7,704 microchipped animals, 53 US shelters
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: Crossref + Europe PMC abstract }
+
+- id: weiss-2012-lost-pets
+  title: Frequency of Lost Dogs and Cats in the United States and the Methods Used to Locate Them
+  organization: Animals (MDPI)
+  authors: [Weiss, Slater, Lord]
+  year: 2012
+  container: Animals
+  doi: 10.3390/ani2020301
+  pmid: "26486923"
+  pmcid: PMC4494319
+  url: https://doi.org/10.3390/ani2020301
+  source_type: cross_sectional
+  tier: 1
+  sample_size: 1,015 households (506 owned cats), US telephone survey
+  conflict_of_interest: Authors affiliated with the ASPCA.
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: Crossref + Europe PMC abstract }
+
+- id: rumbeiha-2004-easter-lily
+  title: A Comprehensive Study of Easter Lily Poisoning in Cats
+  organization: Journal of Veterinary Diagnostic Investigation
+  authors: [Rumbeiha]
+  year: 2004
+  container: Journal of Veterinary Diagnostic Investigation
+  doi: 10.1177/104063870401600607
+  pmid: "15586568"
+  url: https://doi.org/10.1177/104063870401600607
+  source_type: experimental
+  tier: 1
+  accessed: 2026-11-20
+  notes: "Round-1 lesson: a DOI recalled from memory for this paper (…600604) belonged to a different article. Always verify."
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: Crossref + Europe PMC abstract }
+
+- id: segev-2011-urethral-obstruction
+  title: "Urethral obstruction in cats: predisposing factors, clinical, clinicopathological characteristics and prognosis"
+  organization: Journal of Feline Medicine and Surgery
+  authors: [Segev, Livne, Ranen]
+  year: 2011
+  container: Journal of Feline Medicine and Surgery
+  doi: 10.1016/j.jfms.2010.10.006
+  pmid: "21145768"
+  url: https://doi.org/10.1016/j.jfms.2010.10.006
+  source_type: case_control
+  tier: 1
+  sample_size: 82 obstructed cats vs 82 matched controls, Israel
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: Crossref + Europe PMC abstract }
+
+- id: boland-2010-permethrin
+  title: "Feline permethrin toxicity: Retrospective study of 42 cases"
+  organization: Journal of Feline Medicine and Surgery
+  authors: [Boland, Angles]
+  year: 2010
+  container: Journal of Feline Medicine and Surgery
+  doi: 10.1016/j.jfms.2009.09.018
+  pmid: "19897392"
+  url: https://doi.org/10.1016/j.jfms.2009.09.018
+  source_type: case_series
+  tier: 1
+  sample_size: 42 cats, one referral hospital, Sydney
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: Crossref + Europe PMC abstract }
+
+- id: grant-2010-water-fountain
+  title: Effect of water source on intake and urine concentration in healthy cats
+  organization: Journal of Feline Medicine and Surgery
+  authors: [Grant]
+  year: 2010
+  container: Journal of Feline Medicine and Surgery
+  doi: 10.1016/j.jfms.2009.10.008
+  pmid: "20005758"
+  url: https://doi.org/10.1016/j.jfms.2009.10.008
+  source_type: experimental
+  tier: 1
+  sample_size: 13 healthy cats (12 analysed)
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: Crossref + Europe PMC abstract }
+
+- id: grigg-2012-covered-litter-box
+  title: "Litter box preference in domestic cats: covered versus uncovered"
+  organization: Journal of Feline Medicine and Surgery
+  authors: [Grigg, Pick]
+  year: 2012
+  container: Journal of Feline Medicine and Surgery
+  doi: 10.1177/1098612x12465606
+  pmid: "23103684"
+  url: https://doi.org/10.1177/1098612x12465606
+  source_type: experimental
+  tier: 1
+  sample_size: 28 cats
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: Crossref + Europe PMC abstract }
+
+- id: guy-2014-litterbox-size
+  title: Litterbox size preference in domestic cats (Felis catus)
+  organization: Journal of Veterinary Behavior
+  authors: [Guy, Hopson]
+  year: 2014
+  container: Journal of Veterinary Behavior
+  doi: 10.1016/j.jveb.2013.11.001
+  url: https://doi.org/10.1016/j.jveb.2013.11.001
+  source_type: experimental
+  tier: 1
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: metadata_only, checked: 2026-11-20, method: Crossref; abstract not indexed in Europe PMC }
+
+- id: wilson-2019-home-prepared-diets
+  title: Evaluation of the nutritional adequacy of recipes for home-prepared maintenance diets for cats
+  organization: Journal of the American Veterinary Medical Association
+  authors: [Wilson, Villaverde]
+  year: 2019
+  container: Journal of the American Veterinary Medical Association
+  doi: 10.2460/javma.254.10.1172
+  pmid: "31039096"
+  url: https://doi.org/10.2460/javma.254.10.1172
+  source_type: cross_sectional
+  tier: 1
+  sample_size: 114 published recipes (94 analysable)
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: Crossref + Europe PMC abstract }
+
+- id: freeman-2013-raw-meat-diets
+  title: Current knowledge about the risks and benefits of raw meat-based diets for dogs and cats
+  organization: Journal of the American Veterinary Medical Association
+  authors: [Freeman, Chandler]
+  year: 2013
+  container: Journal of the American Veterinary Medical Association
+  doi: 10.2460/javma.243.11.1549
+  pmid: "24261804"
+  url: https://doi.org/10.2460/javma.243.11.1549
+  source_type: narrative_review
+  tier: 1
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: metadata_only, checked: 2026-11-20, method: Crossref; no abstract; publisher blocks automated access }
+
+- id: german-2006-obesity
+  title: The Growing Problem of Obesity in Dogs and Cats
+  organization: The Journal of Nutrition
+  authors: [German]
+  year: 2006
+  container: The Journal of Nutrition
+  doi: 10.1093/jn/136.7.1940S
+  url: https://doi.org/10.1093/jn/136.7.1940S
+  source_type: narrative_review
+  tier: 1
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: metadata_only, checked: 2026-11-20, method: Crossref }
+
+# ---------- 机构 / 大学 / 政府页面（Tier 1） ----------
+
+- id: fda-lilies-cats
+  title: "Lovely Lilies and Curious Cats: A Dangerous Combination"
+  organization: U.S. Food and Drug Administration, Center for Veterinary Medicine
+  year: 2021
+  container: FDA Animal Health Literacy
+  url: https://www.fda.gov/animal-veterinary/animal-health-literacy/lovely-lilies-and-curious-cats-dangerous-combination
+  source_type: government
+  tier: 1
+  accessed: 2026-11-20
+  notes: Page content dated 2021-09-16.
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: cornell-flutd
+  title: Feline Lower Urinary Tract Disease
+  organization: Cornell Feline Health Center, Cornell University College of Veterinary Medicine
+  year: 2016
+  container: Cornell Feline Health Topics
+  url: https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-lower-urinary-tract-disease
+  source_type: organization_page
+  tier: 1
+  accessed: 2026-11-20
+  notes: Page states "updated October 2016".
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: cornell-feeding
+  title: Feeding Your Cat
+  organization: Cornell Feline Health Center, Cornell University College of Veterinary Medicine
+  year: 2026
+  container: Cornell Feline Health Topics
+  url: https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feeding-your-cat
+  source_type: organization_page
+  tier: 1
+  accessed: 2026-11-20
+  notes: Page states it was updated 2026-04-30.
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: cornell-dental-disease
+  title: Feline Dental Disease
+  organization: Cornell Feline Health Center, Cornell University College of Veterinary Medicine
+  year: 2017
+  container: Cornell Feline Health Topics
+  url: https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-dental-disease
+  source_type: organization_page
+  tier: 1
+  accessed: 2026-11-20
+  notes: Page states "Updated June 2017".
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: cornell-obesity
+  title: Obesity
+  organization: Cornell Feline Health Center, Cornell University College of Veterinary Medicine
+  year: 2026
+  container: Cornell Feline Health Topics
+  url: https://www.vet.cornell.edu/node/4071
+  source_type: organization_page
+  tier: 1
+  accessed: 2026-11-20
+  notes: No publication date on page; year is the access year. Prevalence figures on the page are attributed to a quoted lecturer and undated — do not cite them as current prevalence.
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: aspca-people-foods
+  title: People Foods to Avoid Feeding Your Pets
+  organization: ASPCA Animal Poison Control Center
+  year: 2026
+  container: ASPCA Pet Care
+  url: https://www.aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets
+  source_type: organization_page
+  tier: 1
+  accessed: 2026-11-20
+  notes: No publication date on page; year is the access year. Several items on the page are not cat-specific (e.g. grapes/raisins is described for dogs).
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: vohc-accepted-products
+  title: Accepted Products
+  organization: Veterinary Oral Health Council (VOHC)
+  year: 2026
+  container: vohc.org
+  url: https://vohc.org/accepted-products/
+  source_type: organization_page
+  tier: 1
+  accessed: 2026-11-20
+  notes: VOHC reviews manufacturer-submitted trial data; it does not test products itself. Each product's claim is "plaque", "tartar" or both.
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read (home page and accepted-products page) }

@@ -1,0 +1,54 @@
+id: CG-0007
+slug: cannot-urinate
+type: emergency
+title: 猫尿不出来：当天急诊
+summary: 猫反复蹲猫砂盆却只有一点尿或完全没有尿，可能是尿道堵塞，这是急症，尤其是公猫。不要等到第二天。
+category: emergency
+tags: [urethral-obstruction, litter-box]
+recommendation: 发现猫反复用力排尿但尿很少或没有尿时，立即联系兽医或去急诊。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出，尿道堵塞的猫只能排出很少的尿或完全排不出，常会反复用力、明显痛苦，尿道堵塞是“绝对的急症”。
+  公猫的尿道更长更窄，更容易堵塞。一项 82 例尿道堵塞病例研究中，总死亡率为 8.5%，6 个月内复发率为 22%。
+emergency_action:
+  - 立即打电话给兽医或急诊，说明“猫一直蹲猫砂盆尿不出来”。
+  - 如果能做到，拍一段猫在猫砂盆用力的视频，方便兽医判断。
+  - 尽快出发；夜里就去急诊，不要等到第二天。
+do_not:
+  - 不要以为是便秘或“只是尿频”而在家观察。
+  - 不要按压猫的腹部试图“挤尿”。
+  - 不要自行喂药或偏方。
+warning_signs:
+  - 频繁进出猫砂盆、蹲很久，但只有几滴尿或没有尿
+  - 排尿时叫唤、舔生殖器
+  - 尿中带血
+  - 呕吐、精神差、躲起来
+applies_to: [all, male, adult]
+urgency: emergency
+related: [CG-0013]
+scores:
+  benefit: 5
+  risk_reduction: 5
+  money_cost: 4
+  time_cost: 2
+  effort: 2
+  harm_potential: 0
+evidence:
+  level: B
+  summary: >-
+    大学兽医学院的资料明确把尿道堵塞列为急症；病例对照研究给出了死亡率和复发率。
+    这些数字来自单一医院，不同医院和治疗方式下会有差别。
+  gaps:
+    - 尚未纳入 FLUTD 或尿道堵塞的指南级来源。
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-flutd
+    supports: 尿道堵塞的猫只能排出很少或排不出尿，会用力、痛苦；尿道堵塞是绝对的急症；公猫因尿道更长更窄而风险更高。
+    support_check: ai_checked
+    locator: Urethral obstruction 段落
+  - id: segev-2011-urethral-obstruction
+    supports: 82 例尿道堵塞病例与 82 例对照比较；总死亡率 8.5%；6 个月和 2 年复发率分别为 22% 和 24%；只吃干粮的比例在堵塞组更高。
+    support_check: ai_checked
+    locator: Abstract

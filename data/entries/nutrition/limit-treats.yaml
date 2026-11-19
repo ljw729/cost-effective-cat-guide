@@ -1,0 +1,39 @@
+id: CG-0010
+slug: limit-treats
+type: recommendation
+title: 零食不超过每天热量的 10% 到 15%
+summary: 零食不是营养完整的食物，吃太多会挤占主食、增加肥胖风险。控制在每日热量的一成左右。
+category: nutrition
+tags: [treats, weight]
+recommendation: 零食（包括猫条、冻干零食、人类食物）的热量控制在每天总热量的 10% 到 15% 以内，喂零食的那天相应减少主粮。
+why_it_matters: >-
+  康奈尔大学猫健康中心建议零食不超过每日热量的 10% 到 15%，并指出肥胖是猫最常见的营养相关问题，与关节炎和糖尿病有关。
+how_to_do_it:
+  - 看零食包装上的热量，粗略算一下每天给了多少。
+  - 把零食当训练奖励或互动工具，而不是“想起来就给”。
+  - 可以从当天的主粮里拿出一小部分当奖励。
+exceptions:
+  - 有慢性病或在吃处方粮的猫，零食要先问兽医。
+applies_to: [all]
+urgency: routine
+related: [CG-0011]
+scores:
+  benefit: 3
+  risk_reduction: 2
+  money_cost: 0
+  time_cost: 1
+  effort: 2
+  harm_potential: 0
+  rationale: 有助于控制体重，还能省下零食钱。
+evidence:
+  level: C
+  summary: 具体比例来自大学兽医学院的实践建议，是专家经验数字，没有研究比较不同零食比例的效果。
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-feeding
+    supports: 零食不应超过每日热量摄入的 10% 到 15%；肥胖是猫最常见的营养相关问题，与关节炎和糖尿病有关。
+    support_check: ai_checked
+    locator: 页面全文

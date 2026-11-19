@@ -1,0 +1,47 @@
+id: CG-0024
+slug: cats-need-a-companion
+type: myth
+title: 误区：一只猫一定很孤独，得再养一只
+summary: 不一定。猫的社交方式很灵活，有的猫喜欢同伴，有的更喜欢独居。贸然加猫反而可能带来长期的紧张关系。
+category: myths
+tags: [multicat]
+myth_claim: 一只猫会孤独，所以应该再养一只陪它。
+myth_verdict: mostly_incorrect
+recommendation: 不要只因为“怕它孤独”就再养一只猫。先满足现有猫的环境和互动需求；如果确实想养第二只，按步骤慢慢介绍，并准备好足够的资源。
+why_it_matters: >-
+  2024 年 AAFP 猫间紧张关系指南专门辟谣了十个常见误区，其中第 10 条就是“猫会孤独、需要同伴”。
+  指南指出，猫不一定需要同伴；猫的社交方式灵活多样，可以和其他猫建立亲密关系，但并不依赖这些关系生存；
+  有的猫更喜欢独居，有的喜欢群居。主人在为猫找同伴前，应仔细权衡利弊。
+  一项调查中，73.3% 的猫间紧张关系始于引入新猫。
+how_to_do_it:
+  - 先看现在的猫：是否玩耍不足、无聊？更多的互动玩耍可能比第二只猫更合适（见 CG-0022）。
+  - 如果决定养第二只，新猫先单独待在一个房间，逐步交换气味、再逐步见面。
+  - 资源（猫砂盆、食物、水、休息处、躲藏处）按猫的数量增加并分散放置。
+exceptions:
+  - 一起长大、关系很好的猫（常常挤在一起睡、互相舔毛）适合一起养。
+warning_signs:
+  - 猫之间互相盯视、堵路、躲藏、在猫砂盆外排泄，可能是紧张关系的信号（见 CG-0027）。
+applies_to: [all, multi-cat]
+urgency: routine
+related: [CG-0027, CG-0022]
+scores:
+  benefit: 3
+  risk_reduction: 2
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: >-
+    AAFP 由兽医行为学专家组成的工作组撰写的指南，明确把“猫会孤独、需要同伴”列为误区。
+    这并不意味着“猫都喜欢独居”：结论是因猫而异。
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: aafp-intercat-tension-2024
+    supports: 第 10 个误区“猫会孤独、需要同伴”：猫不一定需要同伴，主人应仔细权衡利弊；第 1 个误区：猫社交方式灵活，不依赖其他猫生存，有的喜欢独居；73.3% 的紧张关系始于引入新猫。
+    support_check: ai_checked
+    locator: Myth 1、Myth 10、Introduction

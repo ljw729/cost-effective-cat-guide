@@ -1,0 +1,47 @@
+id: CG-0022
+slug: five-pillars-of-environment
+type: recommendation
+title: 满足猫的五项基本环境需求
+summary: 安全的躲藏处、分开放的关键资源、捕猎式玩耍、稳定友善的人际互动、尊重嗅觉。大多不花钱，但是必需的。
+category: behavior
+tags: [play, scratching, multicat]
+recommendation: >-
+  按“五大支柱”检查家里环境：1. 有安全的躲藏和休息处；2. 食物、水、猫砂盆、抓挠处、休息处多处分开放；
+  3. 每天提供捕猎式玩耍；4. 人和猫的互动友善、稳定、可预测，让猫自己选择；5. 尽量避免让猫害怕的气味和噪音。
+why_it_matters: >-
+  AAFP/ISFM 环境需求指南指出，满足猫的环境需求是“必需的，而不是可选的”，与猫的身体健康、情绪和行为密切相关；
+  这些建议适用于所有家猫，不论室内还是外出。2024 年 AAFP 指南在此基础上说明：很多猫更喜欢短而频繁的互动，猫主动发起时可以长一些；
+  互动应该给猫选择权和控制感。
+how_to_do_it:
+  - 安全处：纸箱、带侧边的猫窝、高处的架子，都可以。
+  - 资源分开：水不要紧挨着食物，猫砂盆不要放在吃饭的地方旁边。
+  - 玩耍：用逗猫棒模拟猎物，每天几次、每次几分钟，结束时让猫“抓到”。
+  - 互动：让猫来找你，不要强行抱。
+  - 气味：避免浓烈的香薰、清洁剂气味。
+applies_to: [all, indoor]
+urgency: important
+related: [CG-0023, CG-0027]
+scores:
+  benefit: 4
+  risk_reduction: 2
+  money_cost: 1
+  time_cost: 2
+  effort: 2
+  harm_potential: 0
+  rationale: 减少压力和行为问题；大部分措施几乎不花钱。
+evidence:
+  level: B
+  summary: AAFP/ISFM 指南级共识；五大支柱框架来自专家组，具体措施的研究证据强弱不一。
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: aafp-isfm-environmental-needs-2013
+    supports: 满足环境需求是必需而非可选的；与身体健康、情绪和行为相关；以五大支柱为框架；适用于所有家猫，不论生活方式。
+    support_check: ai_checked
+    locator: Abstract
+  - id: aafp-intercat-tension-2024
+    supports: 五大支柱分别为安全处、多处分开的关键资源、玩耍和捕猎行为、积极稳定可预测的人猫互动、尊重嗅觉等感官；许多猫偏好短而频繁的互动，互动应给猫选择和控制。
+    support_check: ai_checked
+    locator: Pillar 1 至 Pillar 5

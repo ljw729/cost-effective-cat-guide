@@ -1,0 +1,58 @@
+id: CG-0013
+slug: water-fountain
+type: buying_guide
+title: 自动饮水机值得买吗？
+summary: 不是必需品。唯一一项相关的小型研究中，饮水机没有明显增加饮水量或让尿变稀。多放几个水碗、喂些湿粮更便宜。
+category: worth-buying
+tags: [water-fountain, hydration]
+recommendation: >-
+  饮水机不是必需品。想让猫多喝水，先从便宜的做法开始：在不同地方多放几个水碗、每天换水、混合喂湿粮。
+  如果你的猫明显喜欢流动水，饮水机可以作为补充，但要能坚持清洁和更换滤芯。
+why_it_matters: >-
+  一项研究在 13 只健康猫家里比较了水碗和饮水机：1 只猫对饮水机反应不良（拒绝喝水、呕吐），其余 12 只用饮水机时喝水略多，但尿浓度没有显著差别。
+  作者的结论是：在这项研究中，饮水机没能明显增加饮水量、让尿液变稀。样本小、时间短，所以不能排除对某些猫有帮助。
+  湿粮含水至少 75%，干粮只有 6% 到 10%，所以喂湿粮是增加水分摄入更直接的途径。
+how_to_do_it:
+  - 在家里不同位置放 2 个以上水碗，远离猫砂盆。
+  - 每天换水、定期洗碗。
+  - 考虑部分喂湿粮。
+  - 如果买饮水机：选好拆、好洗的；按说明清洁和换滤芯；放之前保留原来的水碗，观察猫是否接受。
+exceptions:
+  - 有泌尿问题或肾病的猫，增加饮水的方法请听兽医的建议。
+warning_signs:
+  - 猫突然喝水明显变多或变少，都值得看兽医。
+applies_to: [all]
+urgency: routine
+related: [CG-0007]
+scores:
+  benefit: 2
+  risk_reduction: 2
+  money_cost: 3
+  time_cost: 2
+  effort: 2
+  harm_potential: 0
+  rationale: 收益不确定，需要买设备并持续清洁；便宜的替代方案更多。
+evidence:
+  level: C
+  summary: >-
+    唯一找到的直接研究是 13 只猫的小样本、短期研究，结果是饮水机没有明显改变尿浓度。
+    证据有限，结论是“目前没有证据表明饮水机明显优于水碗”，而不是“饮水机没用”。
+  gaps:
+    - 缺少更大样本、更长时间、针对泌尿疾病猫的研究。
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: grant-2010-water-fountain
+    supports: 13 只健康猫比较水碗与饮水机；1 只对饮水机不良反应；其余 12 只用饮水机时喝水略多，但尿渗透压无显著差异；作者认为饮水机未能明显增加饮水和稀释尿液，需要更大研究。
+    support_check: ai_checked
+    locator: Abstract
+  - id: cornell-feeding
+    supports: 干粮含水 6% 到 10%，罐头湿粮含水至少 75%。
+    support_check: ai_checked
+    locator: 页面全文
+  - id: cornell-flutd
+    supports: 应随时提供干净新鲜的水；喝水少是下泌尿道疾病的风险因素之一。
+    support_check: ai_checked
+    locator: 页面全文

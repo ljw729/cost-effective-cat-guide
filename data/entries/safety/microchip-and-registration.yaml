@@ -1,0 +1,50 @@
+id: CG-0002
+slug: microchip-and-registration
+type: recommendation
+title: 植入芯片，并确保登记信息是最新的
+summary: 芯片能提高走失猫被找回的机会，但前提是登记信息正确。换手机号、搬家后一定要更新。
+category: safety
+tags: [microchip]
+recommendation: 给猫植入宠物芯片，确认芯片号已在登记数据库中登记到你的名下，并在更换电话、地址后及时更新。
+why_it_matters: >-
+  美国一项电话调查中，约 15% 的猫在五年内走失过，其中约四分之一没有找回；猫比狗更少佩戴任何身份标识。
+  一项覆盖 53 家收容所、7,704 只带芯片动物的研究中，带芯片的流浪猫约 63.5% 找到了主人。
+  找不到主人的主要原因是电话错误或停机、主人不回应，以及芯片登记在别的机构名下；收容所联系登记库时，只有约 58% 的芯片已登记。
+how_to_do_it:
+  - 在兽医院植入芯片（常可与疫苗或绝育同时进行）。
+  - 当场确认芯片号已登记，留至少两个联系电话。
+  - 换手机号、搬家后立刻更新登记信息；体检时可以请兽医扫描，确认芯片仍可读。
+  - 室内猫同样需要：室内猫也可能在开门、搬家时意外跑出。
+exceptions:
+  - 芯片登记系统因地区而异，有的地区有多个互不相通的数据库，登记前先了解当地常用的系统。
+applies_to: [all, indoor, outdoor]
+urgency: important
+region_notes: 证据来自美国。芯片能否帮你找回猫，取决于当地收容所、救助机构和兽医院是否扫描芯片、能否查到登记库。中国大陆猫芯片的找回效果目前没有可靠数据（UNKNOWN）。
+scores:
+  benefit: 4
+  risk_reduction: 4
+  money_cost: 2
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+  rationale: 走失后更容易找回；一次性低成本。
+evidence:
+  level: B
+  summary: >-
+    两项较大样本的观察性研究（收容所数据与全国电话调查）结论一致：猫走失并不少见，猫很少佩戴身份标识；
+    芯片能帮助找回，但登记信息缺失或过期是主要的失败原因。两项研究都来自美国。
+  gaps:
+    - 缺少中国大陆芯片找回率的数据。
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: lord-2009-microchips-shelters
+    supports: 带芯片的流浪猫 63.5% 找到主人；找不到的主要原因是电话错误或停机（35.4%）、主人不回应（24.3%）、登记在其他机构名下（17.2%）；联系登记库时仅 58.1% 已登记。
+    support_check: ai_checked
+    locator: Abstract
+  - id: weiss-2012-lost-pets
+    supports: 五年内约 15% 的猫走失，75% 被找回；猫比狗更少佩戴任何身份标识；作者认为项圈和身份牌等方式有价值。
+    support_check: ai_checked
+    locator: Abstract

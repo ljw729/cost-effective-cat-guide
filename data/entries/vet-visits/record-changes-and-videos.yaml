@@ -1,0 +1,42 @@
+id: CG-0028
+slug: record-changes-and-videos
+type: recommendation
+title: 就医前记录变化、拍视频
+summary: 猫在医院里的表现常常和在家不一样。体重记录和症状视频能帮兽医看到在诊室看不到的情况，而且不花钱。
+category: vet-visits
+tags: [checkup, hidden-illness]
+recommendation: 平时记录体重；发现异常时记下开始时间和变化（食欲、喝水、猫砂盆、精神），并拍下症状视频（如走路异常、呼吸、咳嗽、排尿姿势），就医时带给兽医看。
+why_it_matters: >-
+  2021 年 AAFP 老年猫指南把视频和连续的历史测量数据纳入每只猫的评估，并强调让主人参与猫的照护。
+  2022 年 AAFP/ISFM 猫友好诊疗指南指出，诊所环境和检查过程会让猫产生恐惧等保护性情绪，猫在诊室的表现可能和在家不同。
+how_to_do_it:
+  - 手机里建一个备忘录：日期、体重、异常、照片和视频。
+  - 拍视频时尽量拍完整的过程，横屏、光线充足。
+  - 就医时带上：疫苗和既往病历、正在吃的食物和药物（或包装照片）、异常开始的时间。
+  - 怀疑吃了异物或有毒物质，带上包装或残留物。
+applies_to: [all, senior]
+urgency: routine
+related: [CG-0016, CG-0011]
+scores:
+  benefit: 3
+  risk_reduction: 2
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: AAFP 指南提到视频和连续记录在评估中的作用，并说明诊所环境会影响猫的行为；没有研究直接比较带与不带记录的就诊结果。
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: aafp-senior-care-2021
+    supports: 视频和连续的历史测量数据被纳入每只猫的评估；鼓励主人参与照护的每一步。
+    support_check: ai_checked
+    locator: Abstract
+  - id: aafp-isfm-cat-friendly-interaction-2022
+    supports: 诊所环境和所需检查可能引发猫的保护性情绪和行为反应；应根据猫当时的情绪状态调整每次就诊。
+    support_check: ai_checked
+    locator: Abstract

@@ -1,0 +1,46 @@
+id: CG-0027
+slug: recognize-intercat-tension
+type: recommendation
+title: 学会识别猫之间不明显的紧张关系
+summary: 猫之间的紧张很少是打架，更常见的是盯视、堵路、躲藏和乱尿。早发现、增加并分散资源，比让它们“自己解决”有效。
+category: multicat
+tags: [multicat, litter-box]
+recommendation: 多猫家庭留意不明显的紧张信号；一旦发现，增加并分散资源、给每只猫安全的地方，而不是等猫“自己磨合”或强迫它们相处。
+why_it_matters: >-
+  2024 年 AAFP 指南指出，猫之间的紧张关系很常见，但多表现为细微的行为变化，常被忽视。
+  信号包括盯视、走开、躲藏和堵路（一项美国调查中盯视最常见），也可能表现为过度舔毛、抓挠家具或尿液标记、排泄习惯改变。
+  长期紧张可能导致与压力相关的疾病，甚至让猫被送走或安乐死。指南建议不要让猫“自己解决”，也不要强迫它们相处，而应检查资源是否足够、分布是否合理。
+  关系好的猫常常挤在一起睡、互相舔毛、互相蹭、碰鼻子。
+how_to_do_it:
+  - 观察：一只猫是否总在某个地方被另一只猫盯着或挡着？是否有猫总躲着、不敢去猫砂盆或饭碗？
+  - 安全处：一般每只猫一个，再多一个。
+  - 资源：猫砂盆、食物、水、抓挠处分散到不同房间或区域。
+  - 打架时：用毯子或纸板隔开，不要徒手分开；分开后让它们各自平静下来，可能需要几小时到几天。
+  - 情况持续或出现乱尿、过度舔毛时，咨询兽医或兽医行为专科。
+do_not:
+  - 不要徒手去分开正在打架的猫。
+  - 不要惩罚任何一只猫。
+warning_signs:
+  - 一只猫突然在猫砂盆外排泄：先排除疾病（公猫尿不出来见 CG-0007）。
+applies_to: [multi-cat]
+urgency: important
+related: [CG-0024, CG-0014, CG-0022]
+scores:
+  benefit: 4
+  risk_reduction: 3
+  money_cost: 1
+  time_cost: 2
+  effort: 2
+  harm_potential: 0
+evidence:
+  level: B
+  summary: AAFP 由兽医行为学专家组成的工作组撰写的指南，包含调查数据和病例；具体管理措施主要基于专家经验。
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: aafp-intercat-tension-2024
+    supports: 紧张关系常见但多表现细微；信号包括盯视、走开、躲藏、堵路，盯视最常见；可表现为过度舔毛、标记行为、排泄改变；不要让猫自己解决或强迫相处；一般每只猫一个安全处再多一个；打架时用大毛巾、毯子或纸板隔开，分开后平静可能需要几小时到几天；亲密关系表现为挤在一起睡、互舔、互蹭、碰鼻。
+    support_check: ai_checked
+    locator: Signs of intercat tension；Pillar 1；Myth 2；Signs of a good cat-cat relationship

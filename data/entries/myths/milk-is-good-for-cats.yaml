@@ -1,0 +1,45 @@
+id: CG-0026
+slug: milk-is-good-for-cats
+type: myth
+title: 误区：猫喝牛奶很正常、很有营养
+summary: 大多错误。动物体内的乳糖酶不多，牛奶和奶制品可能引起腹泻等消化问题。猫不需要喝奶，喝水就够了。
+category: myths
+tags: [milk]
+myth_claim: 猫爱喝牛奶，牛奶对猫有营养。
+myth_verdict: mostly_incorrect
+recommendation: 不需要给猫喝牛奶。如果猫喝牛奶后拉稀，就别再给了。所谓“宠物牛奶”属于零食，算在零食热量里。
+why_it_matters: >-
+  ASPCA 动物中毒控制中心指出，宠物体内没有足够多的乳糖酶来分解乳糖，牛奶和奶制品可能引起腹泻或其他消化不适。
+  猫只要吃营养完整的主食，就不需要从牛奶中获得任何营养。
+how_to_do_it:
+  - 给猫准备干净的饮用水。
+  - 想给奶类零食，少量试，观察有没有拉稀，并算进零食总量（见 CG-0010）。
+exceptions:
+  - 幼猫在断奶前需要母乳或专门的幼猫代乳品，不能用普通牛奶代替。
+applies_to: [all]
+urgency: routine
+related: [CG-0010]
+scores:
+  benefit: 2
+  risk_reduction: 1
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: >-
+    来自权威动物中毒控制机构的公开资料，但页面说的是“宠物”，没有单独讨论成年猫的乳糖酶水平。
+    不同猫对乳糖的耐受度可能不同，因此判定为“大多错误”而非“完全错误”。
+  gaps:
+    - "TODO: 补充猫乳糖耐受的兽医营养学来源。"
+    - "NEED REVIEW: 幼猫代乳品的说法需要补充来源。"
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: aspca-people-foods
+    supports: 宠物没有大量乳糖酶，牛奶和奶制品可能引起腹泻或其他消化不适（页面未单独讨论猫）。
+    support_check: ai_checked
+    locator: Milk and Dairy 段落

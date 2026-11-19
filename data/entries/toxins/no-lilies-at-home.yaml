@@ -1,0 +1,52 @@
+id: CG-0003
+slug: no-lilies-at-home
+type: dont
+title: 家里不要放百合和萱草
+summary: 真百合和萱草的花、叶、茎、花粉甚至花瓶水，都可能让猫急性肾衰竭。最省事的办法是家里根本不放。
+category: toxins
+tags: [lily]
+recommendation: 不要把真百合（百合属 Lilium）和萱草（萱草属 Hemerocallis）带进有猫的家，包括花束里混着的百合。
+why_it_matters: >-
+  美国 FDA 指出，整株百合都有毒：吃下少量叶片或花瓣、舔掉沾在毛上的花粉、喝了花瓶里的水，都可能在 3 天内导致致命的肾衰竭。
+  致病的毒素至今没有被鉴定出来。实验研究在猫身上复现了百合中毒，表现包括呕吐、精神沉郁、多饮多尿，并出现急性肾小管坏死。
+how_to_do_it:
+  - 收到花束先检查是否含百合；有就整束送走，而不是“放高一点”。
+  - 告诉家人和常送花的亲友：家里有猫，不要送百合。
+  - 不确定某种叫“某某百合”的植物是什么，就按真百合处理，或拍照问兽医。
+do_not:
+  - 不要以为“我家猫不吃植物”就安全：花粉沾到毛上，猫舔毛时就会吃进去。
+exceptions:
+  - 马蹄莲（calla lily）和白鹤芋（peace lily）不属于会引起肾衰竭的那类，但含草酸钙结晶，会刺激口腔。铃兰、嘉兰因为其他机制（心律、多器官）同样危险。名字里带“百合”不能说明安全与否，要看具体植物。
+warning_signs:
+  - 怀疑接触过百合（哪怕只是花粉）：立即联系兽医，不要等症状出现。见 CG-0004。
+applies_to: [all, indoor]
+urgency: important
+related: [CG-0004]
+scores:
+  benefit: 5
+  risk_reduction: 5
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+  rationale: 避免一种可能致命的中毒，几乎零成本。
+evidence:
+  level: B
+  summary: >-
+    美国 FDA 兽医中心的公开资料和实验研究一致：真百合和萱草对猫有肾毒性，很少量接触就可能致病，早期治疗能明显改善预后。
+    按本项目规则，“政府机构资料 + 单项实验研究”评为 B；这个结论在兽医界基本没有争议。
+  gaps:
+    - 尚未纳入 ASPCA 或兽医毒理学教材中关于萱草属的资料。
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: fda-lilies-cats
+    supports: 整株百合（茎、叶、花、花粉、花瓶水）对猫有毒；真百合与萱草属危险；少量接触可在 3 天内导致致命肾衰竭；毒素尚未鉴定；马蹄莲、白鹤芋属于“危害较小”类。
+    support_check: ai_checked
+    locator: 页面全文
+  - id: rumbeiha-2004-easter-lily
+    supports: 实验在猫身上复现了复活节百合中毒：呕吐、沉郁、多饮多尿、氮质血症等，并出现近端肾小管急性坏死。
+    support_check: ai_checked
+    locator: Abstract

@@ -1,0 +1,51 @@
+id: CG-0015
+slug: how-to-choose-a-litter-box
+type: buying_guide
+title: 买猫砂盆看什么
+summary: 大、好进出、好清洗，比“封闭”“智能”更重要。有盖还是无盖，大多数猫在盆干净时并不在乎。
+category: buying-guide
+tags: [litter-box]
+recommendation: >-
+  选猫砂盆时优先看：够大（猫能在里面转身）、入口高度适合猫、容易清洗。
+  有盖还是无盖不是关键；如果不确定你的猫喜欢哪种，可以两种都放，看它用哪个。
+why_it_matters: >-
+  一项 28 只猫的研究中，整体上猫对有盖和无盖猫砂盆没有偏好；8 只猫表现出偏好（4 只偏好有盖、4 只偏好无盖）。
+  作者建议给猫提供不同款式供它选择。价格更高的封闭式或自动猫砂盆，并没有研究显示更受猫欢迎。
+how_to_do_it:
+  - 尺寸：越大越好，至少要让猫在里面能转身。
+  - 入口：幼猫、老年猫、关节不好的猫选低入口。
+  - 材质：好洗、不容易留味。
+  - 款式：不确定时有盖、无盖各放一个，观察猫的选择。
+  - 自动猫砂盆：不是必需品；用之前保留普通猫砂盆，确认猫愿意用。
+exceptions:
+  - 猫突然拒绝用猫砂盆时，先排除疾病和压力，而不是先换盆。
+applies_to: [all]
+urgency: routine
+related: [CG-0014]
+scores:
+  benefit: 3
+  risk_reduction: 1
+  money_cost: 1
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: >-
+    关于有盖与无盖只有一项小样本研究；关于尺寸有一项研究，本项目尚未读到其结果。
+    “越大越好”目前是兽医行为学界的常见建议，证据有限。
+  gaps:
+    - "TODO: 读取 Guy 2014 猫砂盆尺寸偏好研究的结果（第一轮只核对了元数据）。"
+    - 自动猫砂盆对猫的接受度和健康影响，目前没有找到研究（UNKNOWN）。
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: grigg-2012-covered-litter-box
+    supports: 整体上无显著偏好；8 只猫有偏好且有盖、无盖各 4 只；作者建议提供不同款式让猫选择。
+    support_check: ai_checked
+    locator: Abstract
+  - id: guy-2014-litterbox-size
+    supports: 研究家猫对不同尺寸猫砂盆的偏好。
+    support_check: pending

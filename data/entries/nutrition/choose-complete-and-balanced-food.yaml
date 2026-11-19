@@ -1,0 +1,47 @@
+id: CG-0008
+slug: choose-complete-and-balanced-food
+type: recommendation
+title: 主食选标明“营养完整均衡”的猫粮
+summary: 选主粮最重要的不是价格或品牌，而是看包装上有没有“营养完整均衡”的声明，以及它适用于哪个生命阶段。
+category: nutrition
+tags: [complete-balanced]
+recommendation: 主食（干粮或湿粮都可以）选择包装上明确标注“营养完整均衡”（例如 AAFCO 营养充足声明）且适用于猫当前生命阶段的产品。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出，带有 AAFCO 声明的猫粮被认为是营养完整均衡的；AAFCO 的猫营养专家小组设定了最低营养要求。
+  标有“零食”“补充喂养”或没有这类声明的产品，不能长期当主食。
+how_to_do_it:
+  - 在包装上找营养充足声明，看清是“完整均衡”还是“补充喂养 / 零食”。
+  - 看适用生命阶段：幼猫、成猫，或“所有生命阶段”。
+  - 干粮和湿粮都可以是完整均衡的；选你的猫愿意吃、你能长期负担的。
+  - 换粮时逐步过渡。
+exceptions:
+  - 有疾病的猫可能需要兽医开的处方粮，按兽医建议执行。
+applies_to: [all]
+urgency: important
+region_notes: AAFCO 是美国标准；欧洲常见 FEDIAF 声明。中国国产猫粮的标签规范不同，看是否标注为“全价”猫粮。
+scores:
+  benefit: 4
+  risk_reduction: 3
+  money_cost: 1
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+  rationale: 避免长期营养不完整；只需要会看标签，不需要买贵的。
+evidence:
+  level: B
+  summary: 大学兽医学院资料把营养充足声明作为判断完整均衡的依据；这也是兽医营养学的通行做法。
+  gaps:
+    - "TODO: 核对 WSAVA 全球营养指南中“如何选择猫粮”的建议（第一轮只核对了元数据）。"
+    - "UNKNOWN: 中国大陆“全价”标签与 AAFCO 声明的对应关系尚未核实。"
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-feeding
+    supports: 带有 AAFCO 声明的猫粮被认为营养完整均衡；AAFCO 猫营养专家小组设定最低要求；干粮含水 6–10%，罐头至少 75%；选择最适合自己猫的类型。
+    support_check: ai_checked
+    locator: 页面全文
+  - id: wsava-nutritional-assessment-2011
+    supports: 兽医营养评估指南，把饮食评估列为每次检查的一部分。
+    support_check: pending

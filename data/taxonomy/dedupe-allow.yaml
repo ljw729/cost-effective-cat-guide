@@ -1,0 +1,4 @@
+# Pairs a maintainer reviewed and decided are NOT duplicates.
+- a: CG-0003
+  b: CG-0004
+  reason: Prevention (don't keep lilies) vs. emergency action after exposure — different moments, different UI.

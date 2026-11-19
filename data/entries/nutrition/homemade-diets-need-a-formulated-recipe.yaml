@@ -1,0 +1,47 @@
+id: CG-0009
+slug: homemade-diets-need-a-formulated-recipe
+type: dont
+title: 不要照着网上的配方长期自制猫饭
+summary: 研究分析了 114 份公开的自制猫饭配方，没有一份达到全部营养需求。真要自制，请兽医营养师配方。
+category: nutrition
+tags: [homemade-diet]
+recommendation: 不要用书上或网上的配方长期给猫自制主食。如果确实想自制，请具备兽医营养资质的专业人员根据你的猫单独配方，并严格按配方和补充剂执行。
+why_it_matters: >-
+  一项研究评估了来自书籍和网站的 114 份猫用自制主食配方：113 份制作说明含糊，46 份没有喂食量说明。
+  在能分析的 94 份中，没有一份满足全部营养推荐量；最常见的不足是胆碱、铁、硫胺素（维生素 B1）、锌、锰、维生素 E 和铜。
+  兽医撰写、含补充剂的配方表现较好，但仍有问题。研究结论是：配制自制猫饭需要专业营养知识和软件。
+how_to_do_it:
+  - 想自制时，找兽医营养专科或有资质的兽医营养服务。
+  - 补充剂是配方的一部分，不能省略。
+  - 定期带猫复查体重和身体状况。
+do_not:
+  - 不要以为“新鲜、天然”就等于营养完整。
+exceptions:
+  - 偶尔给少量无调味的熟肉当零食不属于这一条，但零食总量要控制（见 CG-0010）。
+applies_to: [all]
+urgency: important
+related: [CG-0008, CG-0010]
+scores:
+  benefit: 4
+  risk_reduction: 4
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+  rationale: 避免长期营养缺乏；“不照网上配方做”本身不花钱。
+evidence:
+  level: B
+  summary: >-
+    一项对 114 份公开配方的系统性营养分析，结果非常一致：所有配方都有营养问题。
+    这是对“配方”的研究，没有直接追踪吃这些饭的猫的健康结局。
+  gaps:
+    - 吃自制饭的猫实际出现营养缺乏的比例，目前没有可靠数据。
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: wilson-2019-home-prepared-diets
+    supports: 114 份配方中 113 份说明含糊；94 份可分析的配方没有一份满足全部 NRC 推荐量；胆碱、铁、硫胺素、锌、锰、维生素 E、铜最常不足；配制需要专业营养知识。
+    support_check: ai_checked
+    locator: Abstract

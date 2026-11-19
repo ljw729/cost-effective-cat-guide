@@ -1,0 +1,41 @@
+id: CG-0021
+slug: vohc-dental-products
+type: buying_guide
+title: 洁牙零食和洁牙产品怎么选
+summary: 想买洁牙产品，先看有没有 VOHC 认证，并看清认证的是“牙菌斑”还是“牙结石”。它们是刷牙的补充，不能代替刷牙。
+category: worth-buying
+tags: [dental]
+recommendation: 购买洁牙粮、洁牙零食、饮水添加剂等产品时，优先选择获得 VOHC（兽医口腔健康委员会）认证的产品，并把它当作刷牙的补充。
+why_it_matters: >-
+  VOHC 在产品提交的试验数据证明有效后授予认证，认证分为减少牙菌斑、减少牙结石或两者都有；VOHC 自己不做产品测试。
+  它的猫用认证产品清单包括洁牙处方粮、饮水添加剂、凝胶喷剂、牙刷套装和湿巾、洁牙零食等。没有认证的产品，不代表一定无效，但缺少同样标准的证据。
+how_to_do_it:
+  - 在 VOHC 官网的猫用产品清单里查产品名。
+  - 看认证范围：牙菌斑、牙结石，或者两者。
+  - 洁牙零食也有热量，算进零食总量（见 CG-0010）。
+exceptions:
+  - VOHC 清单以北美市场为主，其他地区很多产品不在清单中。
+applies_to: [all]
+urgency: routine
+related: [CG-0019, CG-0010]
+scores:
+  benefit: 2
+  risk_reduction: 2
+  money_cost: 2
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: >-
+    VOHC 是兽医牙科领域公认的认证机构，但认证依据的是厂商提交的试验，各产品的证据强度不同。
+    这一条说的是“怎么挑”，不是说这些产品能代替刷牙或兽医洁牙。
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: vohc-accepted-products
+    supports: 产品证明牙科功效后授予 VOHC 认证，认证可针对牙菌斑、牙结石或两者；VOHC 自己不测试产品；猫用清单包括洁牙粮、饮水添加剂、凝胶喷剂、牙刷和湿巾、洁牙零食。
+    support_check: ai_checked
+    locator: 首页与 Accepted Products 页

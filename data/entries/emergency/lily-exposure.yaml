@@ -1,0 +1,46 @@
+id: CG-0004
+slug: lily-exposure
+type: emergency
+title: 猫接触了百合：立即就医
+summary: 只要怀疑猫咬过、舔过百合或萱草（包括花粉和花瓶水），就立刻联系兽医，不要等症状出现。
+category: emergency
+tags: [lily]
+recommendation: 怀疑接触百合或萱草时，立即联系兽医或动物中毒咨询热线，并尽快带猫就医。
+why_it_matters: >-
+  FDA 指出：越早治疗，预后越好；如果拖到接触后 18 小时或更久才治疗，猫通常已经出现不可逆的肾衰竭。肾衰竭一般在 24 到 72 小时内发生。
+  早期猫可能看起来完全正常，所以“先观察看看”在这里是错误的做法。
+emergency_action:
+  - 立即打电话给兽医或急诊，说明“猫可能接触了百合”。
+  - 带上植物（或清晰照片），方便确认品种。
+  - 记下大概的接触时间和方式（咬叶子、舔花粉、喝花瓶水）。
+  - 如果猫毛上能看到花粉，可以用湿布轻轻擦掉，避免继续舔入，但不要因此耽误出发。
+do_not:
+  - 不要等到出现呕吐或不吃东西再去医院。
+  - 不要自行催吐，也不要喂任何“解毒”偏方。
+warning_signs:
+  - 呕吐
+  - 精神差、不吃东西
+  - 尿量增多或减少
+  - 没有症状不代表没有中毒
+applies_to: [all]
+urgency: emergency
+related: [CG-0003]
+scores:
+  benefit: 5
+  risk_reduction: 5
+  money_cost: 4
+  time_cost: 2
+  effort: 2
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 美国 FDA 兽医中心资料明确指出：早期兽医治疗能明显改善预后，延迟 18 小时以上通常导致不可逆的肾衰竭。
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: fda-lilies-cats
+    supports: 早期兽医治疗明显改善预后；延迟 18 小时或以上通常已出现不可逆肾衰竭；应立即联系兽医或中毒咨询中心。
+    support_check: ai_checked
+    locator: 页面全文

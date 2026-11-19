@@ -1,0 +1,42 @@
+id: CG-0017
+slug: vaccines-core-plus-lifestyle
+type: recommendation
+title: 疫苗：核心疫苗都打，其他按生活方式定
+summary: 疫苗分“所有猫都建议打”的核心疫苗和“按风险决定”的非核心疫苗。不是越多越好，也不是室内猫就不用打。
+category: prevention
+tags: [vaccine]
+recommendation: 和兽医一起，根据猫的年龄、生活方式（是否外出、是否多猫、是否寄养）、来源和当地疾病情况，制定疫苗方案：核心疫苗按计划接种，非核心疫苗按风险评估决定。
+why_it_matters: >-
+  2020 年 AAHA/AAFP 猫疫苗指南把疫苗分为核心疫苗（建议所有猫接种）和非核心疫苗（根据个体风险评估决定）。
+  兽医应根据猫的生命阶段、生活方式、来源，以及环境和流行病学因素制定个体化方案。指南还指出，注射部位肉瘤仍然罕见。
+  每次接种疫苗都应同时做全面体检。
+how_to_do_it:
+  - 第一次带猫看兽医时，说清楚猫是否外出、家里有几只猫、会不会寄养。
+  - 保存好疫苗记录（照片或电子记录），寄养、搬家、出境时都会用到。
+  - 生活方式改变时（比如开始外出、家里来了新猫），告诉兽医重新评估。
+exceptions:
+  - 狂犬病疫苗在很多地区受法律规定约束，以当地要求为准。
+applies_to: [all, kitten, adult, indoor, outdoor]
+urgency: important
+region_notes: 哪些疫苗属于核心、多久加强一次、狂犬病疫苗的法律要求，因国家和地区而异。请以当地兽医和法规为准。
+scores:
+  benefit: 5
+  risk_reduction: 4
+  money_cost: 2
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 主要兽医组织的共识指南，基于专家组对现有证据的评估。具体疫苗种类和间隔属于兽医决策，本条只给出原则。
+  gaps:
+    - "NEED REVIEW: 核心疫苗的具体组成和加强间隔需要在指南全文中核对，并按地区说明。第一轮只读到摘要。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: aaha-aafp-vaccination-2020
+    supports: 疫苗分为核心（建议所有猫）和非核心（个体化风险评估）；按生命阶段、生活方式、来源和流行病学因素制定方案；注射部位肉瘤仍不常见；接种时应做全面体检。
+    support_check: ai_checked
+    locator: Abstract

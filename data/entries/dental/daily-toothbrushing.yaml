@@ -1,0 +1,51 @@
+id: CG-0019
+slug: daily-toothbrushing
+type: recommendation
+title: 每天给猫刷牙，用宠物专用牙膏
+summary: 大多数成年猫都有某种牙病。刷牙是在家去除牙菌斑最好的方法，牙刷牙膏很便宜，难点在于坚持。
+category: dental
+tags: [dental]
+recommendation: 从小开始慢慢训练，尽量每天给猫刷牙，使用宠物专用牙膏。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出，4 岁以上的猫中有 50% 到 90% 患有某种牙病；预防牙龈炎最好的方法是通过刷牙定期去除牙菌斑，
+  每天刷牙可以预防大多数牙病。人用牙膏对猫不安全。2019 年 AAHA 牙科指南强调预防性口腔护理和对主人的教育。
+how_to_do_it:
+  - 先让猫习惯你碰它的嘴，再用手指蘸一点宠物牙膏让它舔。
+  - 逐步过渡到用指套牙刷或小头软毛牙刷，沿牙龈线轻刷外侧面。
+  - 每次很短也没关系，重点是每天坚持。
+  - 刷完给奖励。
+do_not:
+  - 不要用人用牙膏。
+exceptions:
+  - 牙龈已经明显红肿、出血或猫嘴痛的，先看兽医再开始刷牙。
+warning_signs:
+  - 口臭明显、流口水、只用一侧嚼、掉食物、牙龈红肿：预约兽医检查。
+applies_to: [all, kitten, adult, senior]
+urgency: routine
+related: [CG-0020, CG-0021]
+scores:
+  benefit: 4
+  risk_reduction: 3
+  money_cost: 1
+  time_cost: 3
+  effort: 4
+  harm_potential: 0
+  rationale: 收益大、成本低，但需要长期坚持，很多猫需要训练。
+evidence:
+  level: B
+  summary: 大学兽医学院资料与 AAHA 指南都支持家庭口腔护理，刷牙是首选方法。
+  gaps:
+    - "TODO: 核对 AAHA 2019 指南全文中关于家庭护理的具体表述。"
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-dental-disease
+    supports: 4 岁以上猫 50% 到 90% 患某种牙病；预防牙龈炎最好的方法是刷牙去除牙菌斑；每天刷牙能预防大多数牙病；人用牙膏对猫不安全；严重牙龈炎先咨询兽医。
+    support_check: ai_checked
+    locator: 页面全文及刷牙指南
+  - id: aaha-dental-2019
+    supports: 强调客户教育和有效的预防性口腔护理，以减少牙周病的不良影响和疼痛。
+    support_check: ai_checked
+    locator: Abstract

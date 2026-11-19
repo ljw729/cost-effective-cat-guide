@@ -1,0 +1,44 @@
+id: CG-0023
+slug: small-meals-and-puzzle-feeders
+type: recommendation
+title: 少量多餐，用益智喂食代替一大碗
+summary: 猫天生一天吃很多顿小餐。用漏食球或自制益智喂食器，可以模拟捕猎、放慢进食，几乎不花钱。
+category: nutrition
+tags: [food-puzzle, play]
+recommendation: 把每天的食物分成多份，部分放进益智喂食器（漏食球、带洞的纸盒、蛋托等），让猫通过“找”和“拨”来吃。
+why_it_matters: >-
+  2024 年 AAFP 指南指出：除了母猫和幼猫，猫通常单独捕猎、单独进食；一天吃多顿小餐是正常的进食行为，所以猫一次吃不完不一定是问题。
+  益智喂食器可以模拟捕猎，让进食方式更自然。多猫家庭里，喂饭时间和准备食物的地方容易出现主人察觉不到的紧张。
+how_to_do_it:
+  - 从简单的开始：在纸盒上剪几个洞，放进几粒干粮。
+  - 湿粮可以分装在几个小碟里，放在不同位置。
+  - 多猫家庭分开喂，各自有吃饭的地方。
+exceptions:
+  - 刚开始用益智喂食器时，确认猫确实吃到了足够的量，尤其是幼猫和老年猫。
+applies_to: [all, multi-cat, indoor]
+urgency: routine
+related: [CG-0022, CG-0012]
+scores:
+  benefit: 3
+  risk_reduction: 2
+  money_cost: 0
+  time_cost: 2
+  effort: 2
+  harm_potential: 0
+evidence:
+  level: B
+  summary: AAFP 指南支持少量多餐和益智喂食；这属于专家共识，关于益智喂食对体重和行为的长期效果，研究不多。
+  gaps:
+    - "TODO: 核对 2018 AAFP/ISFM 猫喂食方案共识（Sadek 等）全文。"
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: aafp-intercat-tension-2024
+    supports: 猫通常单独捕猎和进食；一天多顿小餐是正常进食行为；益智喂食器可模拟捕猎；猫聚在准备食物处或喂食时可能出现不易察觉的紧张。
+    support_check: ai_checked
+    locator: Pillar 3
+  - id: sadek-2018-feeding-programs
+    supports: 关于满足猫进食行为需求的共识声明。
+    support_check: pending

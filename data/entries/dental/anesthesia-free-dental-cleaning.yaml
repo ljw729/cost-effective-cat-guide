@@ -1,0 +1,49 @@
+id: CG-0020
+slug: anesthesia-free-dental-cleaning
+type: dont
+title: 免麻洁牙不能代替兽医的麻醉下洁牙
+summary: 完整的口腔检查、牙科 X 光和彻底洁治通常需要全身麻醉。免麻洁牙看起来省钱又安全，但做不到这些。
+category: dental
+tags: [anesthesia-free-dental, dental]
+recommendation: 需要洁牙时，选择兽医在全身麻醉下进行的口腔检查和洁治；不要用免麻醉洁牙代替。担心麻醉风险时，和兽医讨论术前检查和麻醉方案。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出，洁治（刮除牙结石）通常需要麻醉，牙科 X 光检查需要麻醉。
+  2019 年 AAHA 牙科指南给出了口腔评估、洁牙和牙周治疗的 12 步流程，并对全身麻醉、疼痛管理和设备提出要求，以保证治疗安全有效。
+  只刮掉牙齿表面看得见的结石，不等于解决了牙周病。
+how_to_do_it:
+  - 让兽医检查口腔，判断是否需要洁牙。
+  - 老年猫或有慢性病的猫，问兽医需要哪些麻醉前检查。
+  - 洁牙后在家坚持刷牙（见 CG-0019）。
+do_not:
+  - 不要因为“不用麻醉更安全”就选择免麻洁牙。
+applies_to: [adult, senior]
+urgency: routine
+related: [CG-0019]
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+  rationale: 避免花钱做无效处理，同时避免漏诊真正的牙病。
+evidence:
+  level: C
+  summary: >-
+    大学兽医学院资料说明洁治和牙科 X 光需要麻醉；AAHA 指南的洁牙流程以全身麻醉为前提。
+    第一轮还没读到这些机构专门评价免麻洁牙的原文，因此评为 C。
+  gaps:
+    - "NEED REVIEW: 核对 AAHA 2019 指南全文和美国兽医牙科学院（AVDC）对免麻洁牙的立场声明（第一轮网站拒绝抓取）。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-dental-disease
+    supports: 洁治通常需要麻醉；牙科 X 光检查需要麻醉。
+    support_check: ai_checked
+    locator: 治疗段落
+  - id: aaha-dental-2019
+    supports: 12 步口腔评估、洁牙和牙周治疗流程；对全身麻醉、疼痛管理、设施和设备给出建议，以安全有效地提供治疗。
+    support_check: ai_checked
+    locator: Abstract

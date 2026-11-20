@@ -122,9 +122,11 @@
       listEl.appendChild(li);
     }
     countEl.textContent = rows.length + ' / ' + data.entries.length + ' 条';
+    try {
     var url = new URL(location.href);
     ['q', 'category', 'audience', 'grade', 'evidence', 'type'].forEach(function (k) { if (state[k]) url.searchParams.set(k, state[k]); else url.searchParams.delete(k); });
     history.replaceState(null, '', url);
+    } catch (e) { /* file:// or sandboxed: skip URL sync */ }
   };
 
   function bind() {

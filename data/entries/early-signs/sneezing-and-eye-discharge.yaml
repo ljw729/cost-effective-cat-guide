@@ -1,0 +1,45 @@
+id: CG-0086
+slug: sneezing-and-eye-discharge
+type: recommendation
+title: 打喷嚏、流鼻涕眼泪、眯眼：可能是猫上呼吸道感染
+summary: 猫疱疹病毒和杯状病毒非常常见，压力会让潜伏的病毒复发。不吃东西、呼吸急促或眼睛疼时要尽快就医。
+category: early-signs
+tags: [respiratory-infection]
+recommendation: 猫打喷嚏、流鼻涕、流眼泪或眯眼时联系兽医；出现不吃东西、精神差、静息时呼吸每分钟超过 35 次、口腔溃疡时尽快就医。照顾时保证进食和饮水，减少压力。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出：最多 97% 的猫一生中会接触猫疱疹病毒，最多 80% 形成终身感染，其中最多 45% 会在压力下周期性排毒；杯状病毒在拥挤环境（收容所、猫舍）中感染率可达 90%。
+  下呼吸道感染可引起咳嗽、精神差、厌食和呼吸困难或急促（静息时不应超过每分钟 35 次）；支持治疗（保证营养和水分）在所有情况下都很重要；疫苗不能完全防止感染，但能显著减轻病情和排毒。
+  鼻塞会让猫闻不到食物而不吃，口腔溃疡会让吃喝疼痛。
+how_to_do_it:
+  - 数呼吸：猫睡着时数 30 秒胸口起伏次数，乘以 2。
+  - 用湿棉球轻轻擦掉眼鼻分泌物。
+  - 多猫家庭把生病的猫暂时分开。
+warning_signs:
+  - 静息时呼吸每分钟超过 35 次，或张嘴呼吸：立即就医
+  - 不吃东西超过 24 小时
+  - 眼睛紧闭、角膜发白
+applies_to: [all, kitten, multi-cat]
+urgency: important
+related: [CG-0017, CG-0029, CG-0035]
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 2
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 单一大学兽医学院页面；流行率数据为“最多”的上限值。
+  gaps:
+    - "TODO: 纳入 ABCD 猫疱疹病毒和杯状病毒指南。"
+    - "UNKNOWN: “用湿棉球擦拭”“数呼吸的方法”是通用护理做法，来源只给出了呼吸频率的上限。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-uri
+    supports: 下呼吸道感染可致咳嗽、精神差、厌食、呼吸困难或急促（静息不应超过每分钟 35 次）；最多 97% 的猫接触疱疹病毒，最多 80% 终身感染，最多 45% 在压力下周期排毒；拥挤环境中杯状病毒感染率可达 90%；支持治疗（营养水分）很重要；疫苗不能防止所有感染但显著减轻病情和排毒；鼻塞影响嗅觉导致不吃，口腔溃疡使进食疼痛。
+    support_check: ai_checked
+    locator: 全文

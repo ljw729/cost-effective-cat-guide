@@ -95,3 +95,63 @@
   terms: [清洁剂, 消毒水, "84消毒液", 漂白水, 防冻液, 灭鼠药, 老鼠药, 杀虫剂, 蟑螂药, bleach, antifreeze, rodenticide, insecticide]
 - tag: human-medication
   terms: [人用药, 止痛药, 布洛芬, 扑热息痛, 对乙酰氨基酚, 泰诺, 阿司匹林, 感冒药, ibuprofen, acetaminophen, paracetamol, tylenol, aspirin]
+- tag: fip
+  terms: [猫传腹, 传腹, 猫传染性腹膜炎, 腹水, GS-441524, "441", FIP, feline infectious peritonitis]
+- tag: felv-fiv
+  terms: [猫艾滋, 猫白血病, 猫免疫缺陷病毒, 白血病, FIV, FeLV, 逆转录病毒, 测猫艾滋, feline leukemia, feline immunodeficiency]
+- tag: hairball
+  terms: [毛球, 吐毛球, 化毛膏, 化毛粮, 毛球症, hairball, trichobezoar]
+- tag: toxoplasmosis
+  terms: [弓形虫, 怀孕养猫, 孕妇, 备孕, 弓形体, toxoplasmosis, toxoplasma, pregnancy]
+- tag: new-cat
+  terms: [新猫, 刚到家, 接猫回家, 新来的猫, 领养回家, 买猫, new cat, new kitten, bringing home]
+- tag: food-allergy
+  terms: [食物过敏, 过敏, 低敏粮, 单一蛋白, 排除饮食, 挠头, 瘙痒, food allergy, elimination diet, hypoallergenic]
+- tag: preparedness
+  terms: [应急包, 地震, 洪水, 停电, 撤离, 灾害, 应急准备, disaster, emergency kit, evacuation]
+- tag: parasites
+  terms: [寄生虫, 驱虫, 体内驱虫, 体外驱虫, 蛔虫, 绦虫, 钩虫, 球虫, 贾第虫, 打虫, deworming, worms, parasites]
+- tag: fleas
+  terms: [跳蚤, 虱子, 蜱虫, 体外寄生虫, 黑色小颗粒, fleas, ticks, flea treatment]
+- tag: heartworm
+  terms: [心丝虫, 心虫, 蚊子, heartworm, dirofilaria]
+- tag: rabies
+  terms: [狂犬病, 狂犬疫苗, 被猫咬, 被抓伤, 蝙蝠, rabies]
+- tag: indoor
+  terms: [散养, 放养, 出门, 外出, 室内饲养, 牵绳, 遛猫, indoor, outdoor, free roaming]
+- tag: arthritis
+  terms: [关节炎, 关节痛, 跳不上去, 不爱跳, 变懒, 腿脚不好, 退行性关节病, arthritis, joint pain, DJD]
+- tag: boarding
+  terms: [寄养, 上门喂猫, 出差, 旅行, 出远门, 猫托, boarding, pet sitter, travel]
+- tag: wet-food
+  terms: [湿粮, 罐头, 主食罐, 餐包, 加水, 干粮, wet food, canned food, dry food, kibble]
+- tag: anesthesia
+  terms: [麻醉, 全麻, 麻醉风险, 术前检查, 手术, anesthesia, surgery]
+- tag: adoption
+  terms: [领养, 收养, 救助猫, 收容所, 成年猫, 老年猫领养, adoption, adopt, shelter]
+- tag: body-language
+  terms: [肢体语言, 身体语言, 甩尾巴, 飞机耳, 耳朵后压, 炸毛, 弓背, 瞳孔放大, body language, ears back, tail flick]
+- tag: ringworm
+  terms: [猫癣, 真菌, 皮肤真菌, 圆形掉毛, 伍德灯, ringworm, dermatophytosis]
+- tag: skin
+  terms: [皮肤病, 掉毛, 脱毛, 皮屑, 结痂, 皮肤痒, skin, hair loss, itching]
+- tag: respiratory-infection
+  terms: [感冒, 猫感冒, 打喷嚏, 流鼻涕, 流眼泪, 眼屎, 鼻支, 杯状病毒, 疱疹病毒, upper respiratory infection, URI, sneezing, cat flu]
+- tag: feeding
+  terms: [喂几顿, 一天喂几次, 喂食次数, 自由采食, 定时定量, 喂多少, feeding, meals, free feeding]
+- tag: kitten
+  terms: [幼猫, 小猫, 奶猫, 小奶猫, kitten, kittens]
+- tag: diarrhea
+  terms: [腹泻, 拉稀, 软便, 拉肚子, 稀便, 便血, 黑便, diarrhea, loose stool]
+- tag: ears
+  terms: [耳螨, 甩头, 抓耳朵, 耳朵脏, 耳朵臭, 黑耳屎, 外耳炎, ear mites, head shaking, otitis]
+- tag: neurological
+  terms: [歪头, 转圈, 站不稳, 眼球震颤, 眼睛乱颤, 抽搐, 癫痫, 发抖, head tilt, circling, nystagmus, seizure]
+- tag: zoonotic
+  terms: [人畜共患, 猫抓病, 被猫咬, 被猫抓, 咬伤, 抓伤, 巴斯德菌, 巴尔通体, cat scratch disease, cat bite, zoonosis]
+- tag: cancer
+  terms: [肿瘤, 癌症, 肿块, 包块, 鼓包, 淋巴瘤, 乳腺肿瘤, cancer, tumor, lump]
+- tag: supplements
+  terms: [保健品, 营养补充剂, 益生菌, 鱼油, 卵磷脂, 化毛膏, 护肾, 关节保健, 维生素, supplements, probiotics, omega-3]
+- tag: constipation
+  terms: [便秘, 拉不出来, 便便干硬, 几天没拉, 巨结肠, 开塞露, constipation, megacolon]

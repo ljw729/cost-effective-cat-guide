@@ -1,0 +1,33 @@
+id: CG-0095
+slug: overgrooming-and-bald-patches
+type: recommendation
+title: 猫舔出秃斑：先查跳蚤、过敏和疼痛，再考虑压力
+summary: 猫每天 30% 到 50% 的时间在理毛，所以主人往往到出现秃斑才发现。过度舔毛常有瘙痒或疼痛的原因。
+category: early-signs
+tags: [skin, behavior-change]
+recommendation: 发现猫舔出秃斑、肚子或大腿内侧毛变稀，先检查跳蚤，再请兽医检查皮肤、过敏和疼痛；排除身体原因后，再减少压力、增加高处躲藏空间。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出：猫每天 30%–50% 的时间在理毛，所以主人通常要到出现明显秃斑才注意到；猫会舔瘙痒或疼痛的部位，疼痛时舔的是局部，瘙痒时范围更广；尾根处的强迫性舔毛可能提示跳蚤，花粉或食物过敏的猫也会过度理毛。
+  排除所有身体原因后，才把过度理毛当作压力问题处理：逐步改变环境、提供熟悉物品、增加高处的安全空间，严重时兽医可能开短期抗焦虑药。
+applies_to: [all]
+urgency: routine
+related: [CG-0052, CG-0073]
+scores:
+  benefit: 3
+  risk_reduction: 2
+  money_cost: 2
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 单一大学兽医学院页面，由兽医皮肤科和行为科专家共同说明。
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-overgrooming
+    supports: 猫每天 30%–50% 的时间理毛，主人常在出现明显秃斑后才发现；猫会舔瘙痒或疼痛部位，疼痛时舔局部，瘙痒时范围更广；尾根处舔毛可能提示跳蚤，过敏猫也会过度理毛；主人可检查跳蚤、虱子和毛结，其余应由兽医评估；排除身体原因后再按压力处理（逐步改变、熟悉物品、高处空间、必要时短期药物）。
+    support_check: ai_checked
+    locator: 全文

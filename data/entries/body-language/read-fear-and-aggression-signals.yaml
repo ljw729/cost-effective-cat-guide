@@ -1,0 +1,36 @@
+id: CG-0088
+slug: read-fear-and-aggression-signals
+type: recommendation
+title: 看懂猫的“别碰我”：瞳孔放大、耳朵后压、甩尾巴
+summary: 猫在攻击或因害怕而反击之前，通常会先发出信号。看懂这些信号并及时停手，能避免被抓咬。
+category: body-language
+tags: [body-language, behavior-change]
+recommendation: 摸猫、抱猫、梳毛或剪指甲时，看到瞳孔放大、尾巴来回甩、耳朵向后转或压平、胡须压向脸、身体压低、尾巴夹紧时，立即停下，让猫离开。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出，识别猫害怕或准备攻击的信号可以避免人和动物受伤：
+  攻击的信号包括瞳孔放大、耳朵向后压平、尾巴竖起炸毛、弓背；害怕的信号包括瞳孔放大、耳朵压平向两侧、胡须压平贴向脸、尾巴紧裹或夹在身下、趴着时头抬起；抚摸诱发的攻击之前，常出现瞳孔放大、甩尾和耳朵后转。
+  面对因害怕而攻击的猫，不要安抚它，也不要表现出恐惧后退；减少关注是更好的处理方式。
+applies_to: [all]
+urgency: routine
+related: [CG-0064]
+scores:
+  benefit: 3
+  risk_reduction: 2
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 单一大学兽医学院页面；身体语言的解读有个体差异。
+  gaps:
+    - "TODO: 纳入猫面部表情与情绪的研究（如 Feline Grimace Scale 相关文献）。"
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-aggression
+    supports: 攻击信号包括瞳孔放大、耳朵后压、尾巴竖起炸毛、弓背；恐惧信号包括瞳孔放大、耳朵压平外展、胡须压平、尾巴紧裹或夹在身下、趴着时头上扬；抚摸诱发攻击前常见瞳孔放大、甩尾、耳朵后转；对恐惧攻击不要安抚，也不要表现出恐惧或后退，减少关注更好。
+    support_check: ai_checked
+    locator: Signs 与各类型攻击段落

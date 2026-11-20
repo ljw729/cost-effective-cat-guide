@@ -1,0 +1,40 @@
+id: CG-0081
+slug: head-shaking-and-ear-scratching
+type: recommendation
+title: 猫频繁甩头、抓耳朵、耳朵里有黑褐色分泌物：看兽医
+summary: 耳螨传染性很强，在幼猫和户外猫中常见，会引起剧烈瘙痒。不治疗可能抓伤面部、发展成外耳炎。
+category: early-signs
+tags: [ears]
+recommendation: 猫频繁甩头、抓耳朵、耳朵压平，或耳道里有深色黏稠、有臭味的分泌物时，尽快看兽医确诊；确诊后按兽医指导在家治疗和清洁，家里其他猫也要检查。
+why_it_matters: >-
+  康奈尔大学猫健康中心的皮肤科教授指出：耳螨感染的猫外耳发炎，耳朵压平，几乎不停地抓挠、频繁甩头，耳道内有深色、黏稠、恶臭的分泌物；耳螨传染性极强，密切接触即可传播，户外猫更常见。
+  应及时就医：治疗能缓解不适，避免猫剧烈抓挠造成耳朵和面部伤口感染，并预防外耳炎。确诊后的治疗和耳道护理通常可以在兽医指导下在家进行。
+do_not:
+  - 不要用棉签深挖耳道。
+  - 不要自行使用含杀虫成分的滴耳液（尤其是狗用产品）。
+applies_to: [all, kitten, outdoor, multi-cat]
+urgency: important
+related: [CG-0005]
+scores:
+  benefit: 3
+  risk_reduction: 2
+  money_cost: 2
+  time_cost: 1
+  effort: 2
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 单一大学兽医学院页面。“不要用棉签深挖”和“不要自行用药”是保守建议，来源说的是应在兽医指导下治疗。
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-ear-mites
+    supports: 耳螨表现为外耳发炎、耳朵压平、不停抓挠、频繁甩头、耳道深色黏稠恶臭分泌物；传染性极强，密切接触传播，户外猫更常见；应及时就医，治疗可预防抓伤感染和外耳炎；兽医指导后可在家治疗和护理。
+    support_check: ai_checked
+    locator: 全文
+  - id: cornell-new-cat
+    supports: 耳道内黑色焦油样分泌物通常提示耳螨，脓样分泌物可能是细菌或酵母菌感染。
+    support_check: ai_checked
+    locator: Indicators of good health 段落

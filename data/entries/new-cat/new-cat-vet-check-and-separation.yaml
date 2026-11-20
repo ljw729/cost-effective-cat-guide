@@ -1,0 +1,41 @@
+id: CG-0078
+slug: new-cat-vet-check-and-separation
+type: recommendation
+title: 新猫到家：尽快看兽医，体检前先和原住猫分开
+summary: 新猫到家后尽快带去体检，问清疫苗、驱虫和饮食史。家里已有猫时，新猫先单独住，等兽医检查后再慢慢介绍。
+category: new-cat
+tags: [new-cat, multicat]
+recommendation: 新猫到家后尽快预约兽医体检，查寄生虫、根据情况检测 FeLV/FIV、补全疫苗；向原主人或机构要疫苗、驱虫、饮食记录。家里有猫时先分开，体检后再逐步介绍。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出：任何新猫都应在到家后尽快由兽医检查；家里已有猫、尤其新猫健康史不明时，在兽医检查前应把新猫和原住猫分开；领养时询问之前的疫苗、营养、寄生虫控制和美容情况。
+  兽医会检查体内外寄生虫并提供治疗和预防方案。
+how_to_do_it:
+  - 给新猫准备一个独立房间，有猫砂盆、水、食物和躲藏处。
+  - 先沿用原来的猫粮，再慢慢换。
+  - 介绍新猫要循序渐进（见“多猫紧张关系”条目）。
+applies_to: [all, multi-cat, kitten]
+urgency: important
+related: [CG-0027, CG-0053, CG-0055, CG-0079]
+scores:
+  benefit: 4
+  risk_reduction: 4
+  money_cost: 2
+  time_cost: 2
+  effort: 2
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 大学兽医学院新猫护理页面与 FeLV、FIV 页面一致。
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-new-cat
+    supports: 新猫到家后应尽快由兽医检查；家里已有猫、健康史不明时，兽医检查前先隔离；询问之前的疫苗、营养、寄生虫控制和美容；兽医检查内外寄生虫；先沿用原来的食物再逐步更换。
+    support_check: ai_checked
+    locator: 兽医与饮食段落
+  - id: cornell-felv
+    supports: 所有猫在进入家庭前都应检测 FeLV，未感染的猫应和感染猫分开饲养。
+    support_check: ai_checked
+    locator: Prevention 段落

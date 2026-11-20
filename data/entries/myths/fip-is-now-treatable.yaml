@@ -1,0 +1,38 @@
+id: CG-0062
+slug: fip-is-now-treatable
+type: myth
+title: 误区：猫传腹（FIP）是绝症，没得治
+summary: 已经过时。抗病毒药物 GS-441524 在多项临床试验中被证明对 FIP 安全有效，美国已可由兽医合法开具。是否可获得取决于所在地区。
+category: myths
+tags: [fip]
+myth_claim: 猫传染性腹膜炎（FIP）没有任何治疗办法，确诊就只能放弃。
+myth_verdict: mostly_incorrect
+recommendation: 猫被怀疑或确诊 FIP 时，尽快和兽医讨论抗病毒治疗方案；通过兽医获得药物和监测，不要自行从来源不明的渠道购药使用。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出，FIP 在 2018 年 GS-441524 出现之前几乎都是致命的；该化合物在主要于澳大利亚和英国开展的多项临床试验中被证明安全有效。
+  2024 年 6 月起，美国有兽医处方的口服复方制剂可合法获得，FDA 兽医中心也已告知兽医可以合法配制和开具。此前很多主人从不受监管、常常不可靠的黑市渠道购买。
+applies_to: [special-condition]
+urgency: urgent
+region_notes: 来源只说明美国的情况。其他国家和地区（包括中国大陆）GS-441524 等药物的合法获得途径不同，本项目尚未核实，请咨询当地兽医。
+scores:
+  benefit: 4
+  risk_reduction: 4
+  money_cost: 5
+  time_cost: 3
+  effort: 3
+  harm_potential: 1
+evidence:
+  level: C
+  summary: 来源是大学兽医学院的新闻页面，转述了临床试验结果；尚未直接读取试验论文。本项目不收录剂量和疗程。
+  gaps:
+    - "TODO: 直接纳入 GS-441524 治疗 FIP 的临床试验论文。"
+    - "UNKNOWN: 中国大陆合法获得抗病毒药物的途径。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-fip-gs
+    supports: FIP 在 2018 年 GS-441524 出现前几乎总是致命；多项（主要在澳大利亚和英国的）临床试验显示其安全有效；2024 年 6 月起美国可获得兽医处方的口服复方制剂，FDA CVM 允许配制并合法开具；此前很多主人从不受监管的黑市购买。
+    support_check: ai_checked
+    locator: 全文

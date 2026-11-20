@@ -1,0 +1,48 @@
+id: CG-0055
+slug: test-new-cats-for-felv-fiv
+type: recommendation
+title: 新猫进家门前，先做猫白血病（FeLV）和猫艾滋（FIV）检测
+summary: 每只新猫都应该检测 FeLV 和 FIV，尤其家里已经有猫时。检测阴性前，先和原住猫分开。
+category: new-cat
+tags: [felv-fiv, new-cat]
+recommendation: 新猫到家后尽快检测 FeLV 和 FIV；结果出来前和家里的猫分开饲养。阳性结果通常需要复查确认，不要仅凭一次结果做决定。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出：所有猫都应在引入家庭前检测 FeLV；FIV 状态应在刚领养时确定。
+  FeLV 可通过互相理毛、共用食盆和猫砂盆等密切接触传播，是猫最常见的致癌原因；FIV 主要通过咬伤传播。
+  两种检测都可能出现假阳性或刚感染时的假阴性，所以阳性需要用另一种方法确认，近期可能接触过的猫需要隔一段时间复查。
+how_to_do_it:
+  - 第一次体检时一起做 FeLV / FIV 检测。
+  - 结果出来前，新猫单独住一个房间，用单独的食盆、猫砂盆。
+  - 6 月龄以下的幼猫 FIV 阳性可能来自母猫抗体，需要之后复查。
+applies_to: [all, multi-cat, kitten]
+urgency: important
+related: [CG-0056, CG-0078]
+scores:
+  benefit: 4
+  risk_reduction: 4
+  money_cost: 2
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 大学兽医学院 FeLV、FIV、新猫护理三篇页面一致。
+  gaps:
+    - "TODO: 用 2020 AAFP 猫逆转录病毒检测与管理指南核对检测与复查时间。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-felv
+    supports: 所有猫在引入家庭前都应检测 FeLV；FeLV 可经咬伤、互相理毛、共用食盆和猫砂盆传播；是猫最常见的致癌原因；筛查阳性需确认，近期接触应 3–6 周后复查；FeLV 疫苗现为幼猫核心疫苗。
+    support_check: ai_checked
+    locator: 传播、检测、预防段落
+  - id: cornell-fiv
+    supports: FIV 状态应在刚领养时、生病时以及有接触风险时定期确定；主要经咬伤传播；抗体检测在感染后 2–6 个月才转阳，可能接触者应至少 60 天后复查；健康猫阳性应用第二种方法确认；6 月龄以下幼猫阳性可能来自母源抗体。
+    support_check: ai_checked
+    locator: 诊断与检测建议段落
+  - id: cornell-new-cat
+    supports: 家里已有猫、尤其新猫健康史不明时，在兽医检查前把新猫和原住猫分开；没有健康史时兽医可能进行病毒检测。
+    support_check: ai_checked
+    locator: 兽医检查段落

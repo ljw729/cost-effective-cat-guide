@@ -1,0 +1,39 @@
+id: CG-0092
+slug: monthly-lump-check
+type: recommendation
+title: 每月摸一遍猫的全身，发现新肿块请兽医看
+summary: 平时撸猫和专门检查不一样。每月从头到尾摸一遍，记下新出现的肿块的位置和大小。
+category: early-signs
+tags: [cancer, hidden-illness]
+recommendation: 每月一次，从头、颈、胸、腹、四肢到尾巴摸一遍猫的全身；发现新肿块，或原有肿块变大、变硬、破溃，预约兽医检查。
+why_it_matters: >-
+  康奈尔大学猫健康中心的癌症警示信号页面建议，在平时撸猫之外，每月专门检查一次有没有新肿块；肿块可能是良性脂肪瘤，也可能是更具侵袭性的癌症，需要密切观察。
+  同一页面指出，越早发现和治疗，预后越好，治疗费用也越低。
+how_to_do_it:
+  - 和每月称重、体况评分放在同一天做。
+  - 发现肿块时拍照，旁边放一枚硬币作比例尺。
+  - 注意打疫苗部位附近的新肿块，告诉兽医。
+applies_to: [all, adult, senior]
+urgency: routine
+related: [CG-0011, CG-0038]
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 单一大学兽医学院页面；每月自查的效果没有研究数据。
+  gaps:
+    - "UNKNOWN: “注意疫苗部位肿块”（注射部位肉瘤）是本项目补充的提示，已读来源没有讨论，需要兽医审核。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-cancer-signs
+    supports: 平时撸猫不等于每月检查新肿块；肿块可能是良性脂肪瘤也可能是侵袭性癌症，应密切观察；越早发现和治疗，预后越好、治疗费用越低。
+    support_check: ai_checked
+    locator: Lumps and Bumps 段落与开头

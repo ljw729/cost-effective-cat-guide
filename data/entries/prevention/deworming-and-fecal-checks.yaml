@@ -1,0 +1,48 @@
+id: CG-0053
+slug: deworming-and-fecal-checks
+type: recommendation
+title: 体内驱虫：新猫和幼猫先查粪便，按兽医方案驱虫
+summary: 胃肠寄生虫在一些猫群中感染率高达 45%，幼猫更常见，有的还能传给人。每天铲屎、不吃生肉、控制跳蚤能大大减少再感染。
+category: prevention
+tags: [parasites]
+recommendation: 新到家的猫和幼猫请兽医检查粪便并按方案驱虫；之后按兽医建议定期复查。每天清理粪便，不喂生肉，控制跳蚤和老鼠。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出，胃肠寄生虫在一些猫群中的感染率高达 45%；蛔虫感染 25%–75% 的猫，幼猫比例更高，可经母乳传给小猫，未治疗时可能导致贫血；钩虫可引起黑色柏油样便和失血；有些寄生虫（如猫弓首蛔虫、钩虫）可以感染人，严重时伤害儿童的眼睛和器官。
+  再感染很常见，但可以预防：每天清除粪便、定期消毒猫砂盆、避免拥挤、避免生肉饮食、控制跳蚤和啮齿动物。
+how_to_do_it:
+  - 新猫到家后尽快带一份新鲜粪便去兽医检查。
+  - 每天铲屎；处理粪便后洗手，小孩玩沙后洗手。
+  - 驱虫药由兽医开具，按说明使用，不要自行加量。
+warning_signs:
+  - 腹泻、粪便带黏液或血、呕吐
+  - 肚子鼓胀（尤其幼猫）、毛发暗淡
+  - 粪便或肛门周围看到米粒样白色节片（绦虫）
+applies_to: [all, kitten]
+urgency: important
+related: [CG-0049, CG-0052, CG-0078]
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 2
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 大学兽医学院的寄生虫页面（含流行率数据）与新猫护理页面一致：新猫应检查内外寄生虫。
+  gaps:
+    - "UNKNOWN: 成年室内猫多久驱虫一次，已读来源没有给出统一频率，取决于风险，需问兽医。"
+    - "TODO: 纳入 ESCCAP 猫内寄生虫指南。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-gi-parasites
+    supports: 胃肠寄生虫在部分猫群中流行率达 45%；蛔虫感染 25%–75%，幼猫更高，可经母乳传播；钩虫可致黑便和失血性贫血；部分寄生虫可感染人；再感染常见，控制措施包括每天清理粪便、定期消毒猫砂盆、避免拥挤、避免生肉、控制跳蚤蜱虫和啮齿动物。
+    support_check: ai_checked
+    locator: 各寄生虫段落与结尾段落
+  - id: cornell-new-cat
+    supports: 兽医会检查新猫的体内寄生虫（包括肠道蠕虫）和体外寄生虫，并提供治疗和预防方案。
+    support_check: ai_checked
+    locator: 兽医检查段落

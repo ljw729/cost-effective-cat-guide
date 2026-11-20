@@ -1,0 +1,37 @@
+id: CG-0076
+slug: mouth-pain-gingivostomatitis
+type: recommendation
+title: 猫想吃却吃不下、流口水、扒嘴：可能是严重口腔炎症
+summary: 猫慢性牙龈口腔炎会极度疼痛，牙龈红肿溃疡出血。严重时猫可能吃不下东西而饿坏。
+category: early-signs
+tags: [dental, not-eating]
+recommendation: 猫出现想吃却不敢吃、流口水、口水带血、用爪扒嘴、口臭和体重下降时，尽快看兽医检查口腔。
+why_it_matters: >-
+  康奈尔大学猫健康中心的兽医牙科专家指出，牙龈口腔炎的典型表现包括明显的口腔疼痛，牙龈红肿、溃疡和出血，不吃或想吃却吃不下，体重下降，过度流涎，口水带血，口臭和扒嘴；约 3%–5% 的猫有此病，幼猫和老猫都可能发生。
+  不治疗时可能疼到完全无法进食。治疗包括药物控制或拔除大部分甚至全部牙齿，需由兽医评估。FIV 阳性的猫更容易发生。
+applies_to: [all]
+urgency: urgent
+related: [CG-0035, CG-0040, CG-0058]
+scores:
+  benefit: 4
+  risk_reduction: 3
+  money_cost: 3
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 单一大学兽医学院页面，由兽医牙科专家撰写；FIV 关联来自同一机构的 FIV 页面。
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-gingivo
+    supports: 牙龈口腔炎表现为极度口腔疼痛，牙龈红肿溃疡出血，不吃或想吃吃不下，体重下降，流涎，口水带血，口臭，扒嘴；约 3%–5% 的猫患病；不治疗可能痛到无法进食；治疗包括药物或拔牙。
+    support_check: ai_checked
+    locator: 全文
+  - id: cornell-fiv
+    supports: 牙龈口腔炎在 FIV 感染猫中常见。
+    support_check: ai_checked
+    locator: 进展期段落

@@ -1,0 +1,46 @@
+id: CG-0068
+slug: kidney-diet-after-ckd-diagnosis
+type: recommendation
+title: 确诊慢性肾病后，处方肾病粮是值得的钱
+summary: 饮食调整是慢性肾病治疗中有证据支持的一环。有研究显示吃肾病处方粮的猫存活时间是普通猫粮的 2 到 3 倍。换粮要慢，不能让猫饿着。
+category: senior
+tags: [kidney-disease, senior]
+recommendation: 猫确诊慢性肾病后，在兽医指导下逐步换成肾病处方粮（可选湿粮），保证饮水，定期复查血压和血尿；换粮期间确保猫在吃东西。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出：饮食调整是慢性肾病治疗中重要且已被证实的部分，限制蛋白质、磷和钠的处方粮可能延长寿命、改善生活质量；有研究显示吃肾病处方粮的猫存活时间是吃普通猫粮的 2 到 3 倍。
+  患肾病的猫即使短时间不吃东西也可能出现严重问题，所以换粮要逐步进行，注意温度、质地和口味。约 60% 的肾病猫会出现高血压，需要测量和控制。
+  早期诊断和治疗与更好的结果有关：IRIS 2 期确诊的猫平均存活 2 到 3 年，4 期平均不到 6 个月。
+how_to_do_it:
+  - 和兽医一起选择猫愿意吃的处方粮，湿粮干粮都有。
+  - 新旧粮混合，逐步过渡。
+  - 家里多处放干净的水，可以考虑饮水机。
+  - 按兽医安排复查血液、尿液和血压。
+do_not:
+  - 不要为了换粮让猫饿着。
+  - 不要自行购买“护肾”保健品代替处方粮。
+applies_to: [special-condition, senior]
+urgency: important
+related: [CG-0018, CG-0037]
+scores:
+  benefit: 5
+  risk_reduction: 3
+  money_cost: 3
+  time_cost: 1
+  effort: 2
+  harm_potential: 0
+evidence:
+  level: C
+  summary: >-
+    来源是大学兽医学院页面，转述了处方粮延长存活的研究（未直接读取原论文）。处方粮的作用在兽医肾病学中是主流共识，但本项目尚未读到一手研究，因此暂评 C，等待补充来源后由维护者确认是否上调。
+  gaps:
+    - "TODO: 纳入肾病处方粮的随机对照研究（如 Ross 2006）和 IRIS 指南。"
+    - "UNKNOWN: “不要用保健品代替”是保守建议，已读来源说部分辅助治疗尚未充分验证。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-ckd
+    supports: 饮食调整是 CKD 治疗中重要且被证实的部分；限制蛋白、磷、钠的处方粮可能延长寿命；有研究显示吃处方肾病粮的猫存活时间是普通猫粮的 2–3 倍；肾病猫短时间不吃即可能出问题，应逐步换粮；约 60% CKD 猫会发生高血压；IRIS 2 期确诊平均存活 2–3 年，4 期不到 6 个月；部分辅助治疗尚未充分验证。
+    support_check: ai_checked
+    locator: Treatment 与 Prognosis 段落

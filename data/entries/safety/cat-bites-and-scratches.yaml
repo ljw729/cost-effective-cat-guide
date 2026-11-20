@@ -1,0 +1,40 @@
+id: CG-0090
+slug: cat-bites-and-scratches
+type: recommendation
+title: 被猫咬伤要认真处理，必要时看医生
+summary: 70% 到 90% 的猫嘴里带有巴斯德菌，严重的猫咬伤可在 24 到 48 小时内红肿疼痛。约 40% 的猫携带引起猫抓病的细菌。
+category: safety
+tags: [rabies, zoonotic]
+recommendation: 被猫咬伤或抓伤后立即用肥皂和清水冲洗伤口；咬伤较深、红肿加重、发热或淋巴结肿痛时及时就医，并告知医生是猫咬伤。不让孩子和猫粗暴玩耍；控制跳蚤。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出：70%–90% 的猫口腔中有巴斯德菌，在严重到需要就医的猫咬伤中有 50%–80% 检出；感染的咬伤常在 24–48 小时内出现疼痛、红肿。
+  约 40% 的猫感染引起猫抓病的巴尔通体，多数猫没有症状，用抗生素不能可靠清除，也不推荐；预防靠避免抓咬（例如不让孩子粗暴地和猫玩）、和猫玩后洗手、控制跳蚤。
+  另见“室内猫也要打狂犬疫苗”条目：咬伤人还涉及狂犬病的处理规定。
+how_to_do_it:
+  - 家里常备肥皂，咬伤后马上冲洗几分钟。
+  - 免疫力低下的人被抓咬后尽早看医生。
+applies_to: [all]
+urgency: important
+region_notes: 被动物咬伤后是否需要接种人用狂犬疫苗，请按当地卫生部门和医生的意见处理。
+related: [CG-0052, CG-0057]
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 单一大学兽医学院页面；人的伤口处理请以医生意见为准。
+  gaps:
+    - "UNKNOWN: “用肥皂和清水冲洗伤口”是通用急救做法，本条已读来源没有直接写出。"
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-zoonotic
+    supports: 70%–90% 的猫口腔中有巴斯德菌，在需就医的猫咬伤中检出率 50%–80%，感染伤口常在 24–48 小时内疼痛红肿；约 40% 的猫感染巴尔通体，多数无症状，抗生素不能可靠清除且不推荐；预防包括避免抓咬（不让孩子粗暴玩耍）、玩后洗手、控制跳蚤。
+    support_check: ai_checked
+    locator: Cat scratch disease 与 Pasteurella 段落

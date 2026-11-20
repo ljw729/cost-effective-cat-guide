@@ -1,0 +1,36 @@
+id: CG-0077
+slug: disaster-kit-for-cats
+type: recommendation
+title: 准备一个猫的应急包：两周的粮、水、猫砂和药
+summary: 地震、洪水、停电或紧急撤离时，提前准备好的应急包和撤离计划能让你和猫都更安全。
+category: preparedness
+tags: [preparedness, microchip]
+recommendation: 准备一个应急包：两周的猫粮和饮用水、小猫砂盆和两周的猫砂、两周的药、航空箱或可折叠笼、胸背带和牵引绳、急救用品、你和猫的合影；猫平时戴安全扣项圈和身份牌，最好植入芯片。
+why_it_matters: >-
+  康奈尔大学猫健康中心建议的猫应急包包括：两周的食物和水（水装在塑料容器中避光存放，每 2–3 个月更换），小猫砂盆和两周的猫砂，两周的常用药，安全扣项圈和身份牌（另备一套），考虑植入芯片，胸背带和牵引绳，能放下猫砂盆和食盆的折叠笼，几个熟悉的玩具，基础急救用品，以及你和猫在一起的照片（走散时用来证明是你的猫）；并提前做好撤离计划。
+how_to_do_it:
+  - 把应急包放在门口附近的柜子里。
+  - 每 2–3 个月检查一次水和粮的保质期。
+  - 手机里存一张猫的近照和疫苗记录。
+applies_to: [all]
+urgency: routine
+related: [CG-0002]
+scores:
+  benefit: 2
+  risk_reduction: 3
+  money_cost: 2
+  time_cost: 2
+  effort: 2
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 来自大学兽医学院的应急准备清单，属于专家建议。
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-disaster
+    supports: 应急包包括两周食物和水（水避光存放、每 2–3 个月轮换）、小猫砂盆与两周猫砂、两周药物、安全扣项圈与身份牌及备用、考虑芯片、胸背带牵引绳、可放猫砂盆和食盆的折叠笼、玩具、急救用品、与猫的合影；提前制定撤离计划。
+    support_check: ai_checked
+    locator: 全文清单

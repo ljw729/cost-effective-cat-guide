@@ -1,0 +1,46 @@
+id: CG-0089
+slug: coughing-may-be-asthma
+type: recommendation
+title: 猫“咳毛球”却吐不出来？可能是哮喘
+summary: 哮喘影响 1% 到 5% 的猫，表现为咳嗽、喘鸣、呼吸急促，常被误认为吐毛球。急性发作可以危及生命。
+category: early-signs
+tags: [breathing-difficulty]
+recommendation: 猫反复出现蹲伏、伸脖子的干咳或“咳不出东西”的动作时，拍下视频给兽医看；出现张嘴呼吸或呼吸困难时立即急诊。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出：哮喘是一种下呼吸道疾病，影响 1%–5% 的猫，表现包括呼吸困难、喘鸣、呼吸急促、咳嗽或干呕、张嘴呼吸或呕吐，从急性呼吸危机到长期低程度咳嗽都有；诊断需要排除支气管炎、肺虫等相似疾病。
+  毛球页面也提醒，频繁“咳毛球”可能根本不是毛球，而是需要紧急治疗的哮喘等呼吸道疾病。
+how_to_do_it:
+  - 用手机录下咳嗽的样子：猫咳嗽时常低身、伸长脖子。
+  - 记录发作频率和季节（花粉季可能加重）。
+applies_to: [all]
+urgency: important
+related: [CG-0029, CG-0060]
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 2
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 大学兽医学院的哮喘、毛球和呼吸困难三个页面一致。
+  gaps:
+    - "UNKNOWN: “猫咳嗽时低身伸脖子”的姿势描述来自呼吸困难页面中的相似描述，哮喘页面本身没有写。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-asthma
+    supports: 哮喘影响 1%–5% 的猫；表现包括呼吸困难、喘鸣、呼吸急促、咳嗽或干呕、张嘴呼吸、呕吐，从急性危机到慢性低程度咳嗽；需排除慢性支气管炎、肺虫等疾病。
+    support_check: ai_checked
+    locator: 全文
+  - id: cornell-hairball
+    supports: 频繁干咳干呕可能不是毛球，而是哮喘等呼吸道疾病，可能需要紧急治疗。
+    support_check: ai_checked
+    locator: Dr. Goldstein 建议段落
+  - id: cornell-dyspnea
+    supports: 呼吸困难的猫可能低头、身体前伸，像要呕吐一样；哮喘急性发作是呼吸困难最常见的原因之一；花粉季可能加重。
+    support_check: ai_checked
+    locator: 临床表现与危险因素段落

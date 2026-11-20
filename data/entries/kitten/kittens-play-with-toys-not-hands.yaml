@@ -1,0 +1,43 @@
+id: CG-0065
+slug: kittens-play-with-toys-not-hands
+type: recommendation
+title: 和幼猫玩要用逗猫棒，不要用手脚逗它
+summary: 没有兄弟姐妹一起长大的幼猫，更容易出现“玩耍攻击”——扑咬人的手脚。用远离手的玩具陪它玩，比事后纠正更有效。
+category: kitten
+tags: [play, kitten]
+recommendation: 每天用逗猫棒等能让手保持距离的玩具陪幼猫玩捕猎游戏；它准备扑咬时用玩具转移注意；不要用手或脚当玩具，也不要打它。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出，玩耍攻击最常见于没有和同窝猫一起长大、或缺少玩耍机会的幼猫和年轻猫：它们原本通过同窝猫的反应学会“咬太重了”。
+  处理方法是找出规律、提前用玩耍转移注意，用来转移的物品要远离你的手，避免猫把攻击发泄在手上；不要体罚甚至触碰处于攻击状态的猫，这可能让它害怕人，或被当成游戏而强化行为。
+how_to_do_it:
+  - 每天固定 1–2 次、每次 10 分钟左右的逗猫棒游戏，最后让它“抓到”猎物。
+  - 猫常在某个位置埋伏扑人，就暂时挡住那个位置。
+  - 猫扑咬时停止互动、走开。
+applies_to: [kitten]
+urgency: routine
+related: [CG-0064]
+scores:
+  benefit: 3
+  risk_reduction: 2
+  money_cost: 0
+  time_cost: 2
+  effort: 2
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 来自大学兽医学院的攻击行为页面；“每天 10 分钟”是本项目给出的参考量，来源没有给出具体时长。
+  gaps:
+    - "UNKNOWN: 每天玩多久合适，已读来源没有给出数字（节日页面提到 5–10 分钟可缓解压力）。"
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-aggression
+    supports: 没有与同窝猫一起长大或缺少玩耍机会的幼猫最常出现玩耍攻击；应预判并用玩耍转移注意；转移用的物品要远离手；攻击时不要体罚或触碰猫，可能使其怕人或被当成奖励。
+    support_check: ai_checked
+    locator: Play aggression 段落
+  - id: cornell-holiday
+    supports: 每天专门花 5–10 分钟陪猫玩，有助于缓解压力并提供运动。
+    support_check: ai_checked
+    locator: Thanksgiving 段落

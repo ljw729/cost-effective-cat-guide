@@ -1,0 +1,43 @@
+id: CG-0101
+slug: always-use-a-carrier
+type: recommendation
+title: 带猫出门一定装进航空箱，并且让猫戴好身份标识
+summary: 很多“室内猫走失”发生在去医院的路上：受惊挣脱、车门打开或车祸时跑掉。航空箱能防止大多数这类意外。
+category: travel
+tags: [carrier, microchip]
+recommendation: 带猫去医院、搬家、旅行时都装进结实、关得牢的航空箱，不要抱着出门；猫平时戴安全扣项圈和身份牌，最好植入芯片并更新登记信息。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出，室内猫可能在被带出门（例如去医院）时受惊逃跑，也有猫在车祸中意外脱离主人，而航空箱能防止大多数这类意外逃脱。
+  应急准备页面建议猫随时戴安全扣项圈和身份牌，并考虑植入芯片作为永久标识。
+how_to_do_it:
+  - 平时把航空箱放在家里当窝，里面放猫熟悉的毯子，让猫不怕它。
+  - 出门前检查箱门和卡扣。
+  - 在车里把航空箱固定好。
+applies_to: [all]
+urgency: important
+related: [CG-0002, CG-0028]
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 1
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 大学兽医学院两个页面；“平时把航空箱当窝”是常见建议，2022 猫友好诊疗指南摘要有相关内容，但本条只读到摘要。
+  gaps:
+    - "TODO: 读取 2022 AAFP/ISFM 猫友好诊疗指南全文中关于航空箱适应训练的部分。"
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-rabies-indoor
+    supports: 室内猫可能在被带出门（如去医院）时受惊逃跑，或在车祸中意外脱离；航空箱能防止大多数这类意外逃脱。
+    support_check: ai_checked
+    locator: 第 3 段
+  - id: cornell-disaster
+    supports: 猫应随时佩戴安全扣项圈和身份牌，并考虑植入芯片作为永久标识。
+    support_check: ai_checked
+    locator: 应急包清单

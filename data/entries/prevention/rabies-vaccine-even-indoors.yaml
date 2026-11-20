@@ -1,0 +1,41 @@
+id: CG-0057
+slug: rabies-vaccine-even-indoors
+type: recommendation
+title: 室内猫也要按当地规定打狂犬疫苗
+summary: 蝙蝠等动物可能进入室内，猫也可能意外跑出去或咬伤人。没打疫苗的猫一旦接触或咬人，后果严重得多。
+category: prevention
+tags: [vaccine, rabies]
+recommendation: 按当地法规和兽医建议给室内猫接种并按时加强狂犬疫苗，保存好接种证明。
+why_it_matters: >-
+  康奈尔大学猫健康中心解释了室内猫也要打狂犬疫苗的原因：狂犬病对人和动物都是致命的；蝙蝠可能从小缝隙进入室内，室内猫可能从门窗或去医院途中逃出；猫在医院受惊或和孩子玩耍时可能咬人。
+  未接种或过期的猫一旦接触疑似狂犬病动物或咬伤人，可能面临长期隔离甚至被建议安乐死；接种过的猫通常只需加强免疫并在家观察一段时间。
+  2020 AAHA/AAFP 疫苗指南也把狂犬病列为核心疫苗。
+applies_to: [all, indoor]
+urgency: important
+region_notes: 来源中的法规和隔离要求是美国纽约州的。中国大陆的犬猫狂犬病免疫要求由地方规定，各地不同，请以当地规定为准。
+related: [CG-0017]
+scores:
+  benefit: 3
+  risk_reduction: 4
+  money_cost: 2
+  time_cost: 1
+  effort: 1
+  harm_potential: 1
+evidence:
+  level: B
+  summary: 疫苗指南（已读全文）把狂犬病列为核心疫苗；大学兽医学院页面解释了室内猫的暴露途径和后果。
+  gaps:
+    - "UNKNOWN: 中国各地的猫狂犬疫苗法规要求与加强间隔。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-rabies-indoor
+    supports: 狂犬病对人和动物致命；蝙蝠可从小缝隙进入室内，室内猫也可能逃出；猫可能在医院或玩耍时咬人；未接种或过期的猫接触狂犬病动物或咬人后可能被要求长期隔离或安乐死，已接种的猫通常加强免疫并在家隔离观察。
+    support_check: ai_checked
+    locator: 回答正文
+  - id: aaha-aafp-vaccination-2020
+    supports: 狂犬病属于猫的核心疫苗（在有法规要求或流行的地区）。
+    support_check: ai_checked
+    locator: Core vaccines 表格

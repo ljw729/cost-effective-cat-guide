@@ -1,0 +1,42 @@
+id: CG-0109
+slug: constipation-needs-attention
+type: recommendation
+title: 猫便秘不要拖：排便少、粪便又干又硬要看兽医
+summary: 便秘在猫中很常见，应该积极处理，以免发展成巨结肠这种严重问题。不要自行给猫用泻药或灌肠。
+category: early-signs
+tags: [constipation]
+recommendation: 猫排便次数明显减少、排便困难、粪便又干又硬时，预约兽医；同时保证饮水。泻药、灌肠和饮食调整都要在兽医指导下进行。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出，便秘（排便少或困难，粪便干硬）在猫中很常见，应相当积极地治疗以防止进展；原因可能包括吞下的毛发、异物、肿瘤、电解质紊乱、神经肌肉疾病、药物副作用等，很多时候原因不明。
+  严重或治疗无效的便秘可能发展为巨结肠，结肠永久失去功能，可能需要手术。关节炎的猫也可能因为无法摆好排便姿势而便秘。
+do_not:
+  - 不要自行用人用泻药或开塞露。
+  - 公猫反复蹲猫砂盆用力时，先排除尿道堵塞（那是急症）。
+applies_to: [all, senior]
+urgency: important
+related: [CG-0007, CG-0066, CG-0075]
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 2
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 大学兽医学院的便秘页面与关节病页面；“不要用开塞露”是保守建议，来源说的是泻药和灌肠需要兽医训练或协助。
+  gaps:
+    - "UNKNOWN: 几天不排便需要就医，已读来源没有给出天数。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-constipation
+    supports: 便秘在猫中常见，应积极治疗以防进展；原因包括吞入毛发、异物、肿瘤、狭窄、电解质紊乱、神经肌肉疾病、药物副作用，很多原因不明；治疗包括补水、泻药、灌肠（需兽医训练或协助）、饮食调整；严重者可发展为巨结肠，需手术。
+    support_check: ai_checked
+    locator: 全文
+  - id: cornell-slowing
+    supports: 严重关节问题的猫可能因无法正确摆好姿势而便秘。
+    support_check: ai_checked
+    locator: Dr. Bellezza 段落

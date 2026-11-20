@@ -1,0 +1,46 @@
+id: CG-0059
+slug: pregnancy-does-not-mean-giving-up-cat
+type: myth
+title: 误区：怀孕了就必须把猫送走
+summary: 错误。美国疾控中心目前认为孕妇不需要回避猫。做好每天铲屎、戴手套、洗手、猫不吃生肉，就能把弓形虫风险降到很低。
+category: myths
+tags: [toxoplasmosis]
+myth_claim: 怀孕后养猫会感染弓形虫导致胎儿畸形，所以必须把猫送走。
+myth_verdict: incorrect
+recommendation: 不必因怀孕送走猫。每天清理猫砂（最好由家人负责；自己铲时戴手套并洗手），猫只吃熟食或商品粮，不让猫捕猎；处理生肉和园艺后洗手。具体问题请咨询产科医生。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出：过去曾建议孕妇和免疫力低下的人回避猫，但美国疾控中心（CDC）现在认为没有必要。
+  猫只在感染后短时间内排出弓形虫卵囊，卵囊在粪便里至少要 24 小时才具有感染性，所以每天清理猫砂、戴手套、洗手可以把风险降到最低；摸猫一般不会感染。
+  孕期感染确实对胎儿有风险（三分之一到一半的孕期感染母亲所生婴儿会被感染），所以预防措施要认真做；人也会通过生肉、未洗的蔬菜和土壤感染。
+how_to_do_it:
+  - 每天清理猫砂盆，不要放过夜。
+  - 猫吃商品粮或熟食，不喂生肉，不让猫外出捕猎。
+  - 处理生肉、园艺后用肥皂洗手和清洗台面。
+applies_to: [all]
+urgency: routine
+related: [CG-0049]
+scores:
+  benefit: 3
+  risk_reduction: 2
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 大学兽医学院页面明确引用 CDC 当前立场，并解释了弓形虫的生活史和传播条件。人的医学问题应以产科医生和当地卫生部门意见为准。
+  gaps:
+    - "TODO: 直接引用 CDC 弓形虫页面作为来源。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-toxo
+    supports: 过去建议孕妇和免疫力低下者回避猫，CDC 现在认为没有必要；猫只短时间排卵囊；卵囊至少 24 小时才有感染性，戴手套勤清猫砂并洗手可将风险降到最低；摸猫一般不会感染；孕期感染母亲所生婴儿有三分之一到一半被感染；猫应吃熟食、不吃生肉和猎物。
+    support_check: ai_checked
+    locator: Human health 与 Prevention 段落
+  - id: cornell-gi-parasites
+    supports: 卵囊排出后约 1–5 天才具有感染性，每天清理猫砂盆对控制弓形虫传播很重要。
+    support_check: ai_checked
+    locator: Toxoplasma 段落

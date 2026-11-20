@@ -1,0 +1,42 @@
+id: CG-0051
+slug: houseplants-toxic-and-safe
+type: buying_guide
+title: 买绿植前查一下：绿萝、龟背竹、芦荟对猫有毒，吊兰、散尾葵无毒
+summary: 很多常见室内绿植被 ASPCA 列为对猫有毒。养猫家庭买植物前，先在 ASPCA 有毒 / 无毒植物数据库里查一查。
+category: toxins
+tags: [toxic-plants]
+recommendation: 买绿植前按学名查 ASPCA 的猫有毒 / 无毒植物数据库；优先选列为无毒的植物；列为有毒的不要放在猫能接触到的地方。
+why_it_matters: >-
+  ASPCA 动物中毒控制中心的猫植物清单把许多常见室内植物列为对猫有毒，例如绿萝（黄金葛）、龟背竹、芦荟、虎尾兰、玉树（翡翠木）、长寿花（伽蓝菜）、花叶万年青、苏铁、白掌（和平百合）、马蹄莲、粤万年青、杜鹃、水仙、仙客来、夹竹桃、文竹（天门冬属）、铃兰、喜林芋。
+  同一清单把吊兰、散尾葵、波士顿蕨、袖珍椰子（玲珑椰子）、蟹爪兰、非洲紫罗兰、竹芋列为对猫无毒。
+  “有毒”的严重程度差别很大：有的只引起口腔刺激或呕吐，百合则可能致命。
+how_to_do_it:
+  - 用植物的学名搜索，俗名常常一名多物。
+  - 不确定的植物先放在猫进不去的房间。
+  - “无毒”也不代表可以大量啃食，啃了以后呕吐属于常见反应。
+warning_signs:
+  - 啃了有毒植物后流口水、呕吐、精神差：联系兽医，带上植物照片或叶子。
+applies_to: [all]
+urgency: important
+related: [CG-0003, CG-0042]
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: ASPCA 动物中毒控制中心的植物清单是兽医和主人最常用的参考，但清单只区分“有毒 / 无毒”，不说明严重程度。
+  gaps:
+    - "TODO: 为常见“有毒”植物逐一标注主要症状和严重程度（ASPCA 每种植物有单独页面）。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: aspca-toxic-plants-cats
+    supports: 猫有毒植物清单包括 Golden Pothos、Monstera deliciosa（Mother-in-Law）、Aloe、Snake Plant、Jade Plant、Kalanchoe、Dieffenbachia、Sago Palm、Peace Lily、Calla Lily、Chinese Evergreen、Azalea、Daffodil、Cyclamen、Oleander、Asparagus Fern、Lily of the Valley、Split Leaf Philodendron；无毒清单包括 Spider Plant、Areca Palm、Boston Fern、Parlor Palm、Christmas Cactus、African Violet、Prayer Plant (Calathea)。
+    support_check: ai_checked
+    locator: Plants Toxic to Cats / Plants Non-Toxic to Cats 两个列表

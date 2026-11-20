@@ -1,0 +1,44 @@
+id: CG-0096
+slug: supplements-mostly-unproven
+type: evidence_gap
+title: 抗衰老、护肾、护关节等保健品有用吗？目前大多证据不足
+summary: 兽医学院资料里，抗氧化剂“被认为”能延缓衰老，肾病辅助疗法“尚未充分验证”，Omega-3 治哮喘“有前景但需要更多研究”。
+category: worth-buying
+tags: [supplements]
+recommendation: 不要用保健品代替已被证明有效的治疗（如肾病处方粮、兽医开的药）；想用保健品时先问兽医，告诉兽医猫正在吃的所有产品。
+why_it_matters: >-
+  这是一个“目前不知道”的条目。康奈尔大学猫健康中心的相关页面一致显示证据有限：
+  认知功能障碍页面说富含维生素 E 和抗氧化剂的饮食“被认为”能延缓衰老；慢性肾病页面说抗氧化剂补充等多种辅助疗法“并非都经过充分验证”，需要对照研究；哮喘页面说 Omega-3 脂肪酸等实验性疗法“显示出一些前景”，但需要进一步研究。
+  在证据出来之前，保健品花的钱可能没有回报；更重要的是不要因此耽误真正有效的治疗。
+applies_to: [all, senior]
+urgency: routine
+related: [CG-0068]
+scores:
+  benefit: 1
+  risk_reduction: 1
+  money_cost: 2
+  time_cost: 1
+  effort: 1
+  harm_potential: 1
+evidence:
+  level: D
+  summary: 已读来源只说明证据不足或尚待验证，没有给出“有效”或“无效”的结论；本项目也没有检索补充剂的系统综述。
+  gaps:
+    - "TODO: 检索猫关节补充剂（如葡萄糖胺、Omega-3）、益生菌的系统综述或随机对照研究。"
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-cog
+    supports: 行为学家建议富含维生素 E 和抗氧化剂的饮食，这些物质“被认为”能延缓衰老（未给出研究证据）。
+    support_check: ai_checked
+    locator: 最后一段
+  - id: cornell-ckd
+    supports: 磷结合剂、补钾、抗氧化剂补充、碱化治疗、食欲刺激剂等可能帮助部分 CKD 猫，但并非都经过充分验证，需要对照研究。
+    support_check: ai_checked
+    locator: 其他疗法段落
+  - id: cornell-asthma
+    supports: 脱敏治疗、Omega-3 脂肪酸等实验性疗法对哮喘显示出一些前景，但需要进一步研究；其他药物尚未被确证有效。
+    support_check: ai_checked
+    locator: 治疗段落

@@ -1,0 +1,45 @@
+id: CG-0097
+slug: early-detection-costs-less
+type: recommendation
+title: 省钱的关键是早发现：病拖到严重再治，往往更贵也更难
+summary: 兽医学院资料指出，越早发现和治疗，预后越好、费用越低。每年体检、每月称重和观察变化，是最便宜的“保险”。
+category: saving
+tags: [checkup, hidden-illness]
+recommendation: 把省钱的重点放在“早发现”：按年龄定期体检，每月称重和摸肿块，发现喝水、尿量、食欲、行为变化时及时就医，而不是等到猫明显生病。
+why_it_matters: >-
+  康奈尔大学猫健康中心的癌症警示页面指出，任何疾病越早发现和治疗，预后越好、治疗费用越低；慢性肾病页面指出，早期诊断和治疗与更好的生活质量和存活时间有关；老年猫页面强调猫擅长掩饰疾病，往往到很严重才表现出来。
+  所以对普通家庭来说，定期体检和在家观察的成本最低、回报最高。
+how_to_do_it:
+  - 看“室内猫也要每年体检”“每月称体重”“每月摸肿块”这几个条目，把它们放进同一个每月提醒。
+applies_to: [all]
+urgency: routine
+related: [CG-0016, CG-0038, CG-0092]
+scores:
+  benefit: 4
+  risk_reduction: 3
+  money_cost: 1
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 大学兽医学院多个页面的定性说法；本项目没有找到比较早期和晚期治疗费用的研究。
+  gaps:
+    - "UNKNOWN: 早发现究竟能省多少钱，没有找到可靠数据。"
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-cancer-signs
+    supports: 任何疾病越早发现和治疗，预后越好，治疗费用越低。
+    support_check: ai_checked
+    locator: 第 1 段
+  - id: cornell-ckd
+    supports: 有证据表明 CKD 越早诊断和治疗，生活质量和存活结果越好；强调老年猫定期体检和验血。
+    support_check: ai_checked
+    locator: Prognosis 与总结段落
+  - id: cornell-senior
+    supports: 猫擅长掩饰疾病，常到病情较重才表现；多数疾病早发现早治疗更好控制。
+    support_check: ai_checked
+    locator: 结尾段落

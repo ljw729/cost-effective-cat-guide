@@ -1,0 +1,54 @@
+id: CG-0072
+slug: wet-food-helps-water-intake
+type: recommendation
+title: 猫喝水少？加一些湿粮或往粮里加水
+summary: 湿粮含水 70% 到 80%。吃湿粮的猫喝水少一些是正常的，只吃干粮的猫更要保证有水。多处放水、避免多猫争水也很重要。
+category: urinary
+tags: [hydration, wet-food]
+recommendation: 想让猫多摄入水分，可以部分或全部用湿粮，或往粮里加水；家里多处放干净的水，多猫家庭避免水碗被某只猫“霸占”。只吃干粮、有泌尿问题史的猫尤其要注意饮水。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出：一只约 4.5 公斤（10 磅）的猫每天约需 1 杯水（来源换算：每 5 磅瘦体重约 4 盎司）；湿粮含水最多约 80%，吃湿粮的猫喝水会少一些，吃干粮的猫需要喝更多。
+  增加饮水的办法包括：在容易到达的地方随时提供新鲜水、避免多猫冲突、提供饮水机（个体偏好不同）、喂湿粮或往粮里加水。
+  康奈尔的结石页面中，内科专家建议至少一半的饮食是湿粮，以降低肾结石和膀胱结石风险。
+how_to_do_it:
+  - 水碗远离猫砂盆，每天换水。
+  - 多猫家庭每个区域都放水。
+  - 干粮换湿粮时逐步过渡。
+applies_to: [all]
+urgency: routine
+related: [CG-0007, CG-0013]
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 2
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: >-
+    大学兽医学院三个页面一致支持湿粮和多处供水能增加水分摄入；但“湿粮能预防泌尿疾病”主要来自专家意见（结石页面），本项目尚未读到直接比较研究。
+    Segev 2011 病例对照研究中，只吃干粮的比例在尿道堵塞组更高，但这是关联而非因果。
+  gaps:
+    - "TODO: 纳入湿粮与 FLUTD / 结石风险的研究。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-hydration
+    supports: 猫每 5 磅瘦体重每天约需 4 盎司水，10 磅猫约 1 杯；湿粮含水最多约 80%，吃湿粮的猫喝水较少；增加饮水的办法包括随时提供新鲜水、避免多猫冲突、饮水机（偏好因猫而异）、湿粮或在食物中加水；多猫冲突可能让某只猫被“禁止”接近水碗。
+    support_check: ai_checked
+    locator: 饮水需求与增加饮水段落
+  - id: cornell-how-often-feed
+    supports: 湿粮约含 70%–80% 水；所有猫都应随时有新鲜水，只吃干粮、易患下泌尿道疾病的猫尤其重要。
+    support_check: ai_checked
+    locator: 湿粮段落
+  - id: cornell-stones
+    supports: 为降低肾和膀胱结石风险，建议猫随时有新鲜水、并认为至少 50% 的饮食应为湿粮（专家意见）。
+    support_check: ai_checked
+    locator: Dr. Goldstein 建议
+  - id: segev-2011-urethral-obstruction
+    supports: 尿道堵塞组只吃干粮的比例高于对照组（关联，非因果）。
+    support_check: ai_checked
+    locator: Abstract

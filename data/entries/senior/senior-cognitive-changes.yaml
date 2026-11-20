@@ -1,0 +1,44 @@
+id: CG-0067
+slug: senior-cognitive-changes
+type: recommendation
+title: 老年猫半夜乱叫、迷路、发呆：先排除疾病，再考虑认知障碍
+summary: 10 岁以上的猫可能出现类似老年痴呆的认知功能障碍，但甲亢、肾病、高血压、关节痛也会造成类似表现。
+category: senior
+tags: [senior, behavior-change]
+recommendation: 老年猫出现夜间嚎叫、迷失方向、长时间发呆、不认人或在盆外排泄时，带去检查，先排除甲亢、肾病、高血压和疼痛。确诊后保持环境稳定、猫砂盆容易到达，避免引入新的动物。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出，认知功能障碍的行为表现多在 10 岁以上的猫中变得明显，包括空间迷失、失去玩耍兴趣、睡眠增多、作息颠倒、长时间盯着墙发呆、对食物和水漠不关心、在猫砂盆外排泄等。
+  但其中一些表现可能来自老年常见病，例如关节炎疼痛、肾衰导致尿多，需要先排除。行为学家建议保持猫砂盆容易到达、避免引入会让老年猫紧张的新动物。
+how_to_do_it:
+  - 录下夜间嚎叫或迷路的视频给兽医看。
+  - 家具和猫用品位置尽量不变。
+  - 夜里留一盏小灯。
+applies_to: [senior]
+urgency: important
+related: [CG-0039, CG-0066]
+scores:
+  benefit: 3
+  risk_reduction: 2
+  money_cost: 2
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 单一大学兽医学院页面；猫认知功能障碍的诊断主要依靠排除其他疾病，治疗证据有限。
+  gaps:
+    - "UNKNOWN: “夜里留小灯”是常见做法，已读来源没有提到。"
+    - "TODO: 纳入猫认知功能障碍的综述。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-cog
+    supports: 认知功能障碍表现多在 10 岁以上猫中明显，包括迷失方向、游荡、不爱玩、睡眠增多、作息改变、长时间凝视、对食物和水漠不关心、在猫砂盆外排泄；关节炎、肾衰等可导致类似表现，应先排除甲亢和肾病；建议保持猫砂盆易于到达、避免引入带来压力的新动物。
+    support_check: ai_checked
+    locator: 全文
+  - id: cornell-senior
+    supports: 老年猫可出现游荡、过度叫唤、迷失方向和回避社交等类似老年痴呆的表现；老年猫对家庭变化更敏感。
+    support_check: ai_checked
+    locator: Brain 段落

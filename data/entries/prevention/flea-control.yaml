@@ -1,0 +1,50 @@
+id: CG-0052
+slug: flea-control
+type: recommendation
+title: 防跳蚤要同时处理猫和环境，只用兽医推荐的猫用产品
+summary: 跳蚤让猫奇痒，能传播绦虫和细菌，大量跳蚤还会让幼猫贫血。只给猫除虫而不处理家里，跳蚤会反复出现。
+category: prevention
+tags: [fleas, parasites]
+recommendation: 按兽医建议使用猫用的跳蚤预防产品（只用猫用，见“不要给猫用狗用驱虫药”条目）；发现跳蚤时同时彻底吸尘、清洗垫子，必要时处理整个家居环境。
+why_it_matters: >-
+  康奈尔大学猫健康中心的皮肤科教授指出：跳蚤叮咬会引起剧痒，抓破的皮肤容易感染；跳蚤携带绦虫卵和多种病原体，包括导致猫传染性贫血的病原，以及可感染人的巴尔通体（猫抓病）等；幼猫身上跳蚤很多时，吸血就足以导致贫血。
+  驱跳蚤产品有效，但可能对动物或人有害，应在兽医指导下使用；只处理猫、不处理环境，问题永远解决不了。
+  康奈尔的寄生虫页面也指出，控制跳蚤能减少绦虫感染。
+how_to_do_it:
+  - 和兽医确认适合你家猫的产品和使用频率。
+  - 发现跳蚤：全屋吸尘（沙发、地毯、猫窝），清洗猫的垫子。
+  - 有狗的家庭，狗也要同时处理（狗用产品不要接触猫）。
+warning_signs:
+  - 颈后、尾根处抓挠、结痂、掉毛
+  - 梳毛时看到黑色小颗粒（跳蚤粪便）
+  - 幼猫牙龈发白、没精神：可能贫血，尽快就医
+applies_to: [all, kitten, outdoor]
+urgency: important
+region_notes: 来源说跳蚤预防从春季持续到入秋（美国东北部气候）；温暖地区或有暖气的室内，跳蚤可能全年存在，频率请问当地兽医。
+related: [CG-0005, CG-0053]
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 2
+  time_cost: 2
+  effort: 2
+  harm_potential: 1
+  rationale: 驱虫产品误用有风险，因此 harm_potential 记 1。
+evidence:
+  level: B
+  summary: 同一大学兽医学院的跳蚤页面和胃肠寄生虫页面一致。
+  gaps:
+    - "TODO: 纳入 ESCCAP 或 CAPC 的猫外寄生虫防治指南。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-fleas
+    supports: 跳蚤引起剧痒和继发感染；携带绦虫卵和多种病原（含猫传染性贫血病原、巴尔通体）；大量跳蚤可致幼猫贫血；必须同时清除家中和院子里的跳蚤；驱蚤产品应在兽医指导下使用；按时使用产品可让猫保持无跳蚤。
+    support_check: ai_checked
+    locator: 全文
+  - id: cornell-gi-parasites
+    supports: 猫多因理毛时吞下感染的跳蚤而感染绦虫；控制跳蚤和啮齿动物可减少绦虫感染。
+    support_check: ai_checked
+    locator: Tapeworms 段落

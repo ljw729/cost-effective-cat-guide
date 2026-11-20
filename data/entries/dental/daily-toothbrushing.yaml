@@ -15,7 +15,8 @@ how_to_do_it:
   - 每次很短也没关系，重点是每天坚持。
   - 刷完给奖励。
 do_not:
-  - 不要用人用牙膏。
+  - 不要用人用牙膏，其中一些成分会让猫肠胃不适。
+  - 不要强迫，猫激烈反抗时停下，改天再慢慢来。
 exceptions:
   - 牙龈已经明显红肿、出血或猫嘴痛的，先看兽医再开始刷牙。
 warning_signs:
@@ -41,6 +42,10 @@ review_status: ai_researched
 created: 2026-11-20
 last_reviewed: 2026-11-20
 sources:
+  - id: cornell-bad-breath
+    supports: 不要用人用牙膏，其部分成分会让猫肠胃不适；不要强迫刷牙。
+    support_check: ai_checked
+    locator: 刷牙段落
   - id: cornell-dental-disease
     supports: 4 岁以上猫 50% 到 90% 患某种牙病；预防牙龈炎最好的方法是刷牙去除牙菌斑；每天刷牙能预防大多数牙病；人用牙膏对猫不安全；严重牙龈炎先咨询兽医。
     support_check: ai_checked

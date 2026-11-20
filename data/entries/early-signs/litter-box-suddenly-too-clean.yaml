@@ -1,0 +1,40 @@
+id: CG-0093
+slug: litter-box-suddenly-too-clean
+type: recommendation
+title: 猫砂盆突然变“干净”了，是警报不是好事
+summary: 猫砂盆里尿团或粪便突然变少，可能是尿道或肠道堵塞。公猫尿团变少要当天就医。
+category: early-signs
+tags: [urethral-obstruction, litter-box]
+recommendation: 铲屎时留意尿团和粪便的数量；明显变少或没有，同时猫频繁进出猫砂盆、用力，按急症处理（见“猫尿不出来”条目）；只是粪便减少，尽快预约兽医。
+why_it_matters: >-
+  康奈尔大学猫健康中心的癌症警示页面写道：猫砂盆“太干净”永远是严重问题，可能是肿瘤造成的泌尿道或消化道堵塞。
+  同一机构的下泌尿道疾病页面指出，尿道堵塞的猫只能排出很少的尿或完全排不出，是绝对的急症，公猫风险更高。
+how_to_do_it:
+  - 每天铲屎时顺便数一下尿团个数和大小。
+  - 多猫家庭不容易分清是哪只猫，有疑问时观察每只猫如厕。
+applies_to: [all, male]
+urgency: urgent
+related: [CG-0007, CG-0037]
+scores:
+  benefit: 4
+  risk_reduction: 4
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 大学兽医学院两个页面一致；尿道堵塞的急症属性另有病例研究支持（见 CG-0007）。
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-cancer-signs
+    supports: 猫砂盆太干净永远是严重问题，可能提示肿瘤造成的泌尿道或消化道堵塞。
+    support_check: ai_checked
+    locator: Litterbox 段落
+  - id: cornell-flutd
+    supports: 尿道堵塞的猫只能排出很少的尿或排不出，是绝对的急症；公猫风险更高。
+    support_check: ai_checked
+    locator: Urethral obstruction 段落

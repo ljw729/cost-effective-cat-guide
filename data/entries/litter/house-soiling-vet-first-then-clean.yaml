@@ -1,0 +1,45 @@
+id: CG-0094
+slug: house-soiling-vet-first-then-clean
+type: recommendation
+title: 猫乱尿乱拉：先看兽医，再彻底清除气味
+summary: 乱尿常有身体原因，生病的猫不一定看起来病。清洁要尽快、用能分解气味的清洁剂，避免含氨和醋的产品，它们闻起来像尿。
+category: litter
+tags: [litter-box, behavior-change]
+recommendation: 发现乱尿乱拉，先带猫做体检和尿检；同时尽快清理弄脏的地方，用能中和气味（如酶类）的清洁剂，不用含氨或醋的产品；检查猫砂盆是否够干净、数量和位置是否合适。不要惩罚猫。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出：乱尿问题要尽早处理，持续越久越容易成为习惯；找出是哪只猫后应带去兽医全面检查，因为生病的猫不一定表现出生病；猫会在留有自己气味的地方反复排泄，所以必须尽快清理并“中和”而不仅是掩盖气味，避免含氨或醋的清洁剂，因为它们闻起来像尿且有刺激性。
+  2014 AAFP/ISFM 乱尿指南（已读全文）同样要求首先排除疾病，并强调猫砂盆管理。
+how_to_do_it:
+  - 用黑光灯（紫外手电）找出看不见的尿渍。
+  - 区分喷尿（站着、尾巴抖、对着竖直表面）和乱尿（蹲着、在平面上），告诉兽医。
+  - 对照“猫砂盆数量和位置”条目检查家里的设置。
+do_not:
+  - 不要把猫的鼻子按到尿上，也不要打骂。
+applies_to: [all, multi-cat]
+urgency: important
+related: [CG-0014, CG-0039, CG-0064]
+scores:
+  benefit: 4
+  risk_reduction: 3
+  money_cost: 2
+  time_cost: 2
+  effort: 2
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 大学兽医学院乱尿页面与 2014 AAFP/ISFM 乱尿指南（全文）一致。“黑光灯找尿渍”是常见做法，来源没有提到。
+  gaps:
+    - "UNKNOWN: 黑光灯找尿渍的建议，已读来源没有提到。"
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-house-soiling
+    supports: 乱尿要尽早处理，越久越容易成习惯；找出是哪只猫后应带去兽医全面检查，生病的猫不一定表现出病态；喷尿是站立、抬尾、抖动，对着竖直表面；猫会在有自身气味的地方反复排泄，清洁要尽快并中和气味，避免含氨或醋的清洁剂。
+    support_check: ai_checked
+    locator: 处理步骤与 Cleaning 段落
+  - id: aafp-isfm-house-soiling-2014
+    supports: 处理乱尿时首先要排除疾病；猫砂盆的数量、位置、清洁度和猫砂类型都会影响猫是否使用。
+    support_check: ai_checked
+    locator: Medical causes；Litter box 段落

@@ -1,0 +1,51 @@
+id: CG-0087
+slug: indoor-or-supervised-outdoor
+type: recommendation
+title: 让猫待在室内，或只在有人看护、封闭的户外活动
+summary: 室内饲养能大大减少打架咬伤带来的猫艾滋、猫白血病，以及禽流感、交通事故和走失的风险。
+category: safety
+tags: [indoor, felv-fiv]
+recommendation: 让猫生活在室内；想让猫晒太阳、接触户外，用封闭的阳台网、户外猫笼，或在有人看护下用胸背带。室内生活要配合足够的玩耍和环境丰富（见“五大环境需求”条目）。
+why_it_matters: >-
+  康奈尔大学猫健康中心的多个页面一致建议室内饲养：FIV 主要通过咬伤传播，未绝育、有户外活动、爱打架的公猫风险最高，室内饲养可显著降低风险；FeLV 预防建议室内饲养，如允许户外活动则应有人看护或使用封闭围栏；H5N1 禽流感预防建议让猫待在室内，远离家禽、牲畜和死鸟。
+  捕猎页面也指出，铃铛能减少但不能阻止捕猎，唯一可靠的办法是不让猫接触猎物。
+how_to_do_it:
+  - 封窗、封阳台（见“封窗”条目）。
+  - 每天固定时间陪猫玩捕猎类游戏。
+applies_to: [all, outdoor]
+urgency: important
+region_notes: 是否允许猫外出在不同国家和地区的观念、法规和环境差异很大；本条只陈述健康风险，不评判其他做法。
+related: [CG-0001, CG-0022, CG-0049, CG-0055]
+scores:
+  benefit: 3
+  risk_reduction: 4
+  money_cost: 1
+  time_cost: 2
+  effort: 2
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 同一大学兽医学院多篇疾病页面（FIV、FeLV、禽流感、捕猎）一致。室内生活对行为健康的影响需要环境丰富来弥补，这一点见环境需求指南。
+  gaps:
+    - "TODO: 纳入比较室内与户外猫寿命和伤病的流行病学研究。"
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-fiv
+    supports: FIV 主要通过咬伤传播；未绝育、有户外活动、爱打架的公猫风险最高；室内饲养、远离可能咬伤它的猫能显著降低感染可能。
+    support_check: ai_checked
+    locator: 传播与预防段落
+  - id: cornell-felv
+    supports: 建议室内饲养以避免接触 FeLV 感染猫；如允许外出，应有人看护或使用安全围栏，防止游荡和打斗。
+    support_check: ai_checked
+    locator: Prevention 段落
+  - id: cornell-h5n1
+    supports: 预防 H5N1 应让猫待在室内，远离牲畜家禽及其环境、生病或死亡的鸟。
+    support_check: ai_checked
+    locator: 预防建议段落
+  - id: cornell-hunting
+    supports: 一项 41 只猫的研究中戴铃铛时带回的猎物明显减少，但唯一可靠阻止捕鸟的方法是不让猫接触，建议室内饲养。
+    support_check: ai_checked
+    locator: For whom the bell tolls 段落

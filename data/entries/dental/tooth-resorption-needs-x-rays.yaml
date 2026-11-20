@@ -1,0 +1,40 @@
+id: CG-0070
+slug: tooth-resorption-needs-x-rays
+type: recommendation
+title: 每年让兽医看一次牙，牙齿吸收要拍 X 光才能确诊
+summary: 牙齿吸收影响 20% 到 60% 的猫，5 岁以上的猫中接近四分之三。它会很痛，但猫常常不表现出来，只在吃东西时露出迹象。
+category: dental
+tags: [dental]
+recommendation: 每年体检时请兽医检查口腔；怀疑牙齿吸收时拍口腔 X 光。留意猫吃东西时的异常。
+why_it_matters: >-
+  康奈尔大学猫健康中心的兽医牙科专家指出，牙齿吸收估计影响 20% 到 60% 的猫，5 岁以上的猫中接近四分之三，原因不明。
+  咬到受影响的牙时可能剧痛，但慢性牙痛通常不明显，更可靠的线索是猫吃东西时的表现；确诊最好的方法是全口 X 光。专家建议每年由兽医检查一次牙齿。
+warning_signs:
+  - 吃东西时掉食物、只用一侧嚼、吃到一半跑开
+  - 下巴抖动、流口水
+  - 不再吃干粮或硬零食
+applies_to: [adult, senior]
+urgency: routine
+related: [CG-0016, CG-0019, CG-0040]
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 2
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 单一大学兽医学院页面，由兽医牙科专家撰写；流行率区间较宽。
+  gaps:
+    - "TODO: 用 2019 AAHA 牙科指南全文核对口腔 X 光的建议。"
+    - "UNKNOWN: 上面“吃东西时的表现”中的具体例子是常见描述，来源只说要观察进食行为。"
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-resorption
+    supports: 牙齿吸收影响约 20%–60% 的猫、5 岁以上猫中接近四分之三，原因不明；咬到患牙可能剧痛，但慢性牙痛不明显，进食行为是更可靠的线索；全口 X 光是最好的确诊方法；建议每年由兽医检查牙齿。
+    support_check: ai_checked
+    locator: 全文

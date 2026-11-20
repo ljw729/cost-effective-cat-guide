@@ -1,0 +1,38 @@
+id: CG-0079
+slug: new-cat-basic-supplies
+type: buying_guide
+title: 新猫到家前只需要准备这几样：猫砂盆、猫砂、食物、水碗、猫抓板
+summary: 不用一次买齐“养猫全套”。猫砂盆选简单无盖的，猫砂选无香味细颗粒的，粮先沿用原来的，再加一个猫抓板。
+category: new-cat
+tags: [new-cat, litter-box, scratching]
+recommendation: 新猫到家前准备：简单无盖的猫砂盆和无香味的细颗粒猫砂、原来吃的猫粮、分开的食盆和水碗（远离猫砂盆）、一个猫抓板或猫抓柱、航空箱。其他东西等了解了猫的喜好再买。
+why_it_matters: >-
+  康奈尔大学猫健康中心的新猫指南列出的基本用品只有：猫砂盆、食物、理想情况下再加一个猫抓柱。
+  大多数猫喜欢简单无盖的猫砂盆，多数（但不是全部）喜欢无香味的细颗粒猫砂；幼猫和有关节炎的老猫需要低边的盆。食盆和水碗要远离猫砂盆。先继续喂原来的食物，再逐步过渡。
+  这样可以避免买了一堆猫不喜欢的东西。
+applies_to: [all, kitten]
+urgency: routine
+related: [CG-0014, CG-0015, CG-0063, CG-0078]
+scores:
+  benefit: 3
+  risk_reduction: 2
+  money_cost: 1
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 大学兽医学院新猫指南与 2014 AAFP/ISFM 乱尿指南（已读全文）在猫砂偏好上一致；指南说猫对有盖 / 无盖的偏好大约各半，但建议尽量用无盖。
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-new-cat
+    supports: 新猫到家前准备猫砂盆、食物，最好再有一个猫抓柱；多数猫喜欢简单无盖的猫砂盆，多数喜欢无香味细颗粒猫砂；幼猫和关节炎老猫需要低边盆；食盆水碗远离猫砂盆；先沿用原来的食物再逐步更换。
+    support_check: ai_checked
+    locator: Before bringing your new cat home 段落
+  - id: aafp-isfm-house-soiling-2014
+    supports: 猫砂宜细沙状、无香味、结团；猫对有盖与无盖偏好各半，建议尽量用无盖；猫常反感有香味的猫砂和除臭剂。
+    support_check: ai_checked
+    locator: Covered versus open litter boxes；Litter

@@ -1,0 +1,36 @@
+id: CG-0085
+slug: head-tilt-and-circling
+type: recommendation
+title: 猫突然歪头、转圈、站不稳、眼球乱颤：当天联系兽医
+summary: 这些是平衡系统（前庭）出问题的表现。原因可能是不明原因的暂时性前庭病，也可能是耳朵感染、肿瘤或中毒，需要检查区分。
+category: early-signs
+tags: [neurological]
+recommendation: 猫突然歪头、向一侧转圈或摔倒、眼球快速来回颤动、面部下垂时，当天联系兽医。在家把猫放在安全、不会摔伤的地方，帮它吃喝。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出：前庭疾病最常见的表现是转圈或向一侧摔倒、明显歪头和眼球震颤；如果中耳或内耳有肿瘤或炎症，还可能出现面部下垂。
+  不明原因的前庭病会突然出现、几天内逐渐好转，多数猫两三周内完全恢复；但继发于感染、肿瘤或中毒的情况需要治疗原发病，所以需要兽医做神经和耳部检查来区分。
+  期间要把猫关在安全的地方防止受伤，可能需要辅助喂食和补液。
+applies_to: [all]
+urgency: urgent
+related: [CG-0032]
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 3
+  time_cost: 1
+  effort: 2
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 单一大学兽医学院页面；“当天联系”是本项目根据“需要区分感染、肿瘤、中毒”做出的保守建议。
+  gaps:
+    - "TODO: 纳入抽搐（癫痫发作）的应对条目，需要先找到可读来源。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-vestibular
+    supports: 前庭疾病常见表现为转圈或向一侧摔倒、明显歪头、眼球震颤；中耳内耳肿瘤或炎症可致面部下垂；特发性前庭病突发、数天内好转，多数两三周恢复；继发于感染、肿瘤或中毒者需治疗原发病；需要神经和耳镜检查；应安全限制活动，可能需要辅助喂食和补液。
+    support_check: ai_checked
+    locator: 全文

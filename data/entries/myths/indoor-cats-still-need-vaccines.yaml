@@ -1,0 +1,44 @@
+id: CG-0061
+slug: indoor-cats-still-need-vaccines
+type: myth
+title: 误区：室内猫不出门，不用打疫苗
+summary: 错误。猫瘟病毒能附着在鞋子、衣服和手上进入家里，室内猫也可能跑出去或去医院、寄养。核心疫苗对室内猫同样推荐。
+category: myths
+tags: [vaccine]
+myth_claim: 室内猫接触不到其他猫，所以不需要打疫苗。
+myth_verdict: incorrect
+recommendation: 室内猫也按兽医建议完成核心疫苗（猫瘟、猫疱疹病毒、杯状病毒，以及当地要求的狂犬疫苗）和幼猫期的 FeLV 疫苗；之后按风险定期加强。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出，美国猫科医师协会（AAFP）疫苗咨询小组推荐所有完全室内饲养的家猫接种核心疫苗。
+  猫瘟病毒可通过被污染的物品传播，包括垫子、猫砂盆、食盆、玩具，以及接触过病猫的人的手和衣服；室内猫也可能逃出，或在医院、寄养时接触到病原。
+  2020 AAHA/AAFP 疫苗指南（已读全文）的核心疫苗清单适用于所有猫，非核心疫苗才按生活方式决定。
+applies_to: [all, indoor]
+urgency: important
+related: [CG-0017, CG-0057]
+scores:
+  benefit: 4
+  risk_reduction: 4
+  money_cost: 2
+  time_cost: 1
+  effort: 1
+  harm_potential: 1
+evidence:
+  level: B
+  summary: 疫苗指南（全文）与大学兽医学院页面一致。指南由疫苗企业资助，见 CG-0017 的利益冲突说明。
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-vaccine-risks
+    supports: AAFP 疫苗咨询小组推荐所有完全室内饲养的猫接种核心疫苗；没有疫苗 100% 有效，接种后仍应减少接触病原。
+    support_check: ai_checked
+    locator: Core vaccines 段落
+  - id: cornell-fpv
+    supports: 猫瘟病毒可通过被污染的垫子、猫砂盆、笼子、食盆、玩具以及接触过病猫者的手和衣服传播；接种是预防的基石。
+    support_check: ai_checked
+    locator: 传播与预防段落
+  - id: aaha-aafp-vaccination-2020
+    supports: 核心疫苗（FPV、FHV-1、FCV、狂犬病，及 1 岁以下猫的 FeLV）推荐给所有猫；非核心疫苗按生活方式和暴露风险决定。
+    support_check: ai_checked
+    locator: Core vs non-core 段落

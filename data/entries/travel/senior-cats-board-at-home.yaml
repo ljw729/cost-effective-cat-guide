@@ -1,0 +1,40 @@
+id: CG-0069
+slug: senior-cats-board-at-home
+type: recommendation
+title: 出远门时，老年猫最好请人上门照顾，而不是送去寄养
+summary: 老年猫适应变化的能力下降。出差旅行时，请邻居、朋友或家人上门照顾，通常比去陌生的寄养环境更好。
+category: travel
+tags: [senior, boarding]
+recommendation: 主人外出时，优先安排可靠的人上门喂养老年猫；必须寄养时，带上猫熟悉的毯子或玩具，并把健康情况和用药写清楚交给照顾者。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出，老年猫通常更难适应变化，减少环境压力非常重要；必须寄养时，带上熟悉的物品可能减少不安，而更好的选择是请邻居、朋友或亲属在家照顾。
+  康奈尔的厌食页面也指出，猫在寄养环境中拒食相对常见，而猫不吃东西本身就有风险。
+how_to_do_it:
+  - 写一张照顾清单：喂食量、用药、兽医电话、异常情况怎么处理。
+  - 请照顾者每天确认猫吃了、喝了、上了厕所。
+applies_to: [senior]
+urgency: routine
+related: [CG-0035]
+scores:
+  benefit: 3
+  risk_reduction: 2
+  money_cost: 1
+  time_cost: 2
+  effort: 2
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 大学兽医学院两个页面；属于基于兽医经验的管理建议，没有比较研究。
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-senior
+    supports: 老年猫适应变化能力下降，应尽量减少环境压力；寄养时熟悉物品可能减少不安，更好的选择是由邻居、朋友或亲属在家照顾。
+    support_check: ai_checked
+    locator: Stress 段落
+  - id: cornell-anorexia
+    supports: 猫在寄养环境中拒食相对常见。
+    support_check: ai_checked
+    locator: 第 2 段

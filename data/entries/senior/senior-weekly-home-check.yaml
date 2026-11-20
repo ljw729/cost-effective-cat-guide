@@ -1,0 +1,33 @@
+id: CG-0102
+slug: senior-weekly-home-check
+type: recommendation
+title: 老年猫：每周在家做一次简单检查
+summary: 把检查变成撸猫的一部分：看牙龈、摸身体、看眼睛、检查指甲。老年猫用猫抓板变少，指甲更容易长太长。
+category: senior
+tags: [senior, hidden-illness]
+recommendation: 每周给老年猫做一次简单的居家检查：掀开嘴唇看牙和牙龈，摸全身有没有肿块和变瘦，看眼睛和耳朵，检查并修剪指甲，帮它梳理够不到的地方。具体方法请兽医示范。
+why_it_matters: >-
+  康奈尔大学猫健康中心建议老年猫主人每周在家做一次基础检查，并请兽医示范方法；把检查融入日常互动中更容易，例如挠下巴时顺便掀开上唇看牙。
+  老年猫用猫抓柱的次数减少，指甲应每周检查、必要时修剪；老年猫自己理毛的能力下降，可能出现毛结、气味和皮肤炎症，每天梳毛有帮助。
+applies_to: [senior]
+urgency: routine
+related: [CG-0038, CG-0041, CG-0092]
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 单一大学兽医学院页面的专家建议；居家检查的效果没有研究数据。
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-senior
+    supports: 建议每周在家做基础体格检查并请兽医示范；可在挠下巴时掀起上唇检查牙齿；老年猫用猫抓柱减少，指甲应每周检查修剪；老年猫理毛能力下降，可能出现毛结、异味和炎症，每天梳毛有益。
+    support_check: ai_checked
+    locator: Close observation 与 grooming 段落

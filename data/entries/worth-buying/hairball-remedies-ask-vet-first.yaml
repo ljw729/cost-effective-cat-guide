@@ -1,0 +1,39 @@
+id: CG-0075
+slug: hairball-remedies-ask-vet-first
+type: buying_guide
+title: 化毛膏、化毛粮值得买吗？先梳毛，泻药类要问兽医
+summary: 每天梳毛是减少毛球最直接的办法。兽医专家建议，不要在没有兽医同意的情况下给猫用泻药类产品或宣称防毛球堵塞的饮食。
+category: worth-buying
+tags: [hairball]
+recommendation: 先从每天梳毛做起（长毛猫和换毛季尤其重要）；考虑化毛膏（多为润滑 / 缓泻类）或化毛粮前先问兽医；频繁吐毛球或干呕时先就医，而不是靠产品解决。
+why_it_matters: >-
+  康奈尔大学猫健康中心的内科专家建议主人养成每天梳毛的习惯来减少毛球；他强烈建议不要在没有兽医同意和监督的情况下给猫用泻药，对宣称能预防或缓解毛球堵塞的商品饮食也是一样。
+  频繁干呕可能是哮喘或其他胃肠疾病，用化毛产品可能延误诊断。
+applies_to: [all]
+urgency: routine
+related: [CG-0036, CG-0060]
+scores:
+  benefit: 2
+  risk_reduction: 2
+  money_cost: 1
+  time_cost: 2
+  effort: 1
+  harm_potential: 1
+evidence:
+  level: C
+  summary: 来源是大学兽医学院专家意见；本项目没有找到化毛产品效果的对照研究，因此不能说它们有效或无效。
+  gaps:
+    - "UNKNOWN: 化毛膏和化毛粮的实际效果，未找到可读的对照研究。"
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-hairball
+    supports: 建议每天梳理以减少毛球；强烈建议不要在没有兽医同意和监督下使用泻药，宣称预防或缓解毛球堵塞的商品饮食同样适用；频繁干呕可能是哮喘等其他疾病。
+    support_check: ai_checked
+    locator: 治疗与预防段落
+  - id: cornell-new-cat
+    supports: 定期梳毛让猫吞下更少毛，减少毛球问题；从小训练更容易接受。
+    support_check: ai_checked
+    locator: Grooming 段落

@@ -1,0 +1,38 @@
+id: CG-0080
+slug: consider-adopting-an-adult-cat
+type: recommendation
+title: 领养时也考虑成年猫和老年猫
+summary: 成年猫性格已经稳定，你更容易知道它是否适合你的家；收容所里的老年猫通常更安静、已经会用猫砂盆，却最容易被忽视。
+category: adoption
+tags: [adoption]
+recommendation: 领养前想清楚自己的生活方式：精力充沛的幼猫需要更多陪伴和训练；性格稳定的成年猫、老年猫往往更省心。选猫时看眼睛是否清亮、鼻子耳朵是否干净、是否愿意和人互动。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出：幼猫好奇活泼，你可以影响它的性格发展；成年猫性格已经定型，你更清楚它能否适应你的家，健康成年猫通常需要的照顾更少。
+  收容所里的老年猫常被忽视，但它们通常更安静、更可能已经会用猫砂盆。
+  选猫时，健康的猫眼睛清亮、少泪，鼻孔干净，耳内无分泌物（黑色焦油样分泌物常提示耳螨），愿意与人亲近；经常躲藏或异常嗜睡的猫要注意。
+applies_to: [all]
+urgency: routine
+related: [CG-0078]
+scores:
+  benefit: 3
+  risk_reduction: 1
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 来自大学兽医学院的新猫和老年猫页面，属于专家建议，没有比较研究。
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-new-cat
+    supports: 幼猫好奇活泼，主人可影响其性格；成年猫性格已定型，更容易判断是否适合；健康成年猫通常需要较少照顾；健康指标包括眼睛清亮、鼻孔干净、耳内无分泌物（黑色焦油样分泌物常提示耳螨），友好愿意互动；警惕经常躲藏或异常嗜睡的猫。
+    support_check: ai_checked
+    locator: Choosing a cat 段落
+  - id: cornell-senior
+    supports: 收容所的老年猫常被忽视，但通常更安静、更可能已会用猫砂盆。
+    support_check: ai_checked
+    locator: Senior cats in shelters 段落

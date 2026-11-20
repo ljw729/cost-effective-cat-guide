@@ -1,0 +1,34 @@
+id: CG-0091
+slug: check-for-ticks
+type: recommendation
+title: 外出的猫在温暖季节要检查蜱虫，防蜱产品只用兽医推荐的
+summary: 蜱虫可以传播致命疾病。外出的猫回家后梳毛检查，发现叮着的蜱虫用镊子贴近皮肤取下。
+category: prevention
+tags: [fleas, parasites]
+recommendation: 能外出的猫在温暖季节常梳毛检查蜱虫；发现时用镊子贴近皮肤夹住蜱虫头部附近，持续稳定地拔出；防蜱滴剂和项圈只在兽医同意后使用。出现发热、精神差、不吃、关节肿胀时就医。
+why_it_matters: >-
+  康奈尔大学猫健康中心的皮肤科教授指出：关节僵硬肿胀、精神差、食欲下降和发热可能是蜱传疾病的表现，需要尽快就医；部分蜱传疾病（如土拉菌病、猫胞簇虫病）预后很差。
+  防蜱的外用药和项圈含有强效化学物质，猫可能非常敏感，不应在没有兽医同意的情况下使用。温暖月份应经常梳毛检查。
+applies_to: [outdoor]
+urgency: routine
+region_notes: 来源针对美国的蜱传疾病。不同地区的蜱种和疾病不同，请咨询当地兽医。
+related: [CG-0005, CG-0052, CG-0087]
+scores:
+  benefit: 2
+  risk_reduction: 3
+  money_cost: 1
+  time_cost: 2
+  effort: 2
+  harm_potential: 1
+evidence:
+  level: C
+  summary: 单一大学兽医学院页面，针对美国的蜱种和疾病。
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-ticks
+    supports: 关节僵硬肿胀、精神差、食欲下降、发热可能提示蜱传疾病，应尽快就医；土拉菌病和猫胞簇虫病预后很差；外用药和防蜱项圈含强效化学物质，猫可能非常敏感，未经兽医同意不应使用；温暖月份常梳毛检查；用镊子贴近皮肤夹住蜱虫头部附近稳定拔出。
+    support_check: ai_checked
+    locator: 全文

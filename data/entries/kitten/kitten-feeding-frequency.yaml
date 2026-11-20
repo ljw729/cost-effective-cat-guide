@@ -1,0 +1,36 @@
+id: CG-0071
+slug: kitten-feeding-frequency
+type: recommendation
+title: 幼猫一天三顿，半岁到一岁两顿，成年猫一到两顿
+summary: 幼猫按体重需要更多食物。6 月龄前一天三顿，6 月龄到 1 岁一天两顿，成年后一天一到两顿通常就可以。
+category: kitten
+tags: [feeding, kitten]
+recommendation: 6 月龄前每天喂三顿，6 月龄到 1 岁每天两顿，成年后每天一到两顿；选择适合生命阶段的全价猫粮。自由采食的干粮每天换新。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出：幼猫每公斤体重需要更多食物，应该多餐；6 月龄前通常一天三顿最好，6 月龄到 1 岁一天两顿；约 1 岁成年后一天一到两顿适合大多数猫；10 岁以上的猫除非兽医另有指示，维持原来的喂法。
+  自由采食干粮对有些猫可以，但对另一些猫会导致吃太多、体重增加；放着的食物每天要换新。
+how_to_do_it:
+  - 按包装上的生命阶段（幼猫 / 成猫）选择全价粮。
+  - 每月称体重，按体况调整（见体况条目）。
+applies_to: [kitten, adult]
+urgency: routine
+related: [CG-0008, CG-0011, CG-0023]
+scores:
+  benefit: 3
+  risk_reduction: 2
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 单一大学兽医学院页面的通用建议；喂食次数对健康的影响缺少直接研究。
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-how-often-feed
+    supports: 幼猫每磅体重需要更多食物，应多餐；6 月龄前一天三餐，6 月龄到 1 岁一天两餐；成年后一天一到两餐；10 岁以上维持原喂法除非兽医另有指示；自由采食干粮可能导致部分猫过食；放置的食物每天更换。
+    support_check: ai_checked
+    locator: 全文

@@ -1,0 +1,46 @@
+id: CG-0056
+slug: spay-neuter-before-puberty
+type: recommendation
+title: 不打算繁育，就在性成熟前绝育
+summary: 母猫最早 4 月龄就能怀孕。在第一次发情前绝育，几乎消除乳腺肿瘤风险，也避免子宫蓄脓；公猫绝育减少打架、喷尿和游荡。
+category: prevention
+tags: [neuter]
+recommendation: 不打算繁育的猫，和兽医商量在性成熟（第一次发情）前绝育，通常是几个月大时。术后按兽医要求让猫安静休息，不要自行给人用止痛药。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出：母猫在 3 到 6 月龄、乳腺组织发育前绝育，几乎可以消除日后患乳腺癌的风险，并排除子宫蓄脓等可能致命的子宫卵巢疾病；公猫去势可预防睾丸肿瘤，并减少游荡、与其他猫打斗和喷尿标记。
+  母猫最早 4 月龄就能怀孕；调查发现，很多主人以为猫“还太小”，结果在绝育前已经生过一两窝。对 6 周龄起早期绝育的猫随访 3 年，未发现不良影响。
+how_to_do_it:
+  - 第一次带幼猫体检时就问兽医建议的绝育时间。
+  - 术后一周左右限制剧烈活动，按兽医指导护理伤口。
+do_not:
+  - 不要因为“等第一次发情后再做”而让母猫先怀孕。
+  - 术后不要给阿司匹林、布洛芬、泰诺等人用药。
+applies_to: [kitten, all]
+urgency: important
+related: [CG-0033, CG-0055]
+scores:
+  benefit: 4
+  risk_reduction: 4
+  money_cost: 3
+  time_cost: 2
+  effort: 2
+  harm_potential: 1
+  rationale: 全麻手术有小的风险，因此 harm_potential 记 1。
+evidence:
+  level: B
+  summary: 大学兽医学院三篇页面一致（绝育、早期绝育、新猫护理）。早期绝育长期影响的随访只有 3 年，来源也指出需要更长期的研究。
+  gaps:
+    - "TODO: 纳入关于早期绝育长期健康影响的研究或共识（如 Feline Fix by Five 相关文献）。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-spay
+    supports: 母猫 3–6 月龄、乳腺发育前绝育几乎消除乳腺癌风险，并排除子宫蓄脓；应在第一次发情前绝育；公猫去势预防睾丸肿瘤，减少游荡、打斗和喷尿；术后约一周保持安静；术后不要自行使用阿司匹林、布洛芬、泰诺。
+    support_check: ai_checked
+    locator: 全文
+  - id: cornell-pediatric-spay
+    supports: 关键是在青春期前绝育；母猫最早 4 月龄即可怀孕；调查中近 90% 已绝育母猫在绝育前生过一两窝；早期绝育（最早 6 周龄）随访 3 年未见不良影响，需要更长期研究。
+    support_check: ai_checked
+    locator: 回答正文

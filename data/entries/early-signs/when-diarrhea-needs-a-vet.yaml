@@ -1,0 +1,46 @@
+id: CG-0074
+slug: when-diarrhea-needs-a-vet
+type: recommendation
+title: 腹泻超过一两天，或同时不吃、没精神、呕吐，就要看兽医
+summary: 突然换粮或一次出行压力可能引起几天的软便，但持续腹泻或伴随全身症状需要就医。不要自行给人用止泻药。
+category: early-signs
+tags: [diarrhea]
+recommendation: 腹泻持续超过一两天，或伴随食欲差、精神差、呕吐时，尽快看兽医；幼猫腹泻更要早看。不要自行使用非处方药。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出：腹泻可能很短暂，例如突然换粮、长途坐车或在医院住一个周末后的几天软便；但如果腹泻持续超过一两天，且猫同时有食欲差、精神差或呕吐等全身症状，应尽快就医。
+  幼猫消化系统尚未成熟，风险更高；一些非处方药可能对猫有害，因此重要的是尽早让兽医检查。
+how_to_do_it:
+  - 换粮时新旧混合，逐步过渡。
+  - 带一份新鲜粪便样本去医院，或拍照。
+  - 保证有水，留意是否脱水（精神差、牙龈发干）。
+warning_signs:
+  - 腹泻超过一两天
+  - 同时不吃、没精神、呕吐
+  - 粪便带血、黑色柏油样
+  - 幼猫腹泻
+applies_to: [all, kitten]
+urgency: important
+related: [CG-0036, CG-0053]
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 2
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 单一大学兽医学院页面给出的就医界线；黑便的提示来自同一机构的寄生虫页面（钩虫失血）。
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-diarrhea
+    supports: 突然换粮或压力（长途车程、住院）可引起几天腹泻；幼猫风险更高；腹泻持续超过一两天且伴随食欲差、精神差或呕吐等全身症状时应尽快就医；一些非处方药对猫有害。
+    support_check: ai_checked
+    locator: 全文
+  - id: cornell-gi-parasites
+    supports: 严重钩虫感染可致失血，粪便常呈黑色柏油样。
+    support_check: ai_checked
+    locator: Hookworms 段落

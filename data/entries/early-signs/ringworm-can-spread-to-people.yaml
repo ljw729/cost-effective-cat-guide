@@ -1,0 +1,42 @@
+id: CG-0082
+slug: ringworm-can-spread-to-people
+type: recommendation
+title: 猫身上圆形掉毛、皮屑多：可能是猫癣，会传染给人
+summary: 猫癣是真菌感染，不是虫子。它能传给人和其他动物，不治疗也可能要九个月到一年才消退，期间持续传染。
+category: early-signs
+tags: [ringworm, skin]
+recommendation: 发现圆形脱毛、断毛、皮屑或结痂时，带猫看兽医确诊；确诊后按疗程治疗，同时清洁环境，接触猫后洗手。
+why_it_matters: >-
+  康奈尔大学猫健康中心的皮肤科教授指出：猫癣（皮肤真菌病）是全世界猫最常见的皮肤病之一；健康猫不治疗也可能自愈，但通常需要 9 个月到 1 年，期间会持续传染；它是人畜共患病，可以从猫传给人。
+  常见表现有圆形脱毛、断毛、皮屑或结痂、皮肤或毛色改变、过度理毛和抓挠、爪子感染、头皮屑。治疗通常需要外用加口服药，至少约 6 周。
+  康奈尔的疫苗页面也指出，猫癣疫苗对猫无效，不推荐。
+how_to_do_it:
+  - 治疗期间经常吸尘，清洗猫的垫子。
+  - 家里有小孩、老人或免疫力低的人时，告诉医生家里有猫癣。
+applies_to: [all, kitten]
+urgency: important
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 2
+  time_cost: 3
+  effort: 3
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 大学兽医学院的猫癣页面和疫苗页面；治疗方案由兽医决定，本项目不收录药物和剂量。
+  gaps:
+    - "TODO: 纳入 WAVD 犬猫皮肤真菌病临床共识指南。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-ringworm
+    supports: 猫癣是常见的真菌性皮肤病；不治疗通常 9 个月到 1 年自愈，期间持续传染；是人畜共患病；表现为圆形脱毛、断毛、皮屑结痂、颜色改变、过度理毛抓挠、爪感染、头皮屑；治疗需外用加多数情况下口服药，至少约 6 周。
+    support_check: ai_checked
+    locator: 全文
+  - id: cornell-vaccine-risks
+    supports: 猫癣疫苗对猫无效，不推荐。
+    support_check: ai_checked
+    locator: Dermatophytosis 条目

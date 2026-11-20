@@ -1,0 +1,41 @@
+id: CG-0084
+slug: squinting-or-eye-discharge
+type: recommendation
+title: 猫眯眼、频繁眨眼、眼睛有分泌物：请兽医排除严重眼病
+summary: 结膜炎很多会自愈，但眼睛疼痛和分泌物也可能是角膜溃疡等更严重的问题。眼睛的问题拖不得。
+category: early-signs
+tags: [vision, respiratory-infection]
+recommendation: 猫出现眯眼、频繁眨眼、流泪或眼睛有分泌物，尤其看起来疼时，联系兽医检查；不要用人用眼药水。
+why_it_matters: >-
+  康奈尔大学猫健康中心的眼科专家指出：结膜炎的表现包括眯眼、频繁眨眼和分泌物，可能出现在一只或两只眼睛以及第三眼睑上；多数结膜炎可以不用药自愈，但如果猫有明显的眼部不适和分泌物，应就医以排除更严重的眼病。
+  猫疱疹病毒感染也常引起反复的结膜炎或角膜炎。
+do_not:
+  - 不要用人用眼药水，尤其是含激素的。
+applies_to: [all, kitten]
+urgency: important
+related: [CG-0041, CG-0086]
+scores:
+  benefit: 3
+  risk_reduction: 2
+  money_cost: 2
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 大学兽医学院眼科专家页面与呼吸道感染页面；“不要用人用眼药水”是保守建议，来源没有直接写出。
+  gaps:
+    - "UNKNOWN: 人用眼药水对猫的具体风险，已读来源没有讨论。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-conjunctivitis
+    supports: 结膜炎表现为眯眼、频繁眨眼、分泌物，可累及第三眼睑；多数可自愈，但有明显眼部不适和分泌物时应就医以排除更严重的眼病。
+    support_check: ai_checked
+    locator: 临床表现与 Dr. Kern 建议
+  - id: cornell-uri
+    supports: 疱疹病毒感染在年长猫中可表现为反复结膜炎或角膜炎。
+    support_check: ai_checked
+    locator: FVR 诊断段落

@@ -1,0 +1,45 @@
+id: CG-0063
+slug: give-the-right-scratching-post
+type: recommendation
+title: 猫抓家具？给它一个对的猫抓板，而不是惩罚它
+summary: 抓挠是正常的标记行为，很难禁止。观察猫喜欢竖着抓还是横着抓、喜欢什么材质，买对应的猫抓板，放在它常抓的地方。
+category: behavior
+tags: [scratching]
+recommendation: 观察猫喜欢抓的材质和方向，选择相应的猫抓柱（竖着抓）或猫抓板（横着抓），足够稳、不会晃；先放在猫常抓的位置旁边，猫使用时给零食和表扬；定期剪指甲。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出，抓挠主要是标记行为（爪子上的腺体留下气味），也能去除爪鞘，是像理毛一样的天性，很难停止，但可以引导到合适的物品上。
+  猫抓柱要匹配猫喜欢的材质（剑麻、地毯等）和方向，而且要稳固；放在猫喜欢抓的地方旁边，再逐渐移到你希望的位置。
+  惩罚没有用：猫无法把惩罚和抓挠联系起来，只会学会害怕你，甚至导致攻击。去爪手术实际上是截掉脚趾末节骨头，有麻醉、感染等风险，且争议很大。
+how_to_do_it:
+  - 每个常被抓的地方旁边放一个。
+  - 猫用了就立刻奖励零食。
+  - 定期剪指甲，减少破坏。
+do_not:
+  - 不要喷水、大声吓、打猫。
+  - 不要把去爪手术当作解决办法。
+applies_to: [all]
+urgency: routine
+related: [CG-0022, CG-0064]
+scores:
+  benefit: 3
+  risk_reduction: 2
+  money_cost: 1
+  time_cost: 1
+  effort: 2
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 来自大学兽医学院的行为问题页面；2013 AAFP/ISFM 环境需求指南也把抓挠列为猫需要满足的天性行为之一。
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-destructive
+    supports: 抓挠是标记行为，可去除爪鞘，是天性，难以停止但可引导；按猫偏好的材质和方向选择猫抓柱，要稳固；放在常抓处旁边再逐渐移动；使用时奖励；可定期剪指甲或用指甲套；惩罚无效，只会让猫害怕主人甚至攻击；去爪是截除趾骨末端，有手术风险且争议很大。
+    support_check: ai_checked
+    locator: Scratching 段落与 Declawing 段落
+  - id: aafp-isfm-environmental-needs-2013
+    supports: 抓挠处是猫的关键环境资源之一，应与其他资源分开、多处提供。
+    support_check: ai_checked
+    locator: Pillar 2

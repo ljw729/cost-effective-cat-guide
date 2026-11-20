@@ -1,0 +1,36 @@
+id: CG-0054
+slug: heartworm-depends-on-region
+type: recommendation
+title: 心丝虫：在蚊子多、有心丝虫流行的地区，和兽医讨论预防
+summary: 心丝虫经蚊子传播，在猫身上主要伤害肺部，而且没有安全的杀虫治疗方法，只能预防。是否需要取决于当地流行情况。
+category: prevention
+tags: [heartworm, parasites]
+recommendation: 问当地兽医你所在地区猫是否有心丝虫风险；有风险的地区，按兽医建议给家里所有猫做预防（室内猫也会被蚊子叮）。
+why_it_matters: >-
+  康奈尔大学猫健康中心的寄生虫学教授指出，心丝虫只能通过蚊子叮咬进入猫体内，在猫身上主要造成肺部疾病；症状（间歇性呕吐、呼吸急促、咳嗽、体重下降）容易和哮喘混淆，急性病例可能突然死亡。
+  与狗不同，猫的心丝虫病无法用杀虫药治疗，用于狗的强效药物对猫可能致命，因此预防是关键。
+applies_to: [all, indoor, outdoor]
+urgency: important
+region_notes: 来源针对美国，尤其是温暖潮湿、蚊子多的地区。中国各地猫心丝虫的流行情况，本项目尚未找到可靠数据，请咨询当地兽医。
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 2
+  time_cost: 1
+  effort: 1
+  harm_potential: 1
+evidence:
+  level: C
+  summary: 单一大学兽医学院页面，且针对美国；是否需要预防强烈依赖地区流行率，而这方面本项目没有可靠的中国数据。
+  gaps:
+    - "UNKNOWN: 中国大陆各地区猫心丝虫流行率。"
+    - "TODO: 纳入美国心丝虫协会（AHS）猫心丝虫指南。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-heartworm
+    supports: 心丝虫只经蚊子叮咬传播；猫主要表现为肺部疾病（HARD）；常见症状包括间歇性呕吐、腹泻、呼吸急促、咳嗽、食欲差、体重下降，急性病例可猝死；猫心丝虫病无法治疗，狗用杀虫药对猫可能致命；在兽医同意下所有猫都应使用预防药，尤其是蚊子多的温暖潮湿地区。
+    support_check: ai_checked
+    locator: 全文

@@ -1,0 +1,41 @@
+id: CG-0064
+slug: never-physically-punish
+type: dont
+title: 不要打猫、吓猫、喷水惩罚
+summary: 体罚和吓唬会增加猫的恐惧和焦虑，让攻击和行为问题更严重，还会让猫害怕你。
+category: dont
+tags: [behavior-change, play]
+recommendation: 遇到不想要的行为时，先排除疾病，再找出原因、改变环境、引导到合适的替代行为；不打、不喷水、不大声吓唬。
+why_it_matters: >-
+  康奈尔大学猫健康中心的行为页面多次强调：任何形式的体罚都会增加猫的恐惧或焦虑并加重攻击；猫无法把惩罚和行为联系起来，只会学会害怕主人。
+  处理攻击行为的第一步是让兽医排除甲亢、关节炎、牙病等可能导致攻击的疾病。对于幼猫的玩耍攻击，用逗猫棒等远离手的玩具转移注意，而不是用手逗猫。
+how_to_do_it:
+  - 不用手或脚逗猫，用逗猫棒保持距离。
+  - 猫准备扑咬时，用玩具转移它的注意力；必要时安静走开。
+  - 摸猫时留意瞳孔放大、尾巴甩动、耳朵后压，在它攻击前停下。
+applies_to: [all, kitten]
+urgency: important
+related: [CG-0039, CG-0063, CG-0088]
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 0
+  time_cost: 1
+  effort: 2
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 大学兽医学院的攻击行为页面和破坏行为页面一致；2014 AAFP/ISFM 乱尿指南同样反对惩罚（见 CG-0014 相关来源）。
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-aggression
+    supports: 任何体罚都会增加恐惧焦虑并加重攻击；第一步是排除疾病；玩耍攻击可通过预判、玩具转移注意来处理，玩具要远离手；攻击时不要体罚甚至触碰猫；抚摸诱发的攻击前常出现瞳孔放大、甩尾、耳朵后转。
+    support_check: ai_checked
+    locator: 管理原则、Play aggression、Petting-induced 段落
+  - id: cornell-destructive
+    supports: 猫对惩罚反应不好，因为看不出惩罚和行为的联系；惩罚只会让猫害怕你，甚至导致攻击；喷水枪、大声吓唬让猫认为你的出现带来惩罚。
+    support_check: ai_checked
+    locator: Punishment 段落

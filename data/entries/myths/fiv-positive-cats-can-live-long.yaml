@@ -1,0 +1,42 @@
+id: CG-0058
+slug: fiv-positive-cats-can-live-long
+type: myth
+title: 误区：猫艾滋（FIV）阳性就活不久了
+summary: 错误。研究显示，只要没有同时感染猫白血病，FIV 阳性的猫通常能活到平均寿命。FIV 不会传染给人。
+category: myths
+tags: [felv-fiv]
+myth_claim: 猫查出 FIV 阳性，很快就会发病死亡，而且会传染给家里的人。
+myth_verdict: incorrect
+recommendation: FIV 阳性的猫保持室内生活、避免和其他猫打架、营养均衡、不吃生食，至少每 6 个月体检一次，生病时尽早治疗。不要仅因 FIV 阳性就放弃一只健康的猫。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出：近期研究显示，只要不同时感染 FeLV，FIV 阳性的猫通常能活到平均寿命；感染后可以多年没有症状，管理得当可以健康生活很多年。
+  FIV 主要通过打架咬伤传播，共用水碗、互相理毛等非攻击性接触不是有效的传播途径，社会关系稳定、不打架的多猫家庭传播风险低。
+  FIV 只感染猫科动物，目前没有证据表明能感染人。
+how_to_do_it:
+  - 让 FIV 阳性的猫待在室内，绝育以减少打架。
+  - 至少每 6 个月体检一次，每年验血验尿。
+  - 发现任何生病迹象尽早就医，因为继发感染是主要威胁。
+applies_to: [special-condition, multi-cat]
+urgency: routine
+related: [CG-0055]
+scores:
+  benefit: 3
+  risk_reduction: 2
+  money_cost: 2
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 单一大学兽医学院页面（总结了近期研究）；“通常能活到平均寿命”无法预测单只猫的情况。
+  gaps:
+    - "TODO: 纳入 FIV 阳性猫生存期的队列研究和 2020 AAFP 逆转录病毒指南。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-fiv
+    supports: 近期研究提示 FIV 阳性猫只要未同时感染 FeLV 通常可达平均寿命；无症状期可持续数年；主要经咬伤传播，非攻击性接触不是有效传播途径；稳定、不打架的家庭风险低；管理包括室内饲养、绝育、全价饮食、避免生食，至少每 6 个月体检；没有证据表明 FIV 可感染人。
+    support_check: ai_checked
+    locator: 全文

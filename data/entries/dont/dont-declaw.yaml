@@ -1,0 +1,37 @@
+id: CG-0104
+slug: dont-declaw
+type: dont
+title: 不要给猫做去爪手术
+summary: 去爪不是剪指甲，而是截掉脚趾最末端的骨头。它有麻醉、感染等手术风险，在兽医界争议很大。抓家具有更好的办法。
+category: dont
+tags: [scratching]
+recommendation: 不把去爪当作解决抓挠的办法；用合适的猫抓板、定期剪指甲，必要时用指甲套。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出，去爪是一种有很大争议的择期手术，名字听起来像拔指甲，实际上是截除脚趾末端的骨头；和其他手术一样，有麻醉并发症、感染等风险。
+  同一页面给出了替代方法：按猫的偏好选择猫抓柱、放在常抓的位置、使用时奖励、定期剪指甲或使用指甲套。
+region_notes: 一些国家和地区已经立法禁止非医疗原因的去爪手术。
+applies_to: [all]
+urgency: routine
+related: [CG-0063]
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 单一大学兽医学院页面；去爪长期影响（疼痛、行为问题）的研究本项目尚未纳入。
+  gaps:
+    - "TODO: 纳入去爪术后长期疼痛和行为问题的研究，以及 AAFP 关于去爪的立场声明。"
+    - "UNKNOWN: 哪些国家和地区立法禁止去爪，本项目尚未逐一核实来源。"
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-destructive
+    supports: 去爪是有很大争议的择期手术，实际上是截除脚趾末端的骨头，不是简单去除指甲；有麻醉并发症、感染等手术风险；替代方法包括合适的猫抓柱、奖励、剪指甲、指甲套。
+    support_check: ai_checked
+    locator: Declawing 段落

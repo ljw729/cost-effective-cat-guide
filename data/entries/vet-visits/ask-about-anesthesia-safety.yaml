@@ -1,0 +1,39 @@
+id: CG-0083
+slug: ask-about-anesthesia-safety
+type: recommendation
+title: 担心麻醉？问兽医怎么评估和监护，而不是拒绝必要的手术
+summary: 随着更安全的麻醉药和监护设备普及，麻醉总体上是非常安全的。真正该做的是了解术前检查和术中谁负责监护。
+category: vet-visits
+tags: [anesthesia]
+recommendation: 需要麻醉（洁牙、绝育、手术）时，向兽医了解术前检查、术中由谁监护麻醉、术后如何止痛；不要因为害怕麻醉而选择免麻洁牙或拖延必要的治疗。
+why_it_matters: >-
+  康奈尔大学猫健康中心的麻醉学专家指出，几乎所有猫的手术都需要麻醉；所有持证兽医都受过麻醉训练；随着更新、更安全的麻醉药和更好的监护工具出现，麻醉总体上是非常安全的程序，主人“没什么需要太担心的”。
+  大医院通常有专门的麻醉人员监护，小诊所通常由兽医助理兼任监护。术后止痛只能用兽医开的药。
+how_to_do_it:
+  - 问：术前要做哪些检查（血液检查等）？
+  - 问：麻醉期间谁专门盯着监护？
+  - 问：术后疼痛怎么控制？
+applies_to: [all]
+urgency: routine
+related: [CG-0020, CG-0033, CG-0056]
+scores:
+  benefit: 3
+  risk_reduction: 2
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 大学兽医学院麻醉专家的观点；没有给出麻醉风险的具体数据。
+  gaps:
+    - "TODO: 纳入猫麻醉相关死亡率研究（如 CEPSAF）和 2018 AAHA 麻醉指南。"
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-anesthesia
+    supports: 几乎所有猫手术都需要麻醉；所有持证兽医都受过麻醉训练；随着更安全的麻醉药和监护工具出现，麻醉总体上非常安全；大医院有麻醉专人监护，小诊所多由兽医助理兼任；术后不要使用未经兽医同意的止痛药。
+    support_check: ai_checked
+    locator: 全文

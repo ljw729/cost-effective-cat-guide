@@ -1,0 +1,45 @@
+id: CG-0060
+slug: hairballs-are-not-always-normal
+type: myth
+title: 误区：猫吐毛球很正常，吐多少都不用管
+summary: 部分正确。每一两周吐一次毛球常见，但反复干呕、吐不出来、不吃东西或精神差时要就医，毛球可能堵塞肠道，干呕也可能是哮喘。
+category: myths
+tags: [vomiting, hairball]
+myth_claim: 猫吐毛球是正常现象，吐得多也不需要看兽医。
+myth_verdict: partly_correct
+recommendation: 每天梳毛减少吞下的毛；吐毛球之外出现反复干呕、频繁呕吐、一两天不吃或精神差时，尽快看兽医。不要自行给猫吃泻药或“化毛”产品代替就医。
+why_it_matters: >-
+  康奈尔大学猫健康中心的内科专家指出，猫每一两周吐一次毛球并不少见；但毛球如果太大，或进入小肠卡住，虽然少见却很严重，不手术可能致命。
+  精神差、一两天以上不吃、反复干呕或呕吐的猫应尽快检查；频繁“咳毛球”可能根本不是毛球，而是哮喘等需要紧急治疗的呼吸道问题。
+  长毛猫和换毛季更容易形成毛球，每天梳毛是减少毛球的办法；过度理毛还可能提示食物过敏等皮肤问题。
+how_to_do_it:
+  - 每天梳毛，换毛季尤其要坚持。
+  - 记录吐毛球的频率（见“猫呕吐何时就医”条目）。
+applies_to: [all]
+urgency: important
+related: [CG-0036, CG-0075]
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 0
+  time_cost: 2
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 大学兽医学院两个页面（毛球、呕吐）；它们对“多频繁算正常”的说法有轻微差别，本条采取更谨慎的就医建议。
+  gaps:
+    - "UNKNOWN: 吐毛球的“正常频率”没有基于研究的界线。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-hairball
+    supports: 每一两周吐一次毛球不少见；毛球过大或卡在小肠虽不常见但很严重，不手术可能致命；精神差、一两天以上不吃、反复干呕或呕吐应尽快检查；干呕可能是哮喘；长毛猫、换毛季风险更高，建议每天梳毛；过度理毛可能提示食物过敏性皮肤病。
+    support_check: ai_checked
+    locator: 全文
+  - id: cornell-vomiting
+    supports: 每周呕吐超过一次或伴随其他症状应及时就诊；偶尔吐毛球通常无害。
+    support_check: ai_checked
+    locator: 第 2–3 段

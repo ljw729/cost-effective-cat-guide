@@ -1,0 +1,38 @@
+id: CG-0073
+slug: food-allergy-elimination-trial
+type: recommendation
+title: 怀疑食物过敏：在兽医指导下做 8 到 10 周的排除饮食
+summary: 食物过敏多表现为头颈部瘙痒，也可能有呕吐腹泻。只有严格只吃一种新蛋白饮食 8 到 10 周，才能判断是不是食物引起的。
+category: nutrition
+tags: [food-allergy]
+recommendation: 猫长期瘙痒（尤其头颈部）或伴随胃肠症状时，先请兽医排除跳蚤等原因；怀疑食物过敏时，在兽医指导下用新蛋白或处方饮食做至少 8 到 10 周的排除试验，期间不吃任何其他东西。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出：食物过敏是猫第三常见的过敏类型（次于跳蚤叮咬过敏和吸入性过敏）；瘙痒性皮疹多见于头颈部，约 10%–15% 的病例同时有呕吐腹泻；症状会在数月内逐渐出现。
+  判断方法是“新奇饮食”试验：只吃猫以前没吃过的蛋白和碳水来源，加上水，至少 8 到 10 周，症状消退后再逐一加回原来的成分观察。
+  频繁换“低敏粮”而不做严格试验，无法得出结论。
+do_not:
+  - 试验期间不要喂零食、人食、其他猫的粮。
+  - 不要一两周没效果就换。
+applies_to: [special-condition]
+urgency: routine
+scores:
+  benefit: 3
+  risk_reduction: 2
+  money_cost: 3
+  time_cost: 3
+  effort: 3
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 单一大学兽医学院页面；排除饮食是兽医皮肤科的标准诊断方法，但本项目尚未读到指南或系统综述。
+  gaps:
+    - "TODO: 纳入关于犬猫食物不良反应排除饮食时长的系统综述。"
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-food-allergy
+    supports: 食物过敏是猫第三常见过敏类型；瘙痒性皮疹多见于头颈部；约 10%–15% 有胃肠症状；症状在数月内逐渐出现；排除跳蚤等原因后用新奇蛋白饮食，只吃该饮食和水至少 8–10 周，症状消退后逐一重新引入原饮食成分。
+    support_check: ai_checked
+    locator: 全文

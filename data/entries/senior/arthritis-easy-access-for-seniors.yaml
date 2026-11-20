@@ -1,0 +1,46 @@
+id: CG-0066
+slug: arthritis-easy-access-for-seniors
+type: recommendation
+title: 老年猫“变懒了”可能是关节痛：让猫砂盆、食盆、窝更容易够到
+summary: 12 岁以上的猫约 90% 有关节退化的影像学证据，但很少明显跛行，更常见的是不爱跳、进出猫砂盆困难、不理毛。
+category: senior
+tags: [senior, arthritis]
+recommendation: 老年猫活动减少时带去检查关节；在家改用低边或有缺口的猫砂盆，把猫砂盆、食盆、水盆和窝放在不用跳、不用爬楼梯就能到的地方，必要时加台阶或坡道。止痛药只用兽医开的。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出，一项对 100 只 10 岁以上猫的 X 光研究发现，12 岁以上的猫中 90% 有关节退化的证据；大多数关节炎的猫并不明显跛行，而是变得懒、爱找温暖的地方睡觉、不再上下楼梯、难以进出猫砂盆，甚至因无法摆好姿势而便秘、无法理毛。
+  进出猫砂盆困难还可能导致猫在盆外排泄。肥胖会加重关节负担。
+how_to_do_it:
+  - 猫砂盆换成低边款，或在一侧剪一个低入口。
+  - 每层楼都放水和猫砂盆。
+  - 常去的高处加一个台阶或箱子。
+  - 帮老年猫梳理它自己舔不到的部位。
+do_not:
+  - 不要给人用止痛药（对猫有毒）。
+applies_to: [senior]
+urgency: important
+related: [CG-0033, CG-0039, CG-0014]
+scores:
+  benefit: 4
+  risk_reduction: 2
+  money_cost: 1
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 大学兽医学院两个页面一致，并引用了一项 100 只老年猫的 X 光研究（未直接读取原论文）。
+  gaps:
+    - "TODO: 直接纳入猫退行性关节病流行率研究和 2021 老年猫指南中的疼痛管理部分。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-slowing
+    supports: 活动减少、躲藏、找温暖处睡觉可能是关节痛；可能难以进出猫砂盆、回避楼梯、因姿势困难而便秘、无法理毛；100 只 10 岁以上猫的 X 光研究显示 12 岁以上猫 90% 有退行性关节病证据；肥胖猫更常见。
+    support_check: ai_checked
+    locator: 全文
+  - id: cornell-senior
+    supports: 关节炎常见于老年猫，大多数并不明显跛行，但可能难以到达猫砂盆和食盆，尤其需要跳跃或爬楼梯时；可能需要低边或有缺口的猫砂盆；疼痛可导致盆外排泄。
+    support_check: ai_checked
+    locator: Musculoskeletal 与行为段落

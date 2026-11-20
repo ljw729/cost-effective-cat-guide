@@ -25,10 +25,13 @@ const STOP = new Set(['的', '了', '和', '与', '在', '是', '要', '让', '�
 export function normalize(text: string, synonyms: SynonymGroup[]): string {
   let t = text.toLowerCase();
   // longest terms first so "尿不出来" wins over "尿"
-  const pairs = synonyms.flatMap((g) => g.terms.map((term) => [term.toLowerCase(), ` §${g.tag}§ `] as const));
+  const tags = synonyms.map((g) => g.tag);
+  const pairs = synonyms.flatMap((g, gi) => g.terms.map((term) => [String(term).toLowerCase(), gi] as const));
   pairs.sort((x, y) => y[0].length - x[0].length);
-  for (const [term, token] of pairs) if (term.length >= 2) t = t.split(term).join(token);
-  return t;
+  // Replace with private-use placeholders first, so a later (shorter) term can never
+  // match inside an already-inserted token (e.g. "ate" inside "§fresh-water§").
+  for (const [term, gi] of pairs) if (term.length >= 2) t = t.split(term).join(`${gi}`);
+  return t.replace(/(\d+)/g, (_, i: string) => ` §${tags[Number(i)]}§ `);
 }
 
 export function features(text: string): Map<string, number> {

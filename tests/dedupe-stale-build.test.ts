@@ -69,3 +69,13 @@ describe('build', () => {
     expect(md.indexOf('先看这里：紧急情况')).toBeLessThan(md.indexOf('## 目录'));
   });
 });
+
+describe('synonym normalization edge cases', () => {
+  it('never matches a short term inside an inserted token', () => {
+    const out = normalize('保持饮水新鲜', [
+      { tag: 'fresh-water', terms: ['保持饮水新鲜'] },
+      { tag: 'heart-disease', terms: ['ATE'] },
+    ]);
+    expect(out.trim()).toBe('§fresh-water§');
+  });
+});

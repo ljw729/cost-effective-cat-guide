@@ -79,6 +79,9 @@ export function validateKnowledgeBase(kb: KnowledgeBase, today = new Date()): Is
   const ids = new Map<string, string>();
   const slugs = new Map<string, string>();
   const knownTags = new Set(kb.synonyms.map((g) => g.tag));
+  for (const g of kb.synonyms) {
+    for (const t of g.terms ?? []) if (typeof t !== 'string') err('data/taxonomy/synonyms.yaml', 'synonym-type', `tag "${g.tag}": term ${JSON.stringify(t)} is not a string (quote it in YAML)`);
+  }
   const usedSources = new Set<string>();
   // Local calendar date (maintainers write dates in their own time zone); allow +1 day of slack.
   const tomorrow = new Date(today.getTime() + 24 * 3600 * 1000);

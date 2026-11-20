@@ -28,10 +28,10 @@ scores:
   harm_potential: 0
   rationale: 避免花钱做无效处理，同时避免漏诊真正的牙病。
 evidence:
-  level: C
+  level: B
   summary: >-
     美国兽医牙科学院的立场声明明确反对免麻刮牙，大学兽医学院资料和 AAHA 指南的洁牙流程都以麻醉为前提。
-    本条目前评为 C；纳入 AVDC 立场声明后，按本项目规则可考虑上调为 B，等待维护者确认（证据等级上调需人工确认）。
+    专科组织立场声明与指南一致，评为 B（2026-11-20 经维护者确认由 C 上调）。
 medical_review_required: true
 review_status: ai_researched
 created: 2026-11-20

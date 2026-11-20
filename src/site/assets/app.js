@@ -55,7 +55,7 @@
   // ---------- search ----------
   var app = document.getElementById('finder');
   if (!app) return;
-  var state = { q: '', category: '', audience: '', grade: '', evidence: '', type: '', onlyFavs: false };
+  var state = { q: '', category: '', audience: '', grade: '', evidence: '', type: '', urgency: '', money: '', onlyFavs: false };
   var data = null;
   var listEl = app.querySelector('.cards');
   var countEl = app.querySelector('.result-count');
@@ -101,6 +101,8 @@
     if (state.grade) { if (state.grade === 'none' ? e.grade : e.grade !== state.grade) return false; }
     if (state.evidence && e.evidence !== state.evidence) return false;
     if (state.type && e.type !== state.type) return false;
+    if (state.urgency && e.urgency !== state.urgency) return false;
+    if (state.money !== '' && state.money !== undefined && e.money > Number(state.money)) return false;
     if (state.onlyFavs && !favs.has(e.id)) return false;
     return true;
   }
@@ -124,7 +126,7 @@
     countEl.textContent = rows.length + ' / ' + data.entries.length + ' 条';
     try {
     var url = new URL(location.href);
-    ['q', 'category', 'audience', 'grade', 'evidence', 'type'].forEach(function (k) { if (state[k]) url.searchParams.set(k, state[k]); else url.searchParams.delete(k); });
+    ['q', 'category', 'audience', 'grade', 'evidence', 'type', 'urgency', 'money'].forEach(function (k) { if (state[k]) url.searchParams.set(k, state[k]); else url.searchParams.delete(k); });
     history.replaceState(null, '', url);
     } catch (e) { /* file:// or sandboxed: skip URL sync */ }
   };

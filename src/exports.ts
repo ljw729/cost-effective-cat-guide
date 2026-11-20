@@ -43,7 +43,7 @@ export function renderOffline(guide: BuiltGuide, meta: ExportMeta, css: string, 
     synonyms: synonyms.map((g) => ({ tag: g.tag, terms: g.terms.map(String) })),
     entries: guide.entries.map((e) => ({
       id: e.id, title: e.title, summary: e.summary, href: `#${anchor(e.id)}`, category: e.category, type: e.type,
-      grade: e.cost_effectiveness.grade, evidence: e.evidence.level, urgency: e.urgency, applies_to: e.applies_to, tags: e.tags,
+      grade: e.cost_effectiveness.grade, evidence: e.evidence.level, urgency: e.urgency, applies_to: e.applies_to, tags: e.tags, money: e.scores.money_cost,
       text: [e.recommendation, e.why_it_matters, ...(e.how_to_do_it ?? []), ...(e.warning_signs ?? []), ...(e.emergency_action ?? []), ...(e.do_not ?? []), e.myth_claim ?? '', e.category_name].join(' '),
     })),
   };

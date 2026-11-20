@@ -33,6 +33,8 @@ jobs:
         run: npm test
       - name: Generated outputs are up to date
         run: npm run build:guide -- --check
+      - name: Build website, offline.html and EPUB (smoke test; PDF is built by the Pages workflow)
+        run: npm run build:exports && npm run build:site
 
   sources:
     name: Citation & link check

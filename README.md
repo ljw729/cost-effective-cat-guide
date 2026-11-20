@@ -6,7 +6,7 @@
 
 用合理的钱、时间和精力，让猫更健康、更安全、活得更好，同时少花冤枉钱、少犯错、少被误导。
 
-`v0.2` · 101 条 · 90 个已核验来源 · 0 条兽医审核
+`v0.6` · 101 条 · 90 个已核验来源 · 0 条兽医审核
 
 </div>
 
@@ -41,13 +41,13 @@
 
 ## 怎么读
 
-| 现在可用 | 状态 |
+| 格式 | 地址 |
 |---|---|
-| [GUIDE.md](GUIDE.md)：完整版（Markdown） | ✅ 自动生成 |
-| `generated/guide.json`：结构化数据 | ✅ 自动生成 |
-| 网站（搜索、筛选、收藏） | ⏳ v0.4 |
-| PDF / EPUB / 离线单文件 | ⏳ v0.5 |
-| AI Skill（Claude Code / Codex） | ⏳ v0.6 |
+| 🌐 网站（搜索、筛选、收藏、离线） | [ljw729.github.io/cost-effective-cat-guide/](https://ljw729.github.io/cost-effective-cat-guide/) |
+| 📄 PDF / 📚 EPUB / 📦 离线单文件 | [下载页](https://ljw729.github.io/cost-effective-cat-guide/downloads/) · [Releases](https://github.com/ljw729/cost-effective-cat-guide/releases) |
+| 📝 Markdown | [GUIDE.md](GUIDE.md) |
+| 🧩 结构化数据 | [`generated/guide.json`](generated/guide.json) |
+| 🤖 AI Skill（Claude Code / Codex） | [`skills/cost-effective-cat-guide`](skills/cost-effective-cat-guide/) |
 
 ### 节选
 
@@ -101,6 +101,8 @@ npm run check           # 类型检查 + 校验 + 查重 + 测试 + 产物是否
 npm run build:guide     # 重新生成 GUIDE.md
 npm run verify:sources  # 联网核对 DOI（Crossref）
 npm run stale           # 列出待复核条目
+npm run build:all       # 网站 + PDF / EPUB / 离线版（PDF 需要本机有 Chrome 或 Edge）
+npm run serve           # 本地预览网站 http://localhost:4173
 ```
 
 需要 Node.js 20 或以上。
@@ -120,7 +122,7 @@ npm run stale           # 列出待复核条目
 
 ## 隐私
 
-计划中的网站：无账号、无追踪、无广告；收藏只存在你自己的浏览器里。
+网站无账号、无追踪、无广告，不加载任何第三方资源；收藏只存在你自己的浏览器里。
 
 ## 许可证
 
@@ -131,4 +133,4 @@ npm run stale           # 列出待复核条目
 
 ## 版本
 
-遵循语义化版本。当前 `v0.1 Research Preview`：核心模型 + 第一批 Golden Entries。路线图见 [ROADMAP.md](ROADMAP.md)，变更见 [CHANGELOG.md](CHANGELOG.md)。
+遵循语义化版本。当前 `v0.6`：101 条、网站、PDF / EPUB / 离线版、AI Skill。内容仍是研究预览：没有条目经过兽医审核。路线图见 [ROADMAP.md](ROADMAP.md)，变更见 [CHANGELOG.md](CHANGELOG.md)。

@@ -6,6 +6,38 @@
 
 ## [Unreleased]
 
+## [0.6.0] - 2026-11-20 — 网站、下载格式、AI Skill
+
+内容与 0.2.0 相同（101 条），没有修改任何医学结论或证据等级。只新增了 CG-0043 的一个同义词（鳄梨）。
+
+### 网站（原计划 v0.4）
+
+- 静态网站：首页、条目页、分类页、紧急情况页、下载页、方法文档页。
+- 搜索支持同义词；可按分类、适用对象、类型、性价比、证据、紧急程度、花钱筛选。
+- 随机学一条、本地收藏、浅色 / 深色、移动优先。
+- JSON-LD、OpenGraph、sitemap，PWA 离线缓存。
+- 不加载任何第三方资源，有测试检查。
+- 通过 GitHub Pages 自动部署（`.github/workflows/pages.yml`）。
+
+### 下载格式（原计划 v0.5）
+
+- PDF：带目录、页码、书签和来源链接。
+- EPUB 3。
+- 可搜索的单文件 `offline.html`。
+- 打 `v*` 标签时由 `.github/workflows/release.yml` 自动附加到 GitHub Release。
+
+### AI Skill（原计划 v0.6）
+
+- `skills/cost-effective-cat-guide`：`SKILL.md` 加一个不依赖任何库的搜索脚本，数据由 `build:guide` 生成，CI 检查是否最新。
+- 规则：急症优先；区分“指南内容”和“模型自身知识”；不写剂量、不推荐品牌、不编造来源。
+- `AGENTS.md`：给 AI 编码助手的内容规则。
+
+### 其他
+
+- 修复：`cpSync` 在 Windows 的非 ASCII 路径下会直接崩溃，改用 `copyFileSync`。
+- 修复：重新生成 `package-lock.json`，补全各平台的 vitest/rolldown 原生绑定（npm 可选依赖的已知问题）。
+- 路线图顺序调整：v0.3（300+ 条）尚未开始，先完成了网站和下载格式。
+
 ## [0.2.0] - 2026-11-20 — 101 条
 
 ### 新增（第三轮，见 docs/verification/2026-11-round-3.md）

@@ -13,9 +13,9 @@ schema/                           ← JSON Schema（结构约束）
 generated/guide.json              ← 所有输出共用的中间数据（自动生成，勿手改）
         │
         ├─► GUIDE.md               （src/render-markdown.ts）
-        ├─► website/               （规划：v0.4）
-        ├─► PDF / EPUB / offline   （规划：v0.5）
-        └─► skill/                 （规划：v0.6，读取 guide.json 检索）
+        ├─► 网站 dist/site/        （src/site/：pages.ts + html.ts + assets/）
+        ├─► offline.html / PDF / EPUB  （src/exports.ts，PDF 由 scripts/pdf.ts 用 Chrome 打印）
+        └─► AI Skill               （skills/cost-effective-cat-guide/，数据文件由 build:guide 生成）
 ```
 
 任何输出都**不得**直接读 YAML、也不得自己保存一份内容；性价比只在 `src/scoring.ts` 计算一次。
@@ -35,6 +35,10 @@ generated/guide.json              ← 所有输出共用的中间数据（自动
 | `tests/` | Vitest 单元测试 |
 | `docs/` | 方法论、政策、核验记录 |
 | `generated/` | 构建产物（提交到仓库，CI 检查是否最新） |
+| `src/site/` | 网站模板与前端脚本；条目 HTML 渲染（`html.ts`）由网站、离线版、PDF、EPUB 共用 |
+| `src/exports.ts` | offline.html、print.html、EPUB（含一个最小 zip 写入器） |
+| `skills/` | AI Skill（Claude Code / Codex），自包含 |
+| `dist/` | 网站与下载文件的构建输出（不提交，由 CI 发布） |
 
 ## 命令
 
@@ -48,6 +52,10 @@ generated/guide.json              ← 所有输出共用的中间数据（自动
 | `npm run build:guide` | 生成 `GUIDE.md` 与 `generated/guide.json` |
 | `npm test` / `npm run typecheck` | 单元测试 / TypeScript |
 | `npm run check` | 本地一键运行 CI 的离线部分 |
+| `npm run build:site` | 生成网站到 `dist/site`（`SITE_BASE`、`SITE_URL` 环境变量） |
+| `npm run build:exports` / `build:pdf` | 生成 offline.html、EPUB（加 PDF） |
+| `npm run build:all` | 全部重新生成 |
+| `npm run serve` | 本地预览 `dist/site` |
 
 ## 国际化（i18n）预留
 
@@ -58,6 +66,9 @@ generated/guide.json              ← 所有输出共用的中间数据（自动
 ## 为什么这样选
 
 - **YAML + JSON Schema**：人类可读、可 diff、可在 PR 里逐行审；Schema 可被任何语言复用。
-- **Node + TypeScript**：网站（计划用 Astro 或 Next.js 静态导出）可直接复用 `src/`，避免两套实现。
+- **Node + TypeScript**：网站和所有下载格式直接复用 `src/`，避免两套实现。
+- **网站不用框架**：最初建议用 Next.js，实际选择了约 300 行的 TypeScript 模板 + 一个不依赖任何库的前端脚本。内容是静态的，框架带来的依赖和构建复杂度大于收益；页面零第三方资源，测试会检查这一点。
+- **PDF 用 Chrome 打印**：通过 DevTools 协议打印，页脚只放页码（不暴露本地路径），并生成书签和带标签的 PDF；CI 中安装 Noto CJK 字体。
+- **EPUB 自己打包**：EPUB 是一个特定结构的 zip，用 Node 自带的 zlib 写入，输出可复现。尚未用 epubcheck 验证（TODO）。
 - **不用数据库、不要后端**：内容是静态的；GitHub Pages / Cloudflare Pages 即可托管。
 - **查重不依赖外部服务**：同义词归一 + 字符二元组 TF-IDF，离线、可复现。局限见 [content-workflow.md](content-workflow.md)。

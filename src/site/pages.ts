@@ -96,6 +96,8 @@ ${showCategory ? `<label>分类<select data-filter="category">${option('', '全�
 <label>类型<select data-filter="type">${option('', '全部')}${Object.entries(LABELS.type).map(([k, v]) => option(k, v)).join('')}</select></label>
 <label>性价比<select data-filter="grade">${option('', '全部')}${['S', 'A', 'B', 'C', 'D'].map((g) => option(g, `${g} · ${LABELS.grade[g as 'S']}`)).join('')}${option('none', '不评分（急症 / 误区）')}</select></label>
 <label>证据<select data-filter="evidence">${option('', '全部')}${Object.entries(LABELS.evidence).map(([k, v]) => option(k, `${k} · ${v}`)).join('')}</select></label>
+<label>紧急程度<select data-filter="urgency">${option('', '全部')}${Object.entries(LABELS.urgency).map(([k, v]) => option(k, v)).join('')}</select></label>
+<label>花钱<select data-filter="money">${option('', '不限')}${option('0', '几乎免费')}${option('1', '很低及以下')}${option('2', '低及以下')}${option('3', '中及以下')}</select></label>
 </div>
 <div class="toolbar"><button class="btn" type="button" data-random>🎲 随机学一条</button><button class="btn" type="button" data-only-favs aria-pressed="false">★ 只看收藏</button><button class="btn" type="button" data-reset>清除筛选</button><span class="result-count" aria-live="polite">${entries.length} 条</span></div>
 <ul class="cards">${entries.map((e) => renderCard(e, ctx)).join('\n')}</ul>
@@ -232,7 +234,7 @@ export function searchIndex(guide: BuiltGuide, cfg: SiteConfig, synonyms: { tag:
     synonyms: synonyms.map((g) => ({ tag: g.tag, terms: g.terms.map(String) })),
     entries: guide.entries.map((e) => ({
       id: e.id, title: e.title, summary: e.summary, href: ctx.entryHref(e), category: e.category, type: e.type,
-      grade: e.cost_effectiveness.grade, evidence: e.evidence.level, urgency: e.urgency, applies_to: e.applies_to, tags: e.tags,
+      grade: e.cost_effectiveness.grade, evidence: e.evidence.level, urgency: e.urgency, applies_to: e.applies_to, tags: e.tags, money: e.scores.money_cost,
       text: [e.recommendation, e.why_it_matters, ...(e.how_to_do_it ?? []), ...(e.warning_signs ?? []), ...(e.emergency_action ?? []), ...(e.do_not ?? []), e.myth_claim ?? '', e.category_name].join(' '),
     })),
   };

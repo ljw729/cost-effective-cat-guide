@@ -21,6 +21,14 @@ const guide = buildGuide(kb);
 const outputs: Record<string, string> = {
   'GUIDE.md': renderGuideMarkdown(guide),
   'generated/guide.json': JSON.stringify(guide, null, 2) + '\n',
+  // Self-contained data for the AI skill: the skill folder works wherever it is copied.
+  'skills/cost-effective-cat-guide/data/guide-data.json': JSON.stringify({
+    note: 'Generated from data/ by npm run build:guide. Do not edit by hand.',
+    stats: guide.stats,
+    synonyms: kb.synonyms.map((g) => ({ tag: g.tag, terms: g.terms.map(String) })),
+    categories: guide.categories.map((c) => ({ id: c.id, name: c.name, high_risk: c.high_risk })),
+    entries: guide.entries,
+  }) + '\n',
 };
 
 let stale = 0;

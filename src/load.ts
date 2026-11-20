@@ -1,8 +1,8 @@
-import { readFileSync, readdirSync, statSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs';
 import { join, relative, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parse } from 'yaml';
-import type { Category, Entry, KnowledgeBase, Source, SynonymGroup } from './types.js';
+import type { Category, Entry, KnowledgeBase, Source, StartHereItem, SynonymGroup } from './types.js';
 
 export const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -29,5 +29,7 @@ export function loadKnowledgeBase(root = ROOT): KnowledgeBase {
   const sources = walk(join(root, 'data/sources')).flatMap((f) => readYaml<Source[]>(f) ?? []);
   const categories = readYaml<Category[]>(join(root, 'data/taxonomy/categories.yaml'));
   const synonyms = readYaml<SynonymGroup[]>(join(root, 'data/taxonomy/synonyms.yaml'));
-  return { entries, sources, categories, synonyms };
+  const startPath = join(root, 'data/taxonomy/start-here.yaml');
+  const startHere = existsSync(startPath) ? readYaml<StartHereItem[]>(startPath) ?? [] : [];
+  return { entries, sources, categories, synonyms, startHere };
 }

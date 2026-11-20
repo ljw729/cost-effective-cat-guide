@@ -1,0 +1,46 @@
+id: CG-0114
+slug: recognize-pain-in-the-face
+type: recommendation
+title: 看脸识别疼痛：耳朵、眼睛、口鼻、胡须和头的位置
+summary: 兽医研究验证了“猫疼痛面部量表”：疼痛的猫耳朵会向外向下转、眯眼、口鼻紧绷、胡须变直前伸、头低于肩膀。猫很会忍痛，这些细节值得学。
+category: basics
+tags: [pain, hidden-illness]
+recommendation: 学会观察猫在安静时的脸：耳朵是否向两侧压低、眼睛是否眯起、口鼻区域是否紧绷、胡须是否变直或前伸、头是否低垂。出现这些变化，尤其同时躲藏、不吃、不动时，联系兽医。不要给人用止痛药。
+why_it_matters: >-
+  2019 年的一项研究开发并验证了猫疼痛面部量表（Feline Grimace Scale），用五个面部动作评估急性疼痛：耳朵位置、眼眶收紧、口鼻紧张、胡须变化和头部位置。疼痛的猫得分高于对照猫，使用止痛药后得分下降，与另一个已验证的疼痛评估工具高度相关。
+  这个量表是在兽医环境中、由经过培训的观察者使用的；主人可以借用这几个观察点，但不能用它代替兽医检查。康奈尔的资料也指出，关节疼痛的猫往往不是明显跛行，而是活动变少、躲藏。
+how_to_do_it:
+  - 平时猫放松时拍几张正面照片，作为对比的“基线”。
+  - 搜索 Feline Grimace Scale 的官方示意图，对照五个部位看。
+warning_signs:
+  - 面部表现出疼痛，同时不吃、躲起来、不愿动
+  - 碰某个部位就躲或咬
+applies_to: [all]
+urgency: important
+related: [CG-0033, CG-0039, CG-0066]
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 0
+  time_cost: 1
+  effort: 2
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 量表本身经过验证，但验证针对的是兽医环境中的急性疼痛、由受训者评分；主人在家使用的准确性没有研究，因此本条评为 C。
+  gaps:
+    - "UNKNOWN: 主人在家观察面部表情识别疼痛的准确性。"
+    - "UNKNOWN: 五个动作的具体描述（如“胡须变直前伸”）来自量表的通用说明，本项目只读了论文摘要。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: evangelista-2019-feline-grimace-scale
+    supports: 开发并验证猫疼痛面部量表，五个动作单元为耳朵位置、眼眶收紧、口鼻紧张、胡须变化、头部位置；疼痛猫得分高于对照猫，镇痛后下降，与另一个已验证工具高度相关；研究在兽医环境中进行，由观察者评分。
+    support_check: ai_checked
+    locator: Abstract
+  - id: cornell-slowing
+    supports: 关节疼痛的猫常不明显跛行，而是活动减少、躲藏、找温暖处睡觉。
+    support_check: ai_checked
+    locator: Dr. Bellezza 段落

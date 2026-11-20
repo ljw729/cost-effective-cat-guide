@@ -11,7 +11,7 @@ import { loadKnowledgeBase, ROOT } from '../src/load.js';
 import { buildGuide } from '../src/build.js';
 import { validateKnowledgeBase } from '../src/validate.js';
 import {
-  aboutPage, categoriesIndexPage, categoryPage, docPage, downloadsPage, emergencyPage, entryPage, homePage,
+  aboutPage, budgetPage, categoriesIndexPage, categoryPage, docPage, downloadsPage, emergencyPage, entryPage, homePage,
   ICON_SVG, manifest, notFoundPage, searchIndex, serviceWorker, sitemap, type DocPage, type SiteConfig,
 } from '../src/site/pages.js';
 
@@ -52,6 +52,7 @@ const DOCS: [string, string][] = [
   ['architecture', 'docs/architecture.md'],
   ['2026-11-round-1', 'docs/verification/2026-11-round-1.md'],
   ['2026-11-round-3', 'docs/verification/2026-11-round-3.md'],
+  ['2026-11-round-4', 'docs/verification/2026-11-round-4.md'],
 ];
 const docs: DocPage[] = DOCS.filter(([, p]) => existsSync(join(ROOT, p))).map(([slug, p]) => {
   const markdown = readFileSync(join(ROOT, p), 'utf8');
@@ -65,6 +66,7 @@ put('categories/index.html', categoriesIndexPage(guide, cfg));
 for (const c of guide.categories) if (c.entry_ids.length) put(`categories/${c.id}/index.html`, categoryPage(guide, cfg, c.id));
 for (const e of guide.entries) put(`entries/${e.slug}/index.html`, entryPage(guide, cfg, e));
 put('downloads/index.html', downloadsPage(cfg));
+put('budget/index.html', budgetPage(guide, cfg));
 put('about/index.html', aboutPage(cfg, docs));
 for (const d of docs) put(`docs/${d.slug}/index.html`, docPage(cfg, d, docs));
 put('404.html', notFoundPage(cfg));
@@ -73,7 +75,7 @@ put('downloads/guide.json', readFileSync(join(ROOT, 'generated', 'guide.json'), 
 put('icon.svg', ICON_SVG);
 put('manifest.webmanifest', manifest(cfg));
 put('robots.txt', `User-agent: *\nAllow: /\n${cfg.siteUrl ? `Sitemap: ${cfg.siteUrl.replace(/\/$/, '')}/sitemap.xml\n` : ''}`);
-const sm = sitemap(guide, cfg, ['emergency/', 'categories/', 'downloads/', 'about/', ...docs.map((d) => `docs/${d.slug}/`)]);
+const sm = sitemap(guide, cfg, ['emergency/', 'categories/', 'budget/', 'downloads/', 'about/', ...docs.map((d) => `docs/${d.slug}/`)]);
 if (sm) put('sitemap.xml', sm);
 put('.nojekyll', '');
 

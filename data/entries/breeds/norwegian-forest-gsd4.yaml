@@ -1,0 +1,41 @@
+id: CG-0131
+slug: norwegian-forest-gsd4
+type: recommendation
+title: 挪威森林猫：一种致命的遗传性糖原贮积病，可以基因检测
+summary: 挪威森林猫的 IV 型糖原贮积病是隐性遗传病，多数患病小猫出生时或出生后不久死亡，存活的约 5 月龄开始出现进行性神经肌肉退化。已有 DNA 检测。
+category: breeds
+tags: [norwegian-forest, genetics]
+recommendation: 购买挪威森林猫时，询问父母猫的 IV 型糖原贮积病（GBE1）基因检测；繁育前一定检测，两只携带者配对可能生出患病小猫。
+why_it_matters: >-
+  一项研究报告：挪威森林猫的 IV 型糖原贮积病是常染色体隐性遗传的代谢病，多数患病小猫在出生时或出生后不久死亡（推测因低血糖），存活过新生期的看起来正常，直到约 5 月龄开始出现进行性神经肌肉退化；研究找到了致病的 GBE1 基因重排，并建立了等位基因特异的 PCR 检测。
+  基因检测研究显示，该变异在挪威森林猫中的频率已低于最初发现时。英国寿命表研究中挪威森林猫出生时预期寿命 9.95 年（仅 15 例死亡）。
+applies_to: [all, kitten]
+urgency: routine
+related: [CG-0135]
+scores:
+  benefit: 2
+  risk_reduction: 2
+  money_cost: 1
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 致病机制和检测方法来自原始研究；变异频率下降来自大样本基因检测研究。
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: fyfe-2007-nfc-gsd4
+    supports: 挪威森林猫 IV 型糖原贮积病为常染色体隐性；多数患病小猫出生时或不久后死亡，存活者约 5 月龄起进行性神经肌肉退化；致病为 GBE1 复杂重排；建立了等位基因特异 PCR 检测。
+    support_check: ai_checked
+    locator: Abstract
+  - id: anderson-2022-cat-genetic-epidemiology
+    supports: 挪威森林猫糖原贮积病相关变异的频率已低于最初发现时。
+    support_check: ai_checked
+    locator: Discussion
+  - id: teng-2024-cat-life-tables
+    supports: 挪威森林猫出生时预期寿命 9.95 年（15 例死亡）。
+    support_check: ai_checked
+    locator: Table 6

@@ -1,0 +1,43 @@
+id: CG-0119
+slug: munchkin-short-legs-facts
+type: recommendation
+title: 矮脚猫（曼基康）：短腿来自软骨发育不良的显性基因变异
+summary: 研究认为标准矮脚猫的短腿由一个显性基因变异导致，两份该变异的组合可能在胚胎期致死。一项小样本影像研究发现矮脚猫四肢都有骨骼变形。以下只列事实，由你自己判断。
+category: breeds
+tags: [munchkin, genetics]
+recommendation: 养矮脚猫，或考虑买矮脚猫时，了解以下事实；已经养了矮脚猫，留意跛行、活动减少、不愿跳，定期请兽医检查四肢。
+why_it_matters: >-
+  事实一：一项 89 只猫的基因研究发现，UGDH 基因的一个结构变异与标准（短腿）矮脚猫完全相关，作者认为它很可能导致这种软骨发育不良，遗传方式为常染色体显性。
+  事实二：同一研究没有发现带两份变异的猫，且标准矮脚猫的窝仔数减少，作者据此推测两份变异在胚胎期是致死的。
+  事实三：另一项研究对 5 只遗传性不成比例侏儒猫做了 X 光和磁共振检查，发现所有四肢都有明显的骨骼变形；是否容易发生椎间盘退化，结论不确定。
+how_to_do_it:
+  - 留意跛行、走路姿势异常、不愿跳、活动减少，请兽医检查四肢关节。
+  - 控制体重，减少关节负担。
+applies_to: [all]
+urgency: routine
+related: [CG-0114, CG-0135]
+scores:
+  benefit: 2
+  risk_reduction: 2
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 基因研究和影像研究样本都很小（影像研究只有 5 只猫）；长期疼痛、寿命等临床结局缺少研究。
+  gaps:
+    - "UNKNOWN: 矮脚猫骨骼变形对疼痛、活动和寿命的长期影响，没有找到可靠的群体研究。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: struck-2020-munchkin-ugdh
+    supports: UGDH 结构变异与标准矮脚猫表型完全相关，很可能导致软骨发育不良，常染色体显性；未见纯合子，窝仔数减少，提示纯合致死。
+    support_check: ai_checked
+    locator: Abstract
+  - id: anderson-2021-feline-dwarfism-skeletal
+    supports: 5 只遗传性不成比例侏儒猫的所有四肢均有明显骨骼变形；椎间盘退化的发生情况不确定。
+    support_check: ai_checked
+    locator: Abstract

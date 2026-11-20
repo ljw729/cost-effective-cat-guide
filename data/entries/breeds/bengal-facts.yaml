@@ -1,0 +1,48 @@
+id: CG-0127
+slug: bengal-facts
+type: recommendation
+title: 孟加拉猫：英国数据中平均寿命较短，幼猫可能有胸廓畸形
+summary: 英国寿命表中孟加拉猫平均寿命约 8.5 年，属于较短的品种。瑞典一项繁育者调查中 12% 的窝出现胸廓畸形的小猫；该品种也携带丙酮酸激酶缺乏变异。糖尿病风险低于混种猫。
+category: breeds
+tags: [bengal, genetics]
+recommendation: 购买孟加拉幼猫时检查胸廓形状（是否扁平、凹陷）、询问父母猫的丙酮酸激酶缺乏检测；成年后按年龄定期体检。
+why_it_matters: >-
+  英国寿命表研究中，孟加拉猫出生时预期寿命 8.51 年，在 12 个品种类别中仅高于斯芬克斯；作者也提到以前另一项英国研究中该数字为 7.3 年。原因尚不清楚。
+  瑞典一项研究用 CT 和解剖检查了孟加拉幼猫的胸廓畸形（如扁平胸、漏斗胸），繁育者问卷显示 311 窝中 38 窝（12%）出现受影响的小猫。
+  基因检测研究在孟加拉猫中发现了带两份丙酮酸激酶缺乏变异的猫。英国研究发现孟加拉猫患糖尿病的几率低于混种猫。
+applies_to: [all, kitten]
+urgency: routine
+related: [CG-0117, CG-0126, CG-0135]
+scores:
+  benefit: 2
+  risk_reduction: 2
+  money_cost: 1
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 来自多项独立研究，但寿命较短的原因没有研究解释；胸廓畸形数据来自瑞典繁育者问卷。
+  gaps:
+    - "UNKNOWN: 孟加拉猫寿命较短的原因。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: teng-2024-cat-life-tables
+    supports: 孟加拉猫出生时预期寿命 8.51 年（另一项英国研究为 7.3 年）。
+    support_check: ai_checked
+    locator: Table 6；Discussion
+  - id: holst-2026-bengal-thoracic-wall
+    supports: 孟加拉幼猫胸廓畸形包括扁平胸、漏斗胸等；瑞典繁育者问卷中 311 窝中 38 窝（12%）出现受影响幼猫。
+    support_check: ai_checked
+    locator: Abstract
+  - id: anderson-2022-cat-genetic-epidemiology
+    supports: 发现带两份丙酮酸激酶缺乏变异的孟加拉猫。
+    support_check: ai_checked
+    locator: Pyruvate Kinase Deficiency 段落
+  - id: waite-2025-cat-diabetes-uk
+    supports: 孟加拉猫患糖尿病几率低于混种猫（OR 0.24）。
+    support_check: ai_checked
+    locator: Abstract

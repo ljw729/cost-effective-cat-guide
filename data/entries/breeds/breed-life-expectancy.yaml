@@ -1,0 +1,35 @@
+id: CG-0117
+slug: breed-life-expectancy
+type: recommendation
+title: 各品种的平均寿命不一样：英国数据中缅甸猫和伯曼猫最长，斯芬克斯最短
+summary: 英国 2019 年数据：缅甸猫 14.4 年、伯曼猫 14.4 年、混种猫 11.9 年、暹罗 11.7 年、波斯 10.9 年、布偶 10.3 年、缅因 9.7 年、英短 9.6 年、孟加拉 8.5 年、斯芬克斯 6.7 年。
+category: breeds
+tags: [breeds, life-expectancy]
+recommendation: 选品种前了解该品种的平均寿命和常见遗传病，把它当作参考而不是对单只猫的预测；买纯种猫时询问父母猫的健康检测（见“向繁育者要什么”条目）。
+why_it_matters: >-
+  英国 VetCompass 寿命表研究（已读全文）计算了 2019 年死亡数至少 15 例的品种出生时预期寿命：缅甸猫 14.42 年、伯曼猫 14.39 年、混种猫 11.89 年、暹罗猫 11.69 年、波斯猫 10.93 年、布偶猫 10.31 年、挪威森林猫 9.95 年、缅因猫 9.71 年、俄罗斯蓝猫类 9.65 年、英国短毛猫类 9.58 年、孟加拉猫 8.51 年、斯芬克斯猫 6.68 年。
+  要注意：部分品种死亡样本很少（斯芬克斯 18 例、挪威森林猫 15 例），置信区间很宽；数据来自英国全科诊所，不代表其他国家；预期寿命受购买时代、饲养方式等多种因素影响，不只是基因。
+applies_to: [all]
+urgency: routine
+related: [CG-0116, CG-0135]
+scores:
+  benefit: 2
+  risk_reduction: 2
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 单一大型研究（已读全文）；按品种的数字样本量差异大，应看作粗略参考。
+  gaps:
+    - "UNKNOWN: 中国本地各品种猫的寿命数据，未找到可靠研究。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: teng-2024-cat-life-tables
+    supports: Table 6 给出 12 个品种类别出生时预期寿命：缅甸 14.42、伯曼 14.39、混种 11.89、暹罗 11.69、波斯 10.93、布偶 10.31、挪威森林 9.95（15 例）、缅因 9.71、俄罗斯猫 9.65、英国猫 9.58、孟加拉 8.51、斯芬克斯 6.68（18 例）。
+    support_check: ai_checked
+    locator: Table 6

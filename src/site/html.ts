@@ -116,3 +116,23 @@ export function renderCard(e: BuiltEntry, ctx: LinkContext): string {
 <span class="card-summary">${esc(e.summary)}</span></a>
 <div class="card-meta">${typeBadge(e)}${gradeBadge(e)}${evidenceBadge(e)}<span class="badge category">${esc(e.category_name)}</span></div></li>`;
 }
+
+/** “新手先看” list. Curated ids only; notes are one-line pointers, not new content. */
+export function renderStartHere(guide: BuiltGuide, ctx: LinkContext, heading = 'h2'): string {
+  if (!guide.start_here?.length) return '';
+  const byId = new Map(guide.entries.map((e) => [e.id, e]));
+  return `<section class="start-here" id="start-here"><${heading}>新手先看</${heading}>
+<p class="muted">如果你只读几条，先读这些。它们大多几乎不花钱，却能避免最常见、最严重的问题。</p>
+<ol>${guide.start_here.map((s) => { const e = byId.get(s.id)!; return `<li><a href="${esc(ctx.entryHref(e))}">${esc(e.title)}</a> <span class="muted">— ${esc(s.note)}</span></li>`; }).join('')}</ol></section>`;
+}
+
+/** “钱先花在哪”, derived only from scores and grades. */
+export function renderBudget(guide: BuiltGuide, ctx: LinkContext, heading = 'h2', sub = 'h3'): string {
+  const byId = new Map(guide.entries.map((e) => [e.id, e]));
+  const group = (title: string, ids: string[]) => ids.length ? `<${sub}>${esc(title)}</${sub}><ul>${ids.map((id) => { const e = byId.get(id)!; return `<li><a href="${esc(ctx.entryHref(e))}">${esc(e.title)}</a> ${gradeBadge(e)}</li>`; }).join('')}</ul>` : '';
+  return `<section class="budget" id="budget"><${heading}>钱先花在哪</${heading}>
+<p class="muted">这一节完全由每条的评分自动生成，不增加新内容。紧急情况不在其中：急症永远先就医，不看花费。</p>
+${group('几乎不花钱、收益很高', guide.budget.almost_free_high_value)}
+${group('值得花钱', guide.budget.worth_paying_for)}
+${group('买东西前先想想：性价比低或证据不足', guide.budget.skip_or_unproven)}</section>`;
+}

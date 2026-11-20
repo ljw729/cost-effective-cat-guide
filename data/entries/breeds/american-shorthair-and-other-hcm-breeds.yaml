@@ -1,0 +1,39 @@
+id: CG-0130
+slug: american-shorthair-and-other-hcm-breeds
+type: recommendation
+title: 美国短毛、挪威森林、西伯利亚、波斯等：也在心肌肥厚较常见的品种名单中
+summary: 康奈尔列出的心肌肥厚较常见品种包括缅因、布偶、英短、美短、斯芬克斯、孟加拉、沙特尔、挪威森林、西伯利亚和波斯。但心肌肥厚在普通猫中也很常见。
+category: breeds
+tags: [heart-disease, american-shorthair, breeds]
+recommendation: 养这些品种的猫，成年后和兽医讨论是否需要心脏超声；无论什么品种，听诊发现心杂音、呼吸变快时都要进一步检查。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出，肥厚型心肌病是猫最常见的心脏病，在缅因、布偶、英国短毛、美国短毛、斯芬克斯、孟加拉、沙特尔、挪威森林、西伯利亚和波斯等品种中更常见，部分品种已发现相关基因突变；很多患猫看起来并不生病。
+  一项英国研究对 780 只看起来健康的成年猫（多为非纯种）做心脏超声，14.7% 有肥厚型心肌病，患病率随年龄增加；心杂音很常见，但多数是功能性的，不能单靠杂音判断。
+applies_to: [all, adult, senior]
+urgency: routine
+related: [CG-0034, CG-0122, CG-0123, CG-0139]
+scores:
+  benefit: 2
+  risk_reduction: 2
+  money_cost: 3
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 品种名单来自大学兽医学院资料（没有给出各品种具体患病率）；普通猫患病率来自一项 780 只猫的筛查研究。
+  gaps:
+    - "UNKNOWN: 美国短毛猫等品种的具体患病率和可用基因检测，本项目未找到可读研究。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-hcm
+    supports: HCM 是猫最常见心脏病；在缅因、布偶、英短、美短、斯芬克斯、孟加拉、沙特尔、挪威森林、西伯利亚和波斯等品种中更常见；很多患猫无症状。
+    support_check: ai_checked
+    locator: 第 1–2 段
+  - id: payne-2015-catscan-hcm
+    supports: 780 只看似健康的猫中 HCM 患病率 14.7%，随年龄增加；心杂音患病率 40.8%，其中 70.4% 被认为是功能性的。
+    support_check: ai_checked
+    locator: Abstract

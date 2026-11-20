@@ -1,0 +1,37 @@
+id: CG-0133
+slug: white-cats-and-deafness
+type: recommendation
+title: 白猫可能天生耳聋，尤其要留意幼猫的听力
+summary: 一项对 72 只纯种白猫的检查中，16.7% 有先天性感音神经性耳聋，单侧比双侧多。耳聋的猫通常出生就聋或在 4–5 周内失去听力。
+category: breeds
+tags: [white-cat, genetics]
+recommendation: 养白猫，留意它对声音的反应；怀疑耳聋时请兽医检查（需要专门的听力检测）；耳聋的猫更要室内饲养，避免在它看不见时惊吓它。繁育前应检测听力。
+why_it_matters: >-
+  一项波兰研究检查了 72 只纯种白猫（6 个品种），先天性感音神经性耳聋的患病率为 16.7%，单侧耳聋（11.1%）比双侧（5.6%）多；患猫出生就聋或在出生后 4–5 周内不可逆地失去听力。研究背景指出蓝眼猫更易耳聋，但在这项研究中未发现蓝眼与耳聋、性别或品种的相关。作者建议对白猫（无论眼睛颜色）进行检测，把患病个体排除出繁育。
+how_to_do_it:
+  - 从猫背后拍手或摇钥匙，看它是否转头（只能粗略判断，单侧耳聋很难看出来）。
+  - 靠近耳聋的猫时，让它先看到你或感觉到地面震动。
+applies_to: [all, kitten]
+urgency: routine
+related: [CG-0087]
+scores:
+  benefit: 2
+  risk_reduction: 1
+  money_cost: 1
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 单一研究，样本 72 只；与“蓝眼更易耳聋”的传统认识不完全一致。
+  gaps:
+    - "UNKNOWN: 在家测试听力的方法没有研究验证，只能作为粗略观察。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: white-cat-deafness-2022
+    supports: 72 只纯种白猫中先天性感音神经性耳聋患病率 16.7%（单侧 11.1%，双侧 5.6%）；患猫出生即聋或在 4–5 周内失聪；本研究未发现与蓝眼、性别或品种相关；建议对白猫检测并排除出繁育。
+    support_check: ai_checked
+    locator: Abstract

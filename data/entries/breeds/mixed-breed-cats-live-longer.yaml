@@ -1,0 +1,43 @@
+id: CG-0116
+slug: mixed-breed-cats-live-longer
+type: recommendation
+title: 田园猫和混种猫：平均寿命比纯种猫更长
+summary: 英国大样本数据中，混种猫出生时预期寿命约 11.9 年，纯种猫 3 岁前死亡的几率是混种猫的 1.83 倍。但混种猫也可能携带遗传病基因。
+category: breeds
+tags: [mixed-breed, breeds]
+recommendation: 选猫时不必把“纯种”当作健康或品质的标志；领养田园猫是健康上很合理的选择。无论纯种还是混种，都按年龄定期体检。
+why_it_matters: >-
+  英国 VetCompass 2019 年的寿命表研究（已读全文）中，混种猫出生时预期寿命为 11.89 年；纯种猫 3 岁前死亡的几率是混种猫的 1.83 倍，纯种是寿命缩短的相关因素之一。另一项分析同期英国数据的研究发现，普通家猫（moggies）比纯种猫和杂交品种猫活得更久，作者认为遗传多样性可能有帮助。
+  不过，一项对 11,036 只猫的基因检测研究在非纯种猫中也发现了遗传病相关变异，其中 3 个只在非纯种猫中出现，所以混种不等于没有遗传病。
+how_to_do_it:
+  - 见“领养时也考虑成年猫和老年猫”“新猫到家”条目。
+applies_to: [all]
+urgency: routine
+related: [CG-0080, CG-0117]
+scores:
+  benefit: 3
+  risk_reduction: 2
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 两项英国大样本研究一致，其中一项读了全文；属于观察性研究，不能完全排除生活方式等混杂因素；数据来自英国。
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: teng-2024-cat-life-tables
+    supports: 混种猫出生时预期寿命 11.89 年；纯种猫 3 岁前死亡几率是混种猫的 1.83 倍；纯种与寿命缩短相关。
+    support_check: ai_checked
+    locator: Table 6；Results（early-age mortality）
+  - id: mata-2025-moggies-mollies
+    supports: 普通家猫（moggies）比纯种猫和杂交品种猫寿命更长，作者认为遗传多样性可能有贡献。
+    support_check: ai_checked
+    locator: Abstract
+  - id: anderson-2022-cat-genetic-epidemiology
+    supports: 在 617 只非纯种猫中也检出遗传病相关变异，其中 3 个变异只在非纯种猫中发现。
+    support_check: ai_checked
+    locator: Abstract；Results

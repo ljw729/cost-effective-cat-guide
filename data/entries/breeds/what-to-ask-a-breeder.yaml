@@ -1,0 +1,52 @@
+id: CG-0135
+slug: what-to-ask-a-breeder
+type: buying_guide
+title: 买纯种猫，向繁育者要什么：父母猫的基因检测、心脏检查和血型
+summary: 很多品种遗传病已有 DNA 检测，检测在繁育中普及后，相关变异的频率明显下降。买猫时要求看父母猫的检测报告，而不只是“血统证书”。
+category: breeds
+tags: [breeds, genetics, adoption]
+recommendation: 买纯种猫前，要求繁育者提供父母猫针对该品种的基因检测报告（例如波斯系的 PKD1、缅因的 MYBPC3 A31P、布偶的 R820W、挪威森林的 GBE1、阿比西尼亚等的丙酮酸激酶缺乏、缅甸的低钾血症）、血型，以及心肌肥厚易感品种的心脏超声记录；带猫回家后按“新猫到家”条目体检。
+why_it_matters: >-
+  一项 11,036 只猫的基因检测研究（已读全文）发现，多种遗传病相关变异的频率已低于最初发现时（缅甸猫的低钾血症和 GM2、挪威森林猫的糖原贮积病、缅因猫的心肌病和脊髓性肌萎缩、布偶猫的心肌病、波斯猫的多囊肾），作者认为可能与基因检测在繁育中的应用有关；同时也在 47 个此前没有记录的品种中发现了 13 种遗传病变异，说明全面筛查有意义。
+  丙酮酸激酶缺乏的随访研究中，25 只患猫有 16 只在确诊前已被用于繁育。
+  要注意：基因检测阴性不等于不会得病。例如斯芬克斯猫心肌肥厚很常见，但被认为相关的基因变异与诊断无关；看起来健康的普通猫中也有约 15% 有心肌肥厚，所以心脏超声仍有意义。
+how_to_do_it:
+  - 要求看报告原件：检测项目、检测机构、样本对应的猫（芯片号或照片）。
+  - 心肌肥厚易感品种：问父母猫最近一次心脏超声的时间和结果。
+  - 不接受“我们的猫都很健康，不用测”的说法。
+applies_to: [all]
+urgency: important
+related: [CG-0055, CG-0078, CG-0116, CG-0121, CG-0134]
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 0
+  time_cost: 1
+  effort: 2
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 基因检测研究（全文）、病例随访研究和心脏筛查研究一致。本项目不推荐任何检测机构或繁育者；该基因检测研究的作者来自商业检测公司。
+  gaps:
+    - "UNKNOWN: 中国大陆可用的猫基因检测项目和机构质量，本项目没有评估。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: anderson-2022-cat-genetic-epidemiology
+    supports: 多种遗传病变异频率低于最初发现时（缅甸低钾血症和 GM2、挪威森林糖原贮积病、缅因 HCM 和脊髓性肌萎缩、布偶 HCM、波斯 PKD），可能反映基因检测在繁育中的应用；在 47 个此前未记录的品种中发现 13 种疾病变异。
+    support_check: ai_checked
+    locator: Abstract；Discussion
+  - id: kohn-2008-pk-deficiency
+    supports: 25 只丙酮酸激酶缺乏患猫中 16 只在确诊前至少繁育过一次。
+    support_check: ai_checked
+    locator: Abstract
+  - id: seo-2024-sphynx-hcm
+    supports: 斯芬克斯猫 HCM 常见（40%），但 ALMS1 变异与诊断无关联。
+    support_check: ai_checked
+    locator: Abstract
+  - id: payne-2015-catscan-hcm
+    supports: 780 只看似健康的猫中 HCM 患病率 14.7%。
+    support_check: ai_checked
+    locator: Abstract

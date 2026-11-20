@@ -3,7 +3,7 @@
  */
 import { marked } from 'marked';
 import { LABELS, type BuiltEntry, type BuiltGuide } from '../build.js';
-import { DISCLAIMER, SITE_TITLE, SITE_TITLE_EN, esc, renderCard, renderEntryBody, type LinkContext } from './html.js';
+import { DISCLAIMER, SITE_TITLE, SITE_TITLE_EN, esc, renderBudget, renderCard, renderEntryBody, renderStartHere, type LinkContext } from './html.js';
 
 export interface SiteConfig {
   /** Path prefix the site is served under, always with leading and trailing slash, e.g. "/" or "/cost-effective-cat-guide/". */
@@ -62,7 +62,7 @@ ${o.jsonLd ? `<script type="application/ld+json">${JSON.stringify(o.jsonLd).repl
 <a class="skip" href="#main">跳到正文</a>
 <header class="site-header"><div class="wrap">
 <a class="brand" href="${cfg.base}">${ICON_SVG}<span>${esc(SITE_TITLE)}</span></a>
-<nav class="nav" aria-label="主导航">${nav('emergency/', '🚨 紧急情况')}${nav('categories/', '分类')}${nav('downloads/', '下载')}${nav('about/', '关于与方法')}<button class="theme-toggle" type="button" aria-label="切换深色 / 浅色">◐</button></nav>
+<nav class="nav" aria-label="主导航">${nav('emergency/', '🚨 紧急情况')}${nav('categories/', '分类')}${nav('budget/', '钱花在哪')}${nav('downloads/', '下载')}${nav('about/', '关于与方法')}<button class="theme-toggle" type="button" aria-label="切换深色 / 浅色">◐</button></nav>
 </div></header>
 <main id="main"><div class="wrap">
 ${o.body}
@@ -114,6 +114,8 @@ export function homePage(guide: BuiltGuide, cfg: SiteConfig): string {
 </section>
 <p class="disclaimer">${esc(DISCLAIMER)} 目前所有条目都由 AI 研究整理，<strong>尚未经过兽医审核</strong>。</p>
 ${emergencyStrip(guide, ctx)}
+${renderStartHere(guide, ctx)}
+<p>先认识你的猫：<a href="${cfg.base}categories/basics/">生命阶段、公母差异、正常值、疼痛识别</a> · <a href="${cfg.base}categories/breeds/">品种与遗传病</a> · <a href="${cfg.base}budget/">钱先花在哪</a></p>
 ${finder(guide, ctx)}
 <h2>按分类浏览</h2>${categoryGrid(guide, cfg)}`;
   return layout(cfg, {
@@ -271,4 +273,9 @@ export function manifest(cfg: SiteConfig): string {
     start_url: cfg.base, scope: cfg.base, display: 'standalone', background_color: '#fbfaf7', theme_color: '#b45309',
     icons: [{ src: `${cfg.base}icon.svg`, sizes: 'any', type: 'image/svg+xml', purpose: 'any' }],
   }, null, 2);
+}
+
+export function budgetPage(guide: BuiltGuide, cfg: SiteConfig): string {
+  const body = renderBudget(guide, siteLinks(cfg), 'h1', 'h2');
+  return layout(cfg, { title: '钱先花在哪', path: 'budget/', nav: 'budget/', description: '按性价比自动整理：哪些几乎免费却很重要，哪些值得花钱，买哪些东西前要先想想。', body });
 }

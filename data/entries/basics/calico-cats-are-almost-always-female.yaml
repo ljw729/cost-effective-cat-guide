@@ -1,0 +1,35 @@
+id: CG-0113
+slug: calico-cats-are-almost-always-female
+type: recommendation
+title: 三花和玳瑁猫几乎都是母猫；少见的公猫通常不能生育
+summary: 玳瑁（三花）花色由 X 染色体上的基因决定，所以通常只出现在母猫身上。罕见的玳瑁公猫多有额外的 X 染色体，通常没有生育能力。
+category: basics
+tags: [sex-differences, genetics]
+recommendation: 看到三花或玳瑁猫，基本可以按母猫考虑（以兽医检查为准）。遇到玳瑁公猫，不要指望用它繁育；有异常时请兽医检查。
+why_it_matters: >-
+  一份病例报告的摘要说明：玳瑁花色通常只出现在母猫身上，因为决定橙色毛色的基因位于 X 染色体上；玳瑁公猫以低频率出现，原因是类似人类克氏综合征的染色体异常（39,XXY），多出的 X 染色体让它同时带有橙色和非橙色基因。该病例的睾丸检查显示没有精子生成，作者认为该猫不育。
+how_to_do_it:
+  - 判断性别以兽医检查为准，花色只能参考。
+applies_to: [all]
+urgency: routine
+scores:
+  benefit: 1
+  risk_reduction: 1
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 遗传机制是经典遗传学知识，但本项目引用的是一份单只猫的病例报告；“通常不育”来自该病例及其背景介绍，不是群体研究。
+  gaps:
+    - "TODO: 纳入玳瑁公猫染色体类型（包括嵌合体）的综述。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: pedersen-2014-tortoiseshell-male
+    supports: 玳瑁花色通常只见于母猫，因橙色基因位于 X 染色体；玳瑁公猫低频出现，源于类似克氏综合征的 39,XXY 染色体异常；该病例无精子生成，被判定为不育。
+    support_check: ai_checked
+    locator: Abstract

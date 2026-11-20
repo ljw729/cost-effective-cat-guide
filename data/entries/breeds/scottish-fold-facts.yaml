@@ -1,0 +1,60 @@
+id: CG-0118
+slug: scottish-fold-facts
+type: recommendation
+title: 苏格兰折耳猫：折耳和骨软骨发育异常来自同一个基因变异
+summary: 研究发现，折耳外形和四肢、尾巴的骨软骨发育异常都与同一个显性基因变异有关。但一项澳大利亚病历研究中，确诊为该病的折耳猫比例不高。以下只列事实，由你自己判断。
+category: breeds
+tags: [scottish-fold, genetics]
+recommendation: 养折耳猫，或考虑买折耳猫时，了解以下事实；已经养了折耳猫，留意跛行、不愿跳、尾巴僵硬，定期请兽医检查四肢关节和尾巴，疼痛时及早处理。
+why_it_matters: >-
+  事实一：一项基因研究发现，苏格兰折耳猫显性遗传的折耳外形和骨软骨发育异常（累及前后肢远端和尾巴，关节进行性破坏）都与 TRPV4 基因的同一个变异有关；该变异在 648 只未受影响的猫中均未发现。
+  事实二：一项对 11,036 只猫的基因检测中，72/76 只（94.7%）苏格兰折耳短毛猫带有这个变异。
+  事实三：一项澳大利亚研究回顾了 1,131 只折耳猫的诊所病历，只有 12 只被临床确诊、另有 69 只疑似（含少数立耳苏格兰猫）；确诊多在 30 个月龄以前，公母比例相当。作者认为临床确诊比例相对较低，但仍需更多证据评估其临床意义。
+  事实四：该研究的背景介绍写明，人们普遍认为所有折耳猫都受骨软骨发育异常影响，这是一种疼痛的退行性关节病。
+  事实三和事实四之间存在差异，可能与“基因上受影响”和“在病历中被诊断”不是一回事有关。
+how_to_do_it:
+  - 留意：走路僵硬、跛行、不愿跳高、尾巴粗短僵硬、不让碰腿或尾巴。
+  - 向兽医说明猫是折耳猫，请检查四肢和尾巴。
+warning_signs:
+  - 跛行、不愿跳、活动明显减少
+  - 尾巴僵硬、碰尾巴或腿时疼痛
+applies_to: [all]
+urgency: important
+related: [CG-0114, CG-0135]
+scores:
+  benefit: 3
+  risk_reduction: 2
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 基因机制有研究证据和大样本基因检测数据支持；临床发病比例的研究结果不一致，因此标注证据冲突，本条不作购买或繁育建议。
+  conflict: true
+  conflict_notes:
+    positions:
+      - position: 折耳外形与骨软骨发育异常由同一显性变异导致，几乎所有折耳猫带有该变异；背景观点认为所有折耳猫都受影响。
+        sources: [gandolfi-2016-scottish-fold-trpv4, anderson-2022-cat-genetic-epidemiology, velie-2023-scottish-fold-prevalence]
+      - position: 在澳大利亚诊所病历中，被临床确诊的折耳猫比例相对较低（1,131 只中 12 只确诊、69 只疑似）。
+        sources: [velie-2023-scottish-fold-prevalence]
+    current_interpretation: 两者不矛盾地并存：基因上带变异不等于在病历里被诊断；病历研究可能低估了轻度或未被注意的病变。临床意义仍需更多研究。
+  gaps:
+    - "UNKNOWN: 折耳 × 折耳配种产生的后代是否更严重，本项目已读来源（摘要）没有直接说明。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: gandolfi-2016-scottish-fold-trpv4
+    supports: 苏格兰折耳猫显性遗传的折耳外形和骨软骨发育异常（累及前后肢远端和尾巴、关节进行性破坏）与 TRPV4 p.V342F 变异相关；该变异在 648 只未受影响猫中未发现。
+    support_check: ai_checked
+    locator: Abstract
+  - id: anderson-2022-cat-genetic-epidemiology
+    supports: 72/76 只（94.7%）苏格兰折耳短毛猫带有骨软骨发育异常与折耳相关变异。
+    support_check: ai_checked
+    locator: Osteochondrodysplasia and Earfold 表格
+  - id: velie-2023-scottish-fold-prevalence
+    supports: 背景：一般认为所有折耳猫都受骨软骨发育异常影响；1,131 只澳大利亚折耳猫病历中 12 只临床确诊、69 只疑似（含 5 只立耳苏格兰猫）；确诊多在 30 个月龄前；公母相当；作者认为临床确诊比例相对较低，需要更多证据。
+    support_check: ai_checked
+    locator: Abstract

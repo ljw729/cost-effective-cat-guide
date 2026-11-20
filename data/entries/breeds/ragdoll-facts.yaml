@@ -1,0 +1,45 @@
+id: CG-0123
+slug: ragdoll-facts
+type: recommendation
+title: 布偶猫：心肌肥厚基因、牙周病、腹泻和肥胖
+summary: 布偶猫中有一个与肥厚型心肌病相关的基因变异（R820W），带两份的猫可能寿命缩短。英国数据中布偶猫最常见的问题是牙周病、腹泻和肥胖，糖尿病风险低于混种猫。
+category: breeds
+tags: [ragdoll, heart-disease, genetics]
+recommendation: 购买布偶猫时，要求查看父母猫的 MYBPC3（R820W）检测结果；日常重点是护理牙齿、控制体重；成年后和兽医讨论心脏检查。
+why_it_matters: >-
+  一项 11,036 只猫的基因检测研究（已读全文）总结：MYBPC3 R820W（新坐标 R818W）变异与布偶猫肥厚型心肌病相关；只带一份的布偶猫预期寿命正常，带两份的猫可能寿命缩短。
+  英国全科兽医记录研究（2019 年，抽查 2,025 只布偶猫）显示，布偶猫越来越受欢迎；最常见的具体问题是牙周病（8.84%）、腹泻（7.11%）和肥胖（6.91%）。另一项英国研究发现，布偶猫患糖尿病的几率低于混种猫。英国寿命表研究中，布偶猫出生时预期寿命为 10.31 年。
+applies_to: [all]
+urgency: routine
+related: [CG-0011, CG-0019, CG-0122, CG-0135]
+scores:
+  benefit: 3
+  risk_reduction: 2
+  money_cost: 2
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 基因检测研究（全文）和两项英国全科记录研究一致；牙周病、肥胖等是常见病，不是布偶猫特有。
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: anderson-2022-cat-genetic-epidemiology
+    supports: MYBPC3 R820W（R818W）与布偶猫 HCM 相关；杂合布偶猫预期寿命正常，纯合猫可能寿命缩短。
+    support_check: ai_checked
+    locator: HCM 段落
+  - id: oneill-2025-ragdoll-uk
+    supports: 英国 2019 年布偶猫最常见具体问题为牙周病 8.84%、腹泻 7.11%、肥胖 6.91%；布偶猫出生比例从 2005 年的 0.70% 增至 2019 年的 3.72%。
+    support_check: ai_checked
+    locator: Abstract
+  - id: waite-2025-cat-diabetes-uk
+    supports: 布偶猫（OR 0.11）和孟加拉猫（OR 0.24）患糖尿病的几率低于混种猫；缅甸猫（OR 2.07）和波米拉猫（OR 8.30）更高。
+    support_check: ai_checked
+    locator: Abstract
+  - id: teng-2024-cat-life-tables
+    supports: 布偶猫出生时预期寿命 10.31 年。
+    support_check: ai_checked
+    locator: Table 6

@@ -1148,3 +1148,425 @@
   accessed: 2026-11-20
   notes: "Page states \"Last updated 2021\"."
   verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: teng-2024-cat-life-tables
+  title: "Life tables of annual life expectancy and risk factors for mortality in cats in the UK"
+  organization: "Journal of feline medicine and surgery"
+  authors: ["Teng","Brodbelt","Church"]
+  year: 2024
+  container: "Journal of feline medicine and surgery"
+  doi: 10.1177/1098612x241234556
+  pmid: "38714312"
+  pmcid: PMC11156239
+  url: https://doi.org/10.1177/1098612x241234556
+  source_type: cohort
+  tier: 1
+  sample_size: "VetCompass UK 2019; 7,936 deaths"
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: full_text, checked: 2026-11-20, method: "Europe PMC REST fullTextXML (open access)" }
+
+- id: mata-2025-moggies-mollies
+  title: "Life expectancy of cats in Britain: moggies and mollies live longer"
+  organization: "PeerJ"
+  authors: ["Mata"]
+  year: 2025
+  container: "PeerJ"
+  doi: 10.7717/peerj.18869
+  pmid: "39897493"
+  pmcid: PMC11787799
+  url: https://doi.org/10.7717/peerj.18869
+  source_type: cohort
+  tier: 1
+  sample_size: "7,708 cats, UK 2019 VetCompass-derived data"
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: "Europe PMC REST abstract" }
+
+- id: anderson-2022-cat-genetic-epidemiology
+  title: "Genetic epidemiology of blood type, disease and trait variants, and genome-wide genetic diversity in over 11,000 domestic cats"
+  organization: "PLoS genetics"
+  authors: ["Anderson","Davison","Lytle"]
+  year: 2022
+  container: "PLoS genetics"
+  doi: 10.1371/journal.pgen.1009804
+  pmid: "35709088"
+  pmcid: PMC9202916
+  url: https://doi.org/10.1371/journal.pgen.1009804
+  source_type: cross_sectional
+  tier: 1
+  sample_size: "11,036 cats (10,419 pedigreed) from commercial panel testing; authors affiliated with a commercial DNA-testing company"
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: full_text, checked: 2026-11-20, method: "Europe PMC REST fullTextXML (open access)" }
+
+- id: gandolfi-2016-scottish-fold-trpv4
+  title: "A dominant TRPV4 variant underlies osteochondrodysplasia in Scottish fold cats"
+  organization: "Osteoarthritis and cartilage"
+  authors: ["Gandolfi","Alamri","Darby"]
+  year: 2016
+  container: "Osteoarthritis and cartilage"
+  doi: 10.1016/j.joca.2016.03.019
+  pmid: "27063440"
+  url: https://doi.org/10.1016/j.joca.2016.03.019
+  source_type: case_control
+  tier: 1
+  sample_size: "44 Scottish fold vs 54 controls; variant absent in 648 unaffected cats"
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: "Europe PMC REST abstract" }
+
+- id: velie-2023-scottish-fold-prevalence
+  title: "An estimation of osteochondrodysplasia prevalence in Australian Scottish Fold cats: a retrospective study using VetCompass Data"
+  organization: "BMC veterinary research"
+  authors: ["Velie","Milden","Miller"]
+  year: 2023
+  container: "BMC veterinary research"
+  doi: 10.1186/s12917-023-03811-0
+  pmid: "38031079"
+  pmcid: PMC10685627
+  url: https://doi.org/10.1186/s12917-023-03811-0
+  source_type: cohort
+  tier: 1
+  sample_size: "1,131 Scottish Fold cats, Australian primary-care records 1992-2018"
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: "Europe PMC REST abstract" }
+
+- id: struck-2020-munchkin-ugdh
+  title: "A structural UGDH variant associated with standard Munchkin cats"
+  organization: "BMC genetics"
+  authors: ["Struck","Braun","Detering"]
+  year: 2020
+  container: "BMC genetics"
+  doi: 10.1186/s12863-020-00875-x
+  pmid: "32605545"
+  pmcid: PMC7325026
+  url: https://doi.org/10.1186/s12863-020-00875-x
+  source_type: case_control
+  tier: 1
+  sample_size: "89 cats"
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: "Europe PMC REST abstract" }
+
+- id: anderson-2021-feline-dwarfism-skeletal
+  title: "Skeletal Manifestations of Heritable Disproportionate Dwarfism in Cats as Determined by Radiography and Magnetic Resonance Imaging"
+  organization: "Veterinary and comparative orthopaedics and traumatology : V.C.O.T"
+  authors: ["Anderson","Fox","Chesney"]
+  year: 2021
+  container: "Veterinary and comparative orthopaedics and traumatology : V.C.O.T"
+  doi: 10.1055/s-0041-1730355
+  pmid: "34082456"
+  pmcid: PMC10207382
+  url: https://doi.org/10.1055/s-0041-1730355
+  source_type: cross_sectional
+  tier: 1
+  sample_size: "5 dwarf cats vs normal cats"
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: "Europe PMC REST abstract" }
+
+- id: oneill-2019-persian-cats-uk
+  title: "Persian cats under first opinion veterinary care in the UK: demography, mortality and disorders"
+  organization: "Scientific reports"
+  authors: ["O’Neill","Romans","Brodbelt"]
+  year: 2019
+  container: "Scientific reports"
+  doi: 10.1038/s41598-019-49317-4
+  pmid: "31530836"
+  pmcid: PMC6748978
+  url: https://doi.org/10.1038/s41598-019-49317-4
+  source_type: cohort
+  tier: 1
+  sample_size: "3,235 Persians, VetCompass UK 2013"
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: "Europe PMC REST abstract" }
+
+- id: farnworth-2016-flat-feline-faces
+  title: "Flat Feline Faces: Is Brachycephaly Associated with Respiratory Abnormalities in the Domestic Cat (Felis catus)?"
+  organization: "PloS one"
+  authors: ["Farnworth","Chen","Packer"]
+  year: 2016
+  container: "PloS one"
+  doi: 10.1371/journal.pone.0161777
+  pmid: "27574987"
+  pmcid: PMC5004878
+  url: https://doi.org/10.1371/journal.pone.0161777
+  source_type: cross_sectional
+  tier: 1
+  sample_size: "1,000 owner questionnaires; owner-reported signs"
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: "Europe PMC REST abstract" }
+
+- id: schmidt-2017-persian-skull-hydrocephalus
+  title: "The Relationship between Brachycephalic Head Features in Modern Persian Cats and Dysmorphologies of the Skull and Internal Hydrocephalus"
+  organization: "Journal of veterinary internal medicine"
+  authors: ["Schmidt","Kampschulte","Enderlein"]
+  year: 2017
+  container: "Journal of veterinary internal medicine"
+  doi: 10.1111/jvim.14805
+  pmid: "28833532"
+  pmcid: PMC5598898
+  url: https://doi.org/10.1111/jvim.14805
+  source_type: cross_sectional
+  tier: 1
+  sample_size: "92 Persians, 10 domestic shorthairs (CT)"
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: "Europe PMC REST abstract" }
+
+- id: mestrinho-2018-persian-exotic-dental
+  title: "Oral and dental anomalies in purebred, brachycephalic Persian and Exotic cats"
+  organization: "Journal of the American Veterinary Medical Association"
+  authors: ["Mestrinho","Louro","Gordo"]
+  year: 2018
+  container: "Journal of the American Veterinary Medical Association"
+  doi: 10.2460/javma.253.1.66
+  pmid: "29911947"
+  url: https://doi.org/10.2460/javma.253.1.66
+  source_type: cross_sectional
+  tier: 1
+  sample_size: "50 cats (42 Persian, 8 Exotic)"
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: "Europe PMC REST abstract" }
+
+- id: malik-2015-burmese-hypokalaemia
+  title: "Periodic hypokalaemic polymyopathy in Burmese and closely related cats: a review including the latest genetic data"
+  organization: "Journal of feline medicine and surgery"
+  authors: ["Malik","Musca","Gunew"]
+  year: 2015
+  container: "Journal of feline medicine and surgery"
+  doi: 10.1177/1098612x15581135
+  pmid: "25896241"
+  pmcid: PMC10816241
+  url: https://doi.org/10.1177/1098612x15581135
+  source_type: narrative_review
+  tier: 1
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: "Europe PMC REST abstract" }
+
+- id: samaha-2020-burmese-diabetes
+  title: "Mapping the genetic basis of diabetes mellitus in the Australian Burmese cat (Felis catus)"
+  organization: "Scientific reports"
+  authors: ["Samaha","Wade","Beatty"]
+  year: 2020
+  container: "Scientific reports"
+  doi: 10.1038/s41598-020-76166-3
+  pmid: "33154479"
+  pmcid: PMC7644637
+  url: https://doi.org/10.1038/s41598-020-76166-3
+  source_type: case_control
+  tier: 1
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: "Europe PMC REST abstract" }
+
+- id: waite-2025-cat-diabetes-uk
+  title: "Frequency, Risk Factors, and Mortality for Diabetes Mellitus in 1 225 130 Cats Under Primary Veterinary Care in the United Kingdom in 2019"
+  organization: "Journal of veterinary internal medicine"
+  authors: ["Waite","Gostelow","Wright"]
+  year: 2025
+  container: "Journal of veterinary internal medicine"
+  doi: 10.1111/jvim.70161
+  pmid: "40525629"
+  pmcid: PMC12171992
+  url: https://doi.org/10.1111/jvim.70161
+  source_type: cohort
+  tier: 1
+  sample_size: "1,053 diabetic cats among >1.2 million cats, VetCompass UK 2019"
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: "Europe PMC REST abstract" }
+
+- id: kohn-2008-pk-deficiency
+  title: "Clinical course of pyruvate kinase deficiency in Abyssinian and Somali cats"
+  organization: "Journal of feline medicine and surgery"
+  authors: ["Kohn","Fumi"]
+  year: 2008
+  container: "Journal of feline medicine and surgery"
+  doi: 10.1016/j.jfms.2007.09.006
+  pmid: "18077199"
+  pmcid: PMC10911213
+  url: https://doi.org/10.1016/j.jfms.2007.09.006
+  source_type: case_series
+  tier: 1
+  sample_size: "25 affected cats"
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: "Europe PMC REST abstract" }
+
+- id: gandolfi-2015-colq-myopathy
+  title: "COLQ variant associated with Devon Rex and Sphynx feline hereditary myopathy"
+  organization: "Animal genetics"
+  authors: ["Gandolfi","Grahn","Creighton"]
+  year: 2015
+  container: "Animal genetics"
+  doi: 10.1111/age.12350
+  pmid: "26374066"
+  pmcid: PMC4637250
+  url: https://doi.org/10.1111/age.12350
+  source_type: case_control
+  tier: 1
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: "Europe PMC REST abstract" }
+
+- id: seo-2024-sphynx-hcm
+  title: "Prevalence of Hypertrophic Cardiomyopathy and ALMS1 Variant in Sphynx Cats in New Zealand"
+  organization: "Animals : an open access journal from MDPI"
+  authors: ["Seo","Loh","Connolly"]
+  year: 2024
+  container: "Animals : an open access journal from MDPI"
+  doi: 10.3390/ani14182629
+  pmid: "39335220"
+  pmcid: PMC11428990
+  url: https://doi.org/10.3390/ani14182629
+  source_type: cross_sectional
+  tier: 1
+  sample_size: "55 apparently healthy Sphynx cats, New Zealand"
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: "Europe PMC REST abstract" }
+
+- id: buckingham-2013-manx-tail
+  title: "Multiple mutant T alleles cause haploinsufficiency of Brachyury and short tails in Manx cats"
+  organization: "Mammalian genome : official journal of the International Mammalian Genome Society"
+  authors: ["Buckingham","McMillin","Brassil"]
+  year: 2013
+  container: "Mammalian genome : official journal of the International Mammalian Genome Society"
+  doi: 10.1007/s00335-013-9471-1
+  pmid: "23949773"
+  pmcid: PMC3848309
+  url: https://doi.org/10.1007/s00335-013-9471-1
+  source_type: experimental
+  tier: 1
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: "Europe PMC REST abstract" }
+
+- id: esders-2023-siamese-amyloidosis
+  title: "Single Nucleotide Polymorphisms Associated with AA-Amyloidosis in Siamese and Oriental Shorthair Cats"
+  organization: "Genes"
+  authors: ["Esders","Hülskötter","Schreiner"]
+  year: 2023
+  container: "Genes"
+  doi: 10.3390/genes14122126
+  pmid: "38136948"
+  pmcid: PMC10742459
+  url: https://doi.org/10.3390/genes14122126
+  source_type: case_control
+  tier: 1
+  sample_size: "20 affected cats from one cattery, 48 controls"
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: "Europe PMC REST abstract" }
+
+- id: fyfe-2007-nfc-gsd4
+  title: "A complex rearrangement in GBE1 causes both perinatal hypoglycemic collapse and late-juvenile-onset neuromuscular degeneration in glycogen storage disease type IV of Norwegian forest cats"
+  organization: "Molecular genetics and metabolism"
+  authors: ["Fyfe","Kurzhals","Hawkins"]
+  year: 2007
+  container: "Molecular genetics and metabolism"
+  doi: 10.1016/j.ymgme.2006.12.003
+  pmid: "17257876"
+  pmcid: PMC2063609
+  url: https://doi.org/10.1016/j.ymgme.2006.12.003
+  source_type: experimental
+  tier: 1
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: "Europe PMC REST abstract" }
+
+- id: payne-2015-catscan-hcm
+  title: "Cardiomyopathy prevalence in 780 apparently healthy cats in rehoming centres (the CatScan study)"
+  organization: "Journal of veterinary cardiology : the official journal of the European Society of Veterinary Cardiology"
+  authors: ["Payne","Brodbelt","Luis"]
+  year: 2015
+  container: "Journal of veterinary cardiology : the official journal of the European Society of Veterinary Cardiology"
+  doi: 10.1016/j.jvc.2015.03.008
+  pmid: "26776583"
+  url: https://doi.org/10.1016/j.jvc.2015.03.008
+  source_type: cross_sectional
+  tier: 1
+  sample_size: "780 apparently healthy cats in UK rehoming centres"
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: "Europe PMC REST abstract" }
+
+- id: dijkstra-2018-cat-respiratory-rate
+  title: "Respiratory rate of clinically healthy cats measured in veterinary consultation rooms"
+  organization: "Veterinary journal (London, England : 1997)"
+  authors: ["Dijkstra","Teske","Szatmári"]
+  year: 2018
+  container: "Veterinary journal (London, England : 1997)"
+  doi: 10.1016/j.tvjl.2018.02.014
+  pmid: "29680402"
+  url: https://doi.org/10.1016/j.tvjl.2018.02.014
+  source_type: cross_sectional
+  tier: 1
+  sample_size: "131 cats; home resting/sleeping rates from owner videos (n=32/38)"
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: "Europe PMC REST abstract" }
+
+- id: evangelista-2019-feline-grimace-scale
+  title: "Facial expressions of pain in cats: the development and validation of a Feline Grimace Scale"
+  organization: "Scientific reports"
+  authors: ["Evangelista","Watanabe","Leung"]
+  year: 2019
+  container: "Scientific reports"
+  doi: 10.1038/s41598-019-55693-8
+  pmid: "31836868"
+  pmcid: PMC6911058
+  url: https://doi.org/10.1038/s41598-019-55693-8
+  source_type: case_control
+  tier: 1
+  sample_size: "35 painful and 20 control cats"
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: "Europe PMC REST abstract" }
+
+- id: white-cat-deafness-2022
+  title: "Evaluation of the prevalence of congenital sensorineural deafness in a population of 72 client-owned purebred white cats examined from 2007 to 2021"
+  organization: "BMC veterinary research"
+  authors: ["Annemarie","Liliana","Małgorzata"]
+  notes: "Crossref and PubMed list given and family names swapped; the authors are Kortas A, Rytel L, Kołecka M, et al. Kept as registered so automated metadata checks still match."
+  year: 2022
+  container: "BMC veterinary research"
+  doi: 10.1186/s12917-022-03378-2
+  pmid: "35869465"
+  pmcid: PMC9306025
+  url: https://doi.org/10.1186/s12917-022-03378-2
+  source_type: cross_sectional
+  tier: 1
+  sample_size: "72 purebred white cats, Poland"
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: "Europe PMC REST abstract" }
+
+- id: pedersen-2014-tortoiseshell-male
+  title: "A tortoiseshell male cat: chromosome analysis and histologic examination of the testis"
+  organization: "Cytogenetic and genome research"
+  authors: ["Pedersen","Berg","Almstrup"]
+  year: 2014
+  container: "Cytogenetic and genome research"
+  doi: 10.1159/000356466
+  pmid: "24335095"
+  url: https://doi.org/10.1159/000356466
+  source_type: case_series
+  tier: 1
+  sample_size: "single case report"
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: "Europe PMC REST abstract" }
+
+- id: holst-2026-bengal-thoracic-wall
+  title: "Thoracic wall deformity in Bengal cats - Morphological findings and results from a breeder questionnaire"
+  organization: "Veterinary journal (London, England : 1997)"
+  authors: ["Holst","Mikko","Gustavsson"]
+  year: 2026
+  container: "Veterinary journal (London, England : 1997)"
+  doi: 10.1016/j.tvjl.2026.106669
+  pmid: "41967597"
+  url: https://doi.org/10.1016/j.tvjl.2026.106669
+  source_type: cross_sectional
+  tier: 1
+  sample_size: "Swedish breeder questionnaire, 311 litters; CT of affected kittens"
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: "Europe PMC REST abstract" }
+
+- id: oneill-2025-ragdoll-uk
+  title: "Demography, common disorders, cause-specific mortality and life expectancy of Ragdoll cats under primary veterinary care during 2019 in the UK"
+  organization: "Companion animal health and genetics"
+  authors: ["O’Neill","Bass","Brodbelt"]
+  year: 2025
+  container: "Companion animal health and genetics"
+  doi: 10.1186/s40575-025-00148-9
+  pmid: "42135828"
+  pmcid: PMC12587670
+  url: https://doi.org/10.1186/s40575-025-00148-9
+  source_type: cohort
+  tier: 1
+  sample_size: "2,025 Ragdolls sampled, VetCompass UK 2019"
+  accessed: 2026-11-20
+  verification: { exists: true, metadata_match: true, read_level: abstract, checked: 2026-11-20, method: "Europe PMC REST abstract" }

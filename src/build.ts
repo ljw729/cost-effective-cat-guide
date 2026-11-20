@@ -31,6 +31,10 @@ export interface BuiltGuide {
     vet_reviewed: number;
   };
   categories: (Category & { entry_ids: string[] })[];
+  /** Curated beginner list, in display order. */
+  start_here: { id: string; note: string }[];
+  /** Derived purely from scores and grades: no new content. */
+  budget: { almost_free_high_value: string[]; worth_paying_for: string[]; skip_or_unproven: string[] };
   entries: BuiltEntry[];
 }
 
@@ -102,6 +106,22 @@ export function buildGuide(kb: KnowledgeBase): BuiltGuide {
       vet_reviewed: entries.filter((e) => e.review_status === 'vet_reviewed').length,
     },
     categories,
+    start_here: (kb.startHere ?? []).filter((x) => entries.some((e) => e.id === x.id)),
+    budget: budgetGroups(entries),
     entries,
+  };
+}
+
+/**
+ * Groups graded entries by what they cost versus what they return. Uses only scores and grades,
+ * so it can never say more than the entries themselves.
+ */
+export function budgetGroups(entries: BuiltEntry[]) {
+  const g = (e: BuiltEntry) => e.cost_effectiveness.grade;
+  return {
+    almost_free_high_value: entries.filter((e) => e.scores.money_cost <= 1 && (g(e) === 'S' || g(e) === 'A')).map((e) => e.id),
+    worth_paying_for: entries.filter((e) => e.scores.money_cost >= 2 && (g(e) === 'S' || g(e) === 'A' || g(e) === 'B')).map((e) => e.id),
+    // Only purchases: a low grade on a medical item (e.g. region-dependent prevention) must not read as “skip it”.
+    skip_or_unproven: entries.filter((e) => ['worth-buying', 'buying-guide', 'saving', 'budget'].includes(e.category) && (g(e) === 'D' || e.type === 'evidence_gap')).map((e) => e.id),
   };
 }

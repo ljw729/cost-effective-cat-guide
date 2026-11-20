@@ -1,0 +1,63 @@
+id: CG-0120
+slug: persian-and-exotic
+type: recommendation
+title: 波斯猫和异国短毛（加菲）：毛发、眼睛、牙齿和呼吸要多照顾
+summary: 英国数据中波斯猫最常见的问题是毛发问题、牙周病、指甲过长和眼睛分泌物。脸越扁，呼吸、流泪和牙齿问题越常见；极度扁脸还与头骨畸形有关。
+category: breeds
+tags: [persian, brachycephalic, genetics]
+recommendation: 波斯猫和异国短毛猫：每天梳毛、清洁眼周分泌物、定期检查牙齿和修剪指甲；留意睡觉打鼾、活动后呼吸费力；购买前要求父母猫做多囊肾（PKD1）基因检测。
+why_it_matters: >-
+  英国全科兽医记录研究（3,235 只波斯猫）显示：最常见的问题是毛发问题（12.7%）、牙周病（11.3%）、指甲过长（7.2%）和眼睛分泌物（5.8%）；中位寿命 13.5 年；最常见死因是肾病（23.4%）。
+  一项 1,000 份主人问卷研究发现，脸越扁（鼻子位置越高、口鼻越短），主人报告的呼吸问题评分越高，并与流泪痕迹相关。
+  一项 50 只波斯和异国短毛猫的口腔检查发现，72% 咬合不正、56% 牙齿拥挤、88% 有牙周病、70% 有牙齿吸收。
+  一项 CT 研究发现，极度扁脸（“京巴脸”）的波斯猫头骨、面骨和牙齿畸形更多，并与脑室扩张（脑积水）相关，作者建议重新考虑选育极度扁脸。
+  波斯猫中曾有约 40% 携带导致多囊肾的 PKD1 变异；引入基因检测后，该变异频率已明显下降。
+how_to_do_it:
+  - 每天梳毛，防止打结。
+  - 每天用湿棉球轻擦眼角分泌物。
+  - 每年请兽医检查口腔，必要时拍牙片。
+  - 天热时注意通风降温（见中暑条目）。
+warning_signs:
+  - 安静时也张嘴呼吸、呼吸费力：立即就医
+  - 眼睛眯起、发红、角膜发白
+  - 喝水尿量增多（多囊肾和慢性肾病）
+applies_to: [all]
+urgency: important
+related: [CG-0030, CG-0037, CG-0070, CG-0121]
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 1
+  time_cost: 2
+  effort: 2
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 多项独立研究（全科记录、问卷、口腔检查、CT、基因检测）方向一致；呼吸问题的数据来自主人报告，眼周清洁和天热降温是常见护理建议，没有专门研究。
+  gaps:
+    - "UNKNOWN: 扁脸猫是否更易中暑，本项目没有读到猫的直接研究（狗有较多研究）。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: oneill-2019-persian-cats-uk
+    supports: 3,235 只英国波斯猫：最常见问题为毛发问题 12.7%、牙周病 11.3%、指甲过长 7.2%、眼分泌物 5.8%；中位寿命 13.5 年；最常见死因为肾病 23.4%。
+    support_check: ai_checked
+    locator: Abstract
+  - id: farnworth-2016-flat-feline-faces
+    supports: 鼻位比例和口鼻比例越低（脸越扁），主人报告的呼吸评分越高；呼吸评分与流泪痕迹和不爱活动相关。
+    support_check: ai_checked
+    locator: Abstract
+  - id: mestrinho-2018-persian-exotic-dental
+    supports: 50 只波斯和异国短毛猫中 72% 咬合不正、56% 牙齿拥挤、88% 牙周病、70% 牙齿吸收。
+    support_check: ai_checked
+    locator: Abstract
+  - id: schmidt-2017-persian-skull-hydrocephalus
+    supports: 极度扁脸波斯猫的头骨、面骨和牙齿畸形更多，与脑室扩张相关；作者建议重新考虑选育极度扁脸。
+    support_check: ai_checked
+    locator: Abstract
+  - id: anderson-2022-cat-genetic-epidemiology
+    supports: PKD1 变异曾在全世界约 40% 的波斯猫中发现；引入基因检测后频率明显下降；该变异也在缅因猫中发现并确认有临床病例。
+    support_check: ai_checked
+    locator: Polycystic Kidney Disease 段落

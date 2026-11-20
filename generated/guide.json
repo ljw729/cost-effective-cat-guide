@@ -2,25 +2,25 @@
   "schema_version": 1,
   "generated_from": "data/ (do not edit generated files by hand)",
   "stats": {
-    "entries": 101,
-    "sources": 90,
+    "entries": 127,
+    "sources": 117,
     "by_evidence": {
-      "B": 49,
-      "C": 51,
+      "B": 69,
+      "C": 57,
       "D": 1
     },
     "by_grade": {
       "S": 6,
       "A": 18,
-      "B": 22,
-      "C": 32,
-      "D": 7
+      "B": 36,
+      "C": 41,
+      "D": 10
     },
     "by_type": {
       "emergency": 7,
       "dont": 14,
-      "recommendation": 65,
-      "buying_guide": 6,
+      "recommendation": 90,
+      "buying_guide": 7,
       "myth": 8,
       "evidence_gap": 1
     },
@@ -28,8 +28,58 @@
   },
   "categories": [
     {
-      "id": "safety",
+      "id": "basics",
       "order": 1,
+      "name": {
+        "zh": "认识你的猫",
+        "en": "Know Your Cat"
+      },
+      "high_risk": true,
+      "review_months": 18,
+      "entry_ids": [
+        "CG-0110",
+        "CG-0111",
+        "CG-0114",
+        "CG-0115",
+        "CG-0139",
+        "CG-0113"
+      ]
+    },
+    {
+      "id": "breeds",
+      "order": 2,
+      "name": {
+        "zh": "品种与遗传",
+        "en": "Breeds & Genetics"
+      },
+      "high_risk": true,
+      "review_months": 18,
+      "entry_ids": [
+        "CG-0116",
+        "CG-0118",
+        "CG-0120",
+        "CG-0121",
+        "CG-0122",
+        "CG-0124",
+        "CG-0125",
+        "CG-0134",
+        "CG-0135",
+        "CG-0117",
+        "CG-0119",
+        "CG-0123",
+        "CG-0126",
+        "CG-0127",
+        "CG-0128",
+        "CG-0129",
+        "CG-0130",
+        "CG-0131",
+        "CG-0132",
+        "CG-0133"
+      ]
+    },
+    {
+      "id": "safety",
+      "order": 3,
       "name": {
         "zh": "安全",
         "en": "Safety"
@@ -47,7 +97,7 @@
     },
     {
       "id": "toxins",
-      "order": 2,
+      "order": 4,
       "name": {
         "zh": "有毒物质",
         "en": "Toxins"
@@ -68,7 +118,7 @@
     },
     {
       "id": "nutrition",
-      "order": 3,
+      "order": 5,
       "name": {
         "zh": "饮食与营养",
         "en": "Diet & Nutrition"
@@ -86,7 +136,7 @@
     },
     {
       "id": "weight",
-      "order": 4,
+      "order": 6,
       "name": {
         "zh": "体重管理",
         "en": "Weight Management"
@@ -100,7 +150,7 @@
     },
     {
       "id": "urinary",
-      "order": 5,
+      "order": 7,
       "name": {
         "zh": "饮水与泌尿健康",
         "en": "Hydration & Urinary Health"
@@ -113,7 +163,7 @@
     },
     {
       "id": "litter",
-      "order": 6,
+      "order": 8,
       "name": {
         "zh": "猫砂盆",
         "en": "Litter Box"
@@ -127,7 +177,7 @@
     },
     {
       "id": "prevention",
-      "order": 7,
+      "order": 9,
       "name": {
         "zh": "医疗预防",
         "en": "Preventive Care"
@@ -147,7 +197,7 @@
     },
     {
       "id": "dental",
-      "order": 8,
+      "order": 10,
       "name": {
         "zh": "牙齿",
         "en": "Dental"
@@ -162,7 +212,7 @@
     },
     {
       "id": "behavior",
-      "order": 9,
+      "order": 11,
       "name": {
         "zh": "行为与心理需求",
         "en": "Behavior & Wellbeing"
@@ -176,7 +226,7 @@
     },
     {
       "id": "multicat",
-      "order": 10,
+      "order": 12,
       "name": {
         "zh": "多猫家庭",
         "en": "Multi-cat Homes"
@@ -189,7 +239,7 @@
     },
     {
       "id": "kitten",
-      "order": 11,
+      "order": 13,
       "name": {
         "zh": "幼猫",
         "en": "Kittens"
@@ -203,7 +253,7 @@
     },
     {
       "id": "senior",
-      "order": 12,
+      "order": 14,
       "name": {
         "zh": "老年猫",
         "en": "Senior Cats"
@@ -221,7 +271,7 @@
     },
     {
       "id": "early-signs",
-      "order": 13,
+      "order": 15,
       "name": {
         "zh": "常见疾病早期信号",
         "en": "Early Warning Signs"
@@ -251,7 +301,7 @@
     },
     {
       "id": "emergency",
-      "order": 14,
+      "order": 16,
       "name": {
         "zh": "紧急情况",
         "en": "Emergencies"
@@ -271,7 +321,7 @@
     },
     {
       "id": "vet-visits",
-      "order": 15,
+      "order": 17,
       "name": {
         "zh": "医院与就医",
         "en": "Vet Visits"
@@ -285,7 +335,7 @@
     },
     {
       "id": "saving",
-      "order": 16,
+      "order": 18,
       "name": {
         "zh": "养猫省钱",
         "en": "Saving Money"
@@ -298,7 +348,7 @@
     },
     {
       "id": "worth-buying",
-      "order": 17,
+      "order": 19,
       "name": {
         "zh": "值得买吗",
         "en": "Is It Worth Buying?"
@@ -315,7 +365,7 @@
     },
     {
       "id": "buying-guide",
-      "order": 18,
+      "order": 20,
       "name": {
         "zh": "用品选购原则",
         "en": "How to Choose Supplies"
@@ -328,7 +378,7 @@
     },
     {
       "id": "body-language",
-      "order": 19,
+      "order": 21,
       "name": {
         "zh": "猫行为语言",
         "en": "Cat Body Language"
@@ -341,7 +391,7 @@
     },
     {
       "id": "adoption",
-      "order": 20,
+      "order": 22,
       "name": {
         "zh": "领养与买猫",
         "en": "Adopting or Buying"
@@ -354,7 +404,7 @@
     },
     {
       "id": "new-cat",
-      "order": 21,
+      "order": 23,
       "name": {
         "zh": "新猫到家",
         "en": "Bringing a Cat Home"
@@ -369,7 +419,7 @@
     },
     {
       "id": "travel",
-      "order": 22,
+      "order": 24,
       "name": {
         "zh": "旅行·搬家·寄养",
         "en": "Travel",
@@ -384,7 +434,7 @@
     },
     {
       "id": "preparedness",
-      "order": 23,
+      "order": 25,
       "name": {
         "zh": "家庭应急",
         "en": "Emergency Preparedness"
@@ -397,7 +447,7 @@
     },
     {
       "id": "budget",
-      "order": 24,
+      "order": 26,
       "name": {
         "zh": "预算体系",
         "en": "Budgeting"
@@ -408,7 +458,7 @@
     },
     {
       "id": "dont",
-      "order": 25,
+      "order": 27,
       "name": {
         "zh": "不要做什么",
         "en": "Don'ts"
@@ -422,7 +472,7 @@
     },
     {
       "id": "myths",
-      "order": 26,
+      "order": 28,
       "name": {
         "zh": "误区",
         "en": "Myths"
@@ -441,6 +491,106 @@
       ]
     }
   ],
+  "start_here": [
+    {
+      "id": "CG-0001",
+      "note": "防坠楼，花钱少、救命"
+    },
+    {
+      "id": "CG-0003",
+      "note": "百合对猫极毒，最便宜的预防是家里不放"
+    },
+    {
+      "id": "CG-0033",
+      "note": "人用止痛药、感冒药对猫有毒"
+    },
+    {
+      "id": "CG-0005",
+      "note": "狗用驱虫药可能毒死猫"
+    },
+    {
+      "id": "CG-0035",
+      "note": "不吃东西不是挑食，要算时间"
+    },
+    {
+      "id": "CG-0115",
+      "note": "记下睡眠呼吸频率，异常时能早发现"
+    },
+    {
+      "id": "CG-0016",
+      "note": "室内猫也要每年体检"
+    },
+    {
+      "id": "CG-0017",
+      "note": "核心疫苗都要打"
+    },
+    {
+      "id": "CG-0056",
+      "note": "不繁育就早绝育"
+    },
+    {
+      "id": "CG-0008",
+      "note": "主食选全价粮"
+    },
+    {
+      "id": "CG-0011",
+      "note": "每月称重、摸肋骨，防肥胖也防暗病"
+    },
+    {
+      "id": "CG-0014",
+      "note": "猫砂盆是很多问题的起点"
+    },
+    {
+      "id": "CG-0022",
+      "note": "室内猫需要玩耍和安全感"
+    }
+  ],
+  "budget": {
+    "almost_free_high_value": [
+      "CG-0003",
+      "CG-0005",
+      "CG-0009",
+      "CG-0033",
+      "CG-0093",
+      "CG-0008",
+      "CG-0011",
+      "CG-0027",
+      "CG-0038",
+      "CG-0041",
+      "CG-0043",
+      "CG-0044",
+      "CG-0049"
+    ],
+    "worth_paying_for": [
+      "CG-0017",
+      "CG-0001",
+      "CG-0002",
+      "CG-0012",
+      "CG-0018",
+      "CG-0035",
+      "CG-0036",
+      "CG-0037",
+      "CG-0039",
+      "CG-0055",
+      "CG-0078",
+      "CG-0016",
+      "CG-0053",
+      "CG-0068",
+      "CG-0089",
+      "CG-0094",
+      "CG-0110",
+      "CG-0121",
+      "CG-0122",
+      "CG-0124",
+      "CG-0139"
+    ],
+    "skip_or_unproven": [
+      "CG-0013",
+      "CG-0021",
+      "CG-0075",
+      "CG-0096"
+    ]
+  },
   "entries": [
     {
       "id": "CG-0004",
@@ -6718,6 +6868,2204 @@
       "url_path": "/entries/dont-declaw/"
     },
     {
+      "id": "CG-0110",
+      "slug": "cat-life-stages",
+      "type": "recommendation",
+      "title": "猫的四个生命阶段：幼猫、青年、成年、老年，各阶段关注点不同",
+      "summary": "兽医指南把猫分为幼猫（不满 1 岁）、青年（1–6 岁）、成年（7–10 岁）和老年（10 岁以上）。所有猫至少每年体检一次，老年猫至少每 6 个月一次。",
+      "category": "basics",
+      "tags": [
+        "life-stage",
+        "checkup"
+      ],
+      "recommendation": "按猫的年龄所处阶段安排体检和日常照顾：幼猫完成疫苗、驱虫、绝育；青年和成年猫每年体检、控制体重、护理牙齿；10 岁以上至少每半年体检，留意喝水、体重、关节和血压。",
+      "why_it_matters": "2021 AAHA/AAFP 猫生命阶段指南（已读全文）把猫的一生划分为幼猫（不满 1 岁）、青年（1 到 6 岁）、成年（7 到 10 岁）和老年（10 岁以上），并建议所有猫至少每年体检一次，老年猫至少每 6 个月一次，有慢性病的更频繁。 康奈尔大学猫健康中心指出，很多猫在 7 到 10 岁开始出现与年龄相关的变化，大多数在 12 岁前出现；年龄本身不是病，但老年常见病往往可以控制。",
+      "how_to_do_it": [
+        "幼猫：见“幼猫一天几顿”“绝育”“疫苗”“体内驱虫”条目。",
+        "青年 / 成年：每年体检，每月称重（见“每月称体重”条目）。",
+        "老年：每 6 个月体检，按年龄量血压（见“老年猫量血压”条目），每周在家做一次简单检查。"
+      ],
+      "applies_to": [
+        "all",
+        "kitten",
+        "adult",
+        "senior"
+      ],
+      "urgency": "routine",
+      "related": [
+        "CG-0016",
+        "CG-0018",
+        "CG-0038",
+        "CG-0102"
+      ],
+      "scores": {
+        "benefit": 3,
+        "risk_reduction": 3,
+        "money_cost": 2,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "生命阶段的划分和体检频率来自兽医指南全文；指南由企业教育资助（见来源的利益冲突说明）。"
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "认识你的猫",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "B",
+        "uncapped_grade": "B",
+        "score": 2.1,
+        "breakdown": {
+          "value": 3,
+          "confidence": 0.85,
+          "burden": 1,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "aaha-aafp-life-stage-2021",
+          "title": "2021 AAHA/AAFP Feline Life Stage Guidelines",
+          "organization": "AAHA / AAFP",
+          "authors": [
+            "Quimby",
+            "Gowland",
+            "Carney"
+          ],
+          "year": 2021,
+          "container": "Journal of Feline Medicine and Surgery",
+          "doi": "10.1177/1098612X21993657",
+          "url": "https://doi.org/10.1177/1098612X21993657",
+          "pmcid": "PMC10812130",
+          "source_type": "guideline",
+          "tier": 1,
+          "conflict_of_interest": "Development funded by an educational grant to AAHA from Boehringer Ingelheim, CareCredit, Dechra, Hill's Pet Nutrition, IDEXX, Merck Animal Health and Zoetis; several task force members disclose industry consultancy or speaking fees.",
+          "accessed": "2026-11-20",
+          "notes": "Also published in JAAHA 57(2):51-72 (DOI 10.5326/JAAHA-MS-7189).",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "full_text",
+            "checked": "2026-11-20",
+            "method": "Crossref + full text on PMC (pmc.ncbi.nlm.nih.gov article page)"
+          },
+          "supports": "生命阶段划分为幼猫（不满 1 岁）、青年（1 到 6 岁）、成年（7 到 10 岁）、老年（10 岁以上）；所有猫至少每年体检一次，老年猫至少每 6 个月一次，有慢性病的更频繁。",
+          "support_check": "ai_checked",
+          "locator": "Table 2；Discussion items for all life stages"
+        },
+        {
+          "id": "cornell-senior",
+          "title": "The Special Needs of the Senior Cat",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2016,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/special-needs-senior-cat",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "Page states \"Updated December 2016\".",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "很多猫在 7 到 10 岁开始出现与年龄相关的变化，大多数在 12 岁前出现；年龄本身不是病。",
+          "support_check": "ai_checked",
+          "locator": "开头段落"
+        }
+      ],
+      "url_path": "/entries/cat-life-stages/"
+    },
+    {
+      "id": "CG-0111",
+      "slug": "male-and-female-differences",
+      "type": "recommendation",
+      "title": "公猫和母猫有什么不同：寿命、常见风险和绝育",
+      "summary": "英国大样本数据中，母猫平均预期寿命比公猫长约 1.3 年；未绝育的猫寿命更短。公猫更易尿道堵塞和心肌肥厚，未绝育母猫有乳腺肿瘤和子宫蓄脓风险。",
+      "category": "basics",
+      "tags": [
+        "sex-differences",
+        "neuter"
+      ],
+      "recommendation": "了解性别相关的风险：公猫重点留意排尿（尿团变少、反复蹲盆是急症）和心脏；母猫在第一次发情前绝育可几乎消除乳腺肿瘤风险。不打算繁育的猫，公母都建议绝育。",
+      "why_it_matters": "英国 VetCompass 2019 年 7,936 例死亡数据的寿命表显示：母猫出生时预期寿命 12.51 年，公猫 11.18 年，相差 1.33 年；在考虑其他因素后，公猫仍比母猫少活约 1.2 年；未绝育的猫 3 岁前死亡的几率是已绝育猫的 4.29 倍。另一项分析同一时期英国数据的研究发现，未绝育公猫寿命最短，已绝育母猫最长，并把公猫寿命较短归因于更多外伤和健康问题。 公猫：尿道更长更窄，更容易尿道堵塞（急症）；一项 780 只看起来健康的猫的超声筛查中，公猫是诊断肥厚型心肌病的相关因素之一；未绝育、外出、爱打架的公猫感染猫艾滋的风险最高。 母猫：在乳腺发育前（3 到 6 月龄）绝育几乎可以消除乳腺癌风险，并排除子宫蓄脓。",
+      "how_to_do_it": [
+        "公猫：每天铲屎时留意尿团；反复蹲盆尿不出来当天急诊（见 CG-0007）。",
+        "母猫：在第一次发情前和兽医商量绝育（见 CG-0056）。"
+      ],
+      "applies_to": [
+        "all",
+        "male"
+      ],
+      "urgency": "important",
+      "related": [
+        "CG-0007",
+        "CG-0056",
+        "CG-0087",
+        "CG-0139"
+      ],
+      "scores": {
+        "benefit": 3,
+        "risk_reduction": 3,
+        "money_cost": 0,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "寿命差异来自英国两项基于全科兽医记录的大样本研究（一项读了全文）；公猫与心肌肥厚的关联来自一项横断面研究摘要；其余来自大学兽医学院资料。寿命数据是英国的，不一定适用于其他地区。",
+        "gaps": [
+          "UNKNOWN: “品种 × 性别”的组合差异（例如某个品种的公猫是否特别容易得某病），目前只找到零散数据，例如折耳猫骨软骨发育异常的公母比例相同；本项目不编制品种 × 性别对照表。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "认识你的猫",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "B",
+        "uncapped_grade": "B",
+        "score": 2.55,
+        "breakdown": {
+          "value": 3,
+          "confidence": 0.85,
+          "burden": 0,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "teng-2024-cat-life-tables",
+          "title": "Life tables of annual life expectancy and risk factors for mortality in cats in the UK",
+          "organization": "Journal of feline medicine and surgery",
+          "authors": [
+            "Teng",
+            "Brodbelt",
+            "Church"
+          ],
+          "year": 2024,
+          "container": "Journal of feline medicine and surgery",
+          "doi": "10.1177/1098612x241234556",
+          "pmid": "38714312",
+          "pmcid": "PMC11156239",
+          "url": "https://doi.org/10.1177/1098612x241234556",
+          "source_type": "cohort",
+          "tier": 1,
+          "sample_size": "VetCompass UK 2019; 7,936 deaths",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "full_text",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST fullTextXML (open access)"
+          },
+          "supports": "英国 2019 年 7,936 例死亡；出生时预期寿命母猫 12.51 年、公猫 11.18 年；校正后公猫比母猫少活 1.20 年；未绝育猫 3 岁前死亡几率是绝育猫的 4.29 倍。",
+          "support_check": "ai_checked",
+          "locator": "Results（sex；early-age mortality model）"
+        },
+        {
+          "id": "mata-2025-moggies-mollies",
+          "title": "Life expectancy of cats in Britain: moggies and mollies live longer",
+          "organization": "PeerJ",
+          "authors": [
+            "Mata"
+          ],
+          "year": 2025,
+          "container": "PeerJ",
+          "doi": "10.7717/peerj.18869",
+          "pmid": "39897493",
+          "pmcid": "PMC11787799",
+          "url": "https://doi.org/10.7717/peerj.18869",
+          "source_type": "cohort",
+          "tier": 1,
+          "sample_size": "7,708 cats, UK 2019 VetCompass-derived data",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "公猫寿命短于母猫（归因于更多外伤和健康问题）；绝育的猫寿命更长；未绝育公猫最短，已绝育母猫最长。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        },
+        {
+          "id": "payne-2015-catscan-hcm",
+          "title": "Cardiomyopathy prevalence in 780 apparently healthy cats in rehoming centres (the CatScan study)",
+          "organization": "Journal of veterinary cardiology : the official journal of the European Society of Veterinary Cardiology",
+          "authors": [
+            "Payne",
+            "Brodbelt",
+            "Luis"
+          ],
+          "year": 2015,
+          "container": "Journal of veterinary cardiology : the official journal of the European Society of Veterinary Cardiology",
+          "doi": "10.1016/j.jvc.2015.03.008",
+          "pmid": "26776583",
+          "url": "https://doi.org/10.1016/j.jvc.2015.03.008",
+          "source_type": "cross_sectional",
+          "tier": 1,
+          "sample_size": "780 apparently healthy cats in UK rehoming centres",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "780 只看起来健康的猫中 HCM 患病率 14.7%；公猫、年龄增加、体况评分高、心杂音与 HCM 诊断相关。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        },
+        {
+          "id": "cornell-flutd",
+          "title": "Feline Lower Urinary Tract Disease",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2016,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-lower-urinary-tract-disease",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "Page states \"updated October 2016\".",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "公猫尿道更长更窄，尿道堵塞风险更高；尿道堵塞是急症。",
+          "support_check": "ai_checked",
+          "locator": "Urethral obstruction 段落"
+        },
+        {
+          "id": "cornell-spay",
+          "title": "Spaying and Neutering",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/spaying-and-neutering",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "3–6 月龄乳腺发育前绝育几乎消除乳腺癌风险，并排除子宫蓄脓；公猫去势减少游荡、打斗和喷尿。",
+          "support_check": "ai_checked",
+          "locator": "全文"
+        },
+        {
+          "id": "velie-2023-scottish-fold-prevalence",
+          "title": "An estimation of osteochondrodysplasia prevalence in Australian Scottish Fold cats: a retrospective study using VetCompass Data",
+          "organization": "BMC veterinary research",
+          "authors": [
+            "Velie",
+            "Milden",
+            "Miller"
+          ],
+          "year": 2023,
+          "container": "BMC veterinary research",
+          "doi": "10.1186/s12917-023-03811-0",
+          "pmid": "38031079",
+          "pmcid": "PMC10685627",
+          "url": "https://doi.org/10.1186/s12917-023-03811-0",
+          "source_type": "cohort",
+          "tier": 1,
+          "sample_size": "1,131 Scottish Fold cats, Australian primary-care records 1992-2018",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "折耳猫骨软骨发育异常的病例中公母比例相当。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        }
+      ],
+      "url_path": "/entries/male-and-female-differences/"
+    },
+    {
+      "id": "CG-0114",
+      "slug": "recognize-pain-in-the-face",
+      "type": "recommendation",
+      "title": "看脸识别疼痛：耳朵、眼睛、口鼻、胡须和头的位置",
+      "summary": "兽医研究验证了“猫疼痛面部量表”：疼痛的猫耳朵会向外向下转、眯眼、口鼻紧绷、胡须变直前伸、头低于肩膀。猫很会忍痛，这些细节值得学。",
+      "category": "basics",
+      "tags": [
+        "pain",
+        "hidden-illness"
+      ],
+      "recommendation": "学会观察猫在安静时的脸：耳朵是否向两侧压低、眼睛是否眯起、口鼻区域是否紧绷、胡须是否变直或前伸、头是否低垂。出现这些变化，尤其同时躲藏、不吃、不动时，联系兽医。不要给人用止痛药。",
+      "why_it_matters": "2019 年的一项研究开发并验证了猫疼痛面部量表（Feline Grimace Scale），用五个面部动作评估急性疼痛：耳朵位置、眼眶收紧、口鼻紧张、胡须变化和头部位置。疼痛的猫得分高于对照猫，使用止痛药后得分下降，与另一个已验证的疼痛评估工具高度相关。 这个量表是在兽医环境中、由经过培训的观察者使用的；主人可以借用这几个观察点，但不能用它代替兽医检查。康奈尔的资料也指出，关节疼痛的猫往往不是明显跛行，而是活动变少、躲藏。",
+      "how_to_do_it": [
+        "平时猫放松时拍几张正面照片，作为对比的“基线”。",
+        "搜索 Feline Grimace Scale 的官方示意图，对照五个部位看。"
+      ],
+      "warning_signs": [
+        "面部表现出疼痛，同时不吃、躲起来、不愿动",
+        "碰某个部位就躲或咬"
+      ],
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "important",
+      "related": [
+        "CG-0033",
+        "CG-0039",
+        "CG-0066"
+      ],
+      "scores": {
+        "benefit": 3,
+        "risk_reduction": 3,
+        "money_cost": 0,
+        "time_cost": 1,
+        "effort": 2,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "C",
+        "summary": "量表本身经过验证，但验证针对的是兽医环境中的急性疼痛、由受训者评分；主人在家使用的准确性没有研究，因此本条评为 C。",
+        "gaps": [
+          "UNKNOWN: 主人在家观察面部表情识别疼痛的准确性。",
+          "UNKNOWN: 五个动作的具体描述（如“胡须变直前伸”）来自量表的通用说明，本项目只读了论文摘要。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "认识你的猫",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "B",
+        "uncapped_grade": "B",
+        "score": 1.84,
+        "breakdown": {
+          "value": 3,
+          "confidence": 0.65,
+          "burden": 0.25,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "evangelista-2019-feline-grimace-scale",
+          "title": "Facial expressions of pain in cats: the development and validation of a Feline Grimace Scale",
+          "organization": "Scientific reports",
+          "authors": [
+            "Evangelista",
+            "Watanabe",
+            "Leung"
+          ],
+          "year": 2019,
+          "container": "Scientific reports",
+          "doi": "10.1038/s41598-019-55693-8",
+          "pmid": "31836868",
+          "pmcid": "PMC6911058",
+          "url": "https://doi.org/10.1038/s41598-019-55693-8",
+          "source_type": "case_control",
+          "tier": 1,
+          "sample_size": "35 painful and 20 control cats",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "开发并验证猫疼痛面部量表，五个动作单元为耳朵位置、眼眶收紧、口鼻紧张、胡须变化、头部位置；疼痛猫得分高于对照猫，镇痛后下降，与另一个已验证工具高度相关；研究在兽医环境中进行，由观察者评分。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        },
+        {
+          "id": "cornell-slowing",
+          "title": "Is Your Cat Slowing Down?",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/your-cat-slowing-down",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "关节疼痛的猫常不明显跛行，而是活动减少、躲藏、找温暖处睡觉。",
+          "support_check": "ai_checked",
+          "locator": "Dr. Bellezza 段落"
+        }
+      ],
+      "url_path": "/entries/recognize-pain-in-the-face/"
+    },
+    {
+      "id": "CG-0115",
+      "slug": "normal-breathing-rate",
+      "type": "recommendation",
+      "title": "记住你家猫睡着时每分钟呼吸几次",
+      "summary": "一项研究中，健康成年猫在家睡觉时的呼吸频率中位数是每分钟 20 次（9–28 次），安静休息时 27 次。持续明显变快、或张嘴呼吸，要联系兽医。",
+      "category": "basics",
+      "tags": [
+        "breathing-difficulty",
+        "normal-values"
+      ],
+      "recommendation": "在猫熟睡时数 30 秒胸口起伏的次数再乘以 2，平时多数几次，记下你家猫的正常范围。睡眠或安静时呼吸持续明显高于平时，或出现张嘴呼吸、呼吸费力，联系兽医；张嘴呼吸属于急症。",
+      "why_it_matters": "一项研究用主人拍摄的家中视频测量健康成年猫的呼吸频率：睡眠时中位数每分钟 20 次（范围 9–28），安静休息时中位数 27 次（范围 16–60）；在医院诊室里则高得多（中位数 64 次），说明在家测量更有参考价值。 康奈尔大学猫健康中心指出，猫静息时呼吸不应超过每分钟 35 次；呼吸困难的猫不及时治疗死亡风险很高。",
+      "how_to_do_it": [
+        "一吸一呼算一次。",
+        "不要在猫刚玩完、很热或紧张时数。",
+        "心脏病猫的监测方法请按兽医的具体指导。"
+      ],
+      "warning_signs": [
+        "静息时呼吸每分钟持续超过 35 次",
+        "张嘴呼吸、腹部用力起伏：立即就医（见 CG-0029）"
+      ],
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "important",
+      "related": [
+        "CG-0029",
+        "CG-0089"
+      ],
+      "scores": {
+        "benefit": 3,
+        "risk_reduction": 3,
+        "money_cost": 0,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "参考值来自一项研究（家中视频，样本较小：睡眠 38 只、休息 32 只），与大学兽医学院的上限说法一致。个体差异存在，所以建议记录自己猫的基线。"
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "认识你的猫",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "B",
+        "uncapped_grade": "B",
+        "score": 2.55,
+        "breakdown": {
+          "value": 3,
+          "confidence": 0.85,
+          "burden": 0,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "dijkstra-2018-cat-respiratory-rate",
+          "title": "Respiratory rate of clinically healthy cats measured in veterinary consultation rooms",
+          "organization": "Veterinary journal (London, England : 1997)",
+          "authors": [
+            "Dijkstra",
+            "Teske",
+            "Szatmári"
+          ],
+          "year": 2018,
+          "container": "Veterinary journal (London, England : 1997)",
+          "doi": "10.1016/j.tvjl.2018.02.014",
+          "pmid": "29680402",
+          "url": "https://doi.org/10.1016/j.tvjl.2018.02.014",
+          "source_type": "cross_sectional",
+          "tier": 1,
+          "sample_size": "131 cats; home resting/sleeping rates from owner videos (n=32/38)",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "健康成年猫在家视频测得睡眠呼吸频率中位数 20 次/分（9–28），休息时 27 次/分（16–60）；诊室中中位数 64 次/分。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        },
+        {
+          "id": "cornell-uri",
+          "title": "Respiratory Infections",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2018,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/respiratory-infections",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "Page states \"Updated June 2018\".",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "静息时呼吸频率不应超过每分钟 35 次。",
+          "support_check": "ai_checked",
+          "locator": "Lower respiratory tract infections 段落"
+        },
+        {
+          "id": "cornell-dyspnea",
+          "title": "Dyspnea (Difficulty Breathing)",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/dyspnea-difficulty-breathing",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "有呼吸困难的猫不及时治疗死亡风险高，应立即就医。",
+          "support_check": "ai_checked",
+          "locator": "Dr. Fletcher 建议"
+        }
+      ],
+      "url_path": "/entries/normal-breathing-rate/"
+    },
+    {
+      "id": "CG-0116",
+      "slug": "mixed-breed-cats-live-longer",
+      "type": "recommendation",
+      "title": "田园猫和混种猫：平均寿命比纯种猫更长",
+      "summary": "英国大样本数据中，混种猫出生时预期寿命约 11.9 年，纯种猫 3 岁前死亡的几率是混种猫的 1.83 倍。但混种猫也可能携带遗传病基因。",
+      "category": "breeds",
+      "tags": [
+        "mixed-breed",
+        "breeds"
+      ],
+      "recommendation": "选猫时不必把“纯种”当作健康或品质的标志；领养田园猫是健康上很合理的选择。无论纯种还是混种，都按年龄定期体检。",
+      "why_it_matters": "英国 VetCompass 2019 年的寿命表研究（已读全文）中，混种猫出生时预期寿命为 11.89 年；纯种猫 3 岁前死亡的几率是混种猫的 1.83 倍，纯种是寿命缩短的相关因素之一。另一项分析同期英国数据的研究发现，普通家猫（moggies）比纯种猫和杂交品种猫活得更久，作者认为遗传多样性可能有帮助。 不过，一项对 11,036 只猫的基因检测研究在非纯种猫中也发现了遗传病相关变异，其中 3 个只在非纯种猫中出现，所以混种不等于没有遗传病。",
+      "how_to_do_it": [
+        "见“领养时也考虑成年猫和老年猫”“新猫到家”条目。"
+      ],
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "routine",
+      "related": [
+        "CG-0080",
+        "CG-0117"
+      ],
+      "scores": {
+        "benefit": 3,
+        "risk_reduction": 2,
+        "money_cost": 0,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "两项英国大样本研究一致，其中一项读了全文；属于观察性研究，不能完全排除生活方式等混杂因素；数据来自英国。"
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "品种与遗传",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "B",
+        "uncapped_grade": "B",
+        "score": 2.21,
+        "breakdown": {
+          "value": 2.6,
+          "confidence": 0.85,
+          "burden": 0,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "teng-2024-cat-life-tables",
+          "title": "Life tables of annual life expectancy and risk factors for mortality in cats in the UK",
+          "organization": "Journal of feline medicine and surgery",
+          "authors": [
+            "Teng",
+            "Brodbelt",
+            "Church"
+          ],
+          "year": 2024,
+          "container": "Journal of feline medicine and surgery",
+          "doi": "10.1177/1098612x241234556",
+          "pmid": "38714312",
+          "pmcid": "PMC11156239",
+          "url": "https://doi.org/10.1177/1098612x241234556",
+          "source_type": "cohort",
+          "tier": 1,
+          "sample_size": "VetCompass UK 2019; 7,936 deaths",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "full_text",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST fullTextXML (open access)"
+          },
+          "supports": "混种猫出生时预期寿命 11.89 年；纯种猫 3 岁前死亡几率是混种猫的 1.83 倍；纯种与寿命缩短相关。",
+          "support_check": "ai_checked",
+          "locator": "Table 6；Results（early-age mortality）"
+        },
+        {
+          "id": "mata-2025-moggies-mollies",
+          "title": "Life expectancy of cats in Britain: moggies and mollies live longer",
+          "organization": "PeerJ",
+          "authors": [
+            "Mata"
+          ],
+          "year": 2025,
+          "container": "PeerJ",
+          "doi": "10.7717/peerj.18869",
+          "pmid": "39897493",
+          "pmcid": "PMC11787799",
+          "url": "https://doi.org/10.7717/peerj.18869",
+          "source_type": "cohort",
+          "tier": 1,
+          "sample_size": "7,708 cats, UK 2019 VetCompass-derived data",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "普通家猫（moggies）比纯种猫和杂交品种猫寿命更长，作者认为遗传多样性可能有贡献。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        },
+        {
+          "id": "anderson-2022-cat-genetic-epidemiology",
+          "title": "Genetic epidemiology of blood type, disease and trait variants, and genome-wide genetic diversity in over 11,000 domestic cats",
+          "organization": "PLoS genetics",
+          "authors": [
+            "Anderson",
+            "Davison",
+            "Lytle"
+          ],
+          "year": 2022,
+          "container": "PLoS genetics",
+          "doi": "10.1371/journal.pgen.1009804",
+          "pmid": "35709088",
+          "pmcid": "PMC9202916",
+          "url": "https://doi.org/10.1371/journal.pgen.1009804",
+          "source_type": "cross_sectional",
+          "tier": 1,
+          "sample_size": "11,036 cats (10,419 pedigreed) from commercial panel testing; authors affiliated with a commercial DNA-testing company",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "full_text",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST fullTextXML (open access)"
+          },
+          "supports": "在 617 只非纯种猫中也检出遗传病相关变异，其中 3 个变异只在非纯种猫中发现。",
+          "support_check": "ai_checked",
+          "locator": "Abstract；Results"
+        }
+      ],
+      "url_path": "/entries/mixed-breed-cats-live-longer/"
+    },
+    {
+      "id": "CG-0118",
+      "slug": "scottish-fold-facts",
+      "type": "recommendation",
+      "title": "苏格兰折耳猫：折耳和骨软骨发育异常来自同一个基因变异",
+      "summary": "研究发现，折耳外形和四肢、尾巴的骨软骨发育异常都与同一个显性基因变异有关。但一项澳大利亚病历研究中，确诊为该病的折耳猫比例不高。以下只列事实，由你自己判断。",
+      "category": "breeds",
+      "tags": [
+        "scottish-fold",
+        "genetics"
+      ],
+      "recommendation": "养折耳猫，或考虑买折耳猫时，了解以下事实；已经养了折耳猫，留意跛行、不愿跳、尾巴僵硬，定期请兽医检查四肢关节和尾巴，疼痛时及早处理。",
+      "why_it_matters": "事实一：一项基因研究发现，苏格兰折耳猫显性遗传的折耳外形和骨软骨发育异常（累及前后肢远端和尾巴，关节进行性破坏）都与 TRPV4 基因的同一个变异有关；该变异在 648 只未受影响的猫中均未发现。 事实二：一项对 11,036 只猫的基因检测中，72/76 只（94.7%）苏格兰折耳短毛猫带有这个变异。 事实三：一项澳大利亚研究回顾了 1,131 只折耳猫的诊所病历，只有 12 只被临床确诊、另有 69 只疑似（含少数立耳苏格兰猫）；确诊多在 30 个月龄以前，公母比例相当。作者认为临床确诊比例相对较低，但仍需更多证据评估其临床意义。 事实四：该研究的背景介绍写明，人们普遍认为所有折耳猫都受骨软骨发育异常影响，这是一种疼痛的退行性关节病。 事实三和事实四之间存在差异，可能与“基因上受影响”和“在病历中被诊断”不是一回事有关。",
+      "how_to_do_it": [
+        "留意：走路僵硬、跛行、不愿跳高、尾巴粗短僵硬、不让碰腿或尾巴。",
+        "向兽医说明猫是折耳猫，请检查四肢和尾巴。"
+      ],
+      "warning_signs": [
+        "跛行、不愿跳、活动明显减少",
+        "尾巴僵硬、碰尾巴或腿时疼痛"
+      ],
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "important",
+      "related": [
+        "CG-0114",
+        "CG-0135"
+      ],
+      "scores": {
+        "benefit": 3,
+        "risk_reduction": 2,
+        "money_cost": 0,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "基因机制有研究证据和大样本基因检测数据支持；临床发病比例的研究结果不一致，因此标注证据冲突，本条不作购买或繁育建议。",
+        "conflict": true,
+        "conflict_notes": {
+          "positions": [
+            {
+              "position": "折耳外形与骨软骨发育异常由同一显性变异导致，几乎所有折耳猫带有该变异；背景观点认为所有折耳猫都受影响。",
+              "sources": [
+                "gandolfi-2016-scottish-fold-trpv4",
+                "anderson-2022-cat-genetic-epidemiology",
+                "velie-2023-scottish-fold-prevalence"
+              ]
+            },
+            {
+              "position": "在澳大利亚诊所病历中，被临床确诊的折耳猫比例相对较低（1,131 只中 12 只确诊、69 只疑似）。",
+              "sources": [
+                "velie-2023-scottish-fold-prevalence"
+              ]
+            }
+          ],
+          "current_interpretation": "两者不矛盾地并存：基因上带变异不等于在病历里被诊断；病历研究可能低估了轻度或未被注意的病变。临床意义仍需更多研究。"
+        },
+        "gaps": [
+          "UNKNOWN: 折耳 × 折耳配种产生的后代是否更严重，本项目已读来源（摘要）没有直接说明。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "品种与遗传",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "B",
+        "uncapped_grade": "B",
+        "score": 2.21,
+        "breakdown": {
+          "value": 2.6,
+          "confidence": 0.85,
+          "burden": 0,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "gandolfi-2016-scottish-fold-trpv4",
+          "title": "A dominant TRPV4 variant underlies osteochondrodysplasia in Scottish fold cats",
+          "organization": "Osteoarthritis and cartilage",
+          "authors": [
+            "Gandolfi",
+            "Alamri",
+            "Darby"
+          ],
+          "year": 2016,
+          "container": "Osteoarthritis and cartilage",
+          "doi": "10.1016/j.joca.2016.03.019",
+          "pmid": "27063440",
+          "url": "https://doi.org/10.1016/j.joca.2016.03.019",
+          "source_type": "case_control",
+          "tier": 1,
+          "sample_size": "44 Scottish fold vs 54 controls; variant absent in 648 unaffected cats",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "苏格兰折耳猫显性遗传的折耳外形和骨软骨发育异常（累及前后肢远端和尾巴、关节进行性破坏）与 TRPV4 p.V342F 变异相关；该变异在 648 只未受影响猫中未发现。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        },
+        {
+          "id": "anderson-2022-cat-genetic-epidemiology",
+          "title": "Genetic epidemiology of blood type, disease and trait variants, and genome-wide genetic diversity in over 11,000 domestic cats",
+          "organization": "PLoS genetics",
+          "authors": [
+            "Anderson",
+            "Davison",
+            "Lytle"
+          ],
+          "year": 2022,
+          "container": "PLoS genetics",
+          "doi": "10.1371/journal.pgen.1009804",
+          "pmid": "35709088",
+          "pmcid": "PMC9202916",
+          "url": "https://doi.org/10.1371/journal.pgen.1009804",
+          "source_type": "cross_sectional",
+          "tier": 1,
+          "sample_size": "11,036 cats (10,419 pedigreed) from commercial panel testing; authors affiliated with a commercial DNA-testing company",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "full_text",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST fullTextXML (open access)"
+          },
+          "supports": "72/76 只（94.7%）苏格兰折耳短毛猫带有骨软骨发育异常与折耳相关变异。",
+          "support_check": "ai_checked",
+          "locator": "Osteochondrodysplasia and Earfold 表格"
+        },
+        {
+          "id": "velie-2023-scottish-fold-prevalence",
+          "title": "An estimation of osteochondrodysplasia prevalence in Australian Scottish Fold cats: a retrospective study using VetCompass Data",
+          "organization": "BMC veterinary research",
+          "authors": [
+            "Velie",
+            "Milden",
+            "Miller"
+          ],
+          "year": 2023,
+          "container": "BMC veterinary research",
+          "doi": "10.1186/s12917-023-03811-0",
+          "pmid": "38031079",
+          "pmcid": "PMC10685627",
+          "url": "https://doi.org/10.1186/s12917-023-03811-0",
+          "source_type": "cohort",
+          "tier": 1,
+          "sample_size": "1,131 Scottish Fold cats, Australian primary-care records 1992-2018",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "背景：一般认为所有折耳猫都受骨软骨发育异常影响；1,131 只澳大利亚折耳猫病历中 12 只临床确诊、69 只疑似（含 5 只立耳苏格兰猫）；确诊多在 30 个月龄前；公母相当；作者认为临床确诊比例相对较低，需要更多证据。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        }
+      ],
+      "url_path": "/entries/scottish-fold-facts/"
+    },
+    {
+      "id": "CG-0120",
+      "slug": "persian-and-exotic",
+      "type": "recommendation",
+      "title": "波斯猫和异国短毛（加菲）：毛发、眼睛、牙齿和呼吸要多照顾",
+      "summary": "英国数据中波斯猫最常见的问题是毛发问题、牙周病、指甲过长和眼睛分泌物。脸越扁，呼吸、流泪和牙齿问题越常见；极度扁脸还与头骨畸形有关。",
+      "category": "breeds",
+      "tags": [
+        "persian",
+        "brachycephalic",
+        "genetics"
+      ],
+      "recommendation": "波斯猫和异国短毛猫：每天梳毛、清洁眼周分泌物、定期检查牙齿和修剪指甲；留意睡觉打鼾、活动后呼吸费力；购买前要求父母猫做多囊肾（PKD1）基因检测。",
+      "why_it_matters": "英国全科兽医记录研究（3,235 只波斯猫）显示：最常见的问题是毛发问题（12.7%）、牙周病（11.3%）、指甲过长（7.2%）和眼睛分泌物（5.8%）；中位寿命 13.5 年；最常见死因是肾病（23.4%）。 一项 1,000 份主人问卷研究发现，脸越扁（鼻子位置越高、口鼻越短），主人报告的呼吸问题评分越高，并与流泪痕迹相关。 一项 50 只波斯和异国短毛猫的口腔检查发现，72% 咬合不正、56% 牙齿拥挤、88% 有牙周病、70% 有牙齿吸收。 一项 CT 研究发现，极度扁脸（“京巴脸”）的波斯猫头骨、面骨和牙齿畸形更多，并与脑室扩张（脑积水）相关，作者建议重新考虑选育极度扁脸。 波斯猫中曾有约 40% 携带导致多囊肾的 PKD1 变异；引入基因检测后，该变异频率已明显下降。",
+      "how_to_do_it": [
+        "每天梳毛，防止打结。",
+        "每天用湿棉球轻擦眼角分泌物。",
+        "每年请兽医检查口腔，必要时拍牙片。",
+        "天热时注意通风降温（见中暑条目）。"
+      ],
+      "warning_signs": [
+        "安静时也张嘴呼吸、呼吸费力：立即就医",
+        "眼睛眯起、发红、角膜发白",
+        "喝水尿量增多（多囊肾和慢性肾病）"
+      ],
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "important",
+      "related": [
+        "CG-0030",
+        "CG-0037",
+        "CG-0070",
+        "CG-0121"
+      ],
+      "scores": {
+        "benefit": 3,
+        "risk_reduction": 3,
+        "money_cost": 1,
+        "time_cost": 2,
+        "effort": 2,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "多项独立研究（全科记录、问卷、口腔检查、CT、基因检测）方向一致；呼吸问题的数据来自主人报告，眼周清洁和天热降温是常见护理建议，没有专门研究。",
+        "gaps": [
+          "UNKNOWN: 扁脸猫是否更易中暑，本项目没有读到猫的直接研究（狗有较多研究）。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "品种与遗传",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "B",
+        "uncapped_grade": "B",
+        "score": 2.1,
+        "breakdown": {
+          "value": 3,
+          "confidence": 0.85,
+          "burden": 1,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "oneill-2019-persian-cats-uk",
+          "title": "Persian cats under first opinion veterinary care in the UK: demography, mortality and disorders",
+          "organization": "Scientific reports",
+          "authors": [
+            "O’Neill",
+            "Romans",
+            "Brodbelt"
+          ],
+          "year": 2019,
+          "container": "Scientific reports",
+          "doi": "10.1038/s41598-019-49317-4",
+          "pmid": "31530836",
+          "pmcid": "PMC6748978",
+          "url": "https://doi.org/10.1038/s41598-019-49317-4",
+          "source_type": "cohort",
+          "tier": 1,
+          "sample_size": "3,235 Persians, VetCompass UK 2013",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "3,235 只英国波斯猫：最常见问题为毛发问题 12.7%、牙周病 11.3%、指甲过长 7.2%、眼分泌物 5.8%；中位寿命 13.5 年；最常见死因为肾病 23.4%。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        },
+        {
+          "id": "farnworth-2016-flat-feline-faces",
+          "title": "Flat Feline Faces: Is Brachycephaly Associated with Respiratory Abnormalities in the Domestic Cat (Felis catus)?",
+          "organization": "PloS one",
+          "authors": [
+            "Farnworth",
+            "Chen",
+            "Packer"
+          ],
+          "year": 2016,
+          "container": "PloS one",
+          "doi": "10.1371/journal.pone.0161777",
+          "pmid": "27574987",
+          "pmcid": "PMC5004878",
+          "url": "https://doi.org/10.1371/journal.pone.0161777",
+          "source_type": "cross_sectional",
+          "tier": 1,
+          "sample_size": "1,000 owner questionnaires; owner-reported signs",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "鼻位比例和口鼻比例越低（脸越扁），主人报告的呼吸评分越高；呼吸评分与流泪痕迹和不爱活动相关。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        },
+        {
+          "id": "mestrinho-2018-persian-exotic-dental",
+          "title": "Oral and dental anomalies in purebred, brachycephalic Persian and Exotic cats",
+          "organization": "Journal of the American Veterinary Medical Association",
+          "authors": [
+            "Mestrinho",
+            "Louro",
+            "Gordo"
+          ],
+          "year": 2018,
+          "container": "Journal of the American Veterinary Medical Association",
+          "doi": "10.2460/javma.253.1.66",
+          "pmid": "29911947",
+          "url": "https://doi.org/10.2460/javma.253.1.66",
+          "source_type": "cross_sectional",
+          "tier": 1,
+          "sample_size": "50 cats (42 Persian, 8 Exotic)",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "50 只波斯和异国短毛猫中 72% 咬合不正、56% 牙齿拥挤、88% 牙周病、70% 牙齿吸收。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        },
+        {
+          "id": "schmidt-2017-persian-skull-hydrocephalus",
+          "title": "The Relationship between Brachycephalic Head Features in Modern Persian Cats and Dysmorphologies of the Skull and Internal Hydrocephalus",
+          "organization": "Journal of veterinary internal medicine",
+          "authors": [
+            "Schmidt",
+            "Kampschulte",
+            "Enderlein"
+          ],
+          "year": 2017,
+          "container": "Journal of veterinary internal medicine",
+          "doi": "10.1111/jvim.14805",
+          "pmid": "28833532",
+          "pmcid": "PMC5598898",
+          "url": "https://doi.org/10.1111/jvim.14805",
+          "source_type": "cross_sectional",
+          "tier": 1,
+          "sample_size": "92 Persians, 10 domestic shorthairs (CT)",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "极度扁脸波斯猫的头骨、面骨和牙齿畸形更多，与脑室扩张相关；作者建议重新考虑选育极度扁脸。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        },
+        {
+          "id": "anderson-2022-cat-genetic-epidemiology",
+          "title": "Genetic epidemiology of blood type, disease and trait variants, and genome-wide genetic diversity in over 11,000 domestic cats",
+          "organization": "PLoS genetics",
+          "authors": [
+            "Anderson",
+            "Davison",
+            "Lytle"
+          ],
+          "year": 2022,
+          "container": "PLoS genetics",
+          "doi": "10.1371/journal.pgen.1009804",
+          "pmid": "35709088",
+          "pmcid": "PMC9202916",
+          "url": "https://doi.org/10.1371/journal.pgen.1009804",
+          "source_type": "cross_sectional",
+          "tier": 1,
+          "sample_size": "11,036 cats (10,419 pedigreed) from commercial panel testing; authors affiliated with a commercial DNA-testing company",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "full_text",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST fullTextXML (open access)"
+          },
+          "supports": "PKD1 变异曾在全世界约 40% 的波斯猫中发现；引入基因检测后频率明显下降；该变异也在缅因猫中发现并确认有临床病例。",
+          "support_check": "ai_checked",
+          "locator": "Polycystic Kidney Disease 段落"
+        }
+      ],
+      "url_path": "/entries/persian-and-exotic/"
+    },
+    {
+      "id": "CG-0121",
+      "slug": "pkd-gene-test",
+      "type": "recommendation",
+      "title": "多囊肾是显性遗传病：买波斯系和相关品种前，要求父母猫做 PKD1 检测",
+      "summary": "遗传性多囊肾出生时就有肾囊肿，逐渐发展成慢性肾病。它由一个显性基因变异导致，可以用 DNA 检测筛查；缅因猫中也发现过病例。",
+      "category": "breeds",
+      "tags": [
+        "pkd",
+        "genetics",
+        "kidney-disease"
+      ],
+      "recommendation": "购买波斯、异国短毛、喜马拉雅等波斯相关品种（以及缅因猫）时，要求查看父母猫的 PKD1 基因检测结果；已经养的猫可以和兽医讨论做基因检测或肾脏超声。",
+      "why_it_matters": "一项 11,036 只猫的基因检测研究（已读全文）说明：多囊肾是严重的常染色体显性遗传病，囊肿出生时就存在，会导致慢性肾病甚至肾衰竭；它由 PKD1 基因的一个终止突变引起，曾在全世界约 40% 的波斯猫中发现。波斯及相关品种的繁育中引入基因检测后，该变异频率已明显下降。 研究还在缅因猫中发现了这个变异，并确认了一只 3 月龄母缅因猫的临床病例（超声见双肾多发囊肿）。",
+      "how_to_do_it": [
+        "让繁育者出示父母猫的检测报告（检测机构、结果）。",
+        "已养猫如有喝水尿量增多，按“喝水变多”条目就医。"
+      ],
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "important",
+      "related": [
+        "CG-0037",
+        "CG-0120",
+        "CG-0135"
+      ],
+      "scores": {
+        "benefit": 3,
+        "risk_reduction": 3,
+        "money_cost": 2,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "来自大样本基因检测研究（全文），机制和检测的效果都有数据。该研究作者来自商业基因检测公司，本项目不推荐任何检测机构。"
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "品种与遗传",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "B",
+        "uncapped_grade": "B",
+        "score": 2.1,
+        "breakdown": {
+          "value": 3,
+          "confidence": 0.85,
+          "burden": 1,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "anderson-2022-cat-genetic-epidemiology",
+          "title": "Genetic epidemiology of blood type, disease and trait variants, and genome-wide genetic diversity in over 11,000 domestic cats",
+          "organization": "PLoS genetics",
+          "authors": [
+            "Anderson",
+            "Davison",
+            "Lytle"
+          ],
+          "year": 2022,
+          "container": "PLoS genetics",
+          "doi": "10.1371/journal.pgen.1009804",
+          "pmid": "35709088",
+          "pmcid": "PMC9202916",
+          "url": "https://doi.org/10.1371/journal.pgen.1009804",
+          "source_type": "cross_sectional",
+          "tier": 1,
+          "sample_size": "11,036 cats (10,419 pedigreed) from commercial panel testing; authors affiliated with a commercial DNA-testing company",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "full_text",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST fullTextXML (open access)"
+          },
+          "supports": "PKD 是常染色体显性（纯合致死）疾病，囊肿出生时存在，导致慢性肾病；PKD1 终止突变曾在约 40% 波斯猫中发现；基因检测引入繁育后频率明显下降；在缅因猫中发现该变异并确认临床病例。",
+          "support_check": "ai_checked",
+          "locator": "Polycystic Kidney Disease 段落"
+        }
+      ],
+      "url_path": "/entries/pkd-gene-test/"
+    },
+    {
+      "id": "CG-0122",
+      "slug": "maine-coon-facts",
+      "type": "recommendation",
+      "title": "缅因猫：心肌肥厚基因、多囊肾和丙酮酸激酶缺乏",
+      "summary": "缅因猫中有一个与肥厚型心肌病相关的基因变异（A31P），带两份时很可能发病。基因检测研究还在缅因猫中发现了多囊肾和丙酮酸激酶缺乏的变异。英国数据中缅因猫平均寿命约 9.7 年。",
+      "category": "breeds",
+      "tags": [
+        "maine-coon",
+        "heart-disease",
+        "genetics"
+      ],
+      "recommendation": "购买缅因猫时，要求查看父母猫的 MYBPC3（A31P）、PKD1 和丙酮酸激酶缺乏基因检测结果；缅因猫成年后和兽医讨论心脏检查（心脏超声）。基因检测阴性不代表不会得心肌病。",
+      "why_it_matters": "一项 11,036 只猫的基因检测研究（已读全文）总结：MYBPC3 A31P 变异与缅因猫肥厚型心肌病相关；只带一份时早年发生临床心肌病的可能性很低，但已观察到心脏功能的局部异常；带两份时很可能发生，且风险随年龄增加。该研究还在缅因猫中发现了多囊肾变异（并确认一个 3 月龄病例），以及带两份丙酮酸激酶缺乏变异的缅因猫，其中一只 1 岁多的公猫严重发病。 康奈尔大学猫健康中心把缅因猫列为肥厚型心肌病更常见的品种之一；心肌病可能导致充血性心衰、血栓（后腿突然瘫痪）和猝死。英国寿命表研究中，缅因猫出生时预期寿命为 9.71 年。",
+      "warning_signs": [
+        "呼吸急促或张嘴呼吸：立即就医",
+        "后腿突然无力或瘫痪、剧痛：立即急诊",
+        "精神差、牙龈苍白或发黄（贫血或溶血）"
+      ],
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "important",
+      "related": [
+        "CG-0029",
+        "CG-0034",
+        "CG-0121",
+        "CG-0135"
+      ],
+      "scores": {
+        "benefit": 3,
+        "risk_reduction": 3,
+        "money_cost": 2,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "大样本基因检测研究（全文）与大学兽医学院资料一致；寿命数据来自英国。",
+        "gaps": [
+          "TODO: 纳入缅因猫心肌肥厚筛查的建议频率（指南或心脏病学共识）。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "品种与遗传",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "B",
+        "uncapped_grade": "B",
+        "score": 2.1,
+        "breakdown": {
+          "value": 3,
+          "confidence": 0.85,
+          "burden": 1,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "anderson-2022-cat-genetic-epidemiology",
+          "title": "Genetic epidemiology of blood type, disease and trait variants, and genome-wide genetic diversity in over 11,000 domestic cats",
+          "organization": "PLoS genetics",
+          "authors": [
+            "Anderson",
+            "Davison",
+            "Lytle"
+          ],
+          "year": 2022,
+          "container": "PLoS genetics",
+          "doi": "10.1371/journal.pgen.1009804",
+          "pmid": "35709088",
+          "pmcid": "PMC9202916",
+          "url": "https://doi.org/10.1371/journal.pgen.1009804",
+          "source_type": "cross_sectional",
+          "tier": 1,
+          "sample_size": "11,036 cats (10,419 pedigreed) from commercial panel testing; authors affiliated with a commercial DNA-testing company",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "full_text",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST fullTextXML (open access)"
+          },
+          "supports": "MYBPC3 A31P 与缅因猫 HCM 相关；杂合时早年发病可能性很低但可见局部心功能异常；纯合时很可能发病并随年龄增加；在缅因猫中发现 PKD1 变异和临床病例；发现纯合丙酮酸激酶缺乏变异的缅因猫，其中一只严重发病。",
+          "support_check": "ai_checked",
+          "locator": "HCM、PKD、PK-def 段落"
+        },
+        {
+          "id": "cornell-hcm",
+          "title": "Hypertrophic Cardiomyopathy",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2025,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/hypertrophic-cardiomyopathy",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "Page states \"Updated May 2025\".",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "缅因猫等品种 HCM 更常见；HCM 可致充血性心衰、血栓栓塞（后肢瘫痪）和猝死；超声是诊断金标准；基因检测结果需在兽医指导下解读。",
+          "support_check": "ai_checked",
+          "locator": "全文"
+        },
+        {
+          "id": "teng-2024-cat-life-tables",
+          "title": "Life tables of annual life expectancy and risk factors for mortality in cats in the UK",
+          "organization": "Journal of feline medicine and surgery",
+          "authors": [
+            "Teng",
+            "Brodbelt",
+            "Church"
+          ],
+          "year": 2024,
+          "container": "Journal of feline medicine and surgery",
+          "doi": "10.1177/1098612x241234556",
+          "pmid": "38714312",
+          "pmcid": "PMC11156239",
+          "url": "https://doi.org/10.1177/1098612x241234556",
+          "source_type": "cohort",
+          "tier": 1,
+          "sample_size": "VetCompass UK 2019; 7,936 deaths",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "full_text",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST fullTextXML (open access)"
+          },
+          "supports": "缅因猫出生时预期寿命 9.71 年。",
+          "support_check": "ai_checked",
+          "locator": "Table 6"
+        }
+      ],
+      "url_path": "/entries/maine-coon-facts/"
+    },
+    {
+      "id": "CG-0124",
+      "slug": "sphynx-and-devon-rex",
+      "type": "recommendation",
+      "title": "斯芬克斯（无毛猫）和德文卷毛猫：心肌肥厚常见、遗传性肌病、B 型血较多",
+      "summary": "新西兰一项研究中 40% 看起来健康的斯芬克斯猫有肥厚型心肌病。两个品种都有一种遗传性肌无力。英国数据中斯芬克斯平均寿命最短（样本很小）。",
+      "category": "breeds",
+      "tags": [
+        "sphynx",
+        "heart-disease",
+        "genetics",
+        "blood-type"
+      ],
+      "recommendation": "养斯芬克斯猫，和兽医讨论定期心脏超声检查；留意肌无力、吞咽困难；德文卷毛和斯芬克斯繁育前要做血型检测。需要输血或手术时告诉兽医品种。",
+      "why_it_matters": "新西兰一项研究对 55 只看起来健康的斯芬克斯猫做心脏检查，中位年龄 5.8 岁时 40%（20 只）患有肥厚型心肌病，研究期间 3 只死于充血性心衰；一个曾被认为相关的基因变异（ALMS1）与诊断并无关联，所以目前没有可靠的基因检测能排除。 一项研究发现 COLQ 基因变异与德文卷毛猫和斯芬克斯猫的遗传性肌病相关，表现为四肢和躯干肌无力、巨食道、咽部无力、运动后易疲劳。 基因检测研究显示德文卷毛猫中 B 型血约占 30.3%。英国寿命表研究中斯芬克斯猫出生时预期寿命 6.68 年，是 12 个品种中最短的，但只有 18 例死亡，置信区间很宽。",
+      "warning_signs": [
+        "呼吸急促或张嘴呼吸：立即就医",
+        "后腿突然瘫痪：立即急诊",
+        "吃东西时呛咳、反流、低头无力"
+      ],
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "important",
+      "related": [
+        "CG-0029",
+        "CG-0034",
+        "CG-0134",
+        "CG-0135"
+      ],
+      "scores": {
+        "benefit": 3,
+        "risk_reduction": 3,
+        "money_cost": 3,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "多项独立研究（心脏筛查、基因、基因检测、寿命表）；心肌病患病率来自单一国家的小样本（55 只），寿命数据样本很小。",
+        "gaps": [
+          "TODO: 纳入法国等地斯芬克斯猫心脏筛查研究以核对患病率。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "品种与遗传",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "B",
+        "uncapped_grade": "B",
+        "score": 1.87,
+        "breakdown": {
+          "value": 3,
+          "confidence": 0.85,
+          "burden": 1.5,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "seo-2024-sphynx-hcm",
+          "title": "Prevalence of Hypertrophic Cardiomyopathy and ALMS1 Variant in Sphynx Cats in New Zealand",
+          "organization": "Animals : an open access journal from MDPI",
+          "authors": [
+            "Seo",
+            "Loh",
+            "Connolly"
+          ],
+          "year": 2024,
+          "container": "Animals : an open access journal from MDPI",
+          "doi": "10.3390/ani14182629",
+          "pmid": "39335220",
+          "pmcid": "PMC11428990",
+          "url": "https://doi.org/10.3390/ani14182629",
+          "source_type": "cross_sectional",
+          "tier": 1,
+          "sample_size": "55 apparently healthy Sphynx cats, New Zealand",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "55 只看似健康的新西兰斯芬克斯猫中位年龄 5.8 岁时 HCM 患病率 40%；3 只死于充血性心衰；ALMS1 变异与 HCM 诊断无关联；提示斯芬克斯易患 HCM。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        },
+        {
+          "id": "gandolfi-2015-colq-myopathy",
+          "title": "COLQ variant associated with Devon Rex and Sphynx feline hereditary myopathy",
+          "organization": "Animal genetics",
+          "authors": [
+            "Gandolfi",
+            "Grahn",
+            "Creighton"
+          ],
+          "year": 2015,
+          "container": "Animal genetics",
+          "doi": "10.1111/age.12350",
+          "pmid": "26374066",
+          "pmcid": "PMC4637250",
+          "url": "https://doi.org/10.1111/age.12350",
+          "source_type": "case_control",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "COLQ 变异与德文卷毛和斯芬克斯遗传性肌病相关，表现为四肢和躯干肌无力、巨食道、咽部无力、运动后易疲劳。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        },
+        {
+          "id": "anderson-2022-cat-genetic-epidemiology",
+          "title": "Genetic epidemiology of blood type, disease and trait variants, and genome-wide genetic diversity in over 11,000 domestic cats",
+          "organization": "PLoS genetics",
+          "authors": [
+            "Anderson",
+            "Davison",
+            "Lytle"
+          ],
+          "year": 2022,
+          "container": "PLoS genetics",
+          "doi": "10.1371/journal.pgen.1009804",
+          "pmid": "35709088",
+          "pmcid": "PMC9202916",
+          "url": "https://doi.org/10.1371/journal.pgen.1009804",
+          "source_type": "cross_sectional",
+          "tier": 1,
+          "sample_size": "11,036 cats (10,419 pedigreed) from commercial panel testing; authors affiliated with a commercial DNA-testing company",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "full_text",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST fullTextXML (open access)"
+          },
+          "supports": "德文卷毛猫中 B 型血约占 30.3%。",
+          "support_check": "ai_checked",
+          "locator": "Blood type 段落"
+        },
+        {
+          "id": "teng-2024-cat-life-tables",
+          "title": "Life tables of annual life expectancy and risk factors for mortality in cats in the UK",
+          "organization": "Journal of feline medicine and surgery",
+          "authors": [
+            "Teng",
+            "Brodbelt",
+            "Church"
+          ],
+          "year": 2024,
+          "container": "Journal of feline medicine and surgery",
+          "doi": "10.1177/1098612x241234556",
+          "pmid": "38714312",
+          "pmcid": "PMC11156239",
+          "url": "https://doi.org/10.1177/1098612x241234556",
+          "source_type": "cohort",
+          "tier": 1,
+          "sample_size": "VetCompass UK 2019; 7,936 deaths",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "full_text",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST fullTextXML (open access)"
+          },
+          "supports": "斯芬克斯猫出生时预期寿命 6.68 年（18 例死亡，95% CI 4.53–8.83）。",
+          "support_check": "ai_checked",
+          "locator": "Table 6"
+        }
+      ],
+      "url_path": "/entries/sphynx-and-devon-rex/"
+    },
+    {
+      "id": "CG-0125",
+      "slug": "burmese-facts",
+      "type": "recommendation",
+      "title": "缅甸猫：寿命较长，但糖尿病和低钾性肌病风险较高",
+      "summary": "英国数据中缅甸猫平均寿命约 14.4 年，是最长的品种之一。但它的糖尿病风险高于混种猫，还有一种遗传性低钾导致的周期性肌无力，常在 1 岁内出现。",
+      "category": "breeds",
+      "tags": [
+        "burmese",
+        "genetics",
+        "diabetes"
+      ],
+      "recommendation": "养缅甸猫：控制体重，留意喝水尿量变多和体重下降（糖尿病）；幼猫出现阵发性无力、低头时尽快就医；购买前询问父母猫的低钾血症基因检测。",
+      "why_it_matters": "英国寿命表研究中，缅甸猫出生时预期寿命 14.42 年，在 12 个品种类别中最长。 英国一项 120 多万只猫的研究发现，缅甸猫患糖尿病的几率约是混种猫的 2 倍（波米拉猫约 8 倍）；澳大利亚研究指出，在澳大利亚和欧洲，缅甸猫的糖尿病约比其他品种常见 4 倍。 一篇综述介绍，低钾性多发性肌病是缅甸猫的遗传病，患猫通常在 1 岁内出现肌无力和肌肉疼痛，常呈阵发性，典型表现是低头（颈部向下弯曲）。基因检测研究显示该变异在缅甸猫中的频率已下降。 一项瑞典研究指出缅甸猫和孟加拉猫似乎易发胸廓畸形。",
+      "warning_signs": [
+        "幼猫突然无力、低头抬不起来",
+        "喝水尿量增多、吃得多却变瘦"
+      ],
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "important",
+      "related": [
+        "CG-0037",
+        "CG-0135"
+      ],
+      "scores": {
+        "benefit": 3,
+        "risk_reduction": 3,
+        "money_cost": 1,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "多项独立研究（英国寿命表、英国糖尿病流行病学、综述、基因研究）方向一致。"
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "品种与遗传",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "B",
+        "uncapped_grade": "B",
+        "score": 2.32,
+        "breakdown": {
+          "value": 3,
+          "confidence": 0.85,
+          "burden": 0.5,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "teng-2024-cat-life-tables",
+          "title": "Life tables of annual life expectancy and risk factors for mortality in cats in the UK",
+          "organization": "Journal of feline medicine and surgery",
+          "authors": [
+            "Teng",
+            "Brodbelt",
+            "Church"
+          ],
+          "year": 2024,
+          "container": "Journal of feline medicine and surgery",
+          "doi": "10.1177/1098612x241234556",
+          "pmid": "38714312",
+          "pmcid": "PMC11156239",
+          "url": "https://doi.org/10.1177/1098612x241234556",
+          "source_type": "cohort",
+          "tier": 1,
+          "sample_size": "VetCompass UK 2019; 7,936 deaths",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "full_text",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST fullTextXML (open access)"
+          },
+          "supports": "缅甸猫出生时预期寿命 14.42 年，在分析的品种中最长。",
+          "support_check": "ai_checked",
+          "locator": "Table 6"
+        },
+        {
+          "id": "waite-2025-cat-diabetes-uk",
+          "title": "Frequency, Risk Factors, and Mortality for Diabetes Mellitus in 1 225 130 Cats Under Primary Veterinary Care in the United Kingdom in 2019",
+          "organization": "Journal of veterinary internal medicine",
+          "authors": [
+            "Waite",
+            "Gostelow",
+            "Wright"
+          ],
+          "year": 2025,
+          "container": "Journal of veterinary internal medicine",
+          "doi": "10.1111/jvim.70161",
+          "pmid": "40525629",
+          "pmcid": "PMC12171992",
+          "url": "https://doi.org/10.1111/jvim.70161",
+          "source_type": "cohort",
+          "tier": 1,
+          "sample_size": "1,053 diabetic cats among >1.2 million cats, VetCompass UK 2019",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "缅甸猫患糖尿病几率 OR 2.07、波米拉猫 OR 8.30（与混种猫比较）；9 岁以上风险增加。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        },
+        {
+          "id": "samaha-2020-burmese-diabetes",
+          "title": "Mapping the genetic basis of diabetes mellitus in the Australian Burmese cat (Felis catus)",
+          "organization": "Scientific reports",
+          "authors": [
+            "Samaha",
+            "Wade",
+            "Beatty"
+          ],
+          "year": 2020,
+          "container": "Scientific reports",
+          "doi": "10.1038/s41598-020-76166-3",
+          "pmid": "33154479",
+          "pmcid": "PMC7644637",
+          "url": "https://doi.org/10.1038/s41598-020-76166-3",
+          "source_type": "case_control",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "在澳大利亚和欧洲，缅甸猫的糖尿病约比其他品种常见 4 倍。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        },
+        {
+          "id": "malik-2015-burmese-hypokalaemia",
+          "title": "Periodic hypokalaemic polymyopathy in Burmese and closely related cats: a review including the latest genetic data",
+          "organization": "Journal of feline medicine and surgery",
+          "authors": [
+            "Malik",
+            "Musca",
+            "Gunew"
+          ],
+          "year": 2015,
+          "container": "Journal of feline medicine and surgery",
+          "doi": "10.1177/1098612x15581135",
+          "pmid": "25896241",
+          "pmcid": "PMC10816241",
+          "url": "https://doi.org/10.1177/1098612x15581135",
+          "source_type": "narrative_review",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "低钾性多发性肌病是缅甸猫的遗传病；患猫常在 1 岁内出现肌无力和肌肉疼痛，多为阵发性，典型表现为头颈向下弯曲。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        },
+        {
+          "id": "anderson-2022-cat-genetic-epidemiology",
+          "title": "Genetic epidemiology of blood type, disease and trait variants, and genome-wide genetic diversity in over 11,000 domestic cats",
+          "organization": "PLoS genetics",
+          "authors": [
+            "Anderson",
+            "Davison",
+            "Lytle"
+          ],
+          "year": 2022,
+          "container": "PLoS genetics",
+          "doi": "10.1371/journal.pgen.1009804",
+          "pmid": "35709088",
+          "pmcid": "PMC9202916",
+          "url": "https://doi.org/10.1371/journal.pgen.1009804",
+          "source_type": "cross_sectional",
+          "tier": 1,
+          "sample_size": "11,036 cats (10,419 pedigreed) from commercial panel testing; authors affiliated with a commercial DNA-testing company",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "full_text",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST fullTextXML (open access)"
+          },
+          "supports": "缅甸猫的低钾血症相关变异频率已低于最初发现时。",
+          "support_check": "ai_checked",
+          "locator": "Abstract；Discussion"
+        },
+        {
+          "id": "holst-2026-bengal-thoracic-wall",
+          "title": "Thoracic wall deformity in Bengal cats - Morphological findings and results from a breeder questionnaire",
+          "organization": "Veterinary journal (London, England : 1997)",
+          "authors": [
+            "Holst",
+            "Mikko",
+            "Gustavsson"
+          ],
+          "year": 2026,
+          "container": "Veterinary journal (London, England : 1997)",
+          "doi": "10.1016/j.tvjl.2026.106669",
+          "pmid": "41967597",
+          "url": "https://doi.org/10.1016/j.tvjl.2026.106669",
+          "source_type": "cross_sectional",
+          "tier": 1,
+          "sample_size": "Swedish breeder questionnaire, 311 litters; CT of affected kittens",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "缅甸猫和孟加拉猫似乎易发胸廓畸形。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        }
+      ],
+      "url_path": "/entries/burmese-facts/"
+    },
+    {
+      "id": "CG-0134",
+      "slug": "blood-type-before-breeding",
+      "type": "recommendation",
+      "title": "猫也有血型：繁育前、输血前都要先查",
+      "summary": "猫的血型分 A、B 和罕见的 AB。父母血型不匹配可能导致新生小猫溶血死亡；不少品种 B 型血超过一成，例如美国卷耳、柯尼斯卷毛、德文卷毛、英短。",
+      "category": "breeds",
+      "tags": [
+        "blood-type",
+        "genetics"
+      ],
+      "recommendation": "繁育前给父母猫查血型；猫需要输血时，先做血型检测和配血；知道自家猫的血型并记录在病历里。",
+      "why_it_matters": "一项 11,036 只猫的基因检测研究（已读全文）指出：血型在繁育中很重要，父母血型不匹配可导致新生仔猫的同种溶血，是衰弱仔猫综合征和新生仔猫死亡的重要原因。 B 型血在绝大多数品种中都存在；在检测超过 15 只的品种中，B 型血比例最高的是美国卷耳猫（40.4%）、柯尼斯卷毛猫（33%）、德文卷毛猫（30.3%）、英国短毛猫类（20.3%）和哈瓦那棕猫（20%）。罕见的 AB 型在苏格兰折耳（3.3%）、布偶猫（2.2%）等品种中超过 1%。",
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "routine",
+      "related": [
+        "CG-0124",
+        "CG-0129",
+        "CG-0135"
+      ],
+      "scores": {
+        "benefit": 2,
+        "risk_reduction": 3,
+        "money_cost": 1,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "来自大样本基因检测研究全文；血型比例是该研究中送检的纯种猫，不一定代表某地区全部猫。"
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "品种与遗传",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "B",
+        "uncapped_grade": "B",
+        "score": 1.82,
+        "breakdown": {
+          "value": 2.4,
+          "confidence": 0.85,
+          "burden": 0.5,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "anderson-2022-cat-genetic-epidemiology",
+          "title": "Genetic epidemiology of blood type, disease and trait variants, and genome-wide genetic diversity in over 11,000 domestic cats",
+          "organization": "PLoS genetics",
+          "authors": [
+            "Anderson",
+            "Davison",
+            "Lytle"
+          ],
+          "year": 2022,
+          "container": "PLoS genetics",
+          "doi": "10.1371/journal.pgen.1009804",
+          "pmid": "35709088",
+          "pmcid": "PMC9202916",
+          "url": "https://doi.org/10.1371/journal.pgen.1009804",
+          "source_type": "cross_sectional",
+          "tier": 1,
+          "sample_size": "11,036 cats (10,419 pedigreed) from commercial panel testing; authors affiliated with a commercial DNA-testing company",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "full_text",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST fullTextXML (open access)"
+          },
+          "supports": "血型与新生儿同种溶血相关，是衰弱仔猫综合征和新生仔猫死亡的重要原因；B 型血存在于绝大多数品种；B 型比例最高为美国卷耳 40.4%、英短类 20.3%、柯尼斯卷毛 33%、德文卷毛 30.3%、哈瓦那棕 20%；AB 型在苏格兰折耳 3.3%、布偶 2.2% 等品种中超过 1%。",
+          "support_check": "ai_checked",
+          "locator": "Blood type 段落；Discussion"
+        }
+      ],
+      "url_path": "/entries/blood-type-before-breeding/"
+    },
+    {
+      "id": "CG-0135",
+      "slug": "what-to-ask-a-breeder",
+      "type": "buying_guide",
+      "title": "买纯种猫，向繁育者要什么：父母猫的基因检测、心脏检查和血型",
+      "summary": "很多品种遗传病已有 DNA 检测，检测在繁育中普及后，相关变异的频率明显下降。买猫时要求看父母猫的检测报告，而不只是“血统证书”。",
+      "category": "breeds",
+      "tags": [
+        "breeds",
+        "genetics",
+        "adoption"
+      ],
+      "recommendation": "买纯种猫前，要求繁育者提供父母猫针对该品种的基因检测报告（例如波斯系的 PKD1、缅因的 MYBPC3 A31P、布偶的 R820W、挪威森林的 GBE1、阿比西尼亚等的丙酮酸激酶缺乏、缅甸的低钾血症）、血型，以及心肌肥厚易感品种的心脏超声记录；带猫回家后按“新猫到家”条目体检。",
+      "why_it_matters": "一项 11,036 只猫的基因检测研究（已读全文）发现，多种遗传病相关变异的频率已低于最初发现时（缅甸猫的低钾血症和 GM2、挪威森林猫的糖原贮积病、缅因猫的心肌病和脊髓性肌萎缩、布偶猫的心肌病、波斯猫的多囊肾），作者认为可能与基因检测在繁育中的应用有关；同时也在 47 个此前没有记录的品种中发现了 13 种遗传病变异，说明全面筛查有意义。 丙酮酸激酶缺乏的随访研究中，25 只患猫有 16 只在确诊前已被用于繁育。 要注意：基因检测阴性不等于不会得病。例如斯芬克斯猫心肌肥厚很常见，但被认为相关的基因变异与诊断无关；看起来健康的普通猫中也有约 15% 有心肌肥厚，所以心脏超声仍有意义。",
+      "how_to_do_it": [
+        "要求看报告原件：检测项目、检测机构、样本对应的猫（芯片号或照片）。",
+        "心肌肥厚易感品种：问父母猫最近一次心脏超声的时间和结果。",
+        "不接受“我们的猫都很健康，不用测”的说法。"
+      ],
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "important",
+      "related": [
+        "CG-0055",
+        "CG-0078",
+        "CG-0116",
+        "CG-0121",
+        "CG-0134"
+      ],
+      "scores": {
+        "benefit": 3,
+        "risk_reduction": 3,
+        "money_cost": 0,
+        "time_cost": 1,
+        "effort": 2,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "基因检测研究（全文）、病例随访研究和心脏筛查研究一致。本项目不推荐任何检测机构或繁育者；该基因检测研究的作者来自商业检测公司。",
+        "gaps": [
+          "UNKNOWN: 中国大陆可用的猫基因检测项目和机构质量，本项目没有评估。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "品种与遗传",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "B",
+        "uncapped_grade": "B",
+        "score": 2.44,
+        "breakdown": {
+          "value": 3,
+          "confidence": 0.85,
+          "burden": 0.25,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "anderson-2022-cat-genetic-epidemiology",
+          "title": "Genetic epidemiology of blood type, disease and trait variants, and genome-wide genetic diversity in over 11,000 domestic cats",
+          "organization": "PLoS genetics",
+          "authors": [
+            "Anderson",
+            "Davison",
+            "Lytle"
+          ],
+          "year": 2022,
+          "container": "PLoS genetics",
+          "doi": "10.1371/journal.pgen.1009804",
+          "pmid": "35709088",
+          "pmcid": "PMC9202916",
+          "url": "https://doi.org/10.1371/journal.pgen.1009804",
+          "source_type": "cross_sectional",
+          "tier": 1,
+          "sample_size": "11,036 cats (10,419 pedigreed) from commercial panel testing; authors affiliated with a commercial DNA-testing company",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "full_text",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST fullTextXML (open access)"
+          },
+          "supports": "多种遗传病变异频率低于最初发现时（缅甸低钾血症和 GM2、挪威森林糖原贮积病、缅因 HCM 和脊髓性肌萎缩、布偶 HCM、波斯 PKD），可能反映基因检测在繁育中的应用；在 47 个此前未记录的品种中发现 13 种疾病变异。",
+          "support_check": "ai_checked",
+          "locator": "Abstract；Discussion"
+        },
+        {
+          "id": "kohn-2008-pk-deficiency",
+          "title": "Clinical course of pyruvate kinase deficiency in Abyssinian and Somali cats",
+          "organization": "Journal of feline medicine and surgery",
+          "authors": [
+            "Kohn",
+            "Fumi"
+          ],
+          "year": 2008,
+          "container": "Journal of feline medicine and surgery",
+          "doi": "10.1016/j.jfms.2007.09.006",
+          "pmid": "18077199",
+          "pmcid": "PMC10911213",
+          "url": "https://doi.org/10.1016/j.jfms.2007.09.006",
+          "source_type": "case_series",
+          "tier": 1,
+          "sample_size": "25 affected cats",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "25 只丙酮酸激酶缺乏患猫中 16 只在确诊前至少繁育过一次。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        },
+        {
+          "id": "seo-2024-sphynx-hcm",
+          "title": "Prevalence of Hypertrophic Cardiomyopathy and ALMS1 Variant in Sphynx Cats in New Zealand",
+          "organization": "Animals : an open access journal from MDPI",
+          "authors": [
+            "Seo",
+            "Loh",
+            "Connolly"
+          ],
+          "year": 2024,
+          "container": "Animals : an open access journal from MDPI",
+          "doi": "10.3390/ani14182629",
+          "pmid": "39335220",
+          "pmcid": "PMC11428990",
+          "url": "https://doi.org/10.3390/ani14182629",
+          "source_type": "cross_sectional",
+          "tier": 1,
+          "sample_size": "55 apparently healthy Sphynx cats, New Zealand",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "斯芬克斯猫 HCM 常见（40%），但 ALMS1 变异与诊断无关联。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        },
+        {
+          "id": "payne-2015-catscan-hcm",
+          "title": "Cardiomyopathy prevalence in 780 apparently healthy cats in rehoming centres (the CatScan study)",
+          "organization": "Journal of veterinary cardiology : the official journal of the European Society of Veterinary Cardiology",
+          "authors": [
+            "Payne",
+            "Brodbelt",
+            "Luis"
+          ],
+          "year": 2015,
+          "container": "Journal of veterinary cardiology : the official journal of the European Society of Veterinary Cardiology",
+          "doi": "10.1016/j.jvc.2015.03.008",
+          "pmid": "26776583",
+          "url": "https://doi.org/10.1016/j.jvc.2015.03.008",
+          "source_type": "cross_sectional",
+          "tier": 1,
+          "sample_size": "780 apparently healthy cats in UK rehoming centres",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "780 只看似健康的猫中 HCM 患病率 14.7%。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        }
+      ],
+      "url_path": "/entries/what-to-ask-a-breeder/"
+    },
+    {
+      "id": "CG-0139",
+      "slug": "heart-disease-is-common-in-healthy-looking-cats",
+      "type": "recommendation",
+      "title": "看起来健康的猫，约 15% 有心肌肥厚：年纪大、公猫、偏胖的风险更高",
+      "summary": "英国一项研究给 780 只看似健康的成年猫做心脏超声，14.7% 有肥厚型心肌病。公猫、年龄增加、体况偏胖、较响的心杂音与诊断相关。",
+      "category": "basics",
+      "tags": [
+        "heart-disease",
+        "sex-differences"
+      ],
+      "recommendation": "体检时让兽医听心脏；发现心杂音、尤其较响的杂音，或猫年纪大、偏胖时，和兽医讨论是否做心脏超声；在家记录睡眠呼吸频率；控制体重。",
+      "why_it_matters": "一项英国研究在两个领养中心筛查了 780 只看似健康的 6 月龄以上猫：肥厚型心肌病患病率 14.7%，并随年龄增加；心杂音的患病率是 40.8%，其中约七成被认为是功能性的（不代表心脏病）；与诊断相关的因素是公猫、年龄增加、体况评分高和心杂音（尤其 3 级以上）。 康奈尔大学猫健康中心指出，很多患心肌肥厚的猫看起来并不生病，但可能出现心衰、血栓（后腿突然瘫痪）甚至猝死；正确诊断和治疗能减少症状、降低血栓风险。",
+      "how_to_do_it": [
+        "学会数睡眠呼吸频率（见 CG-0115）。",
+        "保持理想体重（见体况条目）。"
+      ],
+      "warning_signs": [
+        "呼吸急促或张嘴呼吸：立即就医",
+        "后腿突然瘫痪、剧痛：立即急诊"
+      ],
+      "applies_to": [
+        "all",
+        "adult",
+        "senior",
+        "male"
+      ],
+      "urgency": "important",
+      "related": [
+        "CG-0029",
+        "CG-0034",
+        "CG-0111",
+        "CG-0115",
+        "CG-0130"
+      ],
+      "scores": {
+        "benefit": 3,
+        "risk_reduction": 3,
+        "money_cost": 2,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "一项大样本筛查研究（摘要）与大学兽医学院资料一致；研究对象是领养中心的猫，可能与家养猫有差异。",
+        "gaps": [
+          "UNKNOWN: 对没有症状的猫做常规心脏超声筛查是否划算，没有找到研究。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "认识你的猫",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "B",
+        "uncapped_grade": "B",
+        "score": 2.1,
+        "breakdown": {
+          "value": 3,
+          "confidence": 0.85,
+          "burden": 1,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "payne-2015-catscan-hcm",
+          "title": "Cardiomyopathy prevalence in 780 apparently healthy cats in rehoming centres (the CatScan study)",
+          "organization": "Journal of veterinary cardiology : the official journal of the European Society of Veterinary Cardiology",
+          "authors": [
+            "Payne",
+            "Brodbelt",
+            "Luis"
+          ],
+          "year": 2015,
+          "container": "Journal of veterinary cardiology : the official journal of the European Society of Veterinary Cardiology",
+          "doi": "10.1016/j.jvc.2015.03.008",
+          "pmid": "26776583",
+          "url": "https://doi.org/10.1016/j.jvc.2015.03.008",
+          "source_type": "cross_sectional",
+          "tier": 1,
+          "sample_size": "780 apparently healthy cats in UK rehoming centres",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "780 只看似健康的猫 HCM 患病率 14.7%，随年龄增加；心杂音 40.8%，其中 70.4% 被认为是功能性的；公猫、年龄、体况评分高、心杂音（尤其 III/VI 级以上）与 HCM 诊断相关。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        },
+        {
+          "id": "cornell-hcm",
+          "title": "Hypertrophic Cardiomyopathy",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2025,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/hypertrophic-cardiomyopathy",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "Page states \"Updated May 2025\".",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "很多 HCM 猫无症状；可致心衰、血栓栓塞和猝死；诊断和治疗可减少症状和血栓风险。",
+          "support_check": "ai_checked",
+          "locator": "全文"
+        }
+      ],
+      "url_path": "/entries/heart-disease-is-common-in-healthy-looking-cats/"
+    },
+    {
       "id": "CG-0010",
       "slug": "limit-treats",
       "type": "recommendation",
@@ -10004,6 +12352,1211 @@
       "url_path": "/entries/constipation-needs-attention/"
     },
     {
+      "id": "CG-0117",
+      "slug": "breed-life-expectancy",
+      "type": "recommendation",
+      "title": "各品种的平均寿命不一样：英国数据中缅甸猫和伯曼猫最长，斯芬克斯最短",
+      "summary": "英国 2019 年数据：缅甸猫 14.4 年、伯曼猫 14.4 年、混种猫 11.9 年、暹罗 11.7 年、波斯 10.9 年、布偶 10.3 年、缅因 9.7 年、英短 9.6 年、孟加拉 8.5 年、斯芬克斯 6.7 年。",
+      "category": "breeds",
+      "tags": [
+        "breeds",
+        "life-expectancy"
+      ],
+      "recommendation": "选品种前了解该品种的平均寿命和常见遗传病，把它当作参考而不是对单只猫的预测；买纯种猫时询问父母猫的健康检测（见“向繁育者要什么”条目）。",
+      "why_it_matters": "英国 VetCompass 寿命表研究（已读全文）计算了 2019 年死亡数至少 15 例的品种出生时预期寿命：缅甸猫 14.42 年、伯曼猫 14.39 年、混种猫 11.89 年、暹罗猫 11.69 年、波斯猫 10.93 年、布偶猫 10.31 年、挪威森林猫 9.95 年、缅因猫 9.71 年、俄罗斯蓝猫类 9.65 年、英国短毛猫类 9.58 年、孟加拉猫 8.51 年、斯芬克斯猫 6.68 年。 要注意：部分品种死亡样本很少（斯芬克斯 18 例、挪威森林猫 15 例），置信区间很宽；数据来自英国全科诊所，不代表其他国家；预期寿命受购买时代、饲养方式等多种因素影响，不只是基因。",
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "routine",
+      "related": [
+        "CG-0116",
+        "CG-0135"
+      ],
+      "scores": {
+        "benefit": 2,
+        "risk_reduction": 2,
+        "money_cost": 0,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "单一大型研究（已读全文）；按品种的数字样本量差异大，应看作粗略参考。",
+        "gaps": [
+          "UNKNOWN: 中国本地各品种猫的寿命数据，未找到可靠研究。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "品种与遗传",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "C",
+        "uncapped_grade": "C",
+        "score": 1.7,
+        "breakdown": {
+          "value": 2,
+          "confidence": 0.85,
+          "burden": 0,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "teng-2024-cat-life-tables",
+          "title": "Life tables of annual life expectancy and risk factors for mortality in cats in the UK",
+          "organization": "Journal of feline medicine and surgery",
+          "authors": [
+            "Teng",
+            "Brodbelt",
+            "Church"
+          ],
+          "year": 2024,
+          "container": "Journal of feline medicine and surgery",
+          "doi": "10.1177/1098612x241234556",
+          "pmid": "38714312",
+          "pmcid": "PMC11156239",
+          "url": "https://doi.org/10.1177/1098612x241234556",
+          "source_type": "cohort",
+          "tier": 1,
+          "sample_size": "VetCompass UK 2019; 7,936 deaths",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "full_text",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST fullTextXML (open access)"
+          },
+          "supports": "Table 6 给出 12 个品种类别出生时预期寿命：缅甸 14.42、伯曼 14.39、混种 11.89、暹罗 11.69、波斯 10.93、布偶 10.31、挪威森林 9.95（15 例）、缅因 9.71、俄罗斯猫 9.65、英国猫 9.58、孟加拉 8.51、斯芬克斯 6.68（18 例）。",
+          "support_check": "ai_checked",
+          "locator": "Table 6"
+        }
+      ],
+      "url_path": "/entries/breed-life-expectancy/"
+    },
+    {
+      "id": "CG-0119",
+      "slug": "munchkin-short-legs-facts",
+      "type": "recommendation",
+      "title": "矮脚猫（曼基康）：短腿来自软骨发育不良的显性基因变异",
+      "summary": "研究认为标准矮脚猫的短腿由一个显性基因变异导致，两份该变异的组合可能在胚胎期致死。一项小样本影像研究发现矮脚猫四肢都有骨骼变形。以下只列事实，由你自己判断。",
+      "category": "breeds",
+      "tags": [
+        "munchkin",
+        "genetics"
+      ],
+      "recommendation": "养矮脚猫，或考虑买矮脚猫时，了解以下事实；已经养了矮脚猫，留意跛行、活动减少、不愿跳，定期请兽医检查四肢。",
+      "why_it_matters": "事实一：一项 89 只猫的基因研究发现，UGDH 基因的一个结构变异与标准（短腿）矮脚猫完全相关，作者认为它很可能导致这种软骨发育不良，遗传方式为常染色体显性。 事实二：同一研究没有发现带两份变异的猫，且标准矮脚猫的窝仔数减少，作者据此推测两份变异在胚胎期是致死的。 事实三：另一项研究对 5 只遗传性不成比例侏儒猫做了 X 光和磁共振检查，发现所有四肢都有明显的骨骼变形；是否容易发生椎间盘退化，结论不确定。",
+      "how_to_do_it": [
+        "留意跛行、走路姿势异常、不愿跳、活动减少，请兽医检查四肢关节。",
+        "控制体重，减少关节负担。"
+      ],
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "routine",
+      "related": [
+        "CG-0114",
+        "CG-0135"
+      ],
+      "scores": {
+        "benefit": 2,
+        "risk_reduction": 2,
+        "money_cost": 0,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "C",
+        "summary": "基因研究和影像研究样本都很小（影像研究只有 5 只猫）；长期疼痛、寿命等临床结局缺少研究。",
+        "gaps": [
+          "UNKNOWN: 矮脚猫骨骼变形对疼痛、活动和寿命的长期影响，没有找到可靠的群体研究。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "品种与遗传",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "C",
+        "uncapped_grade": "C",
+        "score": 1.3,
+        "breakdown": {
+          "value": 2,
+          "confidence": 0.65,
+          "burden": 0,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "struck-2020-munchkin-ugdh",
+          "title": "A structural UGDH variant associated with standard Munchkin cats",
+          "organization": "BMC genetics",
+          "authors": [
+            "Struck",
+            "Braun",
+            "Detering"
+          ],
+          "year": 2020,
+          "container": "BMC genetics",
+          "doi": "10.1186/s12863-020-00875-x",
+          "pmid": "32605545",
+          "pmcid": "PMC7325026",
+          "url": "https://doi.org/10.1186/s12863-020-00875-x",
+          "source_type": "case_control",
+          "tier": 1,
+          "sample_size": "89 cats",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "UGDH 结构变异与标准矮脚猫表型完全相关，很可能导致软骨发育不良，常染色体显性；未见纯合子，窝仔数减少，提示纯合致死。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        },
+        {
+          "id": "anderson-2021-feline-dwarfism-skeletal",
+          "title": "Skeletal Manifestations of Heritable Disproportionate Dwarfism in Cats as Determined by Radiography and Magnetic Resonance Imaging",
+          "organization": "Veterinary and comparative orthopaedics and traumatology : V.C.O.T",
+          "authors": [
+            "Anderson",
+            "Fox",
+            "Chesney"
+          ],
+          "year": 2021,
+          "container": "Veterinary and comparative orthopaedics and traumatology : V.C.O.T",
+          "doi": "10.1055/s-0041-1730355",
+          "pmid": "34082456",
+          "pmcid": "PMC10207382",
+          "url": "https://doi.org/10.1055/s-0041-1730355",
+          "source_type": "cross_sectional",
+          "tier": 1,
+          "sample_size": "5 dwarf cats vs normal cats",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "5 只遗传性不成比例侏儒猫的所有四肢均有明显骨骼变形；椎间盘退化的发生情况不确定。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        }
+      ],
+      "url_path": "/entries/munchkin-short-legs-facts/"
+    },
+    {
+      "id": "CG-0123",
+      "slug": "ragdoll-facts",
+      "type": "recommendation",
+      "title": "布偶猫：心肌肥厚基因、牙周病、腹泻和肥胖",
+      "summary": "布偶猫中有一个与肥厚型心肌病相关的基因变异（R820W），带两份的猫可能寿命缩短。英国数据中布偶猫最常见的问题是牙周病、腹泻和肥胖，糖尿病风险低于混种猫。",
+      "category": "breeds",
+      "tags": [
+        "ragdoll",
+        "heart-disease",
+        "genetics"
+      ],
+      "recommendation": "购买布偶猫时，要求查看父母猫的 MYBPC3（R820W）检测结果；日常重点是护理牙齿、控制体重；成年后和兽医讨论心脏检查。",
+      "why_it_matters": "一项 11,036 只猫的基因检测研究（已读全文）总结：MYBPC3 R820W（新坐标 R818W）变异与布偶猫肥厚型心肌病相关；只带一份的布偶猫预期寿命正常，带两份的猫可能寿命缩短。 英国全科兽医记录研究（2019 年，抽查 2,025 只布偶猫）显示，布偶猫越来越受欢迎；最常见的具体问题是牙周病（8.84%）、腹泻（7.11%）和肥胖（6.91%）。另一项英国研究发现，布偶猫患糖尿病的几率低于混种猫。英国寿命表研究中，布偶猫出生时预期寿命为 10.31 年。",
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "routine",
+      "related": [
+        "CG-0011",
+        "CG-0019",
+        "CG-0122",
+        "CG-0135"
+      ],
+      "scores": {
+        "benefit": 3,
+        "risk_reduction": 2,
+        "money_cost": 2,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "基因检测研究（全文）和两项英国全科记录研究一致；牙周病、肥胖等是常见病，不是布偶猫特有。"
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "品种与遗传",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "C",
+        "uncapped_grade": "C",
+        "score": 1.76,
+        "breakdown": {
+          "value": 2.6,
+          "confidence": 0.85,
+          "burden": 1,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "anderson-2022-cat-genetic-epidemiology",
+          "title": "Genetic epidemiology of blood type, disease and trait variants, and genome-wide genetic diversity in over 11,000 domestic cats",
+          "organization": "PLoS genetics",
+          "authors": [
+            "Anderson",
+            "Davison",
+            "Lytle"
+          ],
+          "year": 2022,
+          "container": "PLoS genetics",
+          "doi": "10.1371/journal.pgen.1009804",
+          "pmid": "35709088",
+          "pmcid": "PMC9202916",
+          "url": "https://doi.org/10.1371/journal.pgen.1009804",
+          "source_type": "cross_sectional",
+          "tier": 1,
+          "sample_size": "11,036 cats (10,419 pedigreed) from commercial panel testing; authors affiliated with a commercial DNA-testing company",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "full_text",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST fullTextXML (open access)"
+          },
+          "supports": "MYBPC3 R820W（R818W）与布偶猫 HCM 相关；杂合布偶猫预期寿命正常，纯合猫可能寿命缩短。",
+          "support_check": "ai_checked",
+          "locator": "HCM 段落"
+        },
+        {
+          "id": "oneill-2025-ragdoll-uk",
+          "title": "Demography, common disorders, cause-specific mortality and life expectancy of Ragdoll cats under primary veterinary care during 2019 in the UK",
+          "organization": "Companion animal health and genetics",
+          "authors": [
+            "O’Neill",
+            "Bass",
+            "Brodbelt"
+          ],
+          "year": 2025,
+          "container": "Companion animal health and genetics",
+          "doi": "10.1186/s40575-025-00148-9",
+          "pmid": "42135828",
+          "pmcid": "PMC12587670",
+          "url": "https://doi.org/10.1186/s40575-025-00148-9",
+          "source_type": "cohort",
+          "tier": 1,
+          "sample_size": "2,025 Ragdolls sampled, VetCompass UK 2019",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "英国 2019 年布偶猫最常见具体问题为牙周病 8.84%、腹泻 7.11%、肥胖 6.91%；布偶猫出生比例从 2005 年的 0.70% 增至 2019 年的 3.72%。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        },
+        {
+          "id": "waite-2025-cat-diabetes-uk",
+          "title": "Frequency, Risk Factors, and Mortality for Diabetes Mellitus in 1 225 130 Cats Under Primary Veterinary Care in the United Kingdom in 2019",
+          "organization": "Journal of veterinary internal medicine",
+          "authors": [
+            "Waite",
+            "Gostelow",
+            "Wright"
+          ],
+          "year": 2025,
+          "container": "Journal of veterinary internal medicine",
+          "doi": "10.1111/jvim.70161",
+          "pmid": "40525629",
+          "pmcid": "PMC12171992",
+          "url": "https://doi.org/10.1111/jvim.70161",
+          "source_type": "cohort",
+          "tier": 1,
+          "sample_size": "1,053 diabetic cats among >1.2 million cats, VetCompass UK 2019",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "布偶猫（OR 0.11）和孟加拉猫（OR 0.24）患糖尿病的几率低于混种猫；缅甸猫（OR 2.07）和波米拉猫（OR 8.30）更高。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        },
+        {
+          "id": "teng-2024-cat-life-tables",
+          "title": "Life tables of annual life expectancy and risk factors for mortality in cats in the UK",
+          "organization": "Journal of feline medicine and surgery",
+          "authors": [
+            "Teng",
+            "Brodbelt",
+            "Church"
+          ],
+          "year": 2024,
+          "container": "Journal of feline medicine and surgery",
+          "doi": "10.1177/1098612x241234556",
+          "pmid": "38714312",
+          "pmcid": "PMC11156239",
+          "url": "https://doi.org/10.1177/1098612x241234556",
+          "source_type": "cohort",
+          "tier": 1,
+          "sample_size": "VetCompass UK 2019; 7,936 deaths",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "full_text",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST fullTextXML (open access)"
+          },
+          "supports": "布偶猫出生时预期寿命 10.31 年。",
+          "support_check": "ai_checked",
+          "locator": "Table 6"
+        }
+      ],
+      "url_path": "/entries/ragdoll-facts/"
+    },
+    {
+      "id": "CG-0126",
+      "slug": "pk-deficiency",
+      "type": "recommendation",
+      "title": "丙酮酸激酶缺乏：阿比西尼亚、索马里猫的遗传性贫血，也见于孟加拉和缅因猫",
+      "summary": "这是一种红细胞容易破裂的遗传性贫血，发病年龄和严重程度差别很大，有的猫多年没有症状。很多患猫在确诊前已经被用于繁育。",
+      "category": "breeds",
+      "tags": [
+        "abyssinian",
+        "genetics",
+        "anemia"
+      ],
+      "recommendation": "购买阿比西尼亚、索马里、孟加拉、缅因猫时，询问父母猫的丙酮酸激酶缺乏基因检测；繁育前一定检测。猫出现精神差、牙龈苍白或发黄、体重下降时就医并告诉兽医品种。",
+      "why_it_matters": "一项对 25 只患丙酮酸激酶缺乏的阿比西尼亚和索马里猫的随访研究显示：11 只猫主人没有发现症状；14 只出现精神差、腹泻、牙龈苍白、食欲差、毛差、体重下降、黄疸等；6 只在 1.3 到 11.3 岁时死亡或安乐死；16 只在确诊前至少繁育过一次。作者强调发病年龄和严重程度差异大。 一项 11,036 只猫的基因检测研究发现，该病相关变异除阿比西尼亚和索马里猫外，还存在于另外 21 个品种；在孟加拉猫和缅因猫中发现了带两份变异的猫，部分出现症状。",
+      "warning_signs": [
+        "精神差、不爱动",
+        "牙龈苍白或发黄",
+        "不明原因体重下降"
+      ],
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "important",
+      "related": [
+        "CG-0122",
+        "CG-0127",
+        "CG-0135"
+      ],
+      "scores": {
+        "benefit": 3,
+        "risk_reduction": 2,
+        "money_cost": 2,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "病例随访研究（25 只患猫）和大样本基因检测研究的结论一致。"
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "品种与遗传",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "C",
+        "uncapped_grade": "C",
+        "score": 1.76,
+        "breakdown": {
+          "value": 2.6,
+          "confidence": 0.85,
+          "burden": 1,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "kohn-2008-pk-deficiency",
+          "title": "Clinical course of pyruvate kinase deficiency in Abyssinian and Somali cats",
+          "organization": "Journal of feline medicine and surgery",
+          "authors": [
+            "Kohn",
+            "Fumi"
+          ],
+          "year": 2008,
+          "container": "Journal of feline medicine and surgery",
+          "doi": "10.1016/j.jfms.2007.09.006",
+          "pmid": "18077199",
+          "pmcid": "PMC10911213",
+          "url": "https://doi.org/10.1016/j.jfms.2007.09.006",
+          "source_type": "case_series",
+          "tier": 1,
+          "sample_size": "25 affected cats",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "25 只患病阿比西尼亚和索马里猫：11 只无主人可见症状，14 只有精神差、腹泻、黏膜苍白、厌食、毛差、体重下降、黄疸等；6 只在 1.3–11.3 岁死亡或安乐死；16 只确诊前至少繁育过一次；发病年龄和严重程度差异大。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        },
+        {
+          "id": "anderson-2022-cat-genetic-epidemiology",
+          "title": "Genetic epidemiology of blood type, disease and trait variants, and genome-wide genetic diversity in over 11,000 domestic cats",
+          "organization": "PLoS genetics",
+          "authors": [
+            "Anderson",
+            "Davison",
+            "Lytle"
+          ],
+          "year": 2022,
+          "container": "PLoS genetics",
+          "doi": "10.1371/journal.pgen.1009804",
+          "pmid": "35709088",
+          "pmcid": "PMC9202916",
+          "url": "https://doi.org/10.1371/journal.pgen.1009804",
+          "source_type": "cross_sectional",
+          "tier": 1,
+          "sample_size": "11,036 cats (10,419 pedigreed) from commercial panel testing; authors affiliated with a commercial DNA-testing company",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "full_text",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST fullTextXML (open access)"
+          },
+          "supports": "PK 缺乏相关变异在阿比西尼亚（3.1%）和索马里（2.2%）中存在，还见于另外 21 个品种；发现纯合的孟加拉和缅因猫，部分有症状。",
+          "support_check": "ai_checked",
+          "locator": "Pyruvate Kinase Deficiency 段落"
+        }
+      ],
+      "url_path": "/entries/pk-deficiency/"
+    },
+    {
+      "id": "CG-0127",
+      "slug": "bengal-facts",
+      "type": "recommendation",
+      "title": "孟加拉猫：英国数据中平均寿命较短，幼猫可能有胸廓畸形",
+      "summary": "英国寿命表中孟加拉猫平均寿命约 8.5 年，属于较短的品种。瑞典一项繁育者调查中 12% 的窝出现胸廓畸形的小猫；该品种也携带丙酮酸激酶缺乏变异。糖尿病风险低于混种猫。",
+      "category": "breeds",
+      "tags": [
+        "bengal",
+        "genetics"
+      ],
+      "recommendation": "购买孟加拉幼猫时检查胸廓形状（是否扁平、凹陷）、询问父母猫的丙酮酸激酶缺乏检测；成年后按年龄定期体检。",
+      "why_it_matters": "英国寿命表研究中，孟加拉猫出生时预期寿命 8.51 年，在 12 个品种类别中仅高于斯芬克斯；作者也提到以前另一项英国研究中该数字为 7.3 年。原因尚不清楚。 瑞典一项研究用 CT 和解剖检查了孟加拉幼猫的胸廓畸形（如扁平胸、漏斗胸），繁育者问卷显示 311 窝中 38 窝（12%）出现受影响的小猫。 基因检测研究在孟加拉猫中发现了带两份丙酮酸激酶缺乏变异的猫。英国研究发现孟加拉猫患糖尿病的几率低于混种猫。",
+      "applies_to": [
+        "all",
+        "kitten"
+      ],
+      "urgency": "routine",
+      "related": [
+        "CG-0117",
+        "CG-0126",
+        "CG-0135"
+      ],
+      "scores": {
+        "benefit": 2,
+        "risk_reduction": 2,
+        "money_cost": 1,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "来自多项独立研究，但寿命较短的原因没有研究解释；胸廓畸形数据来自瑞典繁育者问卷。",
+        "gaps": [
+          "UNKNOWN: 孟加拉猫寿命较短的原因。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "品种与遗传",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "C",
+        "uncapped_grade": "C",
+        "score": 1.48,
+        "breakdown": {
+          "value": 2,
+          "confidence": 0.85,
+          "burden": 0.5,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "teng-2024-cat-life-tables",
+          "title": "Life tables of annual life expectancy and risk factors for mortality in cats in the UK",
+          "organization": "Journal of feline medicine and surgery",
+          "authors": [
+            "Teng",
+            "Brodbelt",
+            "Church"
+          ],
+          "year": 2024,
+          "container": "Journal of feline medicine and surgery",
+          "doi": "10.1177/1098612x241234556",
+          "pmid": "38714312",
+          "pmcid": "PMC11156239",
+          "url": "https://doi.org/10.1177/1098612x241234556",
+          "source_type": "cohort",
+          "tier": 1,
+          "sample_size": "VetCompass UK 2019; 7,936 deaths",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "full_text",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST fullTextXML (open access)"
+          },
+          "supports": "孟加拉猫出生时预期寿命 8.51 年（另一项英国研究为 7.3 年）。",
+          "support_check": "ai_checked",
+          "locator": "Table 6；Discussion"
+        },
+        {
+          "id": "holst-2026-bengal-thoracic-wall",
+          "title": "Thoracic wall deformity in Bengal cats - Morphological findings and results from a breeder questionnaire",
+          "organization": "Veterinary journal (London, England : 1997)",
+          "authors": [
+            "Holst",
+            "Mikko",
+            "Gustavsson"
+          ],
+          "year": 2026,
+          "container": "Veterinary journal (London, England : 1997)",
+          "doi": "10.1016/j.tvjl.2026.106669",
+          "pmid": "41967597",
+          "url": "https://doi.org/10.1016/j.tvjl.2026.106669",
+          "source_type": "cross_sectional",
+          "tier": 1,
+          "sample_size": "Swedish breeder questionnaire, 311 litters; CT of affected kittens",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "孟加拉幼猫胸廓畸形包括扁平胸、漏斗胸等；瑞典繁育者问卷中 311 窝中 38 窝（12%）出现受影响幼猫。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        },
+        {
+          "id": "anderson-2022-cat-genetic-epidemiology",
+          "title": "Genetic epidemiology of blood type, disease and trait variants, and genome-wide genetic diversity in over 11,000 domestic cats",
+          "organization": "PLoS genetics",
+          "authors": [
+            "Anderson",
+            "Davison",
+            "Lytle"
+          ],
+          "year": 2022,
+          "container": "PLoS genetics",
+          "doi": "10.1371/journal.pgen.1009804",
+          "pmid": "35709088",
+          "pmcid": "PMC9202916",
+          "url": "https://doi.org/10.1371/journal.pgen.1009804",
+          "source_type": "cross_sectional",
+          "tier": 1,
+          "sample_size": "11,036 cats (10,419 pedigreed) from commercial panel testing; authors affiliated with a commercial DNA-testing company",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "full_text",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST fullTextXML (open access)"
+          },
+          "supports": "发现带两份丙酮酸激酶缺乏变异的孟加拉猫。",
+          "support_check": "ai_checked",
+          "locator": "Pyruvate Kinase Deficiency 段落"
+        },
+        {
+          "id": "waite-2025-cat-diabetes-uk",
+          "title": "Frequency, Risk Factors, and Mortality for Diabetes Mellitus in 1 225 130 Cats Under Primary Veterinary Care in the United Kingdom in 2019",
+          "organization": "Journal of veterinary internal medicine",
+          "authors": [
+            "Waite",
+            "Gostelow",
+            "Wright"
+          ],
+          "year": 2025,
+          "container": "Journal of veterinary internal medicine",
+          "doi": "10.1111/jvim.70161",
+          "pmid": "40525629",
+          "pmcid": "PMC12171992",
+          "url": "https://doi.org/10.1111/jvim.70161",
+          "source_type": "cohort",
+          "tier": 1,
+          "sample_size": "1,053 diabetic cats among >1.2 million cats, VetCompass UK 2019",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "孟加拉猫患糖尿病几率低于混种猫（OR 0.24）。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        }
+      ],
+      "url_path": "/entries/bengal-facts/"
+    },
+    {
+      "id": "CG-0128",
+      "slug": "siamese-and-oriental",
+      "type": "recommendation",
+      "title": "暹罗猫和东方短毛猫：注意一种遗传相关的淀粉样变性",
+      "summary": "暹罗和东方短毛猫中报道过一种致命的 AA 淀粉样变性，蛋白沉积在肝脏和甲状腺等处，患猫死亡年龄在 1 到 7 岁之间。英国数据中暹罗猫平均寿命约 11.7 年。",
+      "category": "breeds",
+      "tags": [
+        "siamese",
+        "genetics"
+      ],
+      "recommendation": "养暹罗或东方短毛猫，按年龄定期体检；出现精神差、不吃、牙龈苍白（可能是肝脏破裂出血）时尽快就医，并告诉兽医品种。",
+      "why_it_matters": "一项德国研究指出，暹罗和东方短毛猫的 AA 淀粉样变性是致命的，淀粉样蛋白在全身沉积，尤其是肝脏和甲状腺，患猫死亡年龄在 1 到 7 岁之间；研究找到了若干相关基因区域，但遗传方式复杂，还没有可用的检测。该研究的病例来自同一个猫舍，结论的代表性有限。 英国寿命表研究中，暹罗猫出生时预期寿命 11.69 年。",
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "routine",
+      "related": [
+        "CG-0117"
+      ],
+      "scores": {
+        "benefit": 2,
+        "risk_reduction": 2,
+        "money_cost": 0,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "C",
+        "summary": "淀粉样变性的研究来自单一猫舍的小样本（20 只患病猫）；目前没有基因检测；发生率不明。",
+        "gaps": [
+          "UNKNOWN: 暹罗猫中淀粉样变性的总体发生率。",
+          "UNKNOWN: “牙龈苍白可能是肝脏破裂出血”是对肝脏受累后果的推断，需兽医审核。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "品种与遗传",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "C",
+        "uncapped_grade": "C",
+        "score": 1.3,
+        "breakdown": {
+          "value": 2,
+          "confidence": 0.65,
+          "burden": 0,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "esders-2023-siamese-amyloidosis",
+          "title": "Single Nucleotide Polymorphisms Associated with AA-Amyloidosis in Siamese and Oriental Shorthair Cats",
+          "organization": "Genes",
+          "authors": [
+            "Esders",
+            "Hülskötter",
+            "Schreiner"
+          ],
+          "year": 2023,
+          "container": "Genes",
+          "doi": "10.3390/genes14122126",
+          "pmid": "38136948",
+          "pmcid": "PMC10742459",
+          "url": "https://doi.org/10.3390/genes14122126",
+          "source_type": "case_control",
+          "tier": 1,
+          "sample_size": "20 affected cats from one cattery, 48 controls",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "暹罗和东方短毛猫的 AA 淀粉样变性致命，淀粉样蛋白全身沉积，尤其肝脏和甲状腺；患猫死亡年龄 1–7 岁；遗传方式复杂；病例来自同一猫舍（20 只）。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        },
+        {
+          "id": "teng-2024-cat-life-tables",
+          "title": "Life tables of annual life expectancy and risk factors for mortality in cats in the UK",
+          "organization": "Journal of feline medicine and surgery",
+          "authors": [
+            "Teng",
+            "Brodbelt",
+            "Church"
+          ],
+          "year": 2024,
+          "container": "Journal of feline medicine and surgery",
+          "doi": "10.1177/1098612x241234556",
+          "pmid": "38714312",
+          "pmcid": "PMC11156239",
+          "url": "https://doi.org/10.1177/1098612x241234556",
+          "source_type": "cohort",
+          "tier": 1,
+          "sample_size": "VetCompass UK 2019; 7,936 deaths",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "full_text",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST fullTextXML (open access)"
+          },
+          "supports": "暹罗猫出生时预期寿命 11.69 年。",
+          "support_check": "ai_checked",
+          "locator": "Table 6"
+        }
+      ],
+      "url_path": "/entries/siamese-and-oriental/"
+    },
+    {
+      "id": "CG-0129",
+      "slug": "british-shorthair-facts",
+      "type": "recommendation",
+      "title": "英国短毛猫（含金渐层、银渐层等毛色）：B 型血比例高，要先查血型再繁育或输血",
+      "summary": "基因检测研究中，英短类猫约 20% 是 B 型血。英国数据中英短类平均寿命约 9.6 年。英短也在康奈尔列出的心肌肥厚较常见品种中。",
+      "category": "breeds",
+      "tags": [
+        "british-shorthair",
+        "blood-type",
+        "heart-disease"
+      ],
+      "recommendation": "英短繁育前给父母猫查血型；英短需要输血或手术时，提醒兽医先做血型检测和配血；成年后和兽医讨论心脏检查；控制体重。",
+      "why_it_matters": "一项 11,036 只猫的基因检测研究（已读全文）中，英国短毛猫类的 B 型血比例约为 20.3%；血型在繁育中很重要，因为父母血型不匹配可导致新生仔猫溶血（新生儿同种溶血），是“衰弱仔猫综合征”和新生仔猫死亡的重要原因；血型也影响输血安全。 英国寿命表研究中，英国猫类（含英国蓝猫、英国长毛）出生时预期寿命 9.58 年（194 例死亡）。康奈尔大学猫健康中心把英国短毛猫列为肥厚型心肌病更常见的品种之一。",
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "routine",
+      "related": [
+        "CG-0034",
+        "CG-0134"
+      ],
+      "scores": {
+        "benefit": 2,
+        "risk_reduction": 2,
+        "money_cost": 1,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "血型比例和寿命来自两项大样本研究（均读了全文）；心肌肥厚易感来自大学兽医学院资料，没有给出英短的具体患病率。",
+        "gaps": [
+          "UNKNOWN: “金渐层”“银渐层”是国内对英短某些毛色的常用叫法，这只是命名说明；本项目没有找到这些毛色与疾病相关的研究。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "品种与遗传",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "C",
+        "uncapped_grade": "C",
+        "score": 1.48,
+        "breakdown": {
+          "value": 2,
+          "confidence": 0.85,
+          "burden": 0.5,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "anderson-2022-cat-genetic-epidemiology",
+          "title": "Genetic epidemiology of blood type, disease and trait variants, and genome-wide genetic diversity in over 11,000 domestic cats",
+          "organization": "PLoS genetics",
+          "authors": [
+            "Anderson",
+            "Davison",
+            "Lytle"
+          ],
+          "year": 2022,
+          "container": "PLoS genetics",
+          "doi": "10.1371/journal.pgen.1009804",
+          "pmid": "35709088",
+          "pmcid": "PMC9202916",
+          "url": "https://doi.org/10.1371/journal.pgen.1009804",
+          "source_type": "cross_sectional",
+          "tier": 1,
+          "sample_size": "11,036 cats (10,419 pedigreed) from commercial panel testing; authors affiliated with a commercial DNA-testing company",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "full_text",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST fullTextXML (open access)"
+          },
+          "supports": "英国短毛猫类 B 型血约 20.3%；血型匹配在繁育中重要，不匹配可致新生儿同种溶血，是衰弱仔猫综合征和新生仔猫死亡的重要原因。",
+          "support_check": "ai_checked",
+          "locator": "Blood type 段落；Discussion"
+        },
+        {
+          "id": "teng-2024-cat-life-tables",
+          "title": "Life tables of annual life expectancy and risk factors for mortality in cats in the UK",
+          "organization": "Journal of feline medicine and surgery",
+          "authors": [
+            "Teng",
+            "Brodbelt",
+            "Church"
+          ],
+          "year": 2024,
+          "container": "Journal of feline medicine and surgery",
+          "doi": "10.1177/1098612x241234556",
+          "pmid": "38714312",
+          "pmcid": "PMC11156239",
+          "url": "https://doi.org/10.1177/1098612x241234556",
+          "source_type": "cohort",
+          "tier": 1,
+          "sample_size": "VetCompass UK 2019; 7,936 deaths",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "full_text",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST fullTextXML (open access)"
+          },
+          "supports": "英国猫类（含 British Blue、British Longhair）出生时预期寿命 9.58 年，194 例死亡。",
+          "support_check": "ai_checked",
+          "locator": "Table 6"
+        },
+        {
+          "id": "cornell-hcm",
+          "title": "Hypertrophic Cardiomyopathy",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2025,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/hypertrophic-cardiomyopathy",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "Page states \"Updated May 2025\".",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "HCM 在英国短毛猫、美国短毛猫等品种中更常见。",
+          "support_check": "ai_checked",
+          "locator": "第 2 段"
+        }
+      ],
+      "url_path": "/entries/british-shorthair-facts/"
+    },
+    {
+      "id": "CG-0130",
+      "slug": "american-shorthair-and-other-hcm-breeds",
+      "type": "recommendation",
+      "title": "美国短毛、挪威森林、西伯利亚、波斯等：也在心肌肥厚较常见的品种名单中",
+      "summary": "康奈尔列出的心肌肥厚较常见品种包括缅因、布偶、英短、美短、斯芬克斯、孟加拉、沙特尔、挪威森林、西伯利亚和波斯。但心肌肥厚在普通猫中也很常见。",
+      "category": "breeds",
+      "tags": [
+        "heart-disease",
+        "american-shorthair",
+        "breeds"
+      ],
+      "recommendation": "养这些品种的猫，成年后和兽医讨论是否需要心脏超声；无论什么品种，听诊发现心杂音、呼吸变快时都要进一步检查。",
+      "why_it_matters": "康奈尔大学猫健康中心指出，肥厚型心肌病是猫最常见的心脏病，在缅因、布偶、英国短毛、美国短毛、斯芬克斯、孟加拉、沙特尔、挪威森林、西伯利亚和波斯等品种中更常见，部分品种已发现相关基因突变；很多患猫看起来并不生病。 一项英国研究对 780 只看起来健康的成年猫（多为非纯种）做心脏超声，14.7% 有肥厚型心肌病，患病率随年龄增加；心杂音很常见，但多数是功能性的，不能单靠杂音判断。",
+      "applies_to": [
+        "all",
+        "adult",
+        "senior"
+      ],
+      "urgency": "routine",
+      "related": [
+        "CG-0034",
+        "CG-0122",
+        "CG-0123",
+        "CG-0139"
+      ],
+      "scores": {
+        "benefit": 2,
+        "risk_reduction": 2,
+        "money_cost": 3,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "品种名单来自大学兽医学院资料（没有给出各品种具体患病率）；普通猫患病率来自一项 780 只猫的筛查研究。",
+        "gaps": [
+          "UNKNOWN: 美国短毛猫等品种的具体患病率和可用基因检测，本项目未找到可读研究。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "品种与遗传",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "C",
+        "uncapped_grade": "C",
+        "score": 1.02,
+        "breakdown": {
+          "value": 2,
+          "confidence": 0.85,
+          "burden": 1.5,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "cornell-hcm",
+          "title": "Hypertrophic Cardiomyopathy",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2025,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/hypertrophic-cardiomyopathy",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "Page states \"Updated May 2025\".",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "HCM 是猫最常见心脏病；在缅因、布偶、英短、美短、斯芬克斯、孟加拉、沙特尔、挪威森林、西伯利亚和波斯等品种中更常见；很多患猫无症状。",
+          "support_check": "ai_checked",
+          "locator": "第 1–2 段"
+        },
+        {
+          "id": "payne-2015-catscan-hcm",
+          "title": "Cardiomyopathy prevalence in 780 apparently healthy cats in rehoming centres (the CatScan study)",
+          "organization": "Journal of veterinary cardiology : the official journal of the European Society of Veterinary Cardiology",
+          "authors": [
+            "Payne",
+            "Brodbelt",
+            "Luis"
+          ],
+          "year": 2015,
+          "container": "Journal of veterinary cardiology : the official journal of the European Society of Veterinary Cardiology",
+          "doi": "10.1016/j.jvc.2015.03.008",
+          "pmid": "26776583",
+          "url": "https://doi.org/10.1016/j.jvc.2015.03.008",
+          "source_type": "cross_sectional",
+          "tier": 1,
+          "sample_size": "780 apparently healthy cats in UK rehoming centres",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "780 只看似健康的猫中 HCM 患病率 14.7%，随年龄增加；心杂音患病率 40.8%，其中 70.4% 被认为是功能性的。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        }
+      ],
+      "url_path": "/entries/american-shorthair-and-other-hcm-breeds/"
+    },
+    {
+      "id": "CG-0131",
+      "slug": "norwegian-forest-gsd4",
+      "type": "recommendation",
+      "title": "挪威森林猫：一种致命的遗传性糖原贮积病，可以基因检测",
+      "summary": "挪威森林猫的 IV 型糖原贮积病是隐性遗传病，多数患病小猫出生时或出生后不久死亡，存活的约 5 月龄开始出现进行性神经肌肉退化。已有 DNA 检测。",
+      "category": "breeds",
+      "tags": [
+        "norwegian-forest",
+        "genetics"
+      ],
+      "recommendation": "购买挪威森林猫时，询问父母猫的 IV 型糖原贮积病（GBE1）基因检测；繁育前一定检测，两只携带者配对可能生出患病小猫。",
+      "why_it_matters": "一项研究报告：挪威森林猫的 IV 型糖原贮积病是常染色体隐性遗传的代谢病，多数患病小猫在出生时或出生后不久死亡（推测因低血糖），存活过新生期的看起来正常，直到约 5 月龄开始出现进行性神经肌肉退化；研究找到了致病的 GBE1 基因重排，并建立了等位基因特异的 PCR 检测。 基因检测研究显示，该变异在挪威森林猫中的频率已低于最初发现时。英国寿命表研究中挪威森林猫出生时预期寿命 9.95 年（仅 15 例死亡）。",
+      "applies_to": [
+        "all",
+        "kitten"
+      ],
+      "urgency": "routine",
+      "related": [
+        "CG-0135"
+      ],
+      "scores": {
+        "benefit": 2,
+        "risk_reduction": 2,
+        "money_cost": 1,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "致病机制和检测方法来自原始研究；变异频率下降来自大样本基因检测研究。"
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "品种与遗传",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "C",
+        "uncapped_grade": "C",
+        "score": 1.48,
+        "breakdown": {
+          "value": 2,
+          "confidence": 0.85,
+          "burden": 0.5,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "fyfe-2007-nfc-gsd4",
+          "title": "A complex rearrangement in GBE1 causes both perinatal hypoglycemic collapse and late-juvenile-onset neuromuscular degeneration in glycogen storage disease type IV of Norwegian forest cats",
+          "organization": "Molecular genetics and metabolism",
+          "authors": [
+            "Fyfe",
+            "Kurzhals",
+            "Hawkins"
+          ],
+          "year": 2007,
+          "container": "Molecular genetics and metabolism",
+          "doi": "10.1016/j.ymgme.2006.12.003",
+          "pmid": "17257876",
+          "pmcid": "PMC2063609",
+          "url": "https://doi.org/10.1016/j.ymgme.2006.12.003",
+          "source_type": "experimental",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "挪威森林猫 IV 型糖原贮积病为常染色体隐性；多数患病小猫出生时或不久后死亡，存活者约 5 月龄起进行性神经肌肉退化；致病为 GBE1 复杂重排；建立了等位基因特异 PCR 检测。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        },
+        {
+          "id": "anderson-2022-cat-genetic-epidemiology",
+          "title": "Genetic epidemiology of blood type, disease and trait variants, and genome-wide genetic diversity in over 11,000 domestic cats",
+          "organization": "PLoS genetics",
+          "authors": [
+            "Anderson",
+            "Davison",
+            "Lytle"
+          ],
+          "year": 2022,
+          "container": "PLoS genetics",
+          "doi": "10.1371/journal.pgen.1009804",
+          "pmid": "35709088",
+          "pmcid": "PMC9202916",
+          "url": "https://doi.org/10.1371/journal.pgen.1009804",
+          "source_type": "cross_sectional",
+          "tier": 1,
+          "sample_size": "11,036 cats (10,419 pedigreed) from commercial panel testing; authors affiliated with a commercial DNA-testing company",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "full_text",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST fullTextXML (open access)"
+          },
+          "supports": "挪威森林猫糖原贮积病相关变异的频率已低于最初发现时。",
+          "support_check": "ai_checked",
+          "locator": "Discussion"
+        },
+        {
+          "id": "teng-2024-cat-life-tables",
+          "title": "Life tables of annual life expectancy and risk factors for mortality in cats in the UK",
+          "organization": "Journal of feline medicine and surgery",
+          "authors": [
+            "Teng",
+            "Brodbelt",
+            "Church"
+          ],
+          "year": 2024,
+          "container": "Journal of feline medicine and surgery",
+          "doi": "10.1177/1098612x241234556",
+          "pmid": "38714312",
+          "pmcid": "PMC11156239",
+          "url": "https://doi.org/10.1177/1098612x241234556",
+          "source_type": "cohort",
+          "tier": 1,
+          "sample_size": "VetCompass UK 2019; 7,936 deaths",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "full_text",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST fullTextXML (open access)"
+          },
+          "supports": "挪威森林猫出生时预期寿命 9.95 年（15 例死亡）。",
+          "support_check": "ai_checked",
+          "locator": "Table 6"
+        }
+      ],
+      "url_path": "/entries/norwegian-forest-gsd4/"
+    },
+    {
       "id": "CG-0013",
       "slug": "water-fountain",
       "type": "buying_guide",
@@ -10647,6 +14200,272 @@
         }
       ],
       "url_path": "/entries/check-for-ticks/"
+    },
+    {
+      "id": "CG-0113",
+      "slug": "calico-cats-are-almost-always-female",
+      "type": "recommendation",
+      "title": "三花和玳瑁猫几乎都是母猫；少见的公猫通常不能生育",
+      "summary": "玳瑁（三花）花色由 X 染色体上的基因决定，所以通常只出现在母猫身上。罕见的玳瑁公猫多有额外的 X 染色体，通常没有生育能力。",
+      "category": "basics",
+      "tags": [
+        "sex-differences",
+        "genetics"
+      ],
+      "recommendation": "看到三花或玳瑁猫，基本可以按母猫考虑（以兽医检查为准）。遇到玳瑁公猫，不要指望用它繁育；有异常时请兽医检查。",
+      "why_it_matters": "一份病例报告的摘要说明：玳瑁花色通常只出现在母猫身上，因为决定橙色毛色的基因位于 X 染色体上；玳瑁公猫以低频率出现，原因是类似人类克氏综合征的染色体异常（39,XXY），多出的 X 染色体让它同时带有橙色和非橙色基因。该病例的睾丸检查显示没有精子生成，作者认为该猫不育。",
+      "how_to_do_it": [
+        "判断性别以兽医检查为准，花色只能参考。"
+      ],
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "routine",
+      "scores": {
+        "benefit": 1,
+        "risk_reduction": 1,
+        "money_cost": 0,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "C",
+        "summary": "遗传机制是经典遗传学知识，但本项目引用的是一份单只猫的病例报告；“通常不育”来自该病例及其背景介绍，不是群体研究。",
+        "gaps": [
+          "TODO: 纳入玳瑁公猫染色体类型（包括嵌合体）的综述。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "认识你的猫",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "D",
+        "uncapped_grade": "D",
+        "score": 0.65,
+        "breakdown": {
+          "value": 1,
+          "confidence": 0.65,
+          "burden": 0,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "pedersen-2014-tortoiseshell-male",
+          "title": "A tortoiseshell male cat: chromosome analysis and histologic examination of the testis",
+          "organization": "Cytogenetic and genome research",
+          "authors": [
+            "Pedersen",
+            "Berg",
+            "Almstrup"
+          ],
+          "year": 2014,
+          "container": "Cytogenetic and genome research",
+          "doi": "10.1159/000356466",
+          "pmid": "24335095",
+          "url": "https://doi.org/10.1159/000356466",
+          "source_type": "case_series",
+          "tier": 1,
+          "sample_size": "single case report",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "玳瑁花色通常只见于母猫，因橙色基因位于 X 染色体；玳瑁公猫低频出现，源于类似克氏综合征的 39,XXY 染色体异常；该病例无精子生成，被判定为不育。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        }
+      ],
+      "url_path": "/entries/calico-cats-are-almost-always-female/"
+    },
+    {
+      "id": "CG-0132",
+      "slug": "manx-and-bobtail-tails",
+      "type": "recommendation",
+      "title": "曼岛猫（无尾猫）和短尾品种：短尾来自基因变异",
+      "summary": "研究发现 95% 的短尾曼岛猫带有 T 基因的一份变异，美国短尾猫和北美短尾猫中也有相同变异。关于无尾对健康的影响，本项目还没有找到可读的可靠研究。",
+      "category": "breeds",
+      "tags": [
+        "manx",
+        "genetics"
+      ],
+      "recommendation": "养曼岛猫或短尾品种，向兽医说明品种；留意排便排尿异常和后腿无力，发现时尽快就医。",
+      "why_it_matters": "一项基因研究在曼岛猫中发现了 T 基因（Brachyury）的多个变异，95% 的短尾曼岛猫带有一份这样的变异；其中一个变异也见于近年在美国培育的美国短尾猫和北美短尾猫。研究认为 T 基因功能减半是家猫尾长差异的一种机制。 本项目没有读到关于曼岛猫脊柱、排便或神经问题的可靠研究，所以不在正文中写发生率。",
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "routine",
+      "related": [
+        "CG-0135"
+      ],
+      "scores": {
+        "benefit": 1,
+        "risk_reduction": 1,
+        "money_cost": 0,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "C",
+        "summary": "只有基因机制研究；健康影响的证据本项目尚未找到。",
+        "gaps": [
+          "TODO: 寻找关于曼岛猫脊柱和神经异常（常被称为“曼岛综合征”）的可读研究。",
+          "UNKNOWN: “留意排便排尿异常和后腿无力”是基于脊柱末端发育异常的保守提醒，需兽医审核。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "品种与遗传",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "D",
+        "uncapped_grade": "D",
+        "score": 0.65,
+        "breakdown": {
+          "value": 1,
+          "confidence": 0.65,
+          "burden": 0,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "buckingham-2013-manx-tail",
+          "title": "Multiple mutant T alleles cause haploinsufficiency of Brachyury and short tails in Manx cats",
+          "organization": "Mammalian genome : official journal of the International Mammalian Genome Society",
+          "authors": [
+            "Buckingham",
+            "McMillin",
+            "Brassil"
+          ],
+          "year": 2013,
+          "container": "Mammalian genome : official journal of the International Mammalian Genome Society",
+          "doi": "10.1007/s00335-013-9471-1",
+          "pmid": "23949773",
+          "pmcid": "PMC3848309",
+          "url": "https://doi.org/10.1007/s00335-013-9471-1",
+          "source_type": "experimental",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "在曼岛猫中发现多个 T 基因移码变异，95% 短尾曼岛猫为杂合；一个变异也见于美国短尾猫和北美短尾猫；T 基因单倍剂量不足是尾长变异的一种机制。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        }
+      ],
+      "url_path": "/entries/manx-and-bobtail-tails/"
+    },
+    {
+      "id": "CG-0133",
+      "slug": "white-cats-and-deafness",
+      "type": "recommendation",
+      "title": "白猫可能天生耳聋，尤其要留意幼猫的听力",
+      "summary": "一项对 72 只纯种白猫的检查中，16.7% 有先天性感音神经性耳聋，单侧比双侧多。耳聋的猫通常出生就聋或在 4–5 周内失去听力。",
+      "category": "breeds",
+      "tags": [
+        "white-cat",
+        "genetics"
+      ],
+      "recommendation": "养白猫，留意它对声音的反应；怀疑耳聋时请兽医检查（需要专门的听力检测）；耳聋的猫更要室内饲养，避免在它看不见时惊吓它。繁育前应检测听力。",
+      "why_it_matters": "一项波兰研究检查了 72 只纯种白猫（6 个品种），先天性感音神经性耳聋的患病率为 16.7%，单侧耳聋（11.1%）比双侧（5.6%）多；患猫出生就聋或在出生后 4–5 周内不可逆地失去听力。研究背景指出蓝眼猫更易耳聋，但在这项研究中未发现蓝眼与耳聋、性别或品种的相关。作者建议对白猫（无论眼睛颜色）进行检测，把患病个体排除出繁育。",
+      "how_to_do_it": [
+        "从猫背后拍手或摇钥匙，看它是否转头（只能粗略判断，单侧耳聋很难看出来）。",
+        "靠近耳聋的猫时，让它先看到你或感觉到地面震动。"
+      ],
+      "applies_to": [
+        "all",
+        "kitten"
+      ],
+      "urgency": "routine",
+      "related": [
+        "CG-0087"
+      ],
+      "scores": {
+        "benefit": 2,
+        "risk_reduction": 1,
+        "money_cost": 1,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "C",
+        "summary": "单一研究，样本 72 只；与“蓝眼更易耳聋”的传统认识不完全一致。",
+        "gaps": [
+          "UNKNOWN: 在家测试听力的方法没有研究验证，只能作为粗略观察。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "品种与遗传",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "D",
+        "uncapped_grade": "D",
+        "score": 0.82,
+        "breakdown": {
+          "value": 1.6,
+          "confidence": 0.65,
+          "burden": 0.5,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "white-cat-deafness-2022",
+          "title": "Evaluation of the prevalence of congenital sensorineural deafness in a population of 72 client-owned purebred white cats examined from 2007 to 2021",
+          "organization": "BMC veterinary research",
+          "authors": [
+            "Annemarie",
+            "Liliana",
+            "Małgorzata"
+          ],
+          "notes": "Crossref and PubMed list given and family names swapped; the authors are Kortas A, Rytel L, Kołecka M, et al. Kept as registered so automated metadata checks still match.",
+          "year": 2022,
+          "container": "BMC veterinary research",
+          "doi": "10.1186/s12917-022-03378-2",
+          "pmid": "35869465",
+          "pmcid": "PMC9306025",
+          "url": "https://doi.org/10.1186/s12917-022-03378-2",
+          "source_type": "cross_sectional",
+          "tier": 1,
+          "sample_size": "72 purebred white cats, Poland",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Europe PMC REST abstract"
+          },
+          "supports": "72 只纯种白猫中先天性感音神经性耳聋患病率 16.7%（单侧 11.1%，双侧 5.6%）；患猫出生即聋或在 4–5 周内失聪；本研究未发现与蓝眼、性别或品种相关；建议对白猫检测并排除出繁育。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        }
+      ],
+      "url_path": "/entries/white-cats-and-deafness/"
     },
     {
       "id": "CG-0024",

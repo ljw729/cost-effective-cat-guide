@@ -1,0 +1,36 @@
+id: CG-0132
+slug: manx-and-bobtail-tails
+type: recommendation
+title: 曼岛猫（无尾猫）和短尾品种：短尾来自基因变异
+summary: 研究发现 95% 的短尾曼岛猫带有 T 基因的一份变异，美国短尾猫和北美短尾猫中也有相同变异。关于无尾对健康的影响，本项目还没有找到可读的可靠研究。
+category: breeds
+tags: [manx, genetics]
+recommendation: 养曼岛猫或短尾品种，向兽医说明品种；留意排便排尿异常和后腿无力，发现时尽快就医。
+why_it_matters: >-
+  一项基因研究在曼岛猫中发现了 T 基因（Brachyury）的多个变异，95% 的短尾曼岛猫带有一份这样的变异；其中一个变异也见于近年在美国培育的美国短尾猫和北美短尾猫。研究认为 T 基因功能减半是家猫尾长差异的一种机制。
+  本项目没有读到关于曼岛猫脊柱、排便或神经问题的可靠研究，所以不在正文中写发生率。
+applies_to: [all]
+urgency: routine
+related: [CG-0135]
+scores:
+  benefit: 1
+  risk_reduction: 1
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 只有基因机制研究；健康影响的证据本项目尚未找到。
+  gaps:
+    - "TODO: 寻找关于曼岛猫脊柱和神经异常（常被称为“曼岛综合征”）的可读研究。"
+    - "UNKNOWN: “留意排便排尿异常和后腿无力”是基于脊柱末端发育异常的保守提醒，需兽医审核。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: buckingham-2013-manx-tail
+    supports: 在曼岛猫中发现多个 T 基因移码变异，95% 短尾曼岛猫为杂合；一个变异也见于美国短尾猫和北美短尾猫；T 基因单倍剂量不足是尾长变异的一种机制。
+    support_check: ai_checked
+    locator: Abstract

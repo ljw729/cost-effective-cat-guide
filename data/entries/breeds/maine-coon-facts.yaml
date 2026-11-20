@@ -1,0 +1,47 @@
+id: CG-0122
+slug: maine-coon-facts
+type: recommendation
+title: 缅因猫：心肌肥厚基因、多囊肾和丙酮酸激酶缺乏
+summary: 缅因猫中有一个与肥厚型心肌病相关的基因变异（A31P），带两份时很可能发病。基因检测研究还在缅因猫中发现了多囊肾和丙酮酸激酶缺乏的变异。英国数据中缅因猫平均寿命约 9.7 年。
+category: breeds
+tags: [maine-coon, heart-disease, genetics]
+recommendation: 购买缅因猫时，要求查看父母猫的 MYBPC3（A31P）、PKD1 和丙酮酸激酶缺乏基因检测结果；缅因猫成年后和兽医讨论心脏检查（心脏超声）。基因检测阴性不代表不会得心肌病。
+why_it_matters: >-
+  一项 11,036 只猫的基因检测研究（已读全文）总结：MYBPC3 A31P 变异与缅因猫肥厚型心肌病相关；只带一份时早年发生临床心肌病的可能性很低，但已观察到心脏功能的局部异常；带两份时很可能发生，且风险随年龄增加。该研究还在缅因猫中发现了多囊肾变异（并确认一个 3 月龄病例），以及带两份丙酮酸激酶缺乏变异的缅因猫，其中一只 1 岁多的公猫严重发病。
+  康奈尔大学猫健康中心把缅因猫列为肥厚型心肌病更常见的品种之一；心肌病可能导致充血性心衰、血栓（后腿突然瘫痪）和猝死。英国寿命表研究中，缅因猫出生时预期寿命为 9.71 年。
+warning_signs:
+  - 呼吸急促或张嘴呼吸：立即就医
+  - 后腿突然无力或瘫痪、剧痛：立即急诊
+  - 精神差、牙龈苍白或发黄（贫血或溶血）
+applies_to: [all]
+urgency: important
+related: [CG-0029, CG-0034, CG-0121, CG-0135]
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 2
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 大样本基因检测研究（全文）与大学兽医学院资料一致；寿命数据来自英国。
+  gaps:
+    - "TODO: 纳入缅因猫心肌肥厚筛查的建议频率（指南或心脏病学共识）。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: anderson-2022-cat-genetic-epidemiology
+    supports: MYBPC3 A31P 与缅因猫 HCM 相关；杂合时早年发病可能性很低但可见局部心功能异常；纯合时很可能发病并随年龄增加；在缅因猫中发现 PKD1 变异和临床病例；发现纯合丙酮酸激酶缺乏变异的缅因猫，其中一只严重发病。
+    support_check: ai_checked
+    locator: HCM、PKD、PK-def 段落
+  - id: cornell-hcm
+    supports: 缅因猫等品种 HCM 更常见；HCM 可致充血性心衰、血栓栓塞（后肢瘫痪）和猝死；超声是诊断金标准；基因检测结果需在兽医指导下解读。
+    support_check: ai_checked
+    locator: 全文
+  - id: teng-2024-cat-life-tables
+    supports: 缅因猫出生时预期寿命 9.71 年。
+    support_check: ai_checked
+    locator: Table 6

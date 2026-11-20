@@ -182,6 +182,13 @@ export function validateKnowledgeBase(kb: KnowledgeBase, today = new Date()): Is
 
   for (const s of kb.sources) if (!usedSources.has(s.id)) warn(`source:${s.id}`, 'unused-source', 'source is not cited by any entry');
 
+  const seenStart = new Set<string>();
+  for (const item of kb.startHere ?? []) {
+    if (!ids.has(item.id)) err('data/taxonomy/start-here.yaml', 'start-here', `unknown entry id ${item.id}`);
+    if (seenStart.has(item.id)) err('data/taxonomy/start-here.yaml', 'start-here', `duplicate entry id ${item.id}`);
+    seenStart.add(item.id);
+  }
+
   return issues;
 }
 

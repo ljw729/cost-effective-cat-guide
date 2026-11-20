@@ -103,9 +103,13 @@ export interface SynonymGroup {
   terms: string[];
 }
 
+export interface StartHereItem { id: string; note: string }
+
 export interface KnowledgeBase {
   entries: Entry[];
   sources: Source[];
   categories: Category[];
   synonyms: SynonymGroup[];
+  /** Curated "start here" list (data/taxonomy/start-here.yaml); optional so tests can build minimal KBs. */
+  startHere?: StartHereItem[];
 }

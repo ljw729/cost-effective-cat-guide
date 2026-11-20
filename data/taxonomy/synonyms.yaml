@@ -155,3 +155,59 @@
   terms: [保健品, 营养补充剂, 益生菌, 鱼油, 卵磷脂, 化毛膏, 护肾, 关节保健, 维生素, supplements, probiotics, omega-3]
 - tag: constipation
   terms: [便秘, 拉不出来, 便便干硬, 几天没拉, 巨结肠, 开塞露, constipation, megacolon]
+- tag: life-stage
+  terms: [几岁, 年龄, 猫的年龄, 换算人类年龄, 幼猫期, 成年期, 老年期, 生命阶段, life stage, cat age]
+- tag: sex-differences
+  terms: [公猫, 母猫, 公母, 性别, 公的还是母的, 公猫母猫区别, 弟弟, 妹妹, male cat, female cat, tom, queen]
+- tag: genetics
+  terms: [遗传病, 基因检测, 遗传, 近亲繁殖, 繁育, 配种, 纯种, 血统, genetic, DNA test, breeding]
+- tag: pain
+  terms: [疼痛, 疼, 痛, 忍痛, 表情, 眯眼, 面部表情, pain, grimace]
+- tag: normal-values
+  terms: [正常值, 呼吸频率, 呼吸次数, 一分钟呼吸, 睡觉呼吸, respiratory rate, breathing rate, normal]
+- tag: mixed-breed
+  terms: [田园猫, 中华田园猫, 狸花猫, 橘猫, 土猫, 串串, 混种, 杂交, mixed breed, moggie, domestic shorthair]
+- tag: breeds
+  terms: [品种, 什么品种, 品种猫, 纯种猫, 寿命, 哪个品种, breed, pedigree, life expectancy]
+- tag: life-expectancy
+  terms: [寿命, 能活多久, 活多少年, 平均寿命, life expectancy, lifespan]
+- tag: scottish-fold
+  terms: [折耳, 折耳猫, 苏格兰折耳, 苏折, 骨软骨发育不良, scottish fold, fold]
+- tag: munchkin
+  terms: [矮脚, 矮脚猫, 曼基康, 短腿猫, 曼基康矮脚, munchkin, short-legged]
+- tag: persian
+  terms: [波斯, 波斯猫, 加菲, 加菲猫, 异国短毛, 扁脸, 扁脸猫, 喜马拉雅, persian, exotic shorthair, himalayan]
+- tag: brachycephalic
+  terms: [扁脸, 短鼻, 塌鼻子, 打呼噜, 流泪, 泪痕, brachycephalic, flat face]
+- tag: pkd
+  terms: [多囊肾, 肾囊肿, PKD, PKD1, polycystic kidney]
+- tag: maine-coon
+  terms: [缅因, 缅因猫, maine coon]
+- tag: ragdoll
+  terms: [布偶, 布偶猫, 布拉多尔, ragdoll]
+- tag: sphynx
+  terms: [无毛猫, 斯芬克斯, 加拿大无毛猫, 德文, 德文卷毛, 卷毛猫, sphynx, devon rex]
+- tag: blood-type
+  terms: [血型, A型血, B型血, AB型, 输血, 配血, 新生儿溶血, 衰弱仔猫, blood type, transfusion, neonatal isoerythrolysis]
+- tag: burmese
+  terms: [缅甸猫, 波米拉, 低钾, burmese, burmilla]
+- tag: diabetes
+  terms: [糖尿病, 血糖, 胰岛素, diabetes]
+- tag: abyssinian
+  terms: [阿比西尼亚, 阿比, 索马里猫, 丙酮酸激酶缺乏, abyssinian, somali, pyruvate kinase]
+- tag: anemia
+  terms: [贫血, 牙龈苍白, 牙龈发白, 黄疸, anemia, pale gums, jaundice]
+- tag: bengal
+  terms: [豹猫, 孟加拉, 孟加拉豹猫, bengal]
+- tag: siamese
+  terms: [暹罗, 暹罗猫, 东方短毛, 淀粉样变, siamese, oriental shorthair, amyloidosis]
+- tag: british-shorthair
+  terms: [英短, 英国短毛, 蓝猫, 英短蓝猫, 金渐层, 银渐层, 蓝白, 英长, british shorthair, british blue]
+- tag: american-shorthair
+  terms: [美短, 美国短毛, 美短虎斑, american shorthair]
+- tag: norwegian-forest
+  terms: [挪威森林, 挪威森林猫, 西伯利亚猫, norwegian forest cat, siberian]
+- tag: manx
+  terms: [曼岛猫, 无尾猫, 短尾猫, 日本短尾, manx, bobtail]
+- tag: white-cat
+  terms: [白猫, 蓝眼睛白猫, 异瞳, 耳聋, 聋, white cat, deaf, odd-eyed]

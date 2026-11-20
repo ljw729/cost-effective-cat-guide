@@ -1,0 +1,48 @@
+id: CG-0115
+slug: normal-breathing-rate
+type: recommendation
+title: 记住你家猫睡着时每分钟呼吸几次
+summary: 一项研究中，健康成年猫在家睡觉时的呼吸频率中位数是每分钟 20 次（9–28 次），安静休息时 27 次。持续明显变快、或张嘴呼吸，要联系兽医。
+category: basics
+tags: [breathing-difficulty, normal-values]
+recommendation: 在猫熟睡时数 30 秒胸口起伏的次数再乘以 2，平时多数几次，记下你家猫的正常范围。睡眠或安静时呼吸持续明显高于平时，或出现张嘴呼吸、呼吸费力，联系兽医；张嘴呼吸属于急症。
+why_it_matters: >-
+  一项研究用主人拍摄的家中视频测量健康成年猫的呼吸频率：睡眠时中位数每分钟 20 次（范围 9–28），安静休息时中位数 27 次（范围 16–60）；在医院诊室里则高得多（中位数 64 次），说明在家测量更有参考价值。
+  康奈尔大学猫健康中心指出，猫静息时呼吸不应超过每分钟 35 次；呼吸困难的猫不及时治疗死亡风险很高。
+how_to_do_it:
+  - 一吸一呼算一次。
+  - 不要在猫刚玩完、很热或紧张时数。
+  - 心脏病猫的监测方法请按兽医的具体指导。
+warning_signs:
+  - 静息时呼吸每分钟持续超过 35 次
+  - 张嘴呼吸、腹部用力起伏：立即就医（见 CG-0029）
+applies_to: [all]
+urgency: important
+related: [CG-0029, CG-0089]
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 参考值来自一项研究（家中视频，样本较小：睡眠 38 只、休息 32 只），与大学兽医学院的上限说法一致。个体差异存在，所以建议记录自己猫的基线。
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: dijkstra-2018-cat-respiratory-rate
+    supports: 健康成年猫在家视频测得睡眠呼吸频率中位数 20 次/分（9–28），休息时 27 次/分（16–60）；诊室中中位数 64 次/分。
+    support_check: ai_checked
+    locator: Abstract
+  - id: cornell-uri
+    supports: 静息时呼吸频率不应超过每分钟 35 次。
+    support_check: ai_checked
+    locator: Lower respiratory tract infections 段落
+  - id: cornell-dyspnea
+    supports: 有呼吸困难的猫不及时治疗死亡风险高，应立即就医。
+    support_check: ai_checked
+    locator: Dr. Fletcher 建议

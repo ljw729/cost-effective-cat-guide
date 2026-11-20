@@ -1,0 +1,58 @@
+id: CG-0125
+slug: burmese-facts
+type: recommendation
+title: 缅甸猫：寿命较长，但糖尿病和低钾性肌病风险较高
+summary: 英国数据中缅甸猫平均寿命约 14.4 年，是最长的品种之一。但它的糖尿病风险高于混种猫，还有一种遗传性低钾导致的周期性肌无力，常在 1 岁内出现。
+category: breeds
+tags: [burmese, genetics, diabetes]
+recommendation: 养缅甸猫：控制体重，留意喝水尿量变多和体重下降（糖尿病）；幼猫出现阵发性无力、低头时尽快就医；购买前询问父母猫的低钾血症基因检测。
+why_it_matters: >-
+  英国寿命表研究中，缅甸猫出生时预期寿命 14.42 年，在 12 个品种类别中最长。
+  英国一项 120 多万只猫的研究发现，缅甸猫患糖尿病的几率约是混种猫的 2 倍（波米拉猫约 8 倍）；澳大利亚研究指出，在澳大利亚和欧洲，缅甸猫的糖尿病约比其他品种常见 4 倍。
+  一篇综述介绍，低钾性多发性肌病是缅甸猫的遗传病，患猫通常在 1 岁内出现肌无力和肌肉疼痛，常呈阵发性，典型表现是低头（颈部向下弯曲）。基因检测研究显示该变异在缅甸猫中的频率已下降。
+  一项瑞典研究指出缅甸猫和孟加拉猫似乎易发胸廓畸形。
+warning_signs:
+  - 幼猫突然无力、低头抬不起来
+  - 喝水尿量增多、吃得多却变瘦
+applies_to: [all]
+urgency: important
+related: [CG-0037, CG-0135]
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 1
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 多项独立研究（英国寿命表、英国糖尿病流行病学、综述、基因研究）方向一致。
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: teng-2024-cat-life-tables
+    supports: 缅甸猫出生时预期寿命 14.42 年，在分析的品种中最长。
+    support_check: ai_checked
+    locator: Table 6
+  - id: waite-2025-cat-diabetes-uk
+    supports: 缅甸猫患糖尿病几率 OR 2.07、波米拉猫 OR 8.30（与混种猫比较）；9 岁以上风险增加。
+    support_check: ai_checked
+    locator: Abstract
+  - id: samaha-2020-burmese-diabetes
+    supports: 在澳大利亚和欧洲，缅甸猫的糖尿病约比其他品种常见 4 倍。
+    support_check: ai_checked
+    locator: Abstract
+  - id: malik-2015-burmese-hypokalaemia
+    supports: 低钾性多发性肌病是缅甸猫的遗传病；患猫常在 1 岁内出现肌无力和肌肉疼痛，多为阵发性，典型表现为头颈向下弯曲。
+    support_check: ai_checked
+    locator: Abstract
+  - id: anderson-2022-cat-genetic-epidemiology
+    supports: 缅甸猫的低钾血症相关变异频率已低于最初发现时。
+    support_check: ai_checked
+    locator: Abstract；Discussion
+  - id: holst-2026-bengal-thoracic-wall
+    supports: 缅甸猫和孟加拉猫似乎易发胸廓畸形。
+    support_check: ai_checked
+    locator: Abstract

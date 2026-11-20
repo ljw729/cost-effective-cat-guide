@@ -1,0 +1,41 @@
+id: CG-0110
+slug: cat-life-stages
+type: recommendation
+title: 猫的四个生命阶段：幼猫、青年、成年、老年，各阶段关注点不同
+summary: 兽医指南把猫分为幼猫（不满 1 岁）、青年（1–6 岁）、成年（7–10 岁）和老年（10 岁以上）。所有猫至少每年体检一次，老年猫至少每 6 个月一次。
+category: basics
+tags: [life-stage, checkup]
+recommendation: 按猫的年龄所处阶段安排体检和日常照顾：幼猫完成疫苗、驱虫、绝育；青年和成年猫每年体检、控制体重、护理牙齿；10 岁以上至少每半年体检，留意喝水、体重、关节和血压。
+why_it_matters: >-
+  2021 AAHA/AAFP 猫生命阶段指南（已读全文）把猫的一生划分为幼猫（不满 1 岁）、青年（1 到 6 岁）、成年（7 到 10 岁）和老年（10 岁以上），并建议所有猫至少每年体检一次，老年猫至少每 6 个月一次，有慢性病的更频繁。
+  康奈尔大学猫健康中心指出，很多猫在 7 到 10 岁开始出现与年龄相关的变化，大多数在 12 岁前出现；年龄本身不是病，但老年常见病往往可以控制。
+how_to_do_it:
+  - 幼猫：见“幼猫一天几顿”“绝育”“疫苗”“体内驱虫”条目。
+  - 青年 / 成年：每年体检，每月称重（见“每月称体重”条目）。
+  - 老年：每 6 个月体检，按年龄量血压（见“老年猫量血压”条目），每周在家做一次简单检查。
+applies_to: [all, kitten, adult, senior]
+urgency: routine
+related: [CG-0016, CG-0018, CG-0038, CG-0102]
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 2
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 生命阶段的划分和体检频率来自兽医指南全文；指南由企业教育资助（见来源的利益冲突说明）。
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: aaha-aafp-life-stage-2021
+    supports: 生命阶段划分为幼猫（不满 1 岁）、青年（1 到 6 岁）、成年（7 到 10 岁）、老年（10 岁以上）；所有猫至少每年体检一次，老年猫至少每 6 个月一次，有慢性病的更频繁。
+    support_check: ai_checked
+    locator: Table 2；Discussion items for all life stages
+  - id: cornell-senior
+    supports: 很多猫在 7 到 10 岁开始出现与年龄相关的变化，大多数在 12 岁前出现；年龄本身不是病。
+    support_check: ai_checked
+    locator: 开头段落

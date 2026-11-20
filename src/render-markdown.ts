@@ -100,6 +100,35 @@ export function renderGuideMarkdown(g: BuiltGuide): string {
   out.push('');
   for (const e of g.entries.filter((x) => x.type === 'emergency')) out.push(`- 🚨 [${e.title}](#${anchor(e)})：${e.summary}`);
   out.push('');
+  if (g.start_here?.length) {
+    out.push('## 新手先看');
+    out.push('');
+    out.push('如果你只读几条，先读这些。它们大多几乎不花钱，却能避免最常见、最严重的问题。');
+    out.push('');
+    g.start_here.forEach((s, i) => { const e = byId.get(s.id)!; out.push(`${i + 1}. [${e.title}](#${anchor(e)})：${s.note}`); });
+    out.push('');
+    out.push('**认识你的猫**：生命阶段、公母差异、品种与遗传病，见下方“认识你的猫”和“品种与遗传”两个分类。');
+    out.push('');
+  }
+  if (g.budget) {
+    const line = (id: string) => { const e = byId.get(id)!; return `- [${e.title}](#${anchor(e)}) \`${e.cost_effectiveness.grade ?? '—'}\``; };
+    out.push('## 钱先花在哪');
+    out.push('');
+    out.push('这一节完全由每条的评分自动生成，不增加新内容；紧急情况不在其中，急症永远先就医。');
+    out.push('');
+    out.push('**几乎不花钱、收益很高**');
+    out.push('');
+    for (const id of g.budget.almost_free_high_value) out.push(line(id));
+    out.push('');
+    out.push('**值得花钱**');
+    out.push('');
+    for (const id of g.budget.worth_paying_for) out.push(line(id));
+    out.push('');
+    out.push('**买东西前先想想：性价比低或证据不足**');
+    out.push('');
+    for (const id of g.budget.skip_or_unproven) out.push(line(id));
+    out.push('');
+  }
   out.push('## 目录');
   out.push('');
   for (const c of g.categories) {

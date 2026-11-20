@@ -1,0 +1,45 @@
+id: CG-0139
+slug: heart-disease-is-common-in-healthy-looking-cats
+type: recommendation
+title: 看起来健康的猫，约 15% 有心肌肥厚：年纪大、公猫、偏胖的风险更高
+summary: 英国一项研究给 780 只看似健康的成年猫做心脏超声，14.7% 有肥厚型心肌病。公猫、年龄增加、体况偏胖、较响的心杂音与诊断相关。
+category: basics
+tags: [heart-disease, sex-differences]
+recommendation: 体检时让兽医听心脏；发现心杂音、尤其较响的杂音，或猫年纪大、偏胖时，和兽医讨论是否做心脏超声；在家记录睡眠呼吸频率；控制体重。
+why_it_matters: >-
+  一项英国研究在两个领养中心筛查了 780 只看似健康的 6 月龄以上猫：肥厚型心肌病患病率 14.7%，并随年龄增加；心杂音的患病率是 40.8%，其中约七成被认为是功能性的（不代表心脏病）；与诊断相关的因素是公猫、年龄增加、体况评分高和心杂音（尤其 3 级以上）。
+  康奈尔大学猫健康中心指出，很多患心肌肥厚的猫看起来并不生病，但可能出现心衰、血栓（后腿突然瘫痪）甚至猝死；正确诊断和治疗能减少症状、降低血栓风险。
+how_to_do_it:
+  - 学会数睡眠呼吸频率（见 CG-0115）。
+  - 保持理想体重（见体况条目）。
+warning_signs:
+  - 呼吸急促或张嘴呼吸：立即就医
+  - 后腿突然瘫痪、剧痛：立即急诊
+applies_to: [all, adult, senior, male]
+urgency: important
+related: [CG-0029, CG-0034, CG-0111, CG-0115, CG-0130]
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 2
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 一项大样本筛查研究（摘要）与大学兽医学院资料一致；研究对象是领养中心的猫，可能与家养猫有差异。
+  gaps:
+    - "UNKNOWN: 对没有症状的猫做常规心脏超声筛查是否划算，没有找到研究。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: payne-2015-catscan-hcm
+    supports: 780 只看似健康的猫 HCM 患病率 14.7%，随年龄增加；心杂音 40.8%，其中 70.4% 被认为是功能性的；公猫、年龄、体况评分高、心杂音（尤其 III/VI 级以上）与 HCM 诊断相关。
+    support_check: ai_checked
+    locator: Abstract
+  - id: cornell-hcm
+    supports: 很多 HCM 猫无症状；可致心衰、血栓栓塞和猝死；诊断和治疗可减少症状和血栓风险。
+    support_check: ai_checked
+    locator: 全文

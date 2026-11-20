@@ -1,0 +1,43 @@
+id: CG-0129
+slug: british-shorthair-facts
+type: recommendation
+title: 英国短毛猫（含金渐层、银渐层等毛色）：B 型血比例高，要先查血型再繁育或输血
+summary: 基因检测研究中，英短类猫约 20% 是 B 型血。英国数据中英短类平均寿命约 9.6 年。英短也在康奈尔列出的心肌肥厚较常见品种中。
+category: breeds
+tags: [british-shorthair, blood-type, heart-disease]
+recommendation: 英短繁育前给父母猫查血型；英短需要输血或手术时，提醒兽医先做血型检测和配血；成年后和兽医讨论心脏检查；控制体重。
+why_it_matters: >-
+  一项 11,036 只猫的基因检测研究（已读全文）中，英国短毛猫类的 B 型血比例约为 20.3%；血型在繁育中很重要，因为父母血型不匹配可导致新生仔猫溶血（新生儿同种溶血），是“衰弱仔猫综合征”和新生仔猫死亡的重要原因；血型也影响输血安全。
+  英国寿命表研究中，英国猫类（含英国蓝猫、英国长毛）出生时预期寿命 9.58 年（194 例死亡）。康奈尔大学猫健康中心把英国短毛猫列为肥厚型心肌病更常见的品种之一。
+applies_to: [all]
+urgency: routine
+related: [CG-0034, CG-0134]
+scores:
+  benefit: 2
+  risk_reduction: 2
+  money_cost: 1
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 血型比例和寿命来自两项大样本研究（均读了全文）；心肌肥厚易感来自大学兽医学院资料，没有给出英短的具体患病率。
+  gaps:
+    - "UNKNOWN: “金渐层”“银渐层”是国内对英短某些毛色的常用叫法，这只是命名说明；本项目没有找到这些毛色与疾病相关的研究。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: anderson-2022-cat-genetic-epidemiology
+    supports: 英国短毛猫类 B 型血约 20.3%；血型匹配在繁育中重要，不匹配可致新生儿同种溶血，是衰弱仔猫综合征和新生仔猫死亡的重要原因。
+    support_check: ai_checked
+    locator: Blood type 段落；Discussion
+  - id: teng-2024-cat-life-tables
+    supports: 英国猫类（含 British Blue、British Longhair）出生时预期寿命 9.58 年，194 例死亡。
+    support_check: ai_checked
+    locator: Table 6
+  - id: cornell-hcm
+    supports: HCM 在英国短毛猫、美国短毛猫等品种中更常见。
+    support_check: ai_checked
+    locator: 第 2 段

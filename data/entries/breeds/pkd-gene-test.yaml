@@ -1,0 +1,36 @@
+id: CG-0121
+slug: pkd-gene-test
+type: recommendation
+title: 多囊肾是显性遗传病：买波斯系和相关品种前，要求父母猫做 PKD1 检测
+summary: 遗传性多囊肾出生时就有肾囊肿，逐渐发展成慢性肾病。它由一个显性基因变异导致，可以用 DNA 检测筛查；缅因猫中也发现过病例。
+category: breeds
+tags: [pkd, genetics, kidney-disease]
+recommendation: 购买波斯、异国短毛、喜马拉雅等波斯相关品种（以及缅因猫）时，要求查看父母猫的 PKD1 基因检测结果；已经养的猫可以和兽医讨论做基因检测或肾脏超声。
+why_it_matters: >-
+  一项 11,036 只猫的基因检测研究（已读全文）说明：多囊肾是严重的常染色体显性遗传病，囊肿出生时就存在，会导致慢性肾病甚至肾衰竭；它由 PKD1 基因的一个终止突变引起，曾在全世界约 40% 的波斯猫中发现。波斯及相关品种的繁育中引入基因检测后，该变异频率已明显下降。
+  研究还在缅因猫中发现了这个变异，并确认了一只 3 月龄母缅因猫的临床病例（超声见双肾多发囊肿）。
+how_to_do_it:
+  - 让繁育者出示父母猫的检测报告（检测机构、结果）。
+  - 已养猫如有喝水尿量增多，按“喝水变多”条目就医。
+applies_to: [all]
+urgency: important
+related: [CG-0037, CG-0120, CG-0135]
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 2
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 来自大样本基因检测研究（全文），机制和检测的效果都有数据。该研究作者来自商业基因检测公司，本项目不推荐任何检测机构。
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: anderson-2022-cat-genetic-epidemiology
+    supports: PKD 是常染色体显性（纯合致死）疾病，囊肿出生时存在，导致慢性肾病；PKD1 终止突变曾在约 40% 波斯猫中发现；基因检测引入繁育后频率明显下降；在缅因猫中发现该变异并确认临床病例。
+    support_check: ai_checked
+    locator: Polycystic Kidney Disease 段落

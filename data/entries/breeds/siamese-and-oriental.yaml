@@ -1,0 +1,40 @@
+id: CG-0128
+slug: siamese-and-oriental
+type: recommendation
+title: 暹罗猫和东方短毛猫：注意一种遗传相关的淀粉样变性
+summary: 暹罗和东方短毛猫中报道过一种致命的 AA 淀粉样变性，蛋白沉积在肝脏和甲状腺等处，患猫死亡年龄在 1 到 7 岁之间。英国数据中暹罗猫平均寿命约 11.7 年。
+category: breeds
+tags: [siamese, genetics]
+recommendation: 养暹罗或东方短毛猫，按年龄定期体检；出现精神差、不吃、牙龈苍白（可能是肝脏破裂出血）时尽快就医，并告诉兽医品种。
+why_it_matters: >-
+  一项德国研究指出，暹罗和东方短毛猫的 AA 淀粉样变性是致命的，淀粉样蛋白在全身沉积，尤其是肝脏和甲状腺，患猫死亡年龄在 1 到 7 岁之间；研究找到了若干相关基因区域，但遗传方式复杂，还没有可用的检测。该研究的病例来自同一个猫舍，结论的代表性有限。
+  英国寿命表研究中，暹罗猫出生时预期寿命 11.69 年。
+applies_to: [all]
+urgency: routine
+related: [CG-0117]
+scores:
+  benefit: 2
+  risk_reduction: 2
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 淀粉样变性的研究来自单一猫舍的小样本（20 只患病猫）；目前没有基因检测；发生率不明。
+  gaps:
+    - "UNKNOWN: 暹罗猫中淀粉样变性的总体发生率。"
+    - "UNKNOWN: “牙龈苍白可能是肝脏破裂出血”是对肝脏受累后果的推断，需兽医审核。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: esders-2023-siamese-amyloidosis
+    supports: 暹罗和东方短毛猫的 AA 淀粉样变性致命，淀粉样蛋白全身沉积，尤其肝脏和甲状腺；患猫死亡年龄 1–7 岁；遗传方式复杂；病例来自同一猫舍（20 只）。
+    support_check: ai_checked
+    locator: Abstract
+  - id: teng-2024-cat-life-tables
+    supports: 暹罗猫出生时预期寿命 11.69 年。
+    support_check: ai_checked
+    locator: Table 6

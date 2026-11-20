@@ -1,0 +1,52 @@
+id: CG-0124
+slug: sphynx-and-devon-rex
+type: recommendation
+title: 斯芬克斯（无毛猫）和德文卷毛猫：心肌肥厚常见、遗传性肌病、B 型血较多
+summary: 新西兰一项研究中 40% 看起来健康的斯芬克斯猫有肥厚型心肌病。两个品种都有一种遗传性肌无力。英国数据中斯芬克斯平均寿命最短（样本很小）。
+category: breeds
+tags: [sphynx, heart-disease, genetics, blood-type]
+recommendation: 养斯芬克斯猫，和兽医讨论定期心脏超声检查；留意肌无力、吞咽困难；德文卷毛和斯芬克斯繁育前要做血型检测。需要输血或手术时告诉兽医品种。
+why_it_matters: >-
+  新西兰一项研究对 55 只看起来健康的斯芬克斯猫做心脏检查，中位年龄 5.8 岁时 40%（20 只）患有肥厚型心肌病，研究期间 3 只死于充血性心衰；一个曾被认为相关的基因变异（ALMS1）与诊断并无关联，所以目前没有可靠的基因检测能排除。
+  一项研究发现 COLQ 基因变异与德文卷毛猫和斯芬克斯猫的遗传性肌病相关，表现为四肢和躯干肌无力、巨食道、咽部无力、运动后易疲劳。
+  基因检测研究显示德文卷毛猫中 B 型血约占 30.3%。英国寿命表研究中斯芬克斯猫出生时预期寿命 6.68 年，是 12 个品种中最短的，但只有 18 例死亡，置信区间很宽。
+warning_signs:
+  - 呼吸急促或张嘴呼吸：立即就医
+  - 后腿突然瘫痪：立即急诊
+  - 吃东西时呛咳、反流、低头无力
+applies_to: [all]
+urgency: important
+related: [CG-0029, CG-0034, CG-0134, CG-0135]
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 3
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 多项独立研究（心脏筛查、基因、基因检测、寿命表）；心肌病患病率来自单一国家的小样本（55 只），寿命数据样本很小。
+  gaps:
+    - "TODO: 纳入法国等地斯芬克斯猫心脏筛查研究以核对患病率。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: seo-2024-sphynx-hcm
+    supports: 55 只看似健康的新西兰斯芬克斯猫中位年龄 5.8 岁时 HCM 患病率 40%；3 只死于充血性心衰；ALMS1 变异与 HCM 诊断无关联；提示斯芬克斯易患 HCM。
+    support_check: ai_checked
+    locator: Abstract
+  - id: gandolfi-2015-colq-myopathy
+    supports: COLQ 变异与德文卷毛和斯芬克斯遗传性肌病相关，表现为四肢和躯干肌无力、巨食道、咽部无力、运动后易疲劳。
+    support_check: ai_checked
+    locator: Abstract
+  - id: anderson-2022-cat-genetic-epidemiology
+    supports: 德文卷毛猫中 B 型血约占 30.3%。
+    support_check: ai_checked
+    locator: Blood type 段落
+  - id: teng-2024-cat-life-tables
+    supports: 斯芬克斯猫出生时预期寿命 6.68 年（18 例死亡，95% CI 4.53–8.83）。
+    support_check: ai_checked
+    locator: Table 6

@@ -1,0 +1,33 @@
+id: CG-0134
+slug: blood-type-before-breeding
+type: recommendation
+title: 猫也有血型：繁育前、输血前都要先查
+summary: 猫的血型分 A、B 和罕见的 AB。父母血型不匹配可能导致新生小猫溶血死亡；不少品种 B 型血超过一成，例如美国卷耳、柯尼斯卷毛、德文卷毛、英短。
+category: breeds
+tags: [blood-type, genetics]
+recommendation: 繁育前给父母猫查血型；猫需要输血时，先做血型检测和配血；知道自家猫的血型并记录在病历里。
+why_it_matters: >-
+  一项 11,036 只猫的基因检测研究（已读全文）指出：血型在繁育中很重要，父母血型不匹配可导致新生仔猫的同种溶血，是衰弱仔猫综合征和新生仔猫死亡的重要原因。
+  B 型血在绝大多数品种中都存在；在检测超过 15 只的品种中，B 型血比例最高的是美国卷耳猫（40.4%）、柯尼斯卷毛猫（33%）、德文卷毛猫（30.3%）、英国短毛猫类（20.3%）和哈瓦那棕猫（20%）。罕见的 AB 型在苏格兰折耳（3.3%）、布偶猫（2.2%）等品种中超过 1%。
+applies_to: [all]
+urgency: routine
+related: [CG-0124, CG-0129, CG-0135]
+scores:
+  benefit: 2
+  risk_reduction: 3
+  money_cost: 1
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 来自大样本基因检测研究全文；血型比例是该研究中送检的纯种猫，不一定代表某地区全部猫。
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: anderson-2022-cat-genetic-epidemiology
+    supports: 血型与新生儿同种溶血相关，是衰弱仔猫综合征和新生仔猫死亡的重要原因；B 型血存在于绝大多数品种；B 型比例最高为美国卷耳 40.4%、英短类 20.3%、柯尼斯卷毛 33%、德文卷毛 30.3%、哈瓦那棕 20%；AB 型在苏格兰折耳 3.3%、布偶 2.2% 等品种中超过 1%。
+    support_check: ai_checked
+    locator: Blood type 段落；Discussion

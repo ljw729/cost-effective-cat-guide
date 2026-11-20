@@ -4,7 +4,7 @@
  */
 import { deflateRawSync } from 'node:zlib';
 import { LABELS, sortEntries, type BuiltEntry, type BuiltGuide } from './build.js';
-import { DISCLAIMER, SITE_TITLE, SITE_TITLE_EN, esc, renderCard, renderEntryBody, type LinkContext } from './site/html.js';
+import { DISCLAIMER, SITE_TITLE, SITE_TITLE_EN, esc, renderBudget, renderCard, renderEntryBody, renderStartHere, type LinkContext } from './site/html.js';
 
 export interface ExportMeta { version: string; buildDate: string; siteUrl: string; repoUrl: string }
 
@@ -75,6 +75,7 @@ ${g.entries.map((e) => `<article class="entry print-entry" id="${anchor(e.id)}">
 <h1>${esc(SITE_TITLE)} <span class="muted">${esc(SITE_TITLE_EN)}</span></h1>
 ${frontMatter(guide, meta)}
 <section class="emergency-strip" id="emergency"><h2>🚨 出现这些情况，先别看指南，联系兽医</h2><ul>${em.map((e) => `<li><a href="#${anchor(e.id)}">${esc(e.title)}</a></li>`).join('')}</ul></section>
+${renderStartHere(guide, ctx)}
 ${finder}
 <h2 id="contents">目录</h2>
 <ul class="cat-grid">${groups.map((g) => `<li><a href="#cat-${esc(g.cat.id)}"><span>${esc(g.cat.name.zh)}</span><span class="count">${g.entries.length}</span></a></li>`).join('')}</ul>
@@ -123,7 +124,8 @@ details > summary { list-style: none; }
 <body><div class="wrap">
 <section class="cover"><h1>${esc(SITE_TITLE)}</h1><p class="sub">${esc(SITE_TITLE_EN)}</p>${frontMatter(guide, meta)}</section>
 <section class="toc"><h1>目录</h1><ol>${toc}</ol></section>
-<section class="print-entry">${howToRead()}</section>
+<section class="print-entry">${renderStartHere(guide, ctx, 'h1')}${howToRead()}</section>
+<section class="print-entry">${renderBudget(guide, ctx, 'h1', 'h2')}</section>
 ${body}
 </div></body></html>
 `;
@@ -203,7 +205,7 @@ export function buildEpub(guide: BuiltGuide, meta: ExportMeta): Buffer {
     entries: g.entries,
   }));
   const intro = xhtmlDoc(SITE_TITLE, `<section epub:type="frontmatter"><h1>${esc(SITE_TITLE)}</h1><p>${esc(SITE_TITLE_EN)}</p>${frontMatter(guide, meta)}${howToRead()}
-<h2>🚨 紧急情况</h2><ul>${guide.entries.filter((e) => e.type === 'emergency').map((e) => `<li><a href="${ctx.entryHref(e)}">${esc(e.title)}</a></li>`).join('')}</ul></section>`);
+<h2>🚨 紧急情况</h2><ul>${guide.entries.filter((e) => e.type === 'emergency').map((e) => `<li><a href="${ctx.entryHref(e)}">${esc(e.title)}</a></li>`).join('')}</ul>${renderStartHere(guide, ctx)}${renderBudget(guide, ctx)}</section>`);
   const nav = xhtmlDoc('目录', `<nav epub:type="toc" id="toc"><h1>目录</h1><ol><li><a href="intro.xhtml">前言与使用说明</a></li>${chapters.map((c) => `<li><a href="${c.file}">${esc(c.title)}</a><ol>${c.entries.map((e) => `<li><a href="${c.file}#${anchor(e.id)}">${esc(e.title)}</a></li>`).join('')}</ol></li>`).join('')}</ol></nav>`);
   const opf = `<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uid" xml:lang="zh-CN">

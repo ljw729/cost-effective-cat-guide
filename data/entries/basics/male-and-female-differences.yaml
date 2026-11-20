@@ -1,0 +1,60 @@
+id: CG-0111
+slug: male-and-female-differences
+type: recommendation
+title: 公猫和母猫有什么不同：寿命、常见风险和绝育
+summary: 英国大样本数据中，母猫平均预期寿命比公猫长约 1.3 年；未绝育的猫寿命更短。公猫更易尿道堵塞和心肌肥厚，未绝育母猫有乳腺肿瘤和子宫蓄脓风险。
+category: basics
+tags: [sex-differences, neuter]
+recommendation: 了解性别相关的风险：公猫重点留意排尿（尿团变少、反复蹲盆是急症）和心脏；母猫在第一次发情前绝育可几乎消除乳腺肿瘤风险。不打算繁育的猫，公母都建议绝育。
+why_it_matters: >-
+  英国 VetCompass 2019 年 7,936 例死亡数据的寿命表显示：母猫出生时预期寿命 12.51 年，公猫 11.18 年，相差 1.33 年；在考虑其他因素后，公猫仍比母猫少活约 1.2 年；未绝育的猫 3 岁前死亡的几率是已绝育猫的 4.29 倍。另一项分析同一时期英国数据的研究发现，未绝育公猫寿命最短，已绝育母猫最长，并把公猫寿命较短归因于更多外伤和健康问题。
+  公猫：尿道更长更窄，更容易尿道堵塞（急症）；一项 780 只看起来健康的猫的超声筛查中，公猫是诊断肥厚型心肌病的相关因素之一；未绝育、外出、爱打架的公猫感染猫艾滋的风险最高。
+  母猫：在乳腺发育前（3 到 6 月龄）绝育几乎可以消除乳腺癌风险，并排除子宫蓄脓。
+how_to_do_it:
+  - 公猫：每天铲屎时留意尿团；反复蹲盆尿不出来当天急诊（见 CG-0007）。
+  - 母猫：在第一次发情前和兽医商量绝育（见 CG-0056）。
+applies_to: [all, male]
+urgency: important
+related: [CG-0007, CG-0056, CG-0087, CG-0139]
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: >-
+    寿命差异来自英国两项基于全科兽医记录的大样本研究（一项读了全文）；公猫与心肌肥厚的关联来自一项横断面研究摘要；其余来自大学兽医学院资料。寿命数据是英国的，不一定适用于其他地区。
+  gaps:
+    - "UNKNOWN: “品种 × 性别”的组合差异（例如某个品种的公猫是否特别容易得某病），目前只找到零散数据，例如折耳猫骨软骨发育异常的公母比例相同；本项目不编制品种 × 性别对照表。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: teng-2024-cat-life-tables
+    supports: 英国 2019 年 7,936 例死亡；出生时预期寿命母猫 12.51 年、公猫 11.18 年；校正后公猫比母猫少活 1.20 年；未绝育猫 3 岁前死亡几率是绝育猫的 4.29 倍。
+    support_check: ai_checked
+    locator: Results（sex；early-age mortality model）
+  - id: mata-2025-moggies-mollies
+    supports: 公猫寿命短于母猫（归因于更多外伤和健康问题）；绝育的猫寿命更长；未绝育公猫最短，已绝育母猫最长。
+    support_check: ai_checked
+    locator: Abstract
+  - id: payne-2015-catscan-hcm
+    supports: 780 只看起来健康的猫中 HCM 患病率 14.7%；公猫、年龄增加、体况评分高、心杂音与 HCM 诊断相关。
+    support_check: ai_checked
+    locator: Abstract
+  - id: cornell-flutd
+    supports: 公猫尿道更长更窄，尿道堵塞风险更高；尿道堵塞是急症。
+    support_check: ai_checked
+    locator: Urethral obstruction 段落
+  - id: cornell-spay
+    supports: 3–6 月龄乳腺发育前绝育几乎消除乳腺癌风险，并排除子宫蓄脓；公猫去势减少游荡、打斗和喷尿。
+    support_check: ai_checked
+    locator: 全文
+  - id: velie-2023-scottish-fold-prevalence
+    supports: 折耳猫骨软骨发育异常的病例中公母比例相当。
+    support_check: ai_checked
+    locator: Abstract

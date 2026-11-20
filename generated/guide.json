@@ -2,23 +2,23 @@
   "schema_version": 1,
   "generated_from": "data/ (do not edit generated files by hand)",
   "stats": {
-    "entries": 28,
-    "sources": 33,
+    "entries": 50,
+    "sources": 57,
     "by_evidence": {
-      "B": 21,
-      "C": 7
+      "B": 33,
+      "C": 17
     },
     "by_grade": {
-      "S": 4,
-      "A": 7,
-      "B": 7,
-      "C": 3,
+      "S": 5,
+      "A": 16,
+      "B": 8,
+      "C": 9,
       "D": 2
     },
     "by_type": {
-      "emergency": 2,
-      "dont": 6,
-      "recommendation": 14,
+      "emergency": 7,
+      "dont": 12,
+      "recommendation": 25,
       "buying_guide": 3,
       "myth": 3
     },
@@ -36,7 +36,9 @@
       "review_months": 36,
       "entry_ids": [
         "CG-0001",
-        "CG-0002"
+        "CG-0002",
+        "CG-0046",
+        "CG-0048"
       ]
     },
     {
@@ -51,7 +53,12 @@
       "entry_ids": [
         "CG-0003",
         "CG-0005",
-        "CG-0006"
+        "CG-0033",
+        "CG-0043",
+        "CG-0044",
+        "CG-0006",
+        "CG-0042",
+        "CG-0045"
       ]
     },
     {
@@ -66,6 +73,7 @@
       "entry_ids": [
         "CG-0009",
         "CG-0008",
+        "CG-0049",
         "CG-0023",
         "CG-0010"
       ]
@@ -183,7 +191,8 @@
       "high_risk": true,
       "review_months": 18,
       "entry_ids": [
-        "CG-0018"
+        "CG-0018",
+        "CG-0041"
       ]
     },
     {
@@ -195,7 +204,14 @@
       },
       "high_risk": true,
       "review_months": 18,
-      "entry_ids": []
+      "entry_ids": [
+        "CG-0035",
+        "CG-0036",
+        "CG-0037",
+        "CG-0038",
+        "CG-0039",
+        "CG-0040"
+      ]
     },
     {
       "id": "emergency",
@@ -208,7 +224,13 @@
       "review_months": 12,
       "entry_ids": [
         "CG-0004",
-        "CG-0007"
+        "CG-0007",
+        "CG-0029",
+        "CG-0030",
+        "CG-0031",
+        "CG-0032",
+        "CG-0034",
+        "CG-0050"
       ]
     },
     {
@@ -245,6 +267,7 @@
       "high_risk": false,
       "review_months": 24,
       "entry_ids": [
+        "CG-0047",
         "CG-0013",
         "CG-0021"
       ]
@@ -567,6 +590,556 @@
       "url_path": "/entries/cannot-urinate/"
     },
     {
+      "id": "CG-0029",
+      "slug": "breathing-difficulty",
+      "type": "emergency",
+      "title": "猫呼吸困难、张嘴喘气：立即就医",
+      "summary": "猫不像狗那样常喘气。呼吸明显费力、张嘴喘、呼吸很快，可能是哮喘、心衰或胸腔积液，随时可能危及生命。",
+      "category": "emergency",
+      "tags": [
+        "breathing-difficulty"
+      ],
+      "recommendation": "只要怀疑猫呼吸不顺畅，就立刻联系兽医或去急诊，不要在家观察或自己处理。",
+      "why_it_matters": "康奈尔大学猫健康中心的急诊医学专家指出，呼吸困难本身不是一种病，而是数百种疾病的共同表现；最常见的三个原因是哮喘急性发作、心力衰竭导致肺部积液、胸腔积液。 无论原因是什么，有呼吸困难的猫如果不及时治疗，死亡风险很高。只有兽医能通过检查找到原因并对症处理。",
+      "emergency_action": [
+        "立即打电话给兽医或急诊，说明“猫呼吸困难 / 张嘴喘气”。",
+        "让猫保持安静，尽量少折腾，用航空箱平稳转运。",
+        "如果能做到，拍一段猫呼吸时的视频给兽医看，但不要为了拍视频耽误出发。"
+      ],
+      "do_not": [
+        "不要等“看看会不会自己好”。",
+        "不要自己喂药、灌水或尝试按压胸部。"
+      ],
+      "warning_signs": [
+        "张嘴呼吸、喘气（猫正常情况下很少这样）",
+        "呼吸明显加快或每次呼吸都很费力",
+        "低头、身体前伸，像要呕吐一样干咳或干呕",
+        "牙龈或舌头发紫、发白",
+        "呼吸困难同时精神很差、躲起来"
+      ],
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "emergency",
+      "related": [
+        "CG-0018"
+      ],
+      "scores": {
+        "benefit": 5,
+        "risk_reduction": 5,
+        "money_cost": 4,
+        "time_cost": 2,
+        "effort": 2,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "大学兽医学院两篇资料（呼吸困难、肥厚型心肌病）一致：呼吸困难需要立即就医；心肌病导致心衰时会出现张嘴呼吸和呼吸急促。 这是急症处理原则，不涉及具体治疗。",
+        "gaps": [
+          "TODO: 纳入急诊或呼吸系统疾病的指南级来源。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "紧急情况",
+      "cost_effectiveness": {
+        "graded": false,
+        "grade": null,
+        "uncapped_grade": null,
+        "score": null,
+        "breakdown": null,
+        "caps": [],
+        "reason_not_graded": "紧急情况不按性价比决策：先联系兽医。"
+      },
+      "sources": [
+        {
+          "id": "cornell-dyspnea",
+          "title": "Dyspnea (Difficulty Breathing)",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/dyspnea-difficulty-breathing",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "呼吸困难常伴呼吸急促、张嘴喘气、咳嗽、低头前伸；三大常见原因是哮喘、心衰、胸腔积液；有呼吸困难的猫不及时治疗死亡风险高；只要怀疑呼吸不顺就立刻看兽医，不要在家处理。",
+          "support_check": "ai_checked",
+          "locator": "全文（Dr. Fletcher 的建议段落）"
+        },
+        {
+          "id": "cornell-hcm",
+          "title": "Hypertrophic Cardiomyopathy",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2025,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/hypertrophic-cardiomyopathy",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "Page states \"Updated May 2025\".",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "肥厚型心肌病可引起充血性心衰，表现为呼吸费力或急促、张嘴呼吸、精神差。",
+          "support_check": "ai_checked",
+          "locator": "临床表现段落"
+        }
+      ],
+      "url_path": "/entries/breathing-difficulty/"
+    },
+    {
+      "id": "CG-0030",
+      "slug": "heatstroke",
+      "type": "emergency",
+      "title": "中暑：先降温，同时马上联系兽医",
+      "summary": "高温时猫出现虚弱、倒地、大口喘气、流口水、呕吐或腹泻，可能是中暑，可以很快危及生命。",
+      "category": "emergency",
+      "tags": [
+        "heatstroke"
+      ],
+      "recommendation": "发现中暑迹象时，立即把猫移到通风凉爽处，用凉水（不要冰水）轻轻打湿毛发，同时马上联系兽医。",
+      "why_it_matters": "康奈尔大学猫健康中心指出，中暑可以非常快地危及生命；常见表现是虚弱或倒地、过度喘气、流口水、呕吐和腹泻。 预防成本很低：保证随时有水、提供阴凉处、极端高温时让猫待在有空调的室内、检查车库和杂物间有没有把猫关在里面。",
+      "emergency_action": [
+        "把猫移到阴凉、有风的地方。",
+        "用凉水（不是冰水）轻轻打湿猫的毛。",
+        "立即联系兽医，按兽医指示出发。"
+      ],
+      "do_not": [
+        "不要用冰水或冰块直接大面积敷在身上。",
+        "降温后看起来好转也不要取消就医。"
+      ],
+      "warning_signs": [
+        "虚弱、站不稳或倒地",
+        "大口喘气",
+        "流口水",
+        "呕吐、腹泻"
+      ],
+      "how_to_do_it": [
+        "夏天保证家里多处有干净的水。",
+        "极端高温天气，让猫待在有空调的房间。",
+        "出门前检查阳台、储物间、车库、车里，确认没有把猫关在里面。",
+        "不要把猫留在停着的车里。"
+      ],
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "emergency",
+      "scores": {
+        "benefit": 4,
+        "risk_reduction": 5,
+        "money_cost": 1,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "C",
+        "summary": "目前只有一个大学兽医学院的科普页面；降温方法（凉水而非冰水、通风）和立即就医的原则在该页面中明确写出。",
+        "gaps": [
+          "TODO: 纳入兽医急诊教材或指南中关于猫中暑的内容。",
+          "UNKNOWN: “不要把猫留在车里”是常识性推断，所读来源只提到检查车库、棚屋等可能困住猫的地方。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "紧急情况",
+      "cost_effectiveness": {
+        "graded": false,
+        "grade": null,
+        "uncapped_grade": null,
+        "score": null,
+        "breakdown": null,
+        "caps": [],
+        "reason_not_graded": "紧急情况不按性价比决策：先联系兽医。"
+      },
+      "sources": [
+        {
+          "id": "cornell-heat",
+          "title": "Feline Heat Safety",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-heat-safety",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "中暑可以很快危及生命，表现为虚弱/倒地、过度喘气、流口水、呕吐、腹泻；发现时立即移到通风凉爽处，用凉水（不是很冷的水）轻轻打湿毛发，并立即联系兽医；预防措施包括随时供水、阴凉处、极端高温时留在空调房、检查棚屋车库。",
+          "support_check": "ai_checked",
+          "locator": "全文要点列表"
+        }
+      ],
+      "url_path": "/entries/heatstroke/"
+    },
+    {
+      "id": "CG-0031",
+      "slug": "swallowed-string-or-tinsel",
+      "type": "emergency",
+      "title": "猫吞了线、绳子、丝带或彩带：马上就医",
+      "summary": "线状异物可能缠在舌根或卡在肠道里，像钢丝一样割穿肠壁，危及生命。看到线头也不要硬拉。",
+      "category": "emergency",
+      "tags": [
+        "foreign-body"
+      ],
+      "recommendation": "发现或怀疑猫吞了线、毛线、丝带、彩带（圣诞装饰金属丝）等，立即联系兽医；平时把这类东西收好。",
+      "why_it_matters": "康奈尔大学猫健康中心的行为医学医生指出，彩带等线状物可能卡在肠道里，有的能排出，有的需要手术；如果线绕在舌根再被吞下，会在消化过程中像钢丝一样切穿肠壁，“非常危及生命”。 康奈尔的呕吐页面也把吞下线或毛线列为猫呕吐的常见原因之一。",
+      "emergency_action": [
+        "立即联系兽医，说明吞了什么、大概多长、多久以前。",
+        "如果看到线从嘴里或肛门露出来，保持原样，尽快就医。"
+      ],
+      "do_not": [
+        "不要用力拉露在外面的线头。",
+        "不要自己催吐。"
+      ],
+      "warning_signs": [
+        "看到猫在嚼线、丝带、彩带，之后东西不见了",
+        "反复呕吐、不吃东西",
+        "舌头下面或嘴里看到缠绕的线",
+        "精神差、腹部疼痛（不让摸肚子）"
+      ],
+      "how_to_do_it": [
+        "针线、毛线、橡皮筋、丝带、礼品绳用完马上收进抽屉。",
+        "逗猫棒等带绳子的玩具玩完收起来，不要让猫单独玩。",
+        "节日装饰尽量不用金属彩带。"
+      ],
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "emergency",
+      "related": [
+        "CG-0047"
+      ],
+      "scores": {
+        "benefit": 4,
+        "risk_reduction": 5,
+        "money_cost": 0,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "C",
+        "summary": "来自同一大学兽医学院的三个页面（节日危险、玩具安全、呕吐）；描述了机制和后果，但没有给出发生率。",
+        "gaps": [
+          "UNKNOWN: “不要拉露出的线头”是兽医急诊的通行做法，但本条已读来源没有直接写出；已列入兽医审核重点。",
+          "TODO: 纳入线状异物病例研究。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "紧急情况",
+      "cost_effectiveness": {
+        "graded": false,
+        "grade": null,
+        "uncapped_grade": null,
+        "score": null,
+        "breakdown": null,
+        "caps": [],
+        "reason_not_graded": "紧急情况不按性价比决策：先联系兽医。"
+      },
+      "sources": [
+        {
+          "id": "cornell-holiday",
+          "title": "Beware Holiday Hazards",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/beware-holiday-hazards",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "猫可能吞下彩带，部分需要手术取出；彩带如果绕在舌根再被吞下，会像钢丝一样在消化时切穿肠道，非常危及生命；包装礼物避免长丝带。",
+          "support_check": "ai_checked",
+          "locator": "tinsel 段落"
+        },
+        {
+          "id": "cornell-toys",
+          "title": "Safe toys and gifts",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/safe-toys-and-gifts",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "避免带小零件或线状部件（羽毛、绳子）的玩具，以免脱落被吞下；有电线的东西都要避免。",
+          "support_check": "ai_checked",
+          "locator": "第 4 段"
+        },
+        {
+          "id": "cornell-vomiting",
+          "title": "Vomiting",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2021,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/vomiting",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "Page states \"Last updated 2021\".",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "吞下线或毛线是猫呕吐的常见原因之一；异物梗阻常需内镜或手术取出。",
+          "support_check": "ai_checked",
+          "locator": "呕吐原因段落"
+        }
+      ],
+      "url_path": "/entries/swallowed-string-or-tinsel/"
+    },
+    {
+      "id": "CG-0032",
+      "slug": "suspected-poisoning",
+      "type": "emergency",
+      "title": "怀疑猫中毒：马上打电话，不要自己催吐",
+      "summary": "怀疑猫吃了有毒的东西时，立即联系兽医或动物中毒热线，带上包装或样品。不要自行催吐，有些毒物吐出来伤害更大。",
+      "category": "emergency",
+      "tags": [
+        "poisoning"
+      ],
+      "recommendation": "怀疑中毒时，立即联系兽医；联系不上就找急诊或动物中毒咨询热线。保留毒物包装或样品。除非兽医明确要求，不要自己催吐。",
+      "why_it_matters": "康奈尔大学猫健康中心指出：等主人发现异常时，猫可能已经有严重风险，因此要立即咨询兽医；有些毒物在呕吐时造成的损伤比留在胃里更大，所以除非专业人员明确指示，不要催吐。 中毒常见表现包括呕吐、腹泻、抽搐、流口水、走路不稳、呼吸困难、尿不出来等。",
+      "emergency_action": [
+        "立即联系兽医；联系不上就找急诊或当地的动物中毒咨询热线。",
+        "说清楚：可能吃了什么、大概多少、多久以前、猫现在的表现。",
+        "带上包装、标签或剩下的样品去医院。"
+      ],
+      "do_not": [
+        "不要自行催吐（不要灌盐水、双氧水等）。",
+        "不要喂牛奶、油或“解毒”偏方。",
+        "不要等症状出现才行动。"
+      ],
+      "warning_signs": [
+        "呕吐、腹泻、流口水",
+        "走路不稳、发抖、抽搐",
+        "突然精神很差、不吃东西",
+        "呼吸困难、心跳不规律",
+        "尿不出来、尿或便中带血、牙龈出血或鼻出血"
+      ],
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "emergency",
+      "region_notes": "来源中的中毒热线是美国的（ASPCA、Pet Poison Helpline）。中国大陆目前没有确认可靠的全国性宠物中毒热线，请提前存好附近 24 小时动物医院的电话。",
+      "related": [
+        "CG-0004",
+        "CG-0033",
+        "CG-0044"
+      ],
+      "scores": {
+        "benefit": 5,
+        "risk_reduction": 5,
+        "money_cost": 3,
+        "time_cost": 2,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "大学兽医学院两个页面一致，且与 ASPCA 动物中毒控制中心的建议一致：立即咨询、带上标签、不要自行催吐。",
+        "gaps": [
+          "UNKNOWN: 中国大陆可用的宠物中毒咨询渠道，未找到可核实的来源。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "紧急情况",
+      "cost_effectiveness": {
+        "graded": false,
+        "grade": null,
+        "uncapped_grade": null,
+        "score": null,
+        "breakdown": null,
+        "caps": [],
+        "reason_not_graded": "紧急情况不按性价比决策：先联系兽医。"
+      },
+      "sources": [
+        {
+          "id": "cornell-hazards",
+          "title": "Common Cat Hazards",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "怀疑中毒时立即联系兽医，联系不上找急诊或中毒热线；带上毒物样品或标签；除非明确指示不要催吐，某些毒物呕吐时损伤更大；列出中毒表现（呕吐、腹泻、抽搐、血便血尿、精神差、厌食、瘀青、鼻出血、心律不齐、尿不出来、呼吸困难）；发现时猫可能已有严重风险。",
+          "support_check": "ai_checked",
+          "locator": "What should I do / Signs of Poisoning 段落"
+        },
+        {
+          "id": "cornell-poisons",
+          "title": "Poisons",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/poisons",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "精神差、走路不稳、流口水、呼吸急促、腹泻、抽搐、突然呕吐是常见中毒表现，应寻求紧急治疗；不要催吐，除非被明确指示。",
+          "support_check": "ai_checked",
+          "locator": "第 1 段与最后一段"
+        }
+      ],
+      "url_path": "/entries/suspected-poisoning/"
+    },
+    {
+      "id": "CG-0034",
+      "slug": "sudden-hind-leg-paralysis",
+      "type": "emergency",
+      "title": "后腿突然瘫软、剧痛：立即急诊",
+      "summary": "猫突然后腿拖地、不能动或疼得叫，可能是心脏病形成的血栓堵住了后腿血管，是急症。",
+      "category": "emergency",
+      "tags": [
+        "heart-disease"
+      ],
+      "recommendation": "猫突然出现后腿无力、拖行、瘫痪或明显疼痛时，立即去急诊。",
+      "why_it_matters": "康奈尔大学猫健康中心指出，肥厚型心肌病是猫最常见的心脏病，很多患病的猫看起来完全正常。 它的严重后果之一是心脏里形成血栓，血栓最常堵住后腿的血流，造成后腿突然剧痛，严重时瘫痪。这类表现提示预后较差，需要立即治疗。",
+      "emergency_action": [
+        "立即联系急诊。",
+        "用毛巾托住身体，放进航空箱，尽量不碰疼痛的后腿。"
+      ],
+      "do_not": [
+        "不要以为是“扭到了”而在家观察。",
+        "不要给人用止痛药。"
+      ],
+      "warning_signs": [
+        "后腿突然无力、拖着走或完全不能动",
+        "突然尖叫、明显疼痛",
+        "同时呼吸急促或张嘴呼吸"
+      ],
+      "applies_to": [
+        "all",
+        "adult",
+        "senior"
+      ],
+      "urgency": "emergency",
+      "related": [
+        "CG-0029",
+        "CG-0033"
+      ],
+      "scores": {
+        "benefit": 4,
+        "risk_reduction": 4,
+        "money_cost": 5,
+        "time_cost": 2,
+        "effort": 2,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "C",
+        "summary": "来自大学兽医学院的心肌病页面，机制和表现写得明确；但只有一个来源，也没有给出发生率。",
+        "gaps": [
+          "TODO: 纳入猫动脉血栓栓塞（ATE）的指南或病例研究。",
+          "UNKNOWN: “爪垫发凉、发紫”等常被提到的体征，本条已读来源没有写，暂不列入。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "紧急情况",
+      "cost_effectiveness": {
+        "graded": false,
+        "grade": null,
+        "uncapped_grade": null,
+        "score": null,
+        "breakdown": null,
+        "caps": [],
+        "reason_not_graded": "紧急情况不按性价比决策：先联系兽医。"
+      },
+      "sources": [
+        {
+          "id": "cornell-hcm",
+          "title": "Hypertrophic Cardiomyopathy",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2025,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/hypertrophic-cardiomyopathy",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "Page states \"Updated May 2025\".",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "HCM 是猫最常见心脏病，很多患猫没有症状；心内血栓最常阻断后肢血流，造成急性后肢疼痛，严重时后肢瘫痪；血栓栓塞是预后较差的表现；部分品种（缅因、布偶、英短等）更常见。",
+          "support_check": "ai_checked",
+          "locator": "临床表现与预后段落"
+        }
+      ],
+      "url_path": "/entries/sudden-hind-leg-paralysis/"
+    },
+    {
       "id": "CG-0003",
       "slug": "no-lilies-at-home",
       "type": "dont",
@@ -701,7 +1274,7 @@
       "why_it_matters": "澳大利亚一家转诊医院回顾的 42 例猫扑灭司林中毒中，41 例是主人直接给猫用了狗用扑灭司林滴剂，其中 3 例是主人把一支药分给几只狗和猫用。 该研究汇总的其他报告中，也有猫因接触用过药的狗而中毒的病例。 常见症状有震颤和肌肉抽动（86%）、抽搐（33%）、发热等；约三分之一的猫出现并发症，需要密集治疗。 尽管包装上有醒目警告，这类病例仍在持续发生。",
       "how_to_do_it": [
         "买驱虫药前看清适用动物和体重范围；不确定就问兽医。",
-        "家里的狗用了含扑灭司林的产品，要按说明书和兽医建议，在一段时间内避免猫和狗密切接触。",
+        "家里的狗用了驱虫药后，至少 24 小时内不要让猫接触这只狗；说明书要求更久的，按说明书。",
         "把猫用、狗用药品分开存放。"
       ],
       "do_not": [
@@ -729,7 +1302,7 @@
         "summary": "回顾性病例系列清楚描述了暴露来源（狗用滴剂直接用在猫身上）、症状和并发症。 尚未纳入指南级来源，因此评为 B。",
         "gaps": [
           "TODO: 纳入 iCatCare 的扑灭司林中毒资料（第一轮抓取没有拿到正文）。",
-          "UNKNOWN: 与用药后的狗隔离多久才安全，已读来源（含 Boland 2010 全文）没有给出时长，所以正文只写“按说明书和兽医建议”。"
+          "已解决（2026-11-20）：康奈尔猫健康中心的家庭危险页面写明，猫在狗用药后 24 小时内不能接触这只狗。Boland 2010 全文没有给出时长。不同产品的要求可能不同，以说明书为准。"
         ]
       },
       "medical_review_required": true,
@@ -751,6 +1324,28 @@
         "caps": []
       },
       "sources": [
+        {
+          "id": "cornell-hazards",
+          "title": "Common Cat Hazards",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "人用药和狗用驱虫药对猫可能有急性毒性；用了狗用驱虫药的狗，24 小时内不能让猫接触。",
+          "support_check": "ai_checked",
+          "locator": "Medications 段落（Flea medication for dogs）"
+        },
         {
           "id": "boland-2010-permethrin",
           "title": "Feline permethrin toxicity: Retrospective study of 42 cases",
@@ -974,6 +1569,136 @@
         }
       ],
       "url_path": "/entries/vaccines-core-plus-lifestyle/"
+    },
+    {
+      "id": "CG-0033",
+      "slug": "never-give-human-painkillers",
+      "type": "dont",
+      "title": "绝不要给猫吃人用止痛药和感冒药",
+      "summary": "对乙酰氨基酚（扑热息痛、泰诺）、布洛芬、阿司匹林等人用药是猫中毒的常见原因。药片掉在地上也要捡干净。",
+      "category": "toxins",
+      "tags": [
+        "human-medication"
+      ],
+      "recommendation": "不给猫吃任何人用药，除非兽医明确开具。药品放在猫拿不到的柜子里，掉在地上的药片立刻捡起来。",
+      "why_it_matters": "康奈尔大学猫健康中心转引 ASPCA 动物中毒控制中心的数据：人用药是猫中毒最常见的原因之一，其中最突出的是阿司匹林、对乙酰氨基酚和布洛芬，以及部分感冒药、抗抑郁药和营养补充剂。 猫会吞下放在床头柜、桌面或掉在地上的药片。康奈尔的绝育页面也特别提醒：术后不要自行给猫用这些非处方止痛药。",
+      "how_to_do_it": [
+        "所有药品（包括维生素和保健品）放进有门的柜子。",
+        "吃药时不要把药片放在桌边；掉了马上找到。",
+        "猫看起来疼痛时，联系兽医，不要用家里的止痛药。"
+      ],
+      "warning_signs": [
+        "发现猫可能吃了人用药：立即联系兽医（见“怀疑猫中毒”条目）。"
+      ],
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "important",
+      "related": [
+        "CG-0032"
+      ],
+      "scores": {
+        "benefit": 4,
+        "risk_reduction": 5,
+        "money_cost": 0,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "大学兽医学院多个页面一致，并引用 ASPCA 中毒控制中心的来电数据；人用止痛药对猫的毒性是兽医毒理学共识。本项目不收录中毒剂量。",
+        "gaps": [
+          "TODO: 纳入对乙酰氨基酚猫中毒的病例研究或毒理学综述。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "有毒物质",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "S",
+        "uncapped_grade": "S",
+        "score": 3.74,
+        "breakdown": {
+          "value": 4.4,
+          "confidence": 0.85,
+          "burden": 0,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "cornell-poisons",
+          "title": "Poisons",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/poisons",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "人用药是猫中毒常见原因，尤其是阿司匹林、对乙酰氨基酚、布洛芬，以及部分感冒药、抗抑郁药、补充剂；猫会吞下放在床头柜、桌面或掉在地上的药片。",
+          "support_check": "ai_checked",
+          "locator": "Human medications 条目"
+        },
+        {
+          "id": "cornell-hazards",
+          "title": "Common Cat Hazards",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "人用药和狗用驱虫药对猫可能有急性毒性；不经兽医同意不要给猫用药；列出阿司匹林、对乙酰氨基酚、布洛芬、维生素补充剂。",
+          "support_check": "ai_checked",
+          "locator": "Medications 段落"
+        },
+        {
+          "id": "cornell-spay",
+          "title": "Spaying and Neutering",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/spaying-and-neutering",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "术后不要在没有兽医同意的情况下使用阿司匹林、布洛芬、泰诺等非处方药，这些药可能对猫有毒。",
+          "support_check": "ai_checked",
+          "locator": "术后止痛段落"
+        }
+      ],
+      "url_path": "/entries/never-give-human-painkillers/"
     },
     {
       "id": "CG-0001",
@@ -1508,7 +2233,7 @@
         "不要用“饿几顿就瘦了”的办法减肥。"
       ],
       "warning_signs": [
-        "猫完全不吃东西超过一天，尤其是胖猫：联系兽医。"
+        "猫完全不吃东西超过 24 小时，尤其是胖猫：联系兽医（见 CG-0035）。"
       ],
       "applies_to": [
         "adult",
@@ -1517,7 +2242,8 @@
       "urgency": "important",
       "related": [
         "CG-0011",
-        "CG-0023"
+        "CG-0023",
+        "CG-0035"
       ],
       "scores": {
         "benefit": 4,
@@ -1532,7 +2258,7 @@
         "level": "B",
         "summary": "大学兽医学院资料给出了缓慢减重的速度、兽医指导的要求，以及厌食与脂肪肝、肥胖的关系。",
         "gaps": [
-          "UNKNOWN: 猫不吃东西多久会开始有脂肪肝风险，已读来源没有给出具体天数，所以正文没有写。",
+          "部分解决（2026-11-20）：康奈尔厌食页面指出成年猫持续 24 小时不吃就可能严重影响健康；但脂肪肝开始发生的具体天数仍没有来源，正文不写。",
           "TODO: 核对 AAHA 2021 营养与体重管理指南中的减重速度建议。"
         ]
       },
@@ -1555,6 +2281,28 @@
         "caps": []
       },
       "sources": [
+        {
+          "id": "cornell-anorexia",
+          "title": "Anorexia",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/anorexia",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "成年猫持续不吃 24 小时就可能严重影响健康；不吃的猫需要兽医检查。",
+          "support_check": "ai_checked",
+          "locator": "第 1 段"
+        },
         {
           "id": "cornell-obesity",
           "title": "Obesity",
@@ -1843,6 +2591,1249 @@
         }
       ],
       "url_path": "/entries/recognize-intercat-tension/"
+    },
+    {
+      "id": "CG-0035",
+      "slug": "not-eating-24-hours",
+      "type": "recommendation",
+      "title": "成年猫一天不吃、幼猫半天不吃就要看兽医",
+      "summary": "猫不吃东西不是“挑食”这么简单。成年猫持续不吃 24 小时就可能严重影响健康；6 周龄以下幼猫 12 小时不吃就可能致命。",
+      "category": "early-signs",
+      "tags": [
+        "not-eating",
+        "hidden-illness"
+      ],
+      "recommendation": "成年猫持续不吃超过 24 小时、6 周龄以下幼猫超过 12 小时，尽快联系兽医。不要强行塞食物，除非兽医指导。",
+      "why_it_matters": "康奈尔大学猫健康中心指出，厌食是糖尿病、肾病、脂肪肝、甲亢、胰腺炎、牙病、发烧等多种问题的表现，也可能来自压力（换粮、新宠物、失去同伴）。 无论原因是什么，成年猫持续不吃 24 小时就可能严重影响健康，6 周龄以下幼猫 12 小时就可能致命；“猫从来不会只是决定不吃饭”。 胖猫尤其要注意：不吃东西是脂肪肝的主要诱因。",
+      "how_to_do_it": [
+        "每天留意猫吃了多少，多猫家庭尤其要确认每只猫都吃了。",
+        "换粮要逐步进行（见“选择全价猫粮”条目）。",
+        "不吃超过上述时间，或同时有呕吐、精神差，尽快就医。"
+      ],
+      "do_not": [
+        "不要强行往嘴里塞食物，兽医发现这会让猫更厌食。",
+        "不要让胖猫“饿几天减肥”。"
+      ],
+      "warning_signs": [
+        "完全不吃，或只舔一点",
+        "想吃但吃不下、吃的时候疼（可能是口腔问题）",
+        "同时呕吐、躲起来、精神差"
+      ],
+      "applies_to": [
+        "all",
+        "kitten"
+      ],
+      "urgency": "urgent",
+      "related": [
+        "CG-0012",
+        "CG-0040"
+      ],
+      "scores": {
+        "benefit": 4,
+        "risk_reduction": 4,
+        "money_cost": 2,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "大学兽医学院两个页面一致：厌食需要兽医全面检查；厌食与脂肪肝的关系明确。具体时间（24 小时 / 12 小时）来自其中一个页面的兽医专家说法。",
+        "gaps": [
+          "TODO: 时间阈值尚未在指南级来源中核对。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "常见疾病早期信号",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "A",
+        "uncapped_grade": "A",
+        "score": 2.95,
+        "breakdown": {
+          "value": 4,
+          "confidence": 0.85,
+          "burden": 1,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "cornell-anorexia",
+          "title": "Anorexia",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/anorexia",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "厌食是多种疾病（糖尿病、肾病、脂肪肝、甲亢、胰腺炎、结膜炎、哮喘、发烧）和心理因素的表现；成年猫持续 24 小时不吃就可能严重影响健康，6 周龄以下幼猫 12 小时即可能致命；不吃的猫需要全面兽医检查；强行喂食会加重厌食。",
+          "support_check": "ai_checked",
+          "locator": "第 1、3、5 段"
+        },
+        {
+          "id": "cornell-hepatic-lipidosis",
+          "title": "Hepatic Lipidosis",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/node/4062",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No publication date on page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "脂肪肝几乎总是伴随或继发于厌食，肥胖猫更常见，可致命。",
+          "support_check": "ai_checked",
+          "locator": "概述段落"
+        }
+      ],
+      "url_path": "/entries/not-eating-24-hours/"
+    },
+    {
+      "id": "CG-0036",
+      "slug": "when-vomiting-needs-a-vet",
+      "type": "recommendation",
+      "title": "猫呕吐：每周超过一次，或伴随其他症状，就要看兽医",
+      "summary": "偶尔吐一次不一定是病。但每周吐不止一次，或吐的同时精神差、不吃、吐血、喝水尿量变化、腹泻，应尽快就医。",
+      "category": "early-signs",
+      "tags": [
+        "vomiting",
+        "hidden-illness"
+      ],
+      "recommendation": "记录猫呕吐的频率。每周超过一次，或伴随精神差、虚弱、食欲下降、吐出血、喝水变多、尿量变化、腹泻中任何一项，尽快看兽医。",
+      "why_it_matters": "康奈尔大学猫健康中心明确写出了这个界线：很多猫偶尔会吐，但每周吐超过一次，或出现上述任何伴随症状，应及时就诊。 呕吐的原因包括毛球、有毒植物、变质食物、人用药、线状异物、寄生虫、炎症性肠病、肿瘤，以及糖尿病、肾病、甲亢等代谢病。 吐毛球很常见，但“吐毛球”和其他原因的呕吐，主人在家很难区分。",
+      "how_to_do_it": [
+        "在手机里记下每次呕吐的日期、吐的是什么（毛球、食物、液体、有没有血）。",
+        "拍照或拍视频，复诊时给兽医看。",
+        "反复干呕却吐不出东西，也要就医（可能是哮喘等呼吸道问题）。"
+      ],
+      "warning_signs": [
+        "每周呕吐超过一次",
+        "吐出血或咖啡渣样物",
+        "同时精神差、不吃、喝水变多、尿量变化或腹泻",
+        "反复干呕吐不出来"
+      ],
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "important",
+      "related": [
+        "CG-0028",
+        "CG-0031"
+      ],
+      "scores": {
+        "benefit": 4,
+        "risk_reduction": 4,
+        "money_cost": 2,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "大学兽医学院的呕吐页面给出明确的就医界线，毛球页面一致地建议反复干呕或呕吐时尽快检查。",
+        "gaps": [
+          "注意：同一机构的毛球页面说“每一两周吐一次毛球并不少见”，与“每周超过一次就就医”有轻微张力；本条采取更谨慎的界线，由兽医判断是否为毛球。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "常见疾病早期信号",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "A",
+        "uncapped_grade": "A",
+        "score": 2.95,
+        "breakdown": {
+          "value": 4,
+          "confidence": 0.85,
+          "burden": 1,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "cornell-vomiting",
+          "title": "Vomiting",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2021,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/vomiting",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "Page states \"Last updated 2021\".",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "呕吐每周超过一次，或伴随精神差、虚弱、食欲下降、呕吐物带血、口渴增加、尿量增减、腹泻，应及时就诊；列出常见原因（毛球、有毒植物、变质食物、人用药、线、防冻液、代谢病等）。",
+          "support_check": "ai_checked",
+          "locator": "第 2–4 段"
+        },
+        {
+          "id": "cornell-hairball",
+          "title": "The Danger of Hairballs",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/danger-hairballs",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "精神差、一两天以上不吃、反复干呕或呕吐的猫应尽快检查；频繁干咳干呕可能与毛球无关，可能是哮喘等呼吸道疾病。",
+          "support_check": "ai_checked",
+          "locator": "Dr. Goldstein 建议段落"
+        }
+      ],
+      "url_path": "/entries/when-vomiting-needs-a-vet/"
+    },
+    {
+      "id": "CG-0037",
+      "slug": "drinking-and-peeing-more",
+      "type": "recommendation",
+      "title": "喝水变多、尿变多：尽快查血查尿",
+      "summary": "猫突然比以前喝得多、尿团变大变多，是慢性肾病、糖尿病、甲亢等常见病的早期信号，尤其是中老年猫。",
+      "category": "early-signs",
+      "tags": [
+        "drinking-more",
+        "kidney-disease",
+        "hidden-illness"
+      ],
+      "recommendation": "发现猫喝水明显变多、猫砂结团变大或变多，预约兽医做血液和尿液检查；同时有体重下降时更要尽快。",
+      "why_it_matters": "康奈尔大学猫健康中心的三篇疾病页面都把“多饮多尿”列为主人在家最能发现的信号： 慢性肾病影响 10 岁以上猫的约 40%、15 岁以上猫的约 80%，早期常没有明显症状，之后会尿多、喝多；糖尿病最常见的两个信号是“吃得多却变瘦”和多饮多尿；甲亢的常见信号是体重下降、食欲增加、多饮多尿。 这些病越早发现，越好控制。",
+      "how_to_do_it": [
+        "固定用同样大小的水碗，留意每天要加多少水。",
+        "铲屎时留意尿团数量和大小的变化。",
+        "去医院时最好带上新鲜尿样，或按兽医指导用不吸水的猫砂收集。"
+      ],
+      "warning_signs": [
+        "喝水明显变多，水碗空得快",
+        "尿团变大变多，猫砂消耗变快",
+        "同时吃得多却变瘦",
+        "在猫砂盆外排尿（尿量变多也可能导致这种情况）"
+      ],
+      "applies_to": [
+        "all",
+        "adult",
+        "senior"
+      ],
+      "urgency": "important",
+      "related": [
+        "CG-0016",
+        "CG-0018",
+        "CG-0038"
+      ],
+      "scores": {
+        "benefit": 4,
+        "risk_reduction": 4,
+        "money_cost": 3,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "同一大学兽医学院的三篇疾病页面（肾病、糖尿病、甲亢）各自独立描述多饮多尿；老年猫页面补充了尿量增加与乱尿的关系。",
+        "gaps": [
+          "TODO: 用 2021 老年猫指南全文核对多饮多尿的表述。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "常见疾病早期信号",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "A",
+        "uncapped_grade": "A",
+        "score": 2.72,
+        "breakdown": {
+          "value": 4,
+          "confidence": 0.85,
+          "burden": 1.5,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "cornell-ckd",
+          "title": "Chronic Kidney Disease",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/chronic-kidney-disease",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "CKD 影响约 40% 的 10 岁以上猫和 80% 的 15 岁以上猫；早期常无明显症状，随后尿量增加、饮水增加；早期诊断预后更好，老年猫应定期监测。",
+          "support_check": "ai_checked",
+          "locator": "第 1–2 段、总结段落"
+        },
+        {
+          "id": "cornell-diabetes",
+          "title": "Feline Diabetes",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2024,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-diabetes",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "Page states \"Updated 2024\".",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "主人最常发现的两个糖尿病信号是“食欲好却体重下降”和饮水、排尿增加；肥胖猫患糖尿病风险最高可达理想体重猫的 4 倍。",
+          "support_check": "ai_checked",
+          "locator": "临床表现段落"
+        },
+        {
+          "id": "cornell-hyperthyroid",
+          "title": "Hyperthyroidism in Cats",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/hyperthyroidism-cats",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "甲亢最常见的表现是体重下降、食欲增加、多饮多尿。",
+          "support_check": "ai_checked",
+          "locator": "临床表现段落"
+        },
+        {
+          "id": "cornell-senior",
+          "title": "The Special Needs of the Senior Cat",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2016,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/special-needs-senior-cat",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "Page states \"Updated December 2016\".",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "肾衰、糖尿病、甲亢等老年常见病导致尿量增加，猫砂盆更快变脏，可能使猫在盆外排泄。",
+          "support_check": "ai_checked",
+          "locator": "行为变化段落"
+        }
+      ],
+      "url_path": "/entries/drinking-and-peeing-more/"
+    },
+    {
+      "id": "CG-0038",
+      "slug": "weigh-monthly-catch-weight-loss",
+      "type": "recommendation",
+      "title": "每月称一次体重，留意不明原因的变瘦",
+      "summary": "天天见很难看出猫瘦了。每月称重记录，不明原因的体重下降是肿瘤、糖尿病、甲亢、肾病的共同信号。",
+      "category": "early-signs",
+      "tags": [
+        "weight",
+        "hidden-illness"
+      ],
+      "recommendation": "每月用同一个秤给猫称重并记录。没有在减肥却体重下降，尤其是“吃得多却变瘦”，预约兽医。",
+      "why_it_matters": "康奈尔大学猫健康中心的癌症警示信号页面建议每月称重，因为天天见很难判断体重变化；不明原因的体重下降应“拉响警报”。 糖尿病、甲亢的常见信号都是“食欲正常或增加却变瘦”；对 FIV 阳性猫，体重下降常是病情恶化的第一个信号。",
+      "how_to_do_it": [
+        "抱着猫站上体重秤，减去自己的体重；或用婴儿秤。",
+        "每月同一天称，记在手机备忘录或表格里。",
+        "配合每月一次的体况评分（见“每月检查体况”条目）。"
+      ],
+      "warning_signs": [
+        "没有减肥计划，体重却持续下降",
+        "吃得多却变瘦",
+        "背部、臀部摸起来骨头越来越明显"
+      ],
+      "applies_to": [
+        "all",
+        "adult",
+        "senior"
+      ],
+      "urgency": "important",
+      "related": [
+        "CG-0011",
+        "CG-0037"
+      ],
+      "scores": {
+        "benefit": 4,
+        "risk_reduction": 3,
+        "money_cost": 0,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "大学兽医学院多个页面（癌症信号、糖尿病、甲亢、FIV）一致把体重下降列为重要早期信号，并明确建议每月称重。",
+        "gaps": [
+          "UNKNOWN: 下降多少需要就医，已读来源没有给出百分比阈值。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "常见疾病早期信号",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "A",
+        "uncapped_grade": "A",
+        "score": 3.06,
+        "breakdown": {
+          "value": 3.6,
+          "confidence": 0.85,
+          "burden": 0,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "cornell-cancer-signs",
+          "title": "Warning signs of cancer",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/warning-signs-cancer",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "不明原因体重下降应引起警惕；癌症可导致食欲正常却体重下降；建议每月称重，因为每天见到猫很难判断变化；每月检查有无新肿块。",
+          "support_check": "ai_checked",
+          "locator": "Weight loss / lumps 段落"
+        },
+        {
+          "id": "cornell-diabetes",
+          "title": "Feline Diabetes",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2024,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-diabetes",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "Page states \"Updated 2024\".",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "糖尿病常见信号是食欲好却体重下降。",
+          "support_check": "ai_checked",
+          "locator": "临床表现段落"
+        },
+        {
+          "id": "cornell-hyperthyroid",
+          "title": "Hyperthyroidism in Cats",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/hyperthyroidism-cats",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "甲亢最常见的表现包括体重下降和食欲增加。",
+          "support_check": "ai_checked",
+          "locator": "临床表现段落"
+        },
+        {
+          "id": "cornell-fiv",
+          "title": "Feline Immunodeficiency Virus (FIV)",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2021,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-immunodeficiency-virus-fiv",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "Page states \"Last updated 2021\".",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "FIV 阳性猫的体重下降常是病情恶化的第一个信号，应准确测量并记录。",
+          "support_check": "ai_checked",
+          "locator": "管理段落"
+        }
+      ],
+      "url_path": "/entries/weigh-monthly-catch-weight-loss/"
+    },
+    {
+      "id": "CG-0039",
+      "slug": "behavior-change-is-a-health-signal",
+      "type": "recommendation",
+      "title": "行为突然变了，先想到可能是生病，不要只当成“老了”或“闹脾气”",
+      "summary": "躲起来、不爱玩、变凶、乱尿、不理毛，可能是疼痛或疾病的表现。猫很会掩饰生病。",
+      "category": "early-signs",
+      "tags": [
+        "hidden-illness",
+        "behavior-change"
+      ],
+      "recommendation": "猫的行为或日常习惯出现明显变化时，先带去兽医检查身体，排除疼痛和疾病，再考虑行为问题。",
+      "why_it_matters": "康奈尔大学猫健康中心反复强调：猫很擅长掩饰疾病，常常到病情很重才表现出来；不要把老年猫的变化都当成“只是老了”。 具体例子包括：牙病或关节炎的疼痛会让猫变得有攻击性；关节炎会让猫难以进出猫砂盆；甲亢、牙病、神经系统问题可能导致攻击行为；躲藏、不再晒太阳、不爱玩可能是癌症等疾病的早期信号；不理毛也提示身体不舒服。",
+      "how_to_do_it": [
+        "记下变化开始的时间和具体表现，拍视频（见“就医前记录变化”条目）。",
+        "先排除身体原因，再找行为方面的办法。",
+        "不要因为猫“变坏了”而惩罚它，惩罚会加重恐惧和攻击。"
+      ],
+      "warning_signs": [
+        "比平时躲得多、不想互动",
+        "不再跳上常去的高处",
+        "突然变凶、碰到某处就咬",
+        "毛变得杂乱、油腻、打结",
+        "突然在猫砂盆外排泄"
+      ],
+      "applies_to": [
+        "all",
+        "senior"
+      ],
+      "urgency": "important",
+      "related": [
+        "CG-0028",
+        "CG-0037"
+      ],
+      "scores": {
+        "benefit": 4,
+        "risk_reduction": 3,
+        "money_cost": 2,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "同一大学兽医学院的多个页面（老年猫、攻击行为、癌症信号、关节病）一致；2014 AAFP/ISFM 乱尿指南同样要求先排除疾病。",
+        "gaps": [
+          "TODO: 纳入猫疼痛识别量表（如猫面部疼痛评分）的研究。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "常见疾病早期信号",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "A",
+        "uncapped_grade": "A",
+        "score": 2.61,
+        "breakdown": {
+          "value": 3.6,
+          "confidence": 0.85,
+          "burden": 1,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "cornell-senior",
+          "title": "The Special Needs of the Senior Cat",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2016,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/special-needs-senior-cat",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "Page states \"Updated December 2016\".",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "不要认为老年猫的变化只是老了、无法治疗；任何行为或身体变化都应联系兽医；疼痛（牙病、关节炎）可导致攻击；猫擅长掩饰疾病。",
+          "support_check": "ai_checked",
+          "locator": "Behavior changes 段落、结尾段落"
+        },
+        {
+          "id": "cornell-aggression",
+          "title": "Feline Behavior Problems: Aggression",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2016,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-behavior-problems-aggression",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "Page states \"Updated December 2016\".",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "管理攻击行为的第一步是排除疾病，甲亢、骨关节炎、牙病和中枢神经问题都可能导致攻击；任何体罚都会增加恐惧和焦虑，加重攻击。",
+          "support_check": "ai_checked",
+          "locator": "管理原则段落"
+        },
+        {
+          "id": "cornell-cancer-signs",
+          "title": "Warning signs of cancer",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/warning-signs-cancer",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "更常躲起来、不像平时那样互动、不去喜欢的晒太阳地点、不爱玩、不理毛，都可能是身体不适的信号。",
+          "support_check": "ai_checked",
+          "locator": "前几段"
+        },
+        {
+          "id": "cornell-slowing",
+          "title": "Is Your Cat Slowing Down?",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/your-cat-slowing-down",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "活动减少、躲藏是关节问题的表现；关节炎的猫可能难以进出猫砂盆、避免上下楼梯、无法正常理毛。",
+          "support_check": "ai_checked",
+          "locator": "Dr. Bellezza 段落"
+        }
+      ],
+      "url_path": "/entries/behavior-change-is-a-health-signal/"
+    },
+    {
+      "id": "CG-0041",
+      "slug": "check-eyes-for-changes",
+      "type": "recommendation",
+      "title": "定期看看猫的眼睛：瞳孔不一样大、眼睛变浑要就医",
+      "summary": "很多“突然失明”其实是慢慢发生、主人突然才发现，常见于有高血压的老年猫。早发现有可能保住视力。",
+      "category": "senior",
+      "tags": [
+        "vision",
+        "blood-pressure"
+      ],
+      "recommendation": "每周看一看猫的两只眼睛：虹膜颜色、是否浑浊、两侧瞳孔是否一样大。发现变化，或猫开始撞家具、找不到食盆，尽快就医。",
+      "why_it_matters": "康奈尔大学猫健康中心的眼科专家指出，真正的“突然失明”比较少见，更常见的是“突然才被发现的失明”：老年猫长期高血压导致视网膜脱落和眼内出血，视力逐渐下降，主人直到最后才注意到。 早期治疗高血压有时能让视网膜重新贴合、恢复部分视力；等到完全失明再就医，大多数猫无法恢复。2017 ISFM 高血压指南也把失明和双侧瞳孔散大列为严重眼部损害的表现。",
+      "how_to_do_it": [
+        "在光线充足的地方，看两只眼睛是否一样亮、一样清澈，瞳孔是否一样大。",
+        "老年猫按年龄定期量血压（见“老年猫量血压”条目）。"
+      ],
+      "warning_signs": [
+        "两侧瞳孔大小不一，或在亮处也一直很大",
+        "眼睛变浑浊、虹膜颜色改变",
+        "撞家具、找不到食盆、受惊时僵在原地"
+      ],
+      "applies_to": [
+        "all",
+        "senior"
+      ],
+      "urgency": "urgent",
+      "related": [
+        "CG-0018"
+      ],
+      "scores": {
+        "benefit": 4,
+        "risk_reduction": 3,
+        "money_cost": 0,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "大学兽医学院眼科专家的说法与 2017 ISFM 高血压共识指南（已读全文）一致。"
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "老年猫",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "A",
+        "uncapped_grade": "A",
+        "score": 3.06,
+        "breakdown": {
+          "value": 3.6,
+          "confidence": 0.85,
+          "burden": 0,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "cornell-sudden-blind",
+          "title": "Sudden Blindness",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/sudden-blindness",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "真正的突然失明较少见，更常见的是逐渐失明后被突然发现，多见于有慢性高血压的老年猫（视网膜脱落、眼底出血）；主人应定期检查虹膜颜色、浑浊、两侧瞳孔是否一致；早期治疗高血压可能让视网膜复位、恢复部分视力；临床失明后就诊的大多数猫无法恢复。",
+          "support_check": "ai_checked",
+          "locator": "Dr. Kern 段落"
+        },
+        {
+          "id": "isfm-hypertension-2017",
+          "title": "ISFM Consensus Guidelines on the Diagnosis and Management of Hypertension in Cats",
+          "organization": "ISFM",
+          "authors": [
+            "Taylor",
+            "Sparkes",
+            "Briscoe"
+          ],
+          "year": 2017,
+          "container": "Journal of Feline Medicine and Surgery",
+          "doi": "10.1177/1098612X17693500",
+          "url": "https://doi.org/10.1177/1098612X17693500",
+          "pmcid": "PMC11119534",
+          "source_type": "consensus_statement",
+          "tier": 1,
+          "conflict_of_interest": "Supported by an educational grant from Ceva to the ISFM; panel declares no conflicts.",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "full_text",
+            "checked": "2026-11-20",
+            "method": "Crossref + full text on PMC (pmc.ncbi.nlm.nih.gov article page)"
+          },
+          "supports": "严重高血压眼部损害常表现为失明和双侧瞳孔散大，往往不可逆。",
+          "support_check": "ai_checked",
+          "locator": "Target organ damage – eye"
+        }
+      ],
+      "url_path": "/entries/check-eyes-for-changes/"
+    },
+    {
+      "id": "CG-0043",
+      "slug": "chocolate-grapes-xylitol",
+      "type": "dont",
+      "title": "巧克力、葡萄、葡萄干、牛油果和含木糖醇的食物不要给猫",
+      "summary": "这些人类食物被兽医学院列为对猫有毒。巧克力（尤其黑巧和烘焙用巧克力）可能引起心律失常、震颤和抽搐。",
+      "category": "toxins",
+      "tags": [
+        "toxic-foods"
+      ],
+      "recommendation": "不给猫吃巧克力、葡萄、葡萄干、牛油果、含木糖醇的口香糖或食品，以及洋葱大蒜（见单独条目）。零食和糖果收好，垃圾桶加盖。",
+      "why_it_matters": "康奈尔大学猫健康中心把葡萄、洋葱、葡萄干、牛油果、含木糖醇的食物和巧克力列为对猫有毒的食物，并指出巧克力（尤其是烘焙用巧克力）含有的成分可能导致心律异常、震颤、精神沉郁和抽搐。 节日期间还要注意糖果、包装纸和棒棒糖棍。",
+      "how_to_do_it": [
+        "吃零食时不要分给猫。",
+        "垃圾桶选带盖的。",
+        "来客人时提醒不要喂猫。"
+      ],
+      "warning_signs": [
+        "吃了巧克力后发抖、兴奋、心跳快、呕吐：立即联系兽医。"
+      ],
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "important",
+      "related": [
+        "CG-0006",
+        "CG-0032"
+      ],
+      "scores": {
+        "benefit": 3,
+        "risk_reduction": 4,
+        "money_cost": 0,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "大学兽医学院两个页面与 ASPCA 动物中毒控制中心的人类食物清单一致。部分食物（如葡萄）对猫的毒性证据主要来自狗，猫的数据较少。",
+        "gaps": [
+          "UNKNOWN: 葡萄 / 葡萄干对猫的毒性程度，猫专属的病例数据很少。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "有毒物质",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "A",
+        "uncapped_grade": "A",
+        "score": 2.89,
+        "breakdown": {
+          "value": 3.4,
+          "confidence": 0.85,
+          "burden": 0,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "cornell-hazards",
+          "title": "Common Cat Hazards",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "对猫有毒的食物包括葡萄、洋葱、葡萄干、牛油果、含木糖醇的食品、巧克力。",
+          "support_check": "ai_checked",
+          "locator": "Toxic Foods 段落"
+        },
+        {
+          "id": "cornell-poisons",
+          "title": "Poisons",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/poisons",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "葡萄、洋葱、葡萄干、牛油果、含木糖醇的口香糖可能严重伤害猫；巧克力尤其是烘焙巧克力可能导致心律异常、震颤、沉郁和抽搐。",
+          "support_check": "ai_checked",
+          "locator": "Human food 条目"
+        },
+        {
+          "id": "aspca-people-foods",
+          "title": "People Foods to Avoid Feeding Your Pets",
+          "organization": "ASPCA Animal Poison Control Center",
+          "year": 2026,
+          "container": "ASPCA Pet Care",
+          "url": "https://www.aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No publication date on page; year is the access year. Several items on the page are not cat-specific (e.g. grapes/raisins is described for dogs).",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "列出对宠物有害的人类食物，包括巧克力、葡萄和葡萄干、牛油果、木糖醇。",
+          "support_check": "ai_checked",
+          "locator": "对应食物段落"
+        }
+      ],
+      "url_path": "/entries/chocolate-grapes-xylitol/"
+    },
+    {
+      "id": "CG-0044",
+      "slug": "household-chemicals-and-antifreeze",
+      "type": "dont",
+      "title": "防冻液、灭鼠药、杀虫剂、清洁剂都要锁好",
+      "summary": "杀虫剂、灭鼠药、漂白剂等清洁剂、防冻液和含铅油漆是猫中毒最常见的来源。洒出来要马上清理干净。",
+      "category": "toxins",
+      "tags": [
+        "poisoning",
+        "household-chemicals"
+      ],
+      "recommendation": "清洁剂、杀虫剂、灭鼠药、蜗牛药、化肥、防冻液、油漆稀释剂、泳池化学品放在猫进不去的柜子或房间；洒出来立刻清理。家里有猫时尽量不用灭鼠药。",
+      "why_it_matters": "康奈尔大学猫健康中心转引 ASPCA 的数据：猫中毒最常见的原因包括草坪花园用杀虫剂、灭鼠药、漂白剂等清洁剂、洒出后被舔食的防冻液，以及老房子里的含铅油漆。 灭鼠药可导致内出血、抽搐和肾损伤；防冻液、油漆稀释剂和泳池化学品可导致肾衰竭、胃肠不适、呼吸困难或化学烧伤；清洁剂吞下后可引起严重的胃肠和呼吸道问题。 猫会舔爪子和毛，沾在地上、身上的化学品也会被吃进去。",
+      "how_to_do_it": [
+        "清洁后等地面干透再让猫进入。",
+        "老房子翻修打磨时，把猫关在远离施工的房间。",
+        "不让猫接触车库地面（防冻液常从车里漏出）。"
+      ],
+      "warning_signs": [
+        "怀疑接触或舔食了化学品：立即联系兽医，带上包装（见“怀疑猫中毒”条目）。"
+      ],
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "important",
+      "related": [
+        "CG-0032"
+      ],
+      "scores": {
+        "benefit": 3,
+        "risk_reduction": 4,
+        "money_cost": 0,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "大学兽医学院两个页面一致，并引用 ASPCA 动物中毒控制中心的来电数据。",
+        "gaps": [
+          "TODO: 纳入防冻液（乙二醇）中毒的猫病例研究。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "有毒物质",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "A",
+        "uncapped_grade": "A",
+        "score": 2.89,
+        "breakdown": {
+          "value": 3.4,
+          "confidence": 0.85,
+          "burden": 0,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "cornell-poisons",
+          "title": "Poisons",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/poisons",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "引用 ASPCA，最常见猫中毒原因包括草坪花园杀虫剂、灭鼠药、漂白剂等清洁剂、洒出的防冻液、含铅油漆；灭鼠药可致内出血、抽搐、肾损伤；防冻液、油漆稀释剂、泳池化学品可致肾衰、胃肠不适、呼吸困难或化学烧伤；清洁剂可致严重胃肠和呼吸道问题。",
+          "support_check": "ai_checked",
+          "locator": "第 2 段与 10 类清单"
+        },
+        {
+          "id": "cornell-hazards",
+          "title": "Common Cat Hazards",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "家用化学品要放在猫够不到的地方，洒出要及时清理；列出杀虫剂、灭鼠药、化肥、除草剂、蜗牛药、防冻液、油漆稀释剂、泳池化学品、清洁剂。",
+          "support_check": "ai_checked",
+          "locator": "Household chemicals 段落"
+        }
+      ],
+      "url_path": "/entries/household-chemicals-and-antifreeze/"
+    },
+    {
+      "id": "CG-0049",
+      "slug": "avoid-raw-food-and-raw-milk",
+      "type": "dont",
+      "title": "不要给猫吃生肉粮、生骨肉、冻干生肉和生牛奶",
+      "summary": "生肉和未经巴氏消毒的奶可能带有 H5N1 禽流感病毒、弓形虫和细菌。多起猫感染禽流感死亡与生肉猫粮有关，冻干生肉也不例外。",
+      "category": "nutrition",
+      "tags": [
+        "raw-diet",
+        "bird-flu"
+      ],
+      "recommendation": "选择经过烹饪或加热处理的商品猫粮，不喂生肉、生骨肉、冻干生肉零食、生蛋和未经巴氏消毒的奶。关注猫粮召回信息。",
+      "why_it_matters": "康奈尔大学猫健康中心指出，H5N1 禽流感可让猫严重发病，最多约 70% 的感染猫死亡；已知或怀疑的感染来源包括生牛奶、生肉和禽肉产品。美国已有多起猫感染与特定生肉猫粮有关，FDA 在病猫和它吃的生肉粮中检出相同基因型的病毒。康奈尔明确建议不要喂生肉（包括冻干生肉）食品和零食。 此外，生肉是猫感染弓形虫最常见的途径之一，避免生肉饮食也是控制寄生虫的措施；FIV 阳性等免疫力低下的猫更要避免生肉、生蛋和未消毒的奶。",
+      "how_to_do_it": [
+        "看配料和工艺：标注“生”“raw”“冻干生肉”的产品都属于生食。",
+        "处理生肉后洗手，不让猫舔食处理台。",
+        "关注当地和品牌的猫粮召回通知。"
+      ],
+      "warning_signs": [
+        "吃过生肉或生奶后发烧、不吃、精神差、呼吸困难、走路不稳、发抖、抽搐：立即联系兽医，先打电话再去，并把这只猫与其他宠物隔开。"
+      ],
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "important",
+      "region_notes": "H5N1 相关病例和召回目前主要报告于美国；其他地区的禽流感流行情况不同，但生肉带来的寄生虫和细菌风险各地都存在。",
+      "related": [
+        "CG-0008"
+      ],
+      "scores": {
+        "benefit": 3,
+        "risk_reduction": 4,
+        "money_cost": 0,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "B",
+        "summary": "大学兽医学院多个页面一致（禽流感、寄生虫、弓形虫、FIV），并引用 FDA 的检测结果。 生食的营养或健康“好处”没有可靠证据支持，本项目暂未收录。",
+        "gaps": [
+          "TODO: Freeman 2013 生肉饮食综述目前只读到元数据，读到全文后补充细菌风险数据。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "饮食与营养",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "A",
+        "uncapped_grade": "A",
+        "score": 2.89,
+        "breakdown": {
+          "value": 3.4,
+          "confidence": 0.85,
+          "burden": 0,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "cornell-h5n1",
+          "title": "H5N1 Avian Influenza and your cat",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/h5n1-avian-influenza-and-your-cat",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "H5N1 可致猫严重疾病，最多 70% 感染猫死亡；可疑感染来源包括生牛奶、生肉禽肉产品；建议不喂生肉（包括冻干生肉）食品和零食、不喂未消毒奶；多起猫感染与生肉猫粮有关，FDA 在病猫和生肉粮中检出相同基因型病毒；有症状时先打电话再带去医院并隔离。",
+          "support_check": "ai_checked",
+          "locator": "预防建议与病例段落"
+        },
+        {
+          "id": "cornell-gi-parasites",
+          "title": "Gastrointestinal Parasites of Cats",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2018,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/gastrointestinal-parasites-cats",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "Page states \"Updated June 2018\".",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "寄生虫控制包括避免含生肉的饮食；猫最常通过吃猎物或生肉中的包囊感染弓形虫。",
+          "support_check": "ai_checked",
+          "locator": "Toxoplasma 与结尾段落"
+        },
+        {
+          "id": "cornell-toxo",
+          "title": "Toxoplasmosis in Cats",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2018,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/toxoplasmosis-cats",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "Page states \"Updated June 2018\".",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "猫最好吃经过烹饪的商品粮，加热可灭活弓形虫包囊；不应让猫吃生肉或啮齿动物。",
+          "support_check": "ai_checked",
+          "locator": "Prevention 段落"
+        },
+        {
+          "id": "cornell-fiv",
+          "title": "Feline Immunodeficiency Virus (FIV)",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2021,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-immunodeficiency-virus-fiv",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "Page states \"Last updated 2021\".",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "FIV 阳性猫应避免生肉、生蛋和未经巴氏消毒的奶制品，以减少食源性细菌和寄生虫感染。",
+          "support_check": "ai_checked",
+          "locator": "管理段落"
+        },
+        {
+          "id": "freeman-2013-raw-meat-diets",
+          "title": "Current knowledge about the risks and benefits of raw meat-based diets for dogs and cats",
+          "organization": "Journal of the American Veterinary Medical Association",
+          "authors": [
+            "Freeman",
+            "Chandler"
+          ],
+          "year": 2013,
+          "container": "Journal of the American Veterinary Medical Association",
+          "doi": "10.2460/javma.243.11.1549",
+          "pmid": "24261804",
+          "url": "https://doi.org/10.2460/javma.243.11.1549",
+          "source_type": "narrative_review",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "metadata_only",
+            "checked": "2026-11-20",
+            "method": "Crossref; no abstract; publisher blocks automated access"
+          },
+          "supports": "关于生肉饮食风险与益处的综述（待读全文）。",
+          "support_check": "pending"
+        }
+      ],
+      "url_path": "/entries/avoid-raw-food-and-raw-milk/"
     },
     {
       "id": "CG-0006",
@@ -2708,6 +4699,116 @@
       "url_path": "/entries/small-meals-and-puzzle-feeders/"
     },
     {
+      "id": "CG-0042",
+      "slug": "common-toxic-plants",
+      "type": "dont",
+      "title": "除了百合，这些常见植物也不要放在猫能碰到的地方",
+      "summary": "一品红、郁金香、毛地黄、喜林芋（蔓绿绒）、绣球、孤挺花、槲寄生、冬青等都对猫有毒。买花前先查一查。",
+      "category": "toxins",
+      "tags": [
+        "toxic-plants"
+      ],
+      "recommendation": "养猫的家里优先选择确认对猫无毒的植物；有毒植物不要放在室内，或放在猫绝对接触不到的地方。不确定就先查 ASPCA 的有毒 / 无毒植物数据库。",
+      "why_it_matters": "康奈尔大学猫健康中心列出的有毒植物包括一品红、百合、槲寄生、冬青、郁金香、毛地黄、喜林芋、孤挺花、满天星、须苞石竹、绣球等，并强调这只是一部分。 对于一品红等常见观赏植物，猫只吃一小片叶子就可能生病，吃得多可能致命；百合尤其危险，极少量就能导致肾衰竭（见“家里不要放百合”条目）。",
+      "how_to_do_it": [
+        "买花、收花前查一下品种名。",
+        "花束里常混有多种植物，不确定的整束都不要放在家里。",
+        "猫爱啃植物时，可以种猫草作为替代。"
+      ],
+      "warning_signs": [
+        "发现猫啃了不认识的植物后呕吐、流口水、精神差：联系兽医，带上植物或照片。"
+      ],
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "important",
+      "related": [
+        "CG-0003",
+        "CG-0032"
+      ],
+      "scores": {
+        "benefit": 3,
+        "risk_reduction": 4,
+        "money_cost": 0,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "C",
+        "summary": "大学兽医学院两个页面列出了植物清单，但没有区分每种植物的毒性严重程度；不同植物的危险程度差别很大。",
+        "gaps": [
+          "TODO: 逐一核对 ASPCA 有毒植物数据库中每种植物对猫的毒性与症状。",
+          "UNKNOWN: “猫草”替代的效果没有来源支持，属于常见做法。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "有毒物质",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "B",
+        "uncapped_grade": "B",
+        "score": 2.21,
+        "breakdown": {
+          "value": 3.4,
+          "confidence": 0.65,
+          "burden": 0,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "cornell-hazards",
+          "title": "Common Cat Hazards",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "列出对猫有毒的植物（一品红、百合、槲寄生、冬青、郁金香、毛地黄、喜林芋、孤挺花、满天星、须苞石竹、绣球），并说明不限于这些；一品红等吃一小片就可能生病，吃得多可能致命；百合极少量即可致命性肾衰。",
+          "support_check": "ai_checked",
+          "locator": "Plants 段落"
+        },
+        {
+          "id": "cornell-poisons",
+          "title": "Poisons",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/poisons",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "百合、郁金香、毛地黄、喜林芋是数百种对猫有毒植物中的几种。",
+          "support_check": "ai_checked",
+          "locator": "Indoor and outdoor plants 条目"
+        }
+      ],
+      "url_path": "/entries/common-toxic-plants/"
+    },
+    {
       "id": "CG-0010",
       "slug": "limit-treats",
       "type": "recommendation",
@@ -3059,6 +5160,598 @@
         }
       ],
       "url_path": "/entries/record-changes-and-videos/"
+    },
+    {
+      "id": "CG-0040",
+      "slug": "bad-breath-is-not-normal",
+      "type": "recommendation",
+      "title": "口臭不正常，持续口臭要看兽医",
+      "summary": "健康猫的口气不应该难闻。持续口臭常见于牙周病，也可能是糖尿病、肾病、肝病或口腔肿瘤的信号。",
+      "category": "early-signs",
+      "tags": [
+        "dental",
+        "bad-breath"
+      ],
+      "recommendation": "猫持续口臭时预约兽医检查口腔；同时留意是否喝水尿量变化、体重下降、呕吐。",
+      "why_it_matters": "康奈尔大学猫健康中心的兽医牙科专家指出，健康猫的口气不应该难闻，持续口臭需要兽医检查找原因。 类似人口臭的气味可能是牙周病；甜味或水果味可能与糖尿病有关；尿味或氨味可能与肾病有关；伴随呕吐的恶臭可能是肝病或肠梗阻；也可能是口腔溃疡或肿瘤。",
+      "how_to_do_it": [
+        "平时摸猫时顺手掀起上唇看看牙龈是否红肿、牙上有没有黄褐色牙结石。",
+        "不要用人用牙膏，其成分可能让猫肠胃不适。"
+      ],
+      "warning_signs": [
+        "牙龈红肿、出血",
+        "流口水、用爪子扒嘴",
+        "想吃却吃不下、吃东西时只用一边嚼"
+      ],
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "important",
+      "related": [
+        "CG-0019",
+        "CG-0020"
+      ],
+      "scores": {
+        "benefit": 3,
+        "risk_reduction": 3,
+        "money_cost": 2,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "C",
+        "summary": "来自大学兽医学院一个由兽医牙科专家撰写的页面；气味与疾病的对应关系只是提示，不能用来自己诊断。",
+        "gaps": [
+          "TODO: 用 2019 AAHA 牙科指南全文核对。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "常见疾病早期信号",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "C",
+        "uncapped_grade": "C",
+        "score": 1.5,
+        "breakdown": {
+          "value": 3,
+          "confidence": 0.65,
+          "burden": 1,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "cornell-bad-breath",
+          "title": "Bad Breath: Sign of Illness?",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/bad-breath-sign-illness",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "健康猫口气不应难闻；持续口臭应由兽医检查；不同气味可能提示牙周病、糖尿病、肾病、肝病或肠梗阻；也可能来自口腔溃疡或肿瘤；不要用人用牙膏。",
+          "support_check": "ai_checked",
+          "locator": "全文与侧栏"
+        }
+      ],
+      "url_path": "/entries/bad-breath-is-not-normal/"
+    },
+    {
+      "id": "CG-0045",
+      "slug": "essential-oils-and-potpourri",
+      "type": "dont",
+      "title": "精油和加热香薰不要放在猫能碰到的地方",
+      "summary": "猫会被精油的味道吸引，舔到洒在毛上的精油可能造成口腔、舌头和食道严重化学烧伤。",
+      "category": "toxins",
+      "tags": [
+        "essential-oils"
+      ],
+      "recommendation": "精油瓶、香薰炉、加热的香氛液放在猫碰不到的地方，选择有盖、猫打不开的容器。精油洒到猫身上时联系兽医。",
+      "why_it_matters": "康奈尔大学兽医学院急诊重症科主任指出，他们常见的节日伤害之一，是猫打翻香薰容器后舔舐沾在毛上的精油，导致舌头严重化学烧伤；吞下精油可以造成口腔、舌头和食道的显著化学烧伤。 同一页面还提醒，猫拍打明火会烧伤爪子和尾巴，建议用电池蜡烛代替。",
+      "how_to_do_it": [
+        "香薰炉、精油扩香器放在猫跳不上去的地方，或干脆不用。",
+        "用电子蜡烛代替明火蜡烛。"
+      ],
+      "warning_signs": [
+        "流口水、用爪扒嘴、不吃东西、舌头发红或溃疡：可能是化学烧伤，尽快就医。"
+      ],
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "important",
+      "related": [
+        "CG-0046"
+      ],
+      "scores": {
+        "benefit": 2,
+        "risk_reduction": 3,
+        "money_cost": 0,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "C",
+        "summary": "来自大学兽医学院急诊专家的临床经验描述；没有关于不同精油毒性的系统资料。",
+        "gaps": [
+          "UNKNOWN: 扩香（雾化）精油对猫呼吸道的长期影响，本条已读来源没有讨论。",
+          "TODO: 纳入精油中毒的毒理学资料（如茶树油）。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "有毒物质",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "C",
+        "uncapped_grade": "C",
+        "score": 1.56,
+        "breakdown": {
+          "value": 2.4,
+          "confidence": 0.65,
+          "burden": 0,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "cornell-holiday",
+          "title": "Beware Holiday Hazards",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/beware-holiday-hazards",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "猫被明火和许多精油的味道吸引；常见伤害包括拍火导致爪尾烧伤、舔舐洒在毛上的香薰精油导致舌头严重化学烧伤；吞下精油可导致口腔、舌、食道显著化学烧伤；建议香薰容器选用猫无法打开的盖子，用电池蜡烛代替明火。",
+          "support_check": "ai_checked",
+          "locator": "Halloween 段落（Dr. Schoeffler）"
+        }
+      ],
+      "url_path": "/entries/essential-oils-and-potpourri/"
+    },
+    {
+      "id": "CG-0046",
+      "slug": "cords-candles-and-trees",
+      "type": "recommendation",
+      "title": "电线收好、明火不离人、圣诞树要固定",
+      "summary": "啃电线（尤其通电时）很危险；猫会拍打蜡烛火焰被烧伤；没固定的圣诞树可能被猫爬倒。",
+      "category": "safety",
+      "tags": [
+        "home-safety"
+      ],
+      "recommendation": "电线用线槽或保护套包起来；点蜡烛时人不离开，或改用电子蜡烛；圣诞树等高大装饰固定在墙上或天花板上，下层挂不易碎的装饰。",
+      "why_it_matters": "康奈尔大学猫健康中心指出：啃咬灯泡、电线、电话线，尤其是通电的电线，对猫很危险，可以用五金店买的塑料线槽保护；猫拍打火焰会烧伤爪子、尾巴和胡须，打翻的蜡烛还可能引发火灾；没有固定的圣诞树可能被猫爬倒，玻璃和陶瓷装饰碎了也会伤猫。",
+      "how_to_do_it": [
+        "充电线不用时拔掉收起来。",
+        "用线槽把常用电线贴墙固定。",
+        "装饰物用布、木头、稻草等不易碎材质，用布圈而不是挂钩固定。"
+      ],
+      "applies_to": [
+        "all",
+        "kitten"
+      ],
+      "urgency": "routine",
+      "related": [
+        "CG-0031",
+        "CG-0045"
+      ],
+      "scores": {
+        "benefit": 2,
+        "risk_reduction": 3,
+        "money_cost": 1,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "C",
+        "summary": "来自大学兽医学院的节日安全页面，基于兽医临床经验；没有发生率数据。"
+      },
+      "medical_review_required": false,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "安全",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "C",
+        "uncapped_grade": "C",
+        "score": 1.34,
+        "breakdown": {
+          "value": 2.4,
+          "confidence": 0.65,
+          "burden": 0.5,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "cornell-holiday",
+          "title": "Beware Holiday Hazards",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/beware-holiday-hazards",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "啃咬灯泡、电线、电话线（尤其通电时）都危险，可用塑料线槽保护；圣诞树要固定；装饰用不易碎材质；猫拍打火焰会烧伤爪、尾、胡须；不要让猫独自待在有明火的房间。",
+          "support_check": "ai_checked",
+          "locator": "圣诞树、电线、蜡烛段落"
+        },
+        {
+          "id": "cornell-toys",
+          "title": "Safe toys and gifts",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/safe-toys-and-gifts",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "任何猫能啃到的带电线物品都应避免。",
+          "support_check": "ai_checked",
+          "locator": "第 4 段"
+        }
+      ],
+      "url_path": "/entries/cords-candles-and-trees/"
+    },
+    {
+      "id": "CG-0047",
+      "slug": "safe-cheap-toys",
+      "type": "recommendation",
+      "title": "玩具不用贵，但要避开小零件和线状部件",
+      "summary": "纸袋、纸箱、乒乓球就能让猫玩得很开心。真正要注意的是会脱落被吞下的小零件、羽毛和绳子。",
+      "category": "worth-buying",
+      "tags": [
+        "play",
+        "foreign-body"
+      ],
+      "recommendation": "优先用便宜的纸袋、纸箱、乒乓球；避免带小零件、羽毛、绳子等容易脱落被吞下的玩具；带绳的逗猫棒只在人陪着时用。轮换玩具防止玩腻。",
+      "why_it_matters": "康奈尔大学猫健康中心指出，玩具能让猫锻炼身体、动脑，避免肥胖和抓坏家具、乱尿等行为问题；好玩具不必贵，纸袋、纸箱和乒乓球就很受欢迎。 选择时要避开带小零件或线状部件（羽毛、绳子）的玩具，它们可能在啃咬时脱落被吞下；玩耍区域不要有会砸到猫的重物或会让猫摔下的地方。",
+      "how_to_do_it": [
+        "每次拿出几样玩具，过几天换一批。",
+        "逗猫棒玩完收起来。",
+        "玩具坏了、掉零件就扔掉。"
+      ],
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "routine",
+      "related": [
+        "CG-0022",
+        "CG-0031"
+      ],
+      "scores": {
+        "benefit": 3,
+        "risk_reduction": 2,
+        "money_cost": 0,
+        "time_cost": 2,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "C",
+        "summary": "来自大学兽医学院的一个科普页面；玩耍对行为健康的作用另见 2013 AAFP/ISFM 环境需求指南。"
+      },
+      "medical_review_required": false,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "值得买吗",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "C",
+        "uncapped_grade": "C",
+        "score": 1.58,
+        "breakdown": {
+          "value": 2.6,
+          "confidence": 0.65,
+          "burden": 0.25,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "cornell-toys",
+          "title": "Safe toys and gifts",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/safe-toys-and-gifts",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "玩具有助于锻炼和认知丰富，可避免肥胖、破坏性抓挠和乱尿；好玩具不必贵，纸袋、纸箱、乒乓球都很有趣；避免带小零件或线状部件（羽毛、绳）的玩具；注意重物和坠落风险；轮换玩具防止无聊。",
+          "support_check": "ai_checked",
+          "locator": "全文"
+        },
+        {
+          "id": "aafp-isfm-environmental-needs-2013",
+          "title": "AAFP and ISFM Feline Environmental Needs Guidelines",
+          "organization": "AAFP / ISFM",
+          "authors": [
+            "Ellis",
+            "Rodan",
+            "Carney"
+          ],
+          "year": 2013,
+          "container": "Journal of Feline Medicine and Surgery",
+          "doi": "10.1177/1098612X13477537",
+          "url": "https://doi.org/10.1177/1098612X13477537",
+          "pmcid": "PMC11383066",
+          "source_type": "guideline",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "full_text",
+            "checked": "2026-11-20",
+            "method": "Crossref + full text on PMC (pmc.ncbi.nlm.nih.gov article page)"
+          },
+          "supports": "提供玩耍和捕猎行为的机会是猫的五大环境需求之一。",
+          "support_check": "ai_checked",
+          "locator": "Pillar 3"
+        }
+      ],
+      "url_path": "/entries/safe-cheap-toys/"
+    },
+    {
+      "id": "CG-0048",
+      "slug": "safe-room-for-guests-and-doors",
+      "type": "recommendation",
+      "title": "家里来客人：给猫一个安静房间，开门前确认猫在哪",
+      "summary": "陌生人和噪音会让猫紧张，有的猫会趁开门跑出去。准备一个有水、食物、猫砂盆的安静房间，并确保猫有身份标识。",
+      "category": "safety",
+      "tags": [
+        "home-safety",
+        "microchip"
+      ],
+      "recommendation": "聚会或客人多时，把猫安置在有水、食物、猫砂盆和窝的安静房间，让它自己选择是否出来；开门迎客前确认猫的位置；确保猫有芯片或身份牌。",
+      "why_it_matters": "康奈尔大学猫健康中心指出，很多猫回避陌生人、客人来时会躲起来；陌生人和他们的宠物会让猫紧张，有的猫会趁开门逃跑。 建议提供一个猫可以随时进出的安静房间，并确保猫有项圈身份牌或芯片，以防走失。万圣节等有很多人敲门的日子，最好让猫待在安全房间。",
+      "how_to_do_it": [
+        "提前把猫的东西放进一个房间，门口贴“请勿开门”。",
+        "每天抽 5–10 分钟陪猫玩，缓解节日期间的压力。"
+      ],
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "routine",
+      "related": [
+        "CG-0002"
+      ],
+      "scores": {
+        "benefit": 2,
+        "risk_reduction": 3,
+        "money_cost": 0,
+        "time_cost": 1,
+        "effort": 1,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "C",
+        "summary": "来自大学兽医学院的节日安全页面；属于低成本的管理建议。"
+      },
+      "medical_review_required": false,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "安全",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "C",
+        "uncapped_grade": "C",
+        "score": 1.56,
+        "breakdown": {
+          "value": 2.4,
+          "confidence": 0.65,
+          "burden": 0,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "cornell-holiday",
+          "title": "Beware Holiday Hazards",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/beware-holiday-hazards",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "客人多时让猫待在安静房间，备好水、食物、猫砂盆和窝，让猫可自由进出；开门迎客时注意猫的位置，有的猫会逃跑；确保猫有身份牌或芯片；每天 5–10 分钟陪玩缓解压力。",
+          "support_check": "ai_checked",
+          "locator": "Thanksgiving 与 Halloween 段落"
+        }
+      ],
+      "url_path": "/entries/safe-room-for-guests-and-doors/"
+    },
+    {
+      "id": "CG-0050",
+      "slug": "check-after-a-fall",
+      "type": "recommendation",
+      "title": "猫从高处摔下，看起来没事也要尽快看兽医",
+      "summary": "坠楼的猫大多能救活，但约三分之一有胸部创伤、约五分之一有气胸，这些伤从外面不一定看得出来。",
+      "category": "emergency",
+      "tags": [
+        "high-rise",
+        "breathing-difficulty"
+      ],
+      "recommendation": "猫从阳台、窗户或高处摔下后，即使能走、看起来正常，也尽快带去兽医检查；出现呼吸急促或张嘴呼吸时立即急诊。",
+      "why_it_matters": "一项 119 例猫高楼坠落的病例研究中，96.5% 的猫存活，但 33.6% 有胸部创伤、20% 有气胸、46.2% 有四肢骨折，楼层越高伤情越重。 胸部创伤和气胸会导致呼吸困难，而呼吸困难的猫不及时治疗死亡风险很高。存活率高说明值得救治，不说明可以不处理。",
+      "emergency_action": [
+        "用毛巾或硬纸板托住身体，平稳放进航空箱。",
+        "尽快去医院；有呼吸困难立即急诊。"
+      ],
+      "do_not": [
+        "不要因为猫能走路就在家观察。",
+        "不要给人用止痛药。"
+      ],
+      "warning_signs": [
+        "呼吸急促、张嘴呼吸",
+        "跛行、不让碰某条腿",
+        "鼻子或嘴里出血、下巴歪斜",
+        "精神差、躲起来、不吃"
+      ],
+      "applies_to": [
+        "all"
+      ],
+      "urgency": "urgent",
+      "related": [
+        "CG-0001",
+        "CG-0025",
+        "CG-0029"
+      ],
+      "scores": {
+        "benefit": 4,
+        "risk_reduction": 4,
+        "money_cost": 3,
+        "time_cost": 2,
+        "effort": 2,
+        "harm_potential": 0
+      },
+      "evidence": {
+        "level": "C",
+        "summary": "伤情比例来自单一医院的病例系列（摘要），“看起来没事也要检查”是根据隐匿胸部损伤比例高做出的推断，加上大学兽医学院“呼吸困难立即就医”的原则。",
+        "gaps": [
+          "UNKNOWN: 坠落后多久内必须就诊，已读来源没有给出时间窗。",
+          "TODO: 读取 Vnuk 2004 全文，确认是否有关于延迟出现症状的描述。"
+        ]
+      },
+      "medical_review_required": true,
+      "review_status": "ai_researched",
+      "created": "2026-11-20",
+      "last_reviewed": "2026-11-20",
+      "category_name": "紧急情况",
+      "cost_effectiveness": {
+        "graded": true,
+        "grade": "C",
+        "uncapped_grade": "C",
+        "score": 1.7,
+        "breakdown": {
+          "value": 4,
+          "confidence": 0.65,
+          "burden": 2,
+          "harm_penalty": 0
+        },
+        "caps": []
+      },
+      "sources": [
+        {
+          "id": "vnuk-2004-high-rise",
+          "title": "Feline high-rise syndrome: 119 cases (1998-2001)",
+          "organization": "Journal of Feline Medicine and Surgery",
+          "authors": [
+            "Vnuk"
+          ],
+          "year": 2004,
+          "container": "Journal of Feline Medicine and Surgery",
+          "doi": "10.1016/j.jfms.2003.07.001",
+          "pmid": "15363762",
+          "url": "https://doi.org/10.1016/j.jfms.2003.07.001",
+          "source_type": "case_series",
+          "tier": 1,
+          "sample_size": "119 cats, single clinic, Croatia",
+          "accessed": "2026-11-20",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "abstract",
+            "checked": "2026-11-20",
+            "method": "Crossref + Europe PMC abstract"
+          },
+          "supports": "119 例坠落猫中 96.5% 存活；46.2% 四肢骨折；33.6% 胸部创伤；20% 气胸；七层及以上伤情更重。",
+          "support_check": "ai_checked",
+          "locator": "Abstract"
+        },
+        {
+          "id": "cornell-dyspnea",
+          "title": "Dyspnea (Difficulty Breathing)",
+          "organization": "Cornell Feline Health Center, Cornell University College of Veterinary Medicine",
+          "year": 2026,
+          "container": "Cornell Feline Health Topics",
+          "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/dyspnea-difficulty-breathing",
+          "source_type": "organization_page",
+          "tier": 1,
+          "accessed": "2026-11-20",
+          "notes": "No content date shown on the page; year is the access year.",
+          "verification": {
+            "exists": true,
+            "metadata_match": true,
+            "read_level": "page",
+            "checked": "2026-11-20",
+            "method": "HTTP 200 + page read"
+          },
+          "supports": "胸部损伤是呼吸困难的原因之一；有呼吸困难的猫不及时治疗死亡风险高，应立即就医。",
+          "support_check": "ai_checked",
+          "locator": "原因与建议段落"
+        }
+      ],
+      "url_path": "/entries/check-after-a-fall/"
     },
     {
       "id": "CG-0013",

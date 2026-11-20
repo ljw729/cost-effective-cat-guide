@@ -1,0 +1,57 @@
+id: CG-0039
+slug: behavior-change-is-a-health-signal
+type: recommendation
+title: 行为突然变了，先想到可能是生病，不要只当成“老了”或“闹脾气”
+summary: 躲起来、不爱玩、变凶、乱尿、不理毛，可能是疼痛或疾病的表现。猫很会掩饰生病。
+category: early-signs
+tags: [hidden-illness, behavior-change]
+recommendation: 猫的行为或日常习惯出现明显变化时，先带去兽医检查身体，排除疼痛和疾病，再考虑行为问题。
+why_it_matters: >-
+  康奈尔大学猫健康中心反复强调：猫很擅长掩饰疾病，常常到病情很重才表现出来；不要把老年猫的变化都当成“只是老了”。
+  具体例子包括：牙病或关节炎的疼痛会让猫变得有攻击性；关节炎会让猫难以进出猫砂盆；甲亢、牙病、神经系统问题可能导致攻击行为；躲藏、不再晒太阳、不爱玩可能是癌症等疾病的早期信号；不理毛也提示身体不舒服。
+how_to_do_it:
+  - 记下变化开始的时间和具体表现，拍视频（见“就医前记录变化”条目）。
+  - 先排除身体原因，再找行为方面的办法。
+  - 不要因为猫“变坏了”而惩罚它，惩罚会加重恐惧和攻击。
+warning_signs:
+  - 比平时躲得多、不想互动
+  - 不再跳上常去的高处
+  - 突然变凶、碰到某处就咬
+  - 毛变得杂乱、油腻、打结
+  - 突然在猫砂盆外排泄
+applies_to: [all, senior]
+urgency: important
+related: [CG-0028, CG-0037]
+scores:
+  benefit: 4
+  risk_reduction: 3
+  money_cost: 2
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 同一大学兽医学院的多个页面（老年猫、攻击行为、癌症信号、关节病）一致；2014 AAFP/ISFM 乱尿指南同样要求先排除疾病。
+  gaps:
+    - "TODO: 纳入猫疼痛识别量表（如猫面部疼痛评分）的研究。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-senior
+    supports: 不要认为老年猫的变化只是老了、无法治疗；任何行为或身体变化都应联系兽医；疼痛（牙病、关节炎）可导致攻击；猫擅长掩饰疾病。
+    support_check: ai_checked
+    locator: Behavior changes 段落、结尾段落
+  - id: cornell-aggression
+    supports: 管理攻击行为的第一步是排除疾病，甲亢、骨关节炎、牙病和中枢神经问题都可能导致攻击；任何体罚都会增加恐惧和焦虑，加重攻击。
+    support_check: ai_checked
+    locator: 管理原则段落
+  - id: cornell-cancer-signs
+    supports: 更常躲起来、不像平时那样互动、不去喜欢的晒太阳地点、不爱玩、不理毛，都可能是身体不适的信号。
+    support_check: ai_checked
+    locator: 前几段
+  - id: cornell-slowing
+    supports: 活动减少、躲藏是关节问题的表现；关节炎的猫可能难以进出猫砂盆、避免上下楼梯、无法正常理毛。
+    support_check: ai_checked
+    locator: Dr. Bellezza 段落

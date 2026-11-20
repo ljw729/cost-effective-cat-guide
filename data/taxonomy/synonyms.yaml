@@ -59,3 +59,39 @@
   terms: [隐藏疾病, 生病了看不出来, 精神不好, 没精神, 躲起来, 食欲下降, 不吃东西, hiding illness, lethargic, not eating]
 - tag: treats
   terms: [零食, 猫条, 冻干零食, 罐头零食, treats, snacks]
+- tag: bad-breath
+  terms: [口臭, 嘴臭, 口气重, 嘴巴有味, bad breath, halitosis]
+- tag: behavior-change
+  terms: [性格变了, 变凶, 躲起来, 不爱玩, 不理人, 突然咬人, 行为变化, behavior change, hiding]
+- tag: drinking-more
+  terms: [喝水多, 喝水变多, 尿多, 尿团变大, 多饮多尿, 一直喝水, drinking a lot, peeing a lot, polyuria, polydipsia]
+- tag: kidney-disease
+  terms: [肾病, 慢性肾病, 肾衰, 肾衰竭, 肌酐, SDMA, CKD, kidney disease, renal failure]
+- tag: not-eating
+  terms: [不吃饭, 不吃东西, 厌食, 绝食, 食欲不振, 没胃口, not eating, anorexia, loss of appetite]
+- tag: breathing-difficulty
+  terms: [呼吸困难, 张嘴呼吸, 张嘴喘气, 喘气, 喘, 呼吸急促, 呼吸快, 咳嗽, 气胸, breathing difficulty, open-mouth breathing, panting, dyspnea]
+- tag: heatstroke
+  terms: [中暑, 热射病, 太热, 高温, 夏天, heatstroke, heat stroke, overheating]
+- tag: heart-disease
+  terms: [心脏病, 心肌病, 肥厚型心肌病, 心衰, 血栓, 后腿瘫痪, 后腿拖地, HCM, heart disease, saddle thrombus, ATE]
+- tag: poisoning
+  terms: [中毒, 误食, 吃了有毒的, 催吐, 中毒热线, poisoning, toxic, ingested]
+- tag: foreign-body
+  terms: [吞了线, 吞线, 毛线, 丝带, 彩带, 橡皮筋, 异物, 误吞, 线状异物, foreign body, string, tinsel]
+- tag: bird-flu
+  terms: [禽流感, H5N1, 鸟流感, bird flu, avian influenza, HPAI]
+- tag: home-safety
+  terms: [家居安全, 电线, 咬电线, 蜡烛, 圣诞树, 开门跑出去, 来客人, home safety, electrical cord, candle]
+- tag: vision
+  terms: [失明, 看不见, 瞳孔放大, 瞳孔不一样大, 眼睛浑浊, 撞家具, blindness, vision, pupils]
+- tag: toxic-foods
+  terms: [巧克力, 葡萄, 葡萄干, 牛油果, 木糖醇, 口香糖, 人吃的东西, chocolate, grapes, raisins, xylitol, avocado]
+- tag: toxic-plants
+  terms: [有毒植物, 一品红, 圣诞红, 郁金香, 绿萝, 喜林芋, 绣球, 盆栽, 花束, toxic plants, poinsettia, tulip]
+- tag: essential-oils
+  terms: [精油, 香薰, 扩香, 香氛, 茶树油, essential oils, diffuser, potpourri]
+- tag: household-chemicals
+  terms: [清洁剂, 消毒水, 84, 漂白水, 防冻液, 灭鼠药, 老鼠药, 杀虫剂, 蟑螂药, bleach, antifreeze, rodenticide, insecticide]
+- tag: human-medication
+  terms: [人用药, 止痛药, 布洛芬, 扑热息痛, 对乙酰氨基酚, 泰诺, 阿司匹林, 感冒药, ibuprofen, acetaminophen, paracetamol, tylenol, aspirin]

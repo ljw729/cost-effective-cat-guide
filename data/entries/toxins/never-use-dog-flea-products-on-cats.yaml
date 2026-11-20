@@ -13,7 +13,7 @@ why_it_matters: >-
   尽管包装上有醒目警告，这类病例仍在持续发生。
 how_to_do_it:
   - 买驱虫药前看清适用动物和体重范围；不确定就问兽医。
-  - 家里的狗用了含扑灭司林的产品，要按说明书和兽医建议，在一段时间内避免猫和狗密切接触。
+  - 家里的狗用了驱虫药后，至少 24 小时内不要让猫接触这只狗；说明书要求更久的，按说明书。
   - 把猫用、狗用药品分开存放。
 do_not:
   - 不要因为狗用的便宜、规格大，就拿来给猫用。
@@ -36,12 +36,16 @@ evidence:
     尚未纳入指南级来源，因此评为 B。
   gaps:
     - "TODO: 纳入 iCatCare 的扑灭司林中毒资料（第一轮抓取没有拿到正文）。"
-    - "UNKNOWN: 与用药后的狗隔离多久才安全，已读来源（含 Boland 2010 全文）没有给出时长，所以正文只写“按说明书和兽医建议”。"
+    - "已解决（2026-11-20）：康奈尔猫健康中心的家庭危险页面写明，猫在狗用药后 24 小时内不能接触这只狗。Boland 2010 全文没有给出时长。不同产品的要求可能不同，以说明书为准。"
 medical_review_required: true
 review_status: ai_researched
 created: 2026-11-20
 last_reviewed: 2026-11-20
 sources:
+  - id: cornell-hazards
+    supports: 人用药和狗用驱虫药对猫可能有急性毒性；用了狗用驱虫药的狗，24 小时内不能让猫接触。
+    support_check: ai_checked
+    locator: Medications 段落（Flea medication for dogs）
   - id: boland-2010-permethrin
     supports: 42 例中 41 例将狗用扑灭司林滴剂直接用于猫，3 例主人把一支药分给几只狗和猫；震颤或肌颤 86%、抽搐 33%；33% 出现并发症；汇总的其他报告中包括接触用药狗的暴露途径；尽管有标签警告，病例仍持续发生且可能致命。
     support_check: ai_checked

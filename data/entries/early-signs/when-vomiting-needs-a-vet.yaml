@@ -1,0 +1,49 @@
+id: CG-0036
+slug: when-vomiting-needs-a-vet
+type: recommendation
+title: 猫呕吐：每周超过一次，或伴随其他症状，就要看兽医
+summary: 偶尔吐一次不一定是病。但每周吐不止一次，或吐的同时精神差、不吃、吐血、喝水尿量变化、腹泻，应尽快就医。
+category: early-signs
+tags: [vomiting, hidden-illness]
+recommendation: 记录猫呕吐的频率。每周超过一次，或伴随精神差、虚弱、食欲下降、吐出血、喝水变多、尿量变化、腹泻中任何一项，尽快看兽医。
+why_it_matters: >-
+  康奈尔大学猫健康中心明确写出了这个界线：很多猫偶尔会吐，但每周吐超过一次，或出现上述任何伴随症状，应及时就诊。
+  呕吐的原因包括毛球、有毒植物、变质食物、人用药、线状异物、寄生虫、炎症性肠病、肿瘤，以及糖尿病、肾病、甲亢等代谢病。
+  吐毛球很常见，但“吐毛球”和其他原因的呕吐，主人在家很难区分。
+how_to_do_it:
+  - 在手机里记下每次呕吐的日期、吐的是什么（毛球、食物、液体、有没有血）。
+  - 拍照或拍视频，复诊时给兽医看。
+  - 反复干呕却吐不出东西，也要就医（可能是哮喘等呼吸道问题）。
+warning_signs:
+  - 每周呕吐超过一次
+  - 吐出血或咖啡渣样物
+  - 同时精神差、不吃、喝水变多、尿量变化或腹泻
+  - 反复干呕吐不出来
+applies_to: [all]
+urgency: important
+related: [CG-0028, CG-0031]
+scores:
+  benefit: 4
+  risk_reduction: 4
+  money_cost: 2
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 大学兽医学院的呕吐页面给出明确的就医界线，毛球页面一致地建议反复干呕或呕吐时尽快检查。
+  gaps:
+    - "注意：同一机构的毛球页面说“每一两周吐一次毛球并不少见”，与“每周超过一次就就医”有轻微张力；本条采取更谨慎的界线，由兽医判断是否为毛球。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-vomiting
+    supports: 呕吐每周超过一次，或伴随精神差、虚弱、食欲下降、呕吐物带血、口渴增加、尿量增减、腹泻，应及时就诊；列出常见原因（毛球、有毒植物、变质食物、人用药、线、防冻液、代谢病等）。
+    support_check: ai_checked
+    locator: 第 2–4 段
+  - id: cornell-hairball
+    supports: 精神差、一两天以上不吃、反复干呕或呕吐的猫应尽快检查；频繁干咳干呕可能与毛球无关，可能是哮喘等呼吸道疾病。
+    support_check: ai_checked
+    locator: Dr. Goldstein 建议段落

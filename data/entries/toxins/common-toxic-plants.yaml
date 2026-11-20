@@ -1,0 +1,46 @@
+id: CG-0042
+slug: common-toxic-plants
+type: dont
+title: 除了百合，这些常见植物也不要放在猫能碰到的地方
+summary: 一品红、郁金香、毛地黄、喜林芋（蔓绿绒）、绣球、孤挺花、槲寄生、冬青等都对猫有毒。买花前先查一查。
+category: toxins
+tags: [toxic-plants]
+recommendation: 养猫的家里优先选择确认对猫无毒的植物；有毒植物不要放在室内，或放在猫绝对接触不到的地方。不确定就先查 ASPCA 的有毒 / 无毒植物数据库。
+why_it_matters: >-
+  康奈尔大学猫健康中心列出的有毒植物包括一品红、百合、槲寄生、冬青、郁金香、毛地黄、喜林芋、孤挺花、满天星、须苞石竹、绣球等，并强调这只是一部分。
+  对于一品红等常见观赏植物，猫只吃一小片叶子就可能生病，吃得多可能致命；百合尤其危险，极少量就能导致肾衰竭（见“家里不要放百合”条目）。
+how_to_do_it:
+  - 买花、收花前查一下品种名。
+  - 花束里常混有多种植物，不确定的整束都不要放在家里。
+  - 猫爱啃植物时，可以种猫草作为替代。
+warning_signs:
+  - 发现猫啃了不认识的植物后呕吐、流口水、精神差：联系兽医，带上植物或照片。
+applies_to: [all]
+urgency: important
+related: [CG-0003, CG-0032]
+scores:
+  benefit: 3
+  risk_reduction: 4
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 大学兽医学院两个页面列出了植物清单，但没有区分每种植物的毒性严重程度；不同植物的危险程度差别很大。
+  gaps:
+    - "TODO: 逐一核对 ASPCA 有毒植物数据库中每种植物对猫的毒性与症状。"
+    - "UNKNOWN: “猫草”替代的效果没有来源支持，属于常见做法。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-hazards
+    supports: 列出对猫有毒的植物（一品红、百合、槲寄生、冬青、郁金香、毛地黄、喜林芋、孤挺花、满天星、须苞石竹、绣球），并说明不限于这些；一品红等吃一小片就可能生病，吃得多可能致命；百合极少量即可致命性肾衰。
+    support_check: ai_checked
+    locator: Plants 段落
+  - id: cornell-poisons
+    supports: 百合、郁金香、毛地黄、喜林芋是数百种对猫有毒植物中的几种。
+    support_check: ai_checked
+    locator: Indoor and outdoor plants 条目

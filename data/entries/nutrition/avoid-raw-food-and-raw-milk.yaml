@@ -1,0 +1,59 @@
+id: CG-0049
+slug: avoid-raw-food-and-raw-milk
+type: dont
+title: 不要给猫吃生肉粮、生骨肉、冻干生肉和生牛奶
+summary: 生肉和未经巴氏消毒的奶可能带有 H5N1 禽流感病毒、弓形虫和细菌。多起猫感染禽流感死亡与生肉猫粮有关，冻干生肉也不例外。
+category: nutrition
+tags: [raw-diet, bird-flu]
+recommendation: 选择经过烹饪或加热处理的商品猫粮，不喂生肉、生骨肉、冻干生肉零食、生蛋和未经巴氏消毒的奶。关注猫粮召回信息。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出，H5N1 禽流感可让猫严重发病，最多约 70% 的感染猫死亡；已知或怀疑的感染来源包括生牛奶、生肉和禽肉产品。美国已有多起猫感染与特定生肉猫粮有关，FDA 在病猫和它吃的生肉粮中检出相同基因型的病毒。康奈尔明确建议不要喂生肉（包括冻干生肉）食品和零食。
+  此外，生肉是猫感染弓形虫最常见的途径之一，避免生肉饮食也是控制寄生虫的措施；FIV 阳性等免疫力低下的猫更要避免生肉、生蛋和未消毒的奶。
+how_to_do_it:
+  - 看配料和工艺：标注“生”“raw”“冻干生肉”的产品都属于生食。
+  - 处理生肉后洗手，不让猫舔食处理台。
+  - 关注当地和品牌的猫粮召回通知。
+warning_signs:
+  - 吃过生肉或生奶后发烧、不吃、精神差、呼吸困难、走路不稳、发抖、抽搐：立即联系兽医，先打电话再去，并把这只猫与其他宠物隔开。
+applies_to: [all]
+urgency: important
+region_notes: H5N1 相关病例和召回目前主要报告于美国；其他地区的禽流感流行情况不同，但生肉带来的寄生虫和细菌风险各地都存在。
+related: [CG-0008]
+scores:
+  benefit: 3
+  risk_reduction: 4
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: >-
+    大学兽医学院多个页面一致（禽流感、寄生虫、弓形虫、FIV），并引用 FDA 的检测结果。
+    生食的营养或健康“好处”没有可靠证据支持，本项目暂未收录。
+  gaps:
+    - "TODO: Freeman 2013 生肉饮食综述目前只读到元数据，读到全文后补充细菌风险数据。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-h5n1
+    supports: H5N1 可致猫严重疾病，最多 70% 感染猫死亡；可疑感染来源包括生牛奶、生肉禽肉产品；建议不喂生肉（包括冻干生肉）食品和零食、不喂未消毒奶；多起猫感染与生肉猫粮有关，FDA 在病猫和生肉粮中检出相同基因型病毒；有症状时先打电话再带去医院并隔离。
+    support_check: ai_checked
+    locator: 预防建议与病例段落
+  - id: cornell-gi-parasites
+    supports: 寄生虫控制包括避免含生肉的饮食；猫最常通过吃猎物或生肉中的包囊感染弓形虫。
+    support_check: ai_checked
+    locator: Toxoplasma 与结尾段落
+  - id: cornell-toxo
+    supports: 猫最好吃经过烹饪的商品粮，加热可灭活弓形虫包囊；不应让猫吃生肉或啮齿动物。
+    support_check: ai_checked
+    locator: Prevention 段落
+  - id: cornell-fiv
+    supports: FIV 阳性猫应避免生肉、生蛋和未经巴氏消毒的奶制品，以减少食源性细菌和寄生虫感染。
+    support_check: ai_checked
+    locator: 管理段落
+  - id: freeman-2013-raw-meat-diets
+    supports: 关于生肉饮食风险与益处的综述（待读全文）。
+    support_check: pending

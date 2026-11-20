@@ -1,0 +1,46 @@
+id: CG-0034
+slug: sudden-hind-leg-paralysis
+type: emergency
+title: 后腿突然瘫软、剧痛：立即急诊
+summary: 猫突然后腿拖地、不能动或疼得叫，可能是心脏病形成的血栓堵住了后腿血管，是急症。
+category: emergency
+tags: [heart-disease]
+recommendation: 猫突然出现后腿无力、拖行、瘫痪或明显疼痛时，立即去急诊。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出，肥厚型心肌病是猫最常见的心脏病，很多患病的猫看起来完全正常。
+  它的严重后果之一是心脏里形成血栓，血栓最常堵住后腿的血流，造成后腿突然剧痛，严重时瘫痪。这类表现提示预后较差，需要立即治疗。
+emergency_action:
+  - 立即联系急诊。
+  - 用毛巾托住身体，放进航空箱，尽量不碰疼痛的后腿。
+do_not:
+  - 不要以为是“扭到了”而在家观察。
+  - 不要给人用止痛药。
+warning_signs:
+  - 后腿突然无力、拖着走或完全不能动
+  - 突然尖叫、明显疼痛
+  - 同时呼吸急促或张嘴呼吸
+applies_to: [all, adult, senior]
+urgency: emergency
+related: [CG-0029, CG-0033]
+scores:
+  benefit: 4
+  risk_reduction: 4
+  money_cost: 5
+  time_cost: 2
+  effort: 2
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 来自大学兽医学院的心肌病页面，机制和表现写得明确；但只有一个来源，也没有给出发生率。
+  gaps:
+    - "TODO: 纳入猫动脉血栓栓塞（ATE）的指南或病例研究。"
+    - "UNKNOWN: “爪垫发凉、发紫”等常被提到的体征，本条已读来源没有写，暂不列入。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-hcm
+    supports: HCM 是猫最常见心脏病，很多患猫没有症状；心内血栓最常阻断后肢血流，造成急性后肢疼痛，严重时后肢瘫痪；血栓栓塞是预后较差的表现；部分品种（缅因、布偶、英短等）更常见。
+    support_check: ai_checked
+    locator: 临床表现与预后段落

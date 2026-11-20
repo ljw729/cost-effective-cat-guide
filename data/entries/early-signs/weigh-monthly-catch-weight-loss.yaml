@@ -1,0 +1,55 @@
+id: CG-0038
+slug: weigh-monthly-catch-weight-loss
+type: recommendation
+title: 每月称一次体重，留意不明原因的变瘦
+summary: 天天见很难看出猫瘦了。每月称重记录，不明原因的体重下降是肿瘤、糖尿病、甲亢、肾病的共同信号。
+category: early-signs
+tags: [weight, hidden-illness]
+recommendation: 每月用同一个秤给猫称重并记录。没有在减肥却体重下降，尤其是“吃得多却变瘦”，预约兽医。
+why_it_matters: >-
+  康奈尔大学猫健康中心的癌症警示信号页面建议每月称重，因为天天见很难判断体重变化；不明原因的体重下降应“拉响警报”。
+  糖尿病、甲亢的常见信号都是“食欲正常或增加却变瘦”；对 FIV 阳性猫，体重下降常是病情恶化的第一个信号。
+how_to_do_it:
+  - 抱着猫站上体重秤，减去自己的体重；或用婴儿秤。
+  - 每月同一天称，记在手机备忘录或表格里。
+  - 配合每月一次的体况评分（见“每月检查体况”条目）。
+warning_signs:
+  - 没有减肥计划，体重却持续下降
+  - 吃得多却变瘦
+  - 背部、臀部摸起来骨头越来越明显
+applies_to: [all, adult, senior]
+urgency: important
+related: [CG-0011, CG-0037]
+scores:
+  benefit: 4
+  risk_reduction: 3
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 大学兽医学院多个页面（癌症信号、糖尿病、甲亢、FIV）一致把体重下降列为重要早期信号，并明确建议每月称重。
+  gaps:
+    - "UNKNOWN: 下降多少需要就医，已读来源没有给出百分比阈值。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-cancer-signs
+    supports: 不明原因体重下降应引起警惕；癌症可导致食欲正常却体重下降；建议每月称重，因为每天见到猫很难判断变化；每月检查有无新肿块。
+    support_check: ai_checked
+    locator: Weight loss / lumps 段落
+  - id: cornell-diabetes
+    supports: 糖尿病常见信号是食欲好却体重下降。
+    support_check: ai_checked
+    locator: 临床表现段落
+  - id: cornell-hyperthyroid
+    supports: 甲亢最常见的表现包括体重下降和食欲增加。
+    support_check: ai_checked
+    locator: 临床表现段落
+  - id: cornell-fiv
+    supports: FIV 阳性猫的体重下降常是病情恶化的第一个信号，应准确测量并记录。
+    support_check: ai_checked
+    locator: 管理段落

@@ -1,0 +1,59 @@
+id: CG-0031
+slug: swallowed-string-or-tinsel
+type: emergency
+title: 猫吞了线、绳子、丝带或彩带：马上就医
+summary: 线状异物可能缠在舌根或卡在肠道里，像钢丝一样割穿肠壁，危及生命。看到线头也不要硬拉。
+category: emergency
+tags: [foreign-body]
+recommendation: 发现或怀疑猫吞了线、毛线、丝带、彩带（圣诞装饰金属丝）等，立即联系兽医；平时把这类东西收好。
+why_it_matters: >-
+  康奈尔大学猫健康中心的行为医学医生指出，彩带等线状物可能卡在肠道里，有的能排出，有的需要手术；如果线绕在舌根再被吞下，会在消化过程中像钢丝一样切穿肠壁，“非常危及生命”。
+  康奈尔的呕吐页面也把吞下线或毛线列为猫呕吐的常见原因之一。
+emergency_action:
+  - 立即联系兽医，说明吞了什么、大概多长、多久以前。
+  - 如果看到线从嘴里或肛门露出来，保持原样，尽快就医。
+do_not:
+  - 不要用力拉露在外面的线头。
+  - 不要自己催吐。
+warning_signs:
+  - 看到猫在嚼线、丝带、彩带，之后东西不见了
+  - 反复呕吐、不吃东西
+  - 舌头下面或嘴里看到缠绕的线
+  - 精神差、腹部疼痛（不让摸肚子）
+how_to_do_it:
+  - 针线、毛线、橡皮筋、丝带、礼品绳用完马上收进抽屉。
+  - 逗猫棒等带绳子的玩具玩完收起来，不要让猫单独玩。
+  - 节日装饰尽量不用金属彩带。
+applies_to: [all]
+urgency: emergency
+related: [CG-0047]
+scores:
+  benefit: 4
+  risk_reduction: 5
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 来自同一大学兽医学院的三个页面（节日危险、玩具安全、呕吐）；描述了机制和后果，但没有给出发生率。
+  gaps:
+    - "UNKNOWN: “不要拉露出的线头”是兽医急诊的通行做法，但本条已读来源没有直接写出；已列入兽医审核重点。"
+    - "TODO: 纳入线状异物病例研究。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-holiday
+    supports: 猫可能吞下彩带，部分需要手术取出；彩带如果绕在舌根再被吞下，会像钢丝一样在消化时切穿肠道，非常危及生命；包装礼物避免长丝带。
+    support_check: ai_checked
+    locator: tinsel 段落
+  - id: cornell-toys
+    supports: 避免带小零件或线状部件（羽毛、绳子）的玩具，以免脱落被吞下；有电线的东西都要避免。
+    support_check: ai_checked
+    locator: 第 4 段
+  - id: cornell-vomiting
+    supports: 吞下线或毛线是猫呕吐的常见原因之一；异物梗阻常需内镜或手术取出。
+    support_check: ai_checked
+    locator: 呕吐原因段落

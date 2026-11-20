@@ -1,0 +1,42 @@
+id: CG-0040
+slug: bad-breath-is-not-normal
+type: recommendation
+title: 口臭不正常，持续口臭要看兽医
+summary: 健康猫的口气不应该难闻。持续口臭常见于牙周病，也可能是糖尿病、肾病、肝病或口腔肿瘤的信号。
+category: early-signs
+tags: [dental, bad-breath]
+recommendation: 猫持续口臭时预约兽医检查口腔；同时留意是否喝水尿量变化、体重下降、呕吐。
+why_it_matters: >-
+  康奈尔大学猫健康中心的兽医牙科专家指出，健康猫的口气不应该难闻，持续口臭需要兽医检查找原因。
+  类似人口臭的气味可能是牙周病；甜味或水果味可能与糖尿病有关；尿味或氨味可能与肾病有关；伴随呕吐的恶臭可能是肝病或肠梗阻；也可能是口腔溃疡或肿瘤。
+how_to_do_it:
+  - 平时摸猫时顺手掀起上唇看看牙龈是否红肿、牙上有没有黄褐色牙结石。
+  - 不要用人用牙膏，其成分可能让猫肠胃不适。
+warning_signs:
+  - 牙龈红肿、出血
+  - 流口水、用爪子扒嘴
+  - 想吃却吃不下、吃东西时只用一边嚼
+applies_to: [all]
+urgency: important
+related: [CG-0019, CG-0020]
+scores:
+  benefit: 3
+  risk_reduction: 3
+  money_cost: 2
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 来自大学兽医学院一个由兽医牙科专家撰写的页面；气味与疾病的对应关系只是提示，不能用来自己诊断。
+  gaps:
+    - "TODO: 用 2019 AAHA 牙科指南全文核对。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-bad-breath
+    supports: 健康猫口气不应难闻；持续口臭应由兽医检查；不同气味可能提示牙周病、糖尿病、肾病、肝病或肠梗阻；也可能来自口腔溃疡或肿瘤；不要用人用牙膏。
+    support_check: ai_checked
+    locator: 全文与侧栏

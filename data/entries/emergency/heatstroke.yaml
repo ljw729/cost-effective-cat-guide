@@ -1,0 +1,52 @@
+id: CG-0030
+slug: heatstroke
+type: emergency
+title: 中暑：先降温，同时马上联系兽医
+summary: 高温时猫出现虚弱、倒地、大口喘气、流口水、呕吐或腹泻，可能是中暑，可以很快危及生命。
+category: emergency
+tags: [heatstroke]
+recommendation: 发现中暑迹象时，立即把猫移到通风凉爽处，用凉水（不要冰水）轻轻打湿毛发，同时马上联系兽医。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出，中暑可以非常快地危及生命；常见表现是虚弱或倒地、过度喘气、流口水、呕吐和腹泻。
+  预防成本很低：保证随时有水、提供阴凉处、极端高温时让猫待在有空调的室内、检查车库和杂物间有没有把猫关在里面。
+emergency_action:
+  - 把猫移到阴凉、有风的地方。
+  - 用凉水（不是冰水）轻轻打湿猫的毛。
+  - 立即联系兽医，按兽医指示出发。
+do_not:
+  - 不要用冰水或冰块直接大面积敷在身上。
+  - 降温后看起来好转也不要取消就医。
+warning_signs:
+  - 虚弱、站不稳或倒地
+  - 大口喘气
+  - 流口水
+  - 呕吐、腹泻
+how_to_do_it:
+  - 夏天保证家里多处有干净的水。
+  - 极端高温天气，让猫待在有空调的房间。
+  - 出门前检查阳台、储物间、车库、车里，确认没有把猫关在里面。
+  - 不要把猫留在停着的车里。
+applies_to: [all]
+urgency: emergency
+scores:
+  benefit: 4
+  risk_reduction: 5
+  money_cost: 1
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 目前只有一个大学兽医学院的科普页面；降温方法（凉水而非冰水、通风）和立即就医的原则在该页面中明确写出。
+  gaps:
+    - "TODO: 纳入兽医急诊教材或指南中关于猫中暑的内容。"
+    - "UNKNOWN: “不要把猫留在车里”是常识性推断，所读来源只提到检查车库、棚屋等可能困住猫的地方。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-heat
+    supports: 中暑可以很快危及生命，表现为虚弱/倒地、过度喘气、流口水、呕吐、腹泻；发现时立即移到通风凉爽处，用凉水（不是很冷的水）轻轻打湿毛发，并立即联系兽医；预防措施包括随时供水、阴凉处、极端高温时留在空调房、检查棚屋车库。
+    support_check: ai_checked
+    locator: 全文要点列表

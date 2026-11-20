@@ -1,0 +1,52 @@
+id: CG-0050
+slug: check-after-a-fall
+type: recommendation
+title: 猫从高处摔下，看起来没事也要尽快看兽医
+summary: 坠楼的猫大多能救活，但约三分之一有胸部创伤、约五分之一有气胸，这些伤从外面不一定看得出来。
+category: emergency
+tags: [high-rise, breathing-difficulty]
+recommendation: 猫从阳台、窗户或高处摔下后，即使能走、看起来正常，也尽快带去兽医检查；出现呼吸急促或张嘴呼吸时立即急诊。
+why_it_matters: >-
+  一项 119 例猫高楼坠落的病例研究中，96.5% 的猫存活，但 33.6% 有胸部创伤、20% 有气胸、46.2% 有四肢骨折，楼层越高伤情越重。
+  胸部创伤和气胸会导致呼吸困难，而呼吸困难的猫不及时治疗死亡风险很高。存活率高说明值得救治，不说明可以不处理。
+emergency_action:
+  - 用毛巾或硬纸板托住身体，平稳放进航空箱。
+  - 尽快去医院；有呼吸困难立即急诊。
+do_not:
+  - 不要因为猫能走路就在家观察。
+  - 不要给人用止痛药。
+warning_signs:
+  - 呼吸急促、张嘴呼吸
+  - 跛行、不让碰某条腿
+  - 鼻子或嘴里出血、下巴歪斜
+  - 精神差、躲起来、不吃
+applies_to: [all]
+urgency: urgent
+related: [CG-0001, CG-0025, CG-0029]
+scores:
+  benefit: 4
+  risk_reduction: 4
+  money_cost: 3
+  time_cost: 2
+  effort: 2
+  harm_potential: 0
+evidence:
+  level: C
+  summary: >-
+    伤情比例来自单一医院的病例系列（摘要），“看起来没事也要检查”是根据隐匿胸部损伤比例高做出的推断，加上大学兽医学院“呼吸困难立即就医”的原则。
+  gaps:
+    - "UNKNOWN: 坠落后多久内必须就诊，已读来源没有给出时间窗。"
+    - "TODO: 读取 Vnuk 2004 全文，确认是否有关于延迟出现症状的描述。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: vnuk-2004-high-rise
+    supports: 119 例坠落猫中 96.5% 存活；46.2% 四肢骨折；33.6% 胸部创伤；20% 气胸；七层及以上伤情更重。
+    support_check: ai_checked
+    locator: Abstract
+  - id: cornell-dyspnea
+    supports: 胸部损伤是呼吸困难的原因之一；有呼吸困难的猫不及时治疗死亡风险高，应立即就医。
+    support_check: ai_checked
+    locator: 原因与建议段落

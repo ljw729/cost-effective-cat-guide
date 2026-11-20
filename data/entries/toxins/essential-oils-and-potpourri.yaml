@@ -1,0 +1,41 @@
+id: CG-0045
+slug: essential-oils-and-potpourri
+type: dont
+title: 精油和加热香薰不要放在猫能碰到的地方
+summary: 猫会被精油的味道吸引，舔到洒在毛上的精油可能造成口腔、舌头和食道严重化学烧伤。
+category: toxins
+tags: [essential-oils]
+recommendation: 精油瓶、香薰炉、加热的香氛液放在猫碰不到的地方，选择有盖、猫打不开的容器。精油洒到猫身上时联系兽医。
+why_it_matters: >-
+  康奈尔大学兽医学院急诊重症科主任指出，他们常见的节日伤害之一，是猫打翻香薰容器后舔舐沾在毛上的精油，导致舌头严重化学烧伤；吞下精油可以造成口腔、舌头和食道的显著化学烧伤。
+  同一页面还提醒，猫拍打明火会烧伤爪子和尾巴，建议用电池蜡烛代替。
+how_to_do_it:
+  - 香薰炉、精油扩香器放在猫跳不上去的地方，或干脆不用。
+  - 用电子蜡烛代替明火蜡烛。
+warning_signs:
+  - 流口水、用爪扒嘴、不吃东西、舌头发红或溃疡：可能是化学烧伤，尽快就医。
+applies_to: [all]
+urgency: important
+related: [CG-0046]
+scores:
+  benefit: 2
+  risk_reduction: 3
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 来自大学兽医学院急诊专家的临床经验描述；没有关于不同精油毒性的系统资料。
+  gaps:
+    - "UNKNOWN: 扩香（雾化）精油对猫呼吸道的长期影响，本条已读来源没有讨论。"
+    - "TODO: 纳入精油中毒的毒理学资料（如茶树油）。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-holiday
+    supports: 猫被明火和许多精油的味道吸引；常见伤害包括拍火导致爪尾烧伤、舔舐洒在毛上的香薰精油导致舌头严重化学烧伤；吞下精油可导致口腔、舌、食道显著化学烧伤；建议香薰容器选用猫无法打开的盖子，用电池蜡烛代替明火。
+    support_check: ai_checked
+    locator: Halloween 段落（Dr. Schoeffler）

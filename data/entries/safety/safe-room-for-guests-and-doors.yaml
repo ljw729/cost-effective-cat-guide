@@ -1,0 +1,36 @@
+id: CG-0048
+slug: safe-room-for-guests-and-doors
+type: recommendation
+title: 家里来客人：给猫一个安静房间，开门前确认猫在哪
+summary: 陌生人和噪音会让猫紧张，有的猫会趁开门跑出去。准备一个有水、食物、猫砂盆的安静房间，并确保猫有身份标识。
+category: safety
+tags: [home-safety, microchip]
+recommendation: 聚会或客人多时，把猫安置在有水、食物、猫砂盆和窝的安静房间，让它自己选择是否出来；开门迎客前确认猫的位置；确保猫有芯片或身份牌。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出，很多猫回避陌生人、客人来时会躲起来；陌生人和他们的宠物会让猫紧张，有的猫会趁开门逃跑。
+  建议提供一个猫可以随时进出的安静房间，并确保猫有项圈身份牌或芯片，以防走失。万圣节等有很多人敲门的日子，最好让猫待在安全房间。
+how_to_do_it:
+  - 提前把猫的东西放进一个房间，门口贴“请勿开门”。
+  - 每天抽 5–10 分钟陪猫玩，缓解节日期间的压力。
+applies_to: [all]
+urgency: routine
+related: [CG-0002]
+scores:
+  benefit: 2
+  risk_reduction: 3
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 来自大学兽医学院的节日安全页面；属于低成本的管理建议。
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-holiday
+    supports: 客人多时让猫待在安静房间，备好水、食物、猫砂盆和窝，让猫可自由进出；开门迎客时注意猫的位置，有的猫会逃跑；确保猫有身份牌或芯片；每天 5–10 分钟陪玩缓解压力。
+    support_check: ai_checked
+    locator: Thanksgiving 与 Halloween 段落

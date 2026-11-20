@@ -1,0 +1,49 @@
+id: CG-0043
+slug: chocolate-grapes-xylitol
+type: dont
+title: 巧克力、葡萄、葡萄干、牛油果和含木糖醇的食物不要给猫
+summary: 这些人类食物被兽医学院列为对猫有毒。巧克力（尤其黑巧和烘焙用巧克力）可能引起心律失常、震颤和抽搐。
+category: toxins
+tags: [toxic-foods]
+recommendation: 不给猫吃巧克力、葡萄、葡萄干、牛油果、含木糖醇的口香糖或食品，以及洋葱大蒜（见单独条目）。零食和糖果收好，垃圾桶加盖。
+why_it_matters: >-
+  康奈尔大学猫健康中心把葡萄、洋葱、葡萄干、牛油果、含木糖醇的食物和巧克力列为对猫有毒的食物，并指出巧克力（尤其是烘焙用巧克力）含有的成分可能导致心律异常、震颤、精神沉郁和抽搐。
+  节日期间还要注意糖果、包装纸和棒棒糖棍。
+how_to_do_it:
+  - 吃零食时不要分给猫。
+  - 垃圾桶选带盖的。
+  - 来客人时提醒不要喂猫。
+warning_signs:
+  - 吃了巧克力后发抖、兴奋、心跳快、呕吐：立即联系兽医。
+applies_to: [all]
+urgency: important
+related: [CG-0006, CG-0032]
+scores:
+  benefit: 3
+  risk_reduction: 4
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 大学兽医学院两个页面与 ASPCA 动物中毒控制中心的人类食物清单一致。部分食物（如葡萄）对猫的毒性证据主要来自狗，猫的数据较少。
+  gaps:
+    - "UNKNOWN: 葡萄 / 葡萄干对猫的毒性程度，猫专属的病例数据很少。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-hazards
+    supports: 对猫有毒的食物包括葡萄、洋葱、葡萄干、牛油果、含木糖醇的食品、巧克力。
+    support_check: ai_checked
+    locator: Toxic Foods 段落
+  - id: cornell-poisons
+    supports: 葡萄、洋葱、葡萄干、牛油果、含木糖醇的口香糖可能严重伤害猫；巧克力尤其是烘焙巧克力可能导致心律异常、震颤、沉郁和抽搐。
+    support_check: ai_checked
+    locator: Human food 条目
+  - id: aspca-people-foods
+    supports: 列出对宠物有害的人类食物，包括巧克力、葡萄和葡萄干、牛油果、木糖醇。
+    support_check: ai_checked
+    locator: 对应食物段落

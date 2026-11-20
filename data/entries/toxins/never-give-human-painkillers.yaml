@@ -1,0 +1,49 @@
+id: CG-0033
+slug: never-give-human-painkillers
+type: dont
+title: 绝不要给猫吃人用止痛药和感冒药
+summary: 对乙酰氨基酚（扑热息痛、泰诺）、布洛芬、阿司匹林等人用药是猫中毒的常见原因。药片掉在地上也要捡干净。
+category: toxins
+tags: [human-medication]
+recommendation: 不给猫吃任何人用药，除非兽医明确开具。药品放在猫拿不到的柜子里，掉在地上的药片立刻捡起来。
+why_it_matters: >-
+  康奈尔大学猫健康中心转引 ASPCA 动物中毒控制中心的数据：人用药是猫中毒最常见的原因之一，其中最突出的是阿司匹林、对乙酰氨基酚和布洛芬，以及部分感冒药、抗抑郁药和营养补充剂。
+  猫会吞下放在床头柜、桌面或掉在地上的药片。康奈尔的绝育页面也特别提醒：术后不要自行给猫用这些非处方止痛药。
+how_to_do_it:
+  - 所有药品（包括维生素和保健品）放进有门的柜子。
+  - 吃药时不要把药片放在桌边；掉了马上找到。
+  - 猫看起来疼痛时，联系兽医，不要用家里的止痛药。
+warning_signs:
+  - 发现猫可能吃了人用药：立即联系兽医（见“怀疑猫中毒”条目）。
+applies_to: [all]
+urgency: important
+related: [CG-0032]
+scores:
+  benefit: 4
+  risk_reduction: 5
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 大学兽医学院多个页面一致，并引用 ASPCA 中毒控制中心的来电数据；人用止痛药对猫的毒性是兽医毒理学共识。本项目不收录中毒剂量。
+  gaps:
+    - "TODO: 纳入对乙酰氨基酚猫中毒的病例研究或毒理学综述。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-poisons
+    supports: 人用药是猫中毒常见原因，尤其是阿司匹林、对乙酰氨基酚、布洛芬，以及部分感冒药、抗抑郁药、补充剂；猫会吞下放在床头柜、桌面或掉在地上的药片。
+    support_check: ai_checked
+    locator: Human medications 条目
+  - id: cornell-hazards
+    supports: 人用药和狗用驱虫药对猫可能有急性毒性；不经兽医同意不要给猫用药；列出阿司匹林、对乙酰氨基酚、布洛芬、维生素补充剂。
+    support_check: ai_checked
+    locator: Medications 段落
+  - id: cornell-spay
+    supports: 术后不要在没有兽医同意的情况下使用阿司匹林、布洛芬、泰诺等非处方药，这些药可能对猫有毒。
+    support_check: ai_checked
+    locator: 术后止痛段落

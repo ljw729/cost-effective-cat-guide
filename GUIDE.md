@@ -6,25 +6,38 @@
 
 > **免责声明**：本指南整理公开的兽医学资料，用于教育和信息参考，**不能代替持证兽医的诊断和治疗**。猫出现异常时，医疗紧急程度永远优先于花费。目前所有条目都由 AI 研究整理，**尚未经过兽医审核**。
 
-共 28 条 · 来源 33 条 · 证据 A 0 / B 21 / C 7 / D 0 · 兽医审核 0 条
+共 50 条 · 来源 57 条 · 证据 A 0 / B 33 / C 17 / D 0 · 兽医审核 0 条
 
 ## 先看这里：紧急情况
 
 - 🚨 [猫接触了百合：立即就医](#cg-0004)：只要怀疑猫咬过、舔过百合或萱草（包括花粉和花瓶水），就立刻联系兽医，不要等症状出现。
 - 🚨 [猫尿不出来：当天急诊](#cg-0007)：猫反复蹲猫砂盆却只有一点尿或完全没有尿，可能是尿道堵塞，这是急症，尤其是公猫。不要等到第二天。
+- 🚨 [猫呼吸困难、张嘴喘气：立即就医](#cg-0029)：猫不像狗那样常喘气。呼吸明显费力、张嘴喘、呼吸很快，可能是哮喘、心衰或胸腔积液，随时可能危及生命。
+- 🚨 [中暑：先降温，同时马上联系兽医](#cg-0030)：高温时猫出现虚弱、倒地、大口喘气、流口水、呕吐或腹泻，可能是中暑，可以很快危及生命。
+- 🚨 [猫吞了线、绳子、丝带或彩带：马上就医](#cg-0031)：线状异物可能缠在舌根或卡在肠道里，像钢丝一样割穿肠壁，危及生命。看到线头也不要硬拉。
+- 🚨 [怀疑猫中毒：马上打电话，不要自己催吐](#cg-0032)：怀疑猫吃了有毒的东西时，立即联系兽医或动物中毒热线，带上包装或样品。不要自行催吐，有些毒物吐出来伤害更大。
+- 🚨 [后腿突然瘫软、剧痛：立即急诊](#cg-0034)：猫突然后腿拖地、不能动或疼得叫，可能是心脏病形成的血栓堵住了后腿血管，是急症。
 
 ## 目录
 
 - **安全**
   - [封窗：窗户和阳台装牢固的防护网](#cg-0001) `A`
   - [植入芯片，并确保登记信息是最新的](#cg-0002) `A`
+  - [电线收好、明火不离人、圣诞树要固定](#cg-0046) `C`
+  - [家里来客人：给猫一个安静房间，开门前确认猫在哪](#cg-0048) `C`
 - **有毒物质**
   - [家里不要放百合和萱草](#cg-0003) `S`
   - [不要给猫用狗用驱虫滴剂](#cg-0005) `S`
+  - [绝不要给猫吃人用止痛药和感冒药](#cg-0033) `S`
+  - [巧克力、葡萄、葡萄干、牛油果和含木糖醇的食物不要给猫](#cg-0043) `A`
+  - [防冻液、灭鼠药、杀虫剂、清洁剂都要锁好](#cg-0044) `A`
   - [不要给猫吃洋葱、大蒜和葱类](#cg-0006) `B`
+  - [除了百合，这些常见植物也不要放在猫能碰到的地方](#cg-0042) `B`
+  - [精油和加热香薰不要放在猫能碰到的地方](#cg-0045) `C`
 - **饮食与营养**
   - [不要照着网上的配方长期自制猫饭](#cg-0009) `S`
   - [主食选标明“营养完整均衡”的猫粮](#cg-0008) `A`
+  - [不要给猫吃生肉粮、生骨肉、冻干生肉和生牛奶](#cg-0049) `A`
   - [少量多餐，用益智喂食代替一大碗](#cg-0023) `B`
   - [零食不超过每天热量的 10% 到 15%](#cg-0010) `C`
 - **体重管理**
@@ -44,12 +57,27 @@
   - [学会识别猫之间不明显的紧张关系](#cg-0027) `A`
 - **老年猫**
   - [老年猫体检时要量血压](#cg-0018) `A`
+  - [定期看看猫的眼睛：瞳孔不一样大、眼睛变浑要就医](#cg-0041) `A`
+- **常见疾病早期信号**
+  - [成年猫一天不吃、幼猫半天不吃就要看兽医](#cg-0035) `A`
+  - [猫呕吐：每周超过一次，或伴随其他症状，就要看兽医](#cg-0036) `A`
+  - [喝水变多、尿变多：尽快查血查尿](#cg-0037) `A`
+  - [每月称一次体重，留意不明原因的变瘦](#cg-0038) `A`
+  - [行为突然变了，先想到可能是生病，不要只当成“老了”或“闹脾气”](#cg-0039) `A`
+  - [口臭不正常，持续口臭要看兽医](#cg-0040) `C`
 - **紧急情况**
   - [猫接触了百合：立即就医](#cg-0004) 🚨
   - [猫尿不出来：当天急诊](#cg-0007) 🚨
+  - [猫呼吸困难、张嘴喘气：立即就医](#cg-0029) 🚨
+  - [中暑：先降温，同时马上联系兽医](#cg-0030) 🚨
+  - [猫吞了线、绳子、丝带或彩带：马上就医](#cg-0031) 🚨
+  - [怀疑猫中毒：马上打电话，不要自己催吐](#cg-0032) 🚨
+  - [后腿突然瘫软、剧痛：立即急诊](#cg-0034) 🚨
+  - [猫从高处摔下，看起来没事也要尽快看兽医](#cg-0050) `C`
 - **医院与就医**
   - [就医前记录变化、拍视频](#cg-0028) `C`
 - **值得买吗**
+  - [玩具不用贵，但要避开小零件和线状部件](#cg-0047) `C`
   - [自动饮水机值得买吗？](#cg-0013) `D`
   - [洁牙零食和洁牙产品怎么选](#cg-0021) `D`
 - **用品选购原则**
@@ -147,6 +175,61 @@
 
 *AI 研究整理，尚未经兽医审核 · 最近复核 2026-11-20*
 
+### <a id="cg-0046"></a>电线收好、明火不离人、圣诞树要固定
+
+**结论：** 啃电线（尤其通电时）很危险；猫会拍打蜡烛火焰被烧伤；没固定的圣诞树可能被猫爬倒。
+
+`CG-0046` · 建议 · 证据 **C**（有限证据） · 性价比 **C**（较低） · 紧急程度：日常
+
+适用：所有猫、幼猫 · 花费：很低 · 时间 1/5 · 难度 1/5 · 收益 2/5
+
+**建议：** 电线用线槽或保护套包起来；点蜡烛时人不离开，或改用电子蜡烛；圣诞树等高大装饰固定在墙上或天花板上，下层挂不易碎的装饰。
+
+**为什么：** 康奈尔大学猫健康中心指出：啃咬灯泡、电线、电话线，尤其是通电的电线，对猫很危险，可以用五金店买的塑料线槽保护；猫拍打火焰会烧伤爪子、尾巴和胡须，打翻的蜡烛还可能引发火灾；没有固定的圣诞树可能被猫爬倒，玻璃和陶瓷装饰碎了也会伤猫。
+
+**怎么做：**
+
+- 充电线不用时拔掉收起来。
+- 用线槽把常用电线贴墙固定。
+- 装饰物用布、木头、稻草等不易碎材质，用布圈而不是挂钩固定。
+
+**证据说明：** 来自大学兽医学院的节日安全页面，基于兽医临床经验；没有发生率数据。
+
+**来源：**
+
+- Beware Holiday Hazards. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/beware-holiday-hazards)
+  - 支持内容：啃咬灯泡、电线、电话线（尤其通电时）都危险，可用塑料线槽保护；圣诞树要固定；装饰用不易碎材质；猫拍打火焰会烧伤爪、尾、胡须；不要让猫独自待在有明火的房间。（AI 已核对，读到：网页正文，位置：圣诞树、电线、蜡烛段落）
+- Safe toys and gifts. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/safe-toys-and-gifts)
+  - 支持内容：任何猫能啃到的带电线物品都应避免。（AI 已核对，读到：网页正文，位置：第 4 段）
+
+*AI 研究整理，尚未经兽医审核 · 最近复核 2026-11-20*
+
+### <a id="cg-0048"></a>家里来客人：给猫一个安静房间，开门前确认猫在哪
+
+**结论：** 陌生人和噪音会让猫紧张，有的猫会趁开门跑出去。准备一个有水、食物、猫砂盆的安静房间，并确保猫有身份标识。
+
+`CG-0048` · 建议 · 证据 **C**（有限证据） · 性价比 **C**（较低） · 紧急程度：日常
+
+适用：所有猫 · 花费：几乎免费 · 时间 1/5 · 难度 1/5 · 收益 2/5
+
+**建议：** 聚会或客人多时，把猫安置在有水、食物、猫砂盆和窝的安静房间，让它自己选择是否出来；开门迎客前确认猫的位置；确保猫有芯片或身份牌。
+
+**为什么：** 康奈尔大学猫健康中心指出，很多猫回避陌生人、客人来时会躲起来；陌生人和他们的宠物会让猫紧张，有的猫会趁开门逃跑。 建议提供一个猫可以随时进出的安静房间，并确保猫有项圈身份牌或芯片，以防走失。万圣节等有很多人敲门的日子，最好让猫待在安全房间。
+
+**怎么做：**
+
+- 提前把猫的东西放进一个房间，门口贴“请勿开门”。
+- 每天抽 5–10 分钟陪猫玩，缓解节日期间的压力。
+
+**证据说明：** 来自大学兽医学院的节日安全页面；属于低成本的管理建议。
+
+**来源：**
+
+- Beware Holiday Hazards. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/beware-holiday-hazards)
+  - 支持内容：客人多时让猫待在安静房间，备好水、食物、猫砂盆和窝，让猫可自由进出；开门迎客时注意猫的位置，有的猫会逃跑；确保猫有身份牌或芯片；每天 5–10 分钟陪玩缓解压力。（AI 已核对，读到：网页正文，位置：Thanksgiving 与 Halloween 段落）
+
+*AI 研究整理，尚未经兽医审核 · 最近复核 2026-11-20*
+
 ## 有毒物质
 
 ### <a id="cg-0003"></a>家里不要放百合和萱草
@@ -209,7 +292,7 @@
 **怎么做：**
 
 - 买驱虫药前看清适用动物和体重范围；不确定就问兽医。
-- 家里的狗用了含扑灭司林的产品，要按说明书和兽医建议，在一段时间内避免猫和狗密切接触。
+- 家里的狗用了驱虫药后，至少 24 小时内不要让猫接触这只狗；说明书要求更久的，按说明书。
 - 把猫用、狗用药品分开存放。
 
 **不要这样做：**
@@ -225,12 +308,129 @@
 **尚未解决：**
 
 - TODO: 纳入 iCatCare 的扑灭司林中毒资料（第一轮抓取没有拿到正文）。
-- UNKNOWN: 与用药后的狗隔离多久才安全，已读来源（含 Boland 2010 全文）没有给出时长，所以正文只写“按说明书和兽医建议”。
+- 已解决（2026-11-20）：康奈尔猫健康中心的家庭危险页面写明，猫在狗用药后 24 小时内不能接触这只狗。Boland 2010 全文没有给出时长。不同产品的要求可能不同，以说明书为准。
 
 **来源：**
 
+- Common Cat Hazards. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards)
+  - 支持内容：人用药和狗用驱虫药对猫可能有急性毒性；用了狗用驱虫药的狗，24 小时内不能让猫接触。（AI 已核对，读到：网页正文，位置：Medications 段落（Flea medication for dogs））
 - Boland 等. Feline permethrin toxicity: Retrospective study of 42 cases. Journal of Feline Medicine and Surgery, 2010. DOI: [10.1016/j.jfms.2009.09.018](https://doi.org/10.1016/j.jfms.2009.09.018)
   - 支持内容：42 例中 41 例将狗用扑灭司林滴剂直接用于猫，3 例主人把一支药分给几只狗和猫；震颤或肌颤 86%、抽搐 33%；33% 出现并发症；汇总的其他报告中包括接触用药狗的暴露途径；尽管有标签警告，病例仍持续发生且可能致命。（AI 已核对，读到：全文，位置：Abstract；Results；Table 2）
+
+*AI 研究整理，尚未经兽医审核 · 最近复核 2026-11-20*
+
+### <a id="cg-0033"></a>绝不要给猫吃人用止痛药和感冒药
+
+**结论：** 对乙酰氨基酚（扑热息痛、泰诺）、布洛芬、阿司匹林等人用药是猫中毒的常见原因。药片掉在地上也要捡干净。
+
+`CG-0033` · 不要做 · 证据 **B**（中等证据） · 性价比 **S**（极高） · 紧急程度：重要
+
+适用：所有猫 · 花费：几乎免费 · 时间 1/5 · 难度 1/5 · 收益 4/5
+
+**建议：** 不给猫吃任何人用药，除非兽医明确开具。药品放在猫拿不到的柜子里，掉在地上的药片立刻捡起来。
+
+**为什么：** 康奈尔大学猫健康中心转引 ASPCA 动物中毒控制中心的数据：人用药是猫中毒最常见的原因之一，其中最突出的是阿司匹林、对乙酰氨基酚和布洛芬，以及部分感冒药、抗抑郁药和营养补充剂。 猫会吞下放在床头柜、桌面或掉在地上的药片。康奈尔的绝育页面也特别提醒：术后不要自行给猫用这些非处方止痛药。
+
+**怎么做：**
+
+- 所有药品（包括维生素和保健品）放进有门的柜子。
+- 吃药时不要把药片放在桌边；掉了马上找到。
+- 猫看起来疼痛时，联系兽医，不要用家里的止痛药。
+
+**需要警惕的信号：**
+
+- 发现猫可能吃了人用药：立即联系兽医（见“怀疑猫中毒”条目）。
+
+**证据说明：** 大学兽医学院多个页面一致，并引用 ASPCA 中毒控制中心的来电数据；人用止痛药对猫的毒性是兽医毒理学共识。本项目不收录中毒剂量。
+
+**尚未解决：**
+
+- TODO: 纳入对乙酰氨基酚猫中毒的病例研究或毒理学综述。
+
+**来源：**
+
+- Poisons. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/poisons)
+  - 支持内容：人用药是猫中毒常见原因，尤其是阿司匹林、对乙酰氨基酚、布洛芬，以及部分感冒药、抗抑郁药、补充剂；猫会吞下放在床头柜、桌面或掉在地上的药片。（AI 已核对，读到：网页正文，位置：Human medications 条目）
+- Common Cat Hazards. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards)
+  - 支持内容：人用药和狗用驱虫药对猫可能有急性毒性；不经兽医同意不要给猫用药；列出阿司匹林、对乙酰氨基酚、布洛芬、维生素补充剂。（AI 已核对，读到：网页正文，位置：Medications 段落）
+- Spaying and Neutering. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/spaying-and-neutering)
+  - 支持内容：术后不要在没有兽医同意的情况下使用阿司匹林、布洛芬、泰诺等非处方药，这些药可能对猫有毒。（AI 已核对，读到：网页正文，位置：术后止痛段落）
+
+*AI 研究整理，尚未经兽医审核 · 最近复核 2026-11-20*
+
+### <a id="cg-0043"></a>巧克力、葡萄、葡萄干、牛油果和含木糖醇的食物不要给猫
+
+**结论：** 这些人类食物被兽医学院列为对猫有毒。巧克力（尤其黑巧和烘焙用巧克力）可能引起心律失常、震颤和抽搐。
+
+`CG-0043` · 不要做 · 证据 **B**（中等证据） · 性价比 **A**（高） · 紧急程度：重要
+
+适用：所有猫 · 花费：几乎免费 · 时间 1/5 · 难度 1/5 · 收益 3/5
+
+**建议：** 不给猫吃巧克力、葡萄、葡萄干、牛油果、含木糖醇的口香糖或食品，以及洋葱大蒜（见单独条目）。零食和糖果收好，垃圾桶加盖。
+
+**为什么：** 康奈尔大学猫健康中心把葡萄、洋葱、葡萄干、牛油果、含木糖醇的食物和巧克力列为对猫有毒的食物，并指出巧克力（尤其是烘焙用巧克力）含有的成分可能导致心律异常、震颤、精神沉郁和抽搐。 节日期间还要注意糖果、包装纸和棒棒糖棍。
+
+**怎么做：**
+
+- 吃零食时不要分给猫。
+- 垃圾桶选带盖的。
+- 来客人时提醒不要喂猫。
+
+**需要警惕的信号：**
+
+- 吃了巧克力后发抖、兴奋、心跳快、呕吐：立即联系兽医。
+
+**证据说明：** 大学兽医学院两个页面与 ASPCA 动物中毒控制中心的人类食物清单一致。部分食物（如葡萄）对猫的毒性证据主要来自狗，猫的数据较少。
+
+**尚未解决：**
+
+- UNKNOWN: 葡萄 / 葡萄干对猫的毒性程度，猫专属的病例数据很少。
+
+**来源：**
+
+- Common Cat Hazards. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards)
+  - 支持内容：对猫有毒的食物包括葡萄、洋葱、葡萄干、牛油果、含木糖醇的食品、巧克力。（AI 已核对，读到：网页正文，位置：Toxic Foods 段落）
+- Poisons. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/poisons)
+  - 支持内容：葡萄、洋葱、葡萄干、牛油果、含木糖醇的口香糖可能严重伤害猫；巧克力尤其是烘焙巧克力可能导致心律异常、震颤、沉郁和抽搐。（AI 已核对，读到：网页正文，位置：Human food 条目）
+- People Foods to Avoid Feeding Your Pets. ASPCA Animal Poison Control Center, 2026. *ASPCA Pet Care*. [链接](https://www.aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets)
+  - 支持内容：列出对宠物有害的人类食物，包括巧克力、葡萄和葡萄干、牛油果、木糖醇。（AI 已核对，读到：网页正文，位置：对应食物段落）
+
+*AI 研究整理，尚未经兽医审核 · 最近复核 2026-11-20*
+
+### <a id="cg-0044"></a>防冻液、灭鼠药、杀虫剂、清洁剂都要锁好
+
+**结论：** 杀虫剂、灭鼠药、漂白剂等清洁剂、防冻液和含铅油漆是猫中毒最常见的来源。洒出来要马上清理干净。
+
+`CG-0044` · 不要做 · 证据 **B**（中等证据） · 性价比 **A**（高） · 紧急程度：重要
+
+适用：所有猫 · 花费：几乎免费 · 时间 1/5 · 难度 1/5 · 收益 3/5
+
+**建议：** 清洁剂、杀虫剂、灭鼠药、蜗牛药、化肥、防冻液、油漆稀释剂、泳池化学品放在猫进不去的柜子或房间；洒出来立刻清理。家里有猫时尽量不用灭鼠药。
+
+**为什么：** 康奈尔大学猫健康中心转引 ASPCA 的数据：猫中毒最常见的原因包括草坪花园用杀虫剂、灭鼠药、漂白剂等清洁剂、洒出后被舔食的防冻液，以及老房子里的含铅油漆。 灭鼠药可导致内出血、抽搐和肾损伤；防冻液、油漆稀释剂和泳池化学品可导致肾衰竭、胃肠不适、呼吸困难或化学烧伤；清洁剂吞下后可引起严重的胃肠和呼吸道问题。 猫会舔爪子和毛，沾在地上、身上的化学品也会被吃进去。
+
+**怎么做：**
+
+- 清洁后等地面干透再让猫进入。
+- 老房子翻修打磨时，把猫关在远离施工的房间。
+- 不让猫接触车库地面（防冻液常从车里漏出）。
+
+**需要警惕的信号：**
+
+- 怀疑接触或舔食了化学品：立即联系兽医，带上包装（见“怀疑猫中毒”条目）。
+
+**证据说明：** 大学兽医学院两个页面一致，并引用 ASPCA 动物中毒控制中心的来电数据。
+
+**尚未解决：**
+
+- TODO: 纳入防冻液（乙二醇）中毒的猫病例研究。
+
+**来源：**
+
+- Poisons. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/poisons)
+  - 支持内容：引用 ASPCA，最常见猫中毒原因包括草坪花园杀虫剂、灭鼠药、漂白剂等清洁剂、洒出的防冻液、含铅油漆；灭鼠药可致内出血、抽搐、肾损伤；防冻液、油漆稀释剂、泳池化学品可致肾衰、胃肠不适、呼吸困难或化学烧伤；清洁剂可致严重胃肠和呼吸道问题。（AI 已核对，读到：网页正文，位置：第 2 段与 10 类清单）
+- Common Cat Hazards. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards)
+  - 支持内容：家用化学品要放在猫够不到的地方，洒出要及时清理；列出杀虫剂、灭鼠药、化肥、除草剂、蜗牛药、防冻液、油漆稀释剂、泳池化学品、清洁剂。（AI 已核对，读到：网页正文，位置：Household chemicals 段落）
 
 *AI 研究整理，尚未经兽医审核 · 最近复核 2026-11-20*
 
@@ -265,6 +465,79 @@
 
 - People Foods to Avoid Feeding Your Pets. ASPCA Animal Poison Control Center, 2026. *ASPCA Pet Care*. [链接](https://www.aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets)
   - 支持内容：葱属（洋葱、大蒜、细香葱）可引起胃肠刺激和红细胞损伤，导致贫血；页面说明猫更易受影响。（AI 已核对，读到：网页正文，位置：Onions, Garlic, Chives 段落）
+
+*AI 研究整理，尚未经兽医审核 · 最近复核 2026-11-20*
+
+### <a id="cg-0042"></a>除了百合，这些常见植物也不要放在猫能碰到的地方
+
+**结论：** 一品红、郁金香、毛地黄、喜林芋（蔓绿绒）、绣球、孤挺花、槲寄生、冬青等都对猫有毒。买花前先查一查。
+
+`CG-0042` · 不要做 · 证据 **C**（有限证据） · 性价比 **B**（中等） · 紧急程度：重要
+
+适用：所有猫 · 花费：几乎免费 · 时间 1/5 · 难度 1/5 · 收益 3/5
+
+**建议：** 养猫的家里优先选择确认对猫无毒的植物；有毒植物不要放在室内，或放在猫绝对接触不到的地方。不确定就先查 ASPCA 的有毒 / 无毒植物数据库。
+
+**为什么：** 康奈尔大学猫健康中心列出的有毒植物包括一品红、百合、槲寄生、冬青、郁金香、毛地黄、喜林芋、孤挺花、满天星、须苞石竹、绣球等，并强调这只是一部分。 对于一品红等常见观赏植物，猫只吃一小片叶子就可能生病，吃得多可能致命；百合尤其危险，极少量就能导致肾衰竭（见“家里不要放百合”条目）。
+
+**怎么做：**
+
+- 买花、收花前查一下品种名。
+- 花束里常混有多种植物，不确定的整束都不要放在家里。
+- 猫爱啃植物时，可以种猫草作为替代。
+
+**需要警惕的信号：**
+
+- 发现猫啃了不认识的植物后呕吐、流口水、精神差：联系兽医，带上植物或照片。
+
+**证据说明：** 大学兽医学院两个页面列出了植物清单，但没有区分每种植物的毒性严重程度；不同植物的危险程度差别很大。
+
+**尚未解决：**
+
+- TODO: 逐一核对 ASPCA 有毒植物数据库中每种植物对猫的毒性与症状。
+- UNKNOWN: “猫草”替代的效果没有来源支持，属于常见做法。
+
+**来源：**
+
+- Common Cat Hazards. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards)
+  - 支持内容：列出对猫有毒的植物（一品红、百合、槲寄生、冬青、郁金香、毛地黄、喜林芋、孤挺花、满天星、须苞石竹、绣球），并说明不限于这些；一品红等吃一小片就可能生病，吃得多可能致命；百合极少量即可致命性肾衰。（AI 已核对，读到：网页正文，位置：Plants 段落）
+- Poisons. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/poisons)
+  - 支持内容：百合、郁金香、毛地黄、喜林芋是数百种对猫有毒植物中的几种。（AI 已核对，读到：网页正文，位置：Indoor and outdoor plants 条目）
+
+*AI 研究整理，尚未经兽医审核 · 最近复核 2026-11-20*
+
+### <a id="cg-0045"></a>精油和加热香薰不要放在猫能碰到的地方
+
+**结论：** 猫会被精油的味道吸引，舔到洒在毛上的精油可能造成口腔、舌头和食道严重化学烧伤。
+
+`CG-0045` · 不要做 · 证据 **C**（有限证据） · 性价比 **C**（较低） · 紧急程度：重要
+
+适用：所有猫 · 花费：几乎免费 · 时间 1/5 · 难度 1/5 · 收益 2/5
+
+**建议：** 精油瓶、香薰炉、加热的香氛液放在猫碰不到的地方，选择有盖、猫打不开的容器。精油洒到猫身上时联系兽医。
+
+**为什么：** 康奈尔大学兽医学院急诊重症科主任指出，他们常见的节日伤害之一，是猫打翻香薰容器后舔舐沾在毛上的精油，导致舌头严重化学烧伤；吞下精油可以造成口腔、舌头和食道的显著化学烧伤。 同一页面还提醒，猫拍打明火会烧伤爪子和尾巴，建议用电池蜡烛代替。
+
+**怎么做：**
+
+- 香薰炉、精油扩香器放在猫跳不上去的地方，或干脆不用。
+- 用电子蜡烛代替明火蜡烛。
+
+**需要警惕的信号：**
+
+- 流口水、用爪扒嘴、不吃东西、舌头发红或溃疡：可能是化学烧伤，尽快就医。
+
+**证据说明：** 来自大学兽医学院急诊专家的临床经验描述；没有关于不同精油毒性的系统资料。
+
+**尚未解决：**
+
+- UNKNOWN: 扩香（雾化）精油对猫呼吸道的长期影响，本条已读来源没有讨论。
+- TODO: 纳入精油中毒的毒理学资料（如茶树油）。
+
+**来源：**
+
+- Beware Holiday Hazards. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/beware-holiday-hazards)
+  - 支持内容：猫被明火和许多精油的味道吸引；常见伤害包括拍火导致爪尾烧伤、舔舐洒在毛上的香薰精油导致舌头严重化学烧伤；吞下精油可导致口腔、舌、食道显著化学烧伤；建议香薰容器选用猫无法打开的盖子，用电池蜡烛代替明火。（AI 已核对，读到：网页正文，位置：Halloween 段落（Dr. Schoeffler））
 
 *AI 研究整理，尚未经兽医审核 · 最近复核 2026-11-20*
 
@@ -347,6 +620,51 @@
   - 支持内容：带有 AAFCO 声明的猫粮被认为营养完整均衡；AAFCO 猫营养专家小组设定最低要求；干粮含水 6–10%，罐头至少 75%；选择最适合自己猫的类型。（AI 已核对，读到：网页正文，位置：页面全文）
 - Freeman 等. WSAVA Nutritional Assessment Guidelines. WSAVA Global Nutrition Committee, 2011. *Journal of Small Animal Practice*. DOI: [10.1111/j.1748-5827.2011.01079.x](https://doi.org/10.1111/j.1748-5827.2011.01079.x)
   - 支持内容：兽医营养评估指南，把饮食评估列为每次检查的一部分。（待核对，读到：仅元数据）
+
+*AI 研究整理，尚未经兽医审核 · 最近复核 2026-11-20*
+
+### <a id="cg-0049"></a>不要给猫吃生肉粮、生骨肉、冻干生肉和生牛奶
+
+**结论：** 生肉和未经巴氏消毒的奶可能带有 H5N1 禽流感病毒、弓形虫和细菌。多起猫感染禽流感死亡与生肉猫粮有关，冻干生肉也不例外。
+
+`CG-0049` · 不要做 · 证据 **B**（中等证据） · 性价比 **A**（高） · 紧急程度：重要
+
+适用：所有猫 · 花费：几乎免费 · 时间 1/5 · 难度 1/5 · 收益 3/5
+
+**建议：** 选择经过烹饪或加热处理的商品猫粮，不喂生肉、生骨肉、冻干生肉零食、生蛋和未经巴氏消毒的奶。关注猫粮召回信息。
+
+**为什么：** 康奈尔大学猫健康中心指出，H5N1 禽流感可让猫严重发病，最多约 70% 的感染猫死亡；已知或怀疑的感染来源包括生牛奶、生肉和禽肉产品。美国已有多起猫感染与特定生肉猫粮有关，FDA 在病猫和它吃的生肉粮中检出相同基因型的病毒。康奈尔明确建议不要喂生肉（包括冻干生肉）食品和零食。 此外，生肉是猫感染弓形虫最常见的途径之一，避免生肉饮食也是控制寄生虫的措施；FIV 阳性等免疫力低下的猫更要避免生肉、生蛋和未消毒的奶。
+
+**怎么做：**
+
+- 看配料和工艺：标注“生”“raw”“冻干生肉”的产品都属于生食。
+- 处理生肉后洗手，不让猫舔食处理台。
+- 关注当地和品牌的猫粮召回通知。
+
+**需要警惕的信号：**
+
+- 吃过生肉或生奶后发烧、不吃、精神差、呼吸困难、走路不稳、发抖、抽搐：立即联系兽医，先打电话再去，并把这只猫与其他宠物隔开。
+
+**地区差异：** H5N1 相关病例和召回目前主要报告于美国；其他地区的禽流感流行情况不同，但生肉带来的寄生虫和细菌风险各地都存在。
+
+**证据说明：** 大学兽医学院多个页面一致（禽流感、寄生虫、弓形虫、FIV），并引用 FDA 的检测结果。 生食的营养或健康“好处”没有可靠证据支持，本项目暂未收录。
+
+**尚未解决：**
+
+- TODO: Freeman 2013 生肉饮食综述目前只读到元数据，读到全文后补充细菌风险数据。
+
+**来源：**
+
+- H5N1 Avian Influenza and your cat. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/h5n1-avian-influenza-and-your-cat)
+  - 支持内容：H5N1 可致猫严重疾病，最多 70% 感染猫死亡；可疑感染来源包括生牛奶、生肉禽肉产品；建议不喂生肉（包括冻干生肉）食品和零食、不喂未消毒奶；多起猫感染与生肉猫粮有关，FDA 在病猫和生肉粮中检出相同基因型病毒；有症状时先打电话再带去医院并隔离。（AI 已核对，读到：网页正文，位置：预防建议与病例段落）
+- Gastrointestinal Parasites of Cats. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2018. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/gastrointestinal-parasites-cats)
+  - 支持内容：寄生虫控制包括避免含生肉的饮食；猫最常通过吃猎物或生肉中的包囊感染弓形虫。（AI 已核对，读到：网页正文，位置：Toxoplasma 与结尾段落）
+- Toxoplasmosis in Cats. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2018. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/toxoplasmosis-cats)
+  - 支持内容：猫最好吃经过烹饪的商品粮，加热可灭活弓形虫包囊；不应让猫吃生肉或啮齿动物。（AI 已核对，读到：网页正文，位置：Prevention 段落）
+- Feline Immunodeficiency Virus (FIV). Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2021. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-immunodeficiency-virus-fiv)
+  - 支持内容：FIV 阳性猫应避免生肉、生蛋和未经巴氏消毒的奶制品，以减少食源性细菌和寄生虫感染。（AI 已核对，读到：网页正文，位置：管理段落）
+- Freeman 等. Current knowledge about the risks and benefits of raw meat-based diets for dogs and cats. Journal of the American Veterinary Medical Association, 2013. DOI: [10.2460/javma.243.11.1549](https://doi.org/10.2460/javma.243.11.1549)
+  - 支持内容：关于生肉饮食风险与益处的综述（待读全文）。（待核对，读到：仅元数据）
 
 *AI 研究整理，尚未经兽医审核 · 最近复核 2026-11-20*
 
@@ -493,17 +811,19 @@
 
 **需要警惕的信号：**
 
-- 猫完全不吃东西超过一天，尤其是胖猫：联系兽医。
+- 猫完全不吃东西超过 24 小时，尤其是胖猫：联系兽医（见 CG-0035）。
 
 **证据说明：** 大学兽医学院资料给出了缓慢减重的速度、兽医指导的要求，以及厌食与脂肪肝、肥胖的关系。
 
 **尚未解决：**
 
-- UNKNOWN: 猫不吃东西多久会开始有脂肪肝风险，已读来源没有给出具体天数，所以正文没有写。
+- 部分解决（2026-11-20）：康奈尔厌食页面指出成年猫持续 24 小时不吃就可能严重影响健康；但脂肪肝开始发生的具体天数仍没有来源，正文不写。
 - TODO: 核对 AAHA 2021 营养与体重管理指南中的减重速度建议。
 
 **来源：**
 
+- Anorexia. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/anorexia)
+  - 支持内容：成年猫持续不吃 24 小时就可能严重影响健康；不吃的猫需要兽医检查。（AI 已核对，读到：网页正文，位置：第 1 段）
 - Obesity. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/node/4071)
   - 支持内容：建议逐步减重，大约每周减体重的 1% 到 2%；减重应在兽医指导下进行。（AI 已核对，读到：网页正文，位置：页面全文）
 - Hepatic Lipidosis. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/node/4062)
@@ -817,6 +1137,294 @@
 
 *AI 研究整理，尚未经兽医审核 · 最近复核 2026-11-20*
 
+### <a id="cg-0041"></a>定期看看猫的眼睛：瞳孔不一样大、眼睛变浑要就医
+
+**结论：** 很多“突然失明”其实是慢慢发生、主人突然才发现，常见于有高血压的老年猫。早发现有可能保住视力。
+
+`CG-0041` · 建议 · 证据 **B**（中等证据） · 性价比 **A**（高） · 紧急程度：尽快
+
+适用：所有猫、老年猫 · 花费：几乎免费 · 时间 1/5 · 难度 1/5 · 收益 4/5
+
+**建议：** 每周看一看猫的两只眼睛：虹膜颜色、是否浑浊、两侧瞳孔是否一样大。发现变化，或猫开始撞家具、找不到食盆，尽快就医。
+
+**为什么：** 康奈尔大学猫健康中心的眼科专家指出，真正的“突然失明”比较少见，更常见的是“突然才被发现的失明”：老年猫长期高血压导致视网膜脱落和眼内出血，视力逐渐下降，主人直到最后才注意到。 早期治疗高血压有时能让视网膜重新贴合、恢复部分视力；等到完全失明再就医，大多数猫无法恢复。2017 ISFM 高血压指南也把失明和双侧瞳孔散大列为严重眼部损害的表现。
+
+**怎么做：**
+
+- 在光线充足的地方，看两只眼睛是否一样亮、一样清澈，瞳孔是否一样大。
+- 老年猫按年龄定期量血压（见“老年猫量血压”条目）。
+
+**需要警惕的信号：**
+
+- 两侧瞳孔大小不一，或在亮处也一直很大
+- 眼睛变浑浊、虹膜颜色改变
+- 撞家具、找不到食盆、受惊时僵在原地
+
+**证据说明：** 大学兽医学院眼科专家的说法与 2017 ISFM 高血压共识指南（已读全文）一致。
+
+**来源：**
+
+- Sudden Blindness. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/sudden-blindness)
+  - 支持内容：真正的突然失明较少见，更常见的是逐渐失明后被突然发现，多见于有慢性高血压的老年猫（视网膜脱落、眼底出血）；主人应定期检查虹膜颜色、浑浊、两侧瞳孔是否一致；早期治疗高血压可能让视网膜复位、恢复部分视力；临床失明后就诊的大多数猫无法恢复。（AI 已核对，读到：网页正文，位置：Dr. Kern 段落）
+- Taylor 等. ISFM Consensus Guidelines on the Diagnosis and Management of Hypertension in Cats. ISFM, 2017. *Journal of Feline Medicine and Surgery*. DOI: [10.1177/1098612X17693500](https://doi.org/10.1177/1098612X17693500)
+  - 支持内容：严重高血压眼部损害常表现为失明和双侧瞳孔散大，往往不可逆。（AI 已核对，读到：全文，位置：Target organ damage – eye）
+
+*AI 研究整理，尚未经兽医审核 · 最近复核 2026-11-20*
+
+## 常见疾病早期信号
+
+### <a id="cg-0035"></a>成年猫一天不吃、幼猫半天不吃就要看兽医
+
+**结论：** 猫不吃东西不是“挑食”这么简单。成年猫持续不吃 24 小时就可能严重影响健康；6 周龄以下幼猫 12 小时不吃就可能致命。
+
+`CG-0035` · 建议 · 证据 **B**（中等证据） · 性价比 **A**（高） · 紧急程度：尽快
+
+适用：所有猫、幼猫 · 花费：低 · 时间 1/5 · 难度 1/5 · 收益 4/5
+
+**建议：** 成年猫持续不吃超过 24 小时、6 周龄以下幼猫超过 12 小时，尽快联系兽医。不要强行塞食物，除非兽医指导。
+
+**为什么：** 康奈尔大学猫健康中心指出，厌食是糖尿病、肾病、脂肪肝、甲亢、胰腺炎、牙病、发烧等多种问题的表现，也可能来自压力（换粮、新宠物、失去同伴）。 无论原因是什么，成年猫持续不吃 24 小时就可能严重影响健康，6 周龄以下幼猫 12 小时就可能致命；“猫从来不会只是决定不吃饭”。 胖猫尤其要注意：不吃东西是脂肪肝的主要诱因。
+
+**怎么做：**
+
+- 每天留意猫吃了多少，多猫家庭尤其要确认每只猫都吃了。
+- 换粮要逐步进行（见“选择全价猫粮”条目）。
+- 不吃超过上述时间，或同时有呕吐、精神差，尽快就医。
+
+**不要这样做：**
+
+- 不要强行往嘴里塞食物，兽医发现这会让猫更厌食。
+- 不要让胖猫“饿几天减肥”。
+
+**需要警惕的信号：**
+
+- 完全不吃，或只舔一点
+- 想吃但吃不下、吃的时候疼（可能是口腔问题）
+- 同时呕吐、躲起来、精神差
+
+**证据说明：** 大学兽医学院两个页面一致：厌食需要兽医全面检查；厌食与脂肪肝的关系明确。具体时间（24 小时 / 12 小时）来自其中一个页面的兽医专家说法。
+
+**尚未解决：**
+
+- TODO: 时间阈值尚未在指南级来源中核对。
+
+**来源：**
+
+- Anorexia. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/anorexia)
+  - 支持内容：厌食是多种疾病（糖尿病、肾病、脂肪肝、甲亢、胰腺炎、结膜炎、哮喘、发烧）和心理因素的表现；成年猫持续 24 小时不吃就可能严重影响健康，6 周龄以下幼猫 12 小时即可能致命；不吃的猫需要全面兽医检查；强行喂食会加重厌食。（AI 已核对，读到：网页正文，位置：第 1、3、5 段）
+- Hepatic Lipidosis. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/node/4062)
+  - 支持内容：脂肪肝几乎总是伴随或继发于厌食，肥胖猫更常见，可致命。（AI 已核对，读到：网页正文，位置：概述段落）
+
+*AI 研究整理，尚未经兽医审核 · 最近复核 2026-11-20*
+
+### <a id="cg-0036"></a>猫呕吐：每周超过一次，或伴随其他症状，就要看兽医
+
+**结论：** 偶尔吐一次不一定是病。但每周吐不止一次，或吐的同时精神差、不吃、吐血、喝水尿量变化、腹泻，应尽快就医。
+
+`CG-0036` · 建议 · 证据 **B**（中等证据） · 性价比 **A**（高） · 紧急程度：重要
+
+适用：所有猫 · 花费：低 · 时间 1/5 · 难度 1/5 · 收益 4/5
+
+**建议：** 记录猫呕吐的频率。每周超过一次，或伴随精神差、虚弱、食欲下降、吐出血、喝水变多、尿量变化、腹泻中任何一项，尽快看兽医。
+
+**为什么：** 康奈尔大学猫健康中心明确写出了这个界线：很多猫偶尔会吐，但每周吐超过一次，或出现上述任何伴随症状，应及时就诊。 呕吐的原因包括毛球、有毒植物、变质食物、人用药、线状异物、寄生虫、炎症性肠病、肿瘤，以及糖尿病、肾病、甲亢等代谢病。 吐毛球很常见，但“吐毛球”和其他原因的呕吐，主人在家很难区分。
+
+**怎么做：**
+
+- 在手机里记下每次呕吐的日期、吐的是什么（毛球、食物、液体、有没有血）。
+- 拍照或拍视频，复诊时给兽医看。
+- 反复干呕却吐不出东西，也要就医（可能是哮喘等呼吸道问题）。
+
+**需要警惕的信号：**
+
+- 每周呕吐超过一次
+- 吐出血或咖啡渣样物
+- 同时精神差、不吃、喝水变多、尿量变化或腹泻
+- 反复干呕吐不出来
+
+**证据说明：** 大学兽医学院的呕吐页面给出明确的就医界线，毛球页面一致地建议反复干呕或呕吐时尽快检查。
+
+**尚未解决：**
+
+- 注意：同一机构的毛球页面说“每一两周吐一次毛球并不少见”，与“每周超过一次就就医”有轻微张力；本条采取更谨慎的界线，由兽医判断是否为毛球。
+
+**来源：**
+
+- Vomiting. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2021. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/vomiting)
+  - 支持内容：呕吐每周超过一次，或伴随精神差、虚弱、食欲下降、呕吐物带血、口渴增加、尿量增减、腹泻，应及时就诊；列出常见原因（毛球、有毒植物、变质食物、人用药、线、防冻液、代谢病等）。（AI 已核对，读到：网页正文，位置：第 2–4 段）
+- The Danger of Hairballs. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/danger-hairballs)
+  - 支持内容：精神差、一两天以上不吃、反复干呕或呕吐的猫应尽快检查；频繁干咳干呕可能与毛球无关，可能是哮喘等呼吸道疾病。（AI 已核对，读到：网页正文，位置：Dr. Goldstein 建议段落）
+
+*AI 研究整理，尚未经兽医审核 · 最近复核 2026-11-20*
+
+### <a id="cg-0037"></a>喝水变多、尿变多：尽快查血查尿
+
+**结论：** 猫突然比以前喝得多、尿团变大变多，是慢性肾病、糖尿病、甲亢等常见病的早期信号，尤其是中老年猫。
+
+`CG-0037` · 建议 · 证据 **B**（中等证据） · 性价比 **A**（高） · 紧急程度：重要
+
+适用：所有猫、成年猫、老年猫 · 花费：中 · 时间 1/5 · 难度 1/5 · 收益 4/5
+
+**建议：** 发现猫喝水明显变多、猫砂结团变大或变多，预约兽医做血液和尿液检查；同时有体重下降时更要尽快。
+
+**为什么：** 康奈尔大学猫健康中心的三篇疾病页面都把“多饮多尿”列为主人在家最能发现的信号： 慢性肾病影响 10 岁以上猫的约 40%、15 岁以上猫的约 80%，早期常没有明显症状，之后会尿多、喝多；糖尿病最常见的两个信号是“吃得多却变瘦”和多饮多尿；甲亢的常见信号是体重下降、食欲增加、多饮多尿。 这些病越早发现，越好控制。
+
+**怎么做：**
+
+- 固定用同样大小的水碗，留意每天要加多少水。
+- 铲屎时留意尿团数量和大小的变化。
+- 去医院时最好带上新鲜尿样，或按兽医指导用不吸水的猫砂收集。
+
+**需要警惕的信号：**
+
+- 喝水明显变多，水碗空得快
+- 尿团变大变多，猫砂消耗变快
+- 同时吃得多却变瘦
+- 在猫砂盆外排尿（尿量变多也可能导致这种情况）
+
+**证据说明：** 同一大学兽医学院的三篇疾病页面（肾病、糖尿病、甲亢）各自独立描述多饮多尿；老年猫页面补充了尿量增加与乱尿的关系。
+
+**尚未解决：**
+
+- TODO: 用 2021 老年猫指南全文核对多饮多尿的表述。
+
+**来源：**
+
+- Chronic Kidney Disease. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/chronic-kidney-disease)
+  - 支持内容：CKD 影响约 40% 的 10 岁以上猫和 80% 的 15 岁以上猫；早期常无明显症状，随后尿量增加、饮水增加；早期诊断预后更好，老年猫应定期监测。（AI 已核对，读到：网页正文，位置：第 1–2 段、总结段落）
+- Feline Diabetes. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2024. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-diabetes)
+  - 支持内容：主人最常发现的两个糖尿病信号是“食欲好却体重下降”和饮水、排尿增加；肥胖猫患糖尿病风险最高可达理想体重猫的 4 倍。（AI 已核对，读到：网页正文，位置：临床表现段落）
+- Hyperthyroidism in Cats. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/hyperthyroidism-cats)
+  - 支持内容：甲亢最常见的表现是体重下降、食欲增加、多饮多尿。（AI 已核对，读到：网页正文，位置：临床表现段落）
+- The Special Needs of the Senior Cat. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2016. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/special-needs-senior-cat)
+  - 支持内容：肾衰、糖尿病、甲亢等老年常见病导致尿量增加，猫砂盆更快变脏，可能使猫在盆外排泄。（AI 已核对，读到：网页正文，位置：行为变化段落）
+
+*AI 研究整理，尚未经兽医审核 · 最近复核 2026-11-20*
+
+### <a id="cg-0038"></a>每月称一次体重，留意不明原因的变瘦
+
+**结论：** 天天见很难看出猫瘦了。每月称重记录，不明原因的体重下降是肿瘤、糖尿病、甲亢、肾病的共同信号。
+
+`CG-0038` · 建议 · 证据 **B**（中等证据） · 性价比 **A**（高） · 紧急程度：重要
+
+适用：所有猫、成年猫、老年猫 · 花费：几乎免费 · 时间 1/5 · 难度 1/5 · 收益 4/5
+
+**建议：** 每月用同一个秤给猫称重并记录。没有在减肥却体重下降，尤其是“吃得多却变瘦”，预约兽医。
+
+**为什么：** 康奈尔大学猫健康中心的癌症警示信号页面建议每月称重，因为天天见很难判断体重变化；不明原因的体重下降应“拉响警报”。 糖尿病、甲亢的常见信号都是“食欲正常或增加却变瘦”；对 FIV 阳性猫，体重下降常是病情恶化的第一个信号。
+
+**怎么做：**
+
+- 抱着猫站上体重秤，减去自己的体重；或用婴儿秤。
+- 每月同一天称，记在手机备忘录或表格里。
+- 配合每月一次的体况评分（见“每月检查体况”条目）。
+
+**需要警惕的信号：**
+
+- 没有减肥计划，体重却持续下降
+- 吃得多却变瘦
+- 背部、臀部摸起来骨头越来越明显
+
+**证据说明：** 大学兽医学院多个页面（癌症信号、糖尿病、甲亢、FIV）一致把体重下降列为重要早期信号，并明确建议每月称重。
+
+**尚未解决：**
+
+- UNKNOWN: 下降多少需要就医，已读来源没有给出百分比阈值。
+
+**来源：**
+
+- Warning signs of cancer. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/warning-signs-cancer)
+  - 支持内容：不明原因体重下降应引起警惕；癌症可导致食欲正常却体重下降；建议每月称重，因为每天见到猫很难判断变化；每月检查有无新肿块。（AI 已核对，读到：网页正文，位置：Weight loss / lumps 段落）
+- Feline Diabetes. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2024. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-diabetes)
+  - 支持内容：糖尿病常见信号是食欲好却体重下降。（AI 已核对，读到：网页正文，位置：临床表现段落）
+- Hyperthyroidism in Cats. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/hyperthyroidism-cats)
+  - 支持内容：甲亢最常见的表现包括体重下降和食欲增加。（AI 已核对，读到：网页正文，位置：临床表现段落）
+- Feline Immunodeficiency Virus (FIV). Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2021. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-immunodeficiency-virus-fiv)
+  - 支持内容：FIV 阳性猫的体重下降常是病情恶化的第一个信号，应准确测量并记录。（AI 已核对，读到：网页正文，位置：管理段落）
+
+*AI 研究整理，尚未经兽医审核 · 最近复核 2026-11-20*
+
+### <a id="cg-0039"></a>行为突然变了，先想到可能是生病，不要只当成“老了”或“闹脾气”
+
+**结论：** 躲起来、不爱玩、变凶、乱尿、不理毛，可能是疼痛或疾病的表现。猫很会掩饰生病。
+
+`CG-0039` · 建议 · 证据 **B**（中等证据） · 性价比 **A**（高） · 紧急程度：重要
+
+适用：所有猫、老年猫 · 花费：低 · 时间 1/5 · 难度 1/5 · 收益 4/5
+
+**建议：** 猫的行为或日常习惯出现明显变化时，先带去兽医检查身体，排除疼痛和疾病，再考虑行为问题。
+
+**为什么：** 康奈尔大学猫健康中心反复强调：猫很擅长掩饰疾病，常常到病情很重才表现出来；不要把老年猫的变化都当成“只是老了”。 具体例子包括：牙病或关节炎的疼痛会让猫变得有攻击性；关节炎会让猫难以进出猫砂盆；甲亢、牙病、神经系统问题可能导致攻击行为；躲藏、不再晒太阳、不爱玩可能是癌症等疾病的早期信号；不理毛也提示身体不舒服。
+
+**怎么做：**
+
+- 记下变化开始的时间和具体表现，拍视频（见“就医前记录变化”条目）。
+- 先排除身体原因，再找行为方面的办法。
+- 不要因为猫“变坏了”而惩罚它，惩罚会加重恐惧和攻击。
+
+**需要警惕的信号：**
+
+- 比平时躲得多、不想互动
+- 不再跳上常去的高处
+- 突然变凶、碰到某处就咬
+- 毛变得杂乱、油腻、打结
+- 突然在猫砂盆外排泄
+
+**证据说明：** 同一大学兽医学院的多个页面（老年猫、攻击行为、癌症信号、关节病）一致；2014 AAFP/ISFM 乱尿指南同样要求先排除疾病。
+
+**尚未解决：**
+
+- TODO: 纳入猫疼痛识别量表（如猫面部疼痛评分）的研究。
+
+**来源：**
+
+- The Special Needs of the Senior Cat. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2016. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/special-needs-senior-cat)
+  - 支持内容：不要认为老年猫的变化只是老了、无法治疗；任何行为或身体变化都应联系兽医；疼痛（牙病、关节炎）可导致攻击；猫擅长掩饰疾病。（AI 已核对，读到：网页正文，位置：Behavior changes 段落、结尾段落）
+- Feline Behavior Problems: Aggression. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2016. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-behavior-problems-aggression)
+  - 支持内容：管理攻击行为的第一步是排除疾病，甲亢、骨关节炎、牙病和中枢神经问题都可能导致攻击；任何体罚都会增加恐惧和焦虑，加重攻击。（AI 已核对，读到：网页正文，位置：管理原则段落）
+- Warning signs of cancer. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/warning-signs-cancer)
+  - 支持内容：更常躲起来、不像平时那样互动、不去喜欢的晒太阳地点、不爱玩、不理毛，都可能是身体不适的信号。（AI 已核对，读到：网页正文，位置：前几段）
+- Is Your Cat Slowing Down?. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/your-cat-slowing-down)
+  - 支持内容：活动减少、躲藏是关节问题的表现；关节炎的猫可能难以进出猫砂盆、避免上下楼梯、无法正常理毛。（AI 已核对，读到：网页正文，位置：Dr. Bellezza 段落）
+
+*AI 研究整理，尚未经兽医审核 · 最近复核 2026-11-20*
+
+### <a id="cg-0040"></a>口臭不正常，持续口臭要看兽医
+
+**结论：** 健康猫的口气不应该难闻。持续口臭常见于牙周病，也可能是糖尿病、肾病、肝病或口腔肿瘤的信号。
+
+`CG-0040` · 建议 · 证据 **C**（有限证据） · 性价比 **C**（较低） · 紧急程度：重要
+
+适用：所有猫 · 花费：低 · 时间 1/5 · 难度 1/5 · 收益 3/5
+
+**建议：** 猫持续口臭时预约兽医检查口腔；同时留意是否喝水尿量变化、体重下降、呕吐。
+
+**为什么：** 康奈尔大学猫健康中心的兽医牙科专家指出，健康猫的口气不应该难闻，持续口臭需要兽医检查找原因。 类似人口臭的气味可能是牙周病；甜味或水果味可能与糖尿病有关；尿味或氨味可能与肾病有关；伴随呕吐的恶臭可能是肝病或肠梗阻；也可能是口腔溃疡或肿瘤。
+
+**怎么做：**
+
+- 平时摸猫时顺手掀起上唇看看牙龈是否红肿、牙上有没有黄褐色牙结石。
+- 不要用人用牙膏，其成分可能让猫肠胃不适。
+
+**需要警惕的信号：**
+
+- 牙龈红肿、出血
+- 流口水、用爪子扒嘴
+- 想吃却吃不下、吃东西时只用一边嚼
+
+**证据说明：** 来自大学兽医学院一个由兽医牙科专家撰写的页面；气味与疾病的对应关系只是提示，不能用来自己诊断。
+
+**尚未解决：**
+
+- TODO: 用 2019 AAHA 牙科指南全文核对。
+
+**来源：**
+
+- Bad Breath: Sign of Illness?. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/bad-breath-sign-illness)
+  - 支持内容：健康猫口气不应难闻；持续口臭应由兽医检查；不同气味可能提示牙周病、糖尿病、肾病、肝病或肠梗阻；也可能来自口腔溃疡或肿瘤；不要用人用牙膏。（AI 已核对，读到：网页正文，位置：全文与侧栏）
+
+*AI 研究整理，尚未经兽医审核 · 最近复核 2026-11-20*
+
 ## 紧急情况
 
 ### <a id="cg-0004"></a>🚨 猫接触了百合：立即就医
@@ -907,6 +1515,279 @@
 
 *AI 研究整理，尚未经兽医审核 · 最近复核 2026-11-20*
 
+### <a id="cg-0029"></a>🚨 猫呼吸困难、张嘴喘气：立即就医
+
+> [!CAUTION]
+> **猫不像狗那样常喘气。呼吸明显费力、张嘴喘、呼吸很快，可能是哮喘、心衰或胸腔积液，随时可能危及生命。**
+>
+> 出现这种情况，不要继续浏览指南，请尽快联系兽医或急诊。
+
+**现在就做：**
+
+1. 立即打电话给兽医或急诊，说明“猫呼吸困难 / 张嘴喘气”。
+1. 让猫保持安静，尽量少折腾，用航空箱平稳转运。
+1. 如果能做到，拍一段猫呼吸时的视频给兽医看，但不要为了拍视频耽误出发。
+
+`CG-0029` · 紧急情况 · 证据 **B**（中等证据） · 紧急程度：紧急
+
+**建议：** 只要怀疑猫呼吸不顺畅，就立刻联系兽医或去急诊，不要在家观察或自己处理。
+
+**为什么：** 康奈尔大学猫健康中心的急诊医学专家指出，呼吸困难本身不是一种病，而是数百种疾病的共同表现；最常见的三个原因是哮喘急性发作、心力衰竭导致肺部积液、胸腔积液。 无论原因是什么，有呼吸困难的猫如果不及时治疗，死亡风险很高。只有兽医能通过检查找到原因并对症处理。
+
+**不要这样做：**
+
+- 不要等“看看会不会自己好”。
+- 不要自己喂药、灌水或尝试按压胸部。
+
+**需要警惕的信号：**
+
+- 张嘴呼吸、喘气（猫正常情况下很少这样）
+- 呼吸明显加快或每次呼吸都很费力
+- 低头、身体前伸，像要呕吐一样干咳或干呕
+- 牙龈或舌头发紫、发白
+- 呼吸困难同时精神很差、躲起来
+
+**证据说明：** 大学兽医学院两篇资料（呼吸困难、肥厚型心肌病）一致：呼吸困难需要立即就医；心肌病导致心衰时会出现张嘴呼吸和呼吸急促。 这是急症处理原则，不涉及具体治疗。
+
+**尚未解决：**
+
+- TODO: 纳入急诊或呼吸系统疾病的指南级来源。
+
+**来源：**
+
+- Dyspnea (Difficulty Breathing). Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/dyspnea-difficulty-breathing)
+  - 支持内容：呼吸困难常伴呼吸急促、张嘴喘气、咳嗽、低头前伸；三大常见原因是哮喘、心衰、胸腔积液；有呼吸困难的猫不及时治疗死亡风险高；只要怀疑呼吸不顺就立刻看兽医，不要在家处理。（AI 已核对，读到：网页正文，位置：全文（Dr. Fletcher 的建议段落））
+- Hypertrophic Cardiomyopathy. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2025. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/hypertrophic-cardiomyopathy)
+  - 支持内容：肥厚型心肌病可引起充血性心衰，表现为呼吸费力或急促、张嘴呼吸、精神差。（AI 已核对，读到：网页正文，位置：临床表现段落）
+
+*AI 研究整理，尚未经兽医审核 · 最近复核 2026-11-20*
+
+### <a id="cg-0030"></a>🚨 中暑：先降温，同时马上联系兽医
+
+> [!CAUTION]
+> **高温时猫出现虚弱、倒地、大口喘气、流口水、呕吐或腹泻，可能是中暑，可以很快危及生命。**
+>
+> 出现这种情况，不要继续浏览指南，请尽快联系兽医或急诊。
+
+**现在就做：**
+
+1. 把猫移到阴凉、有风的地方。
+1. 用凉水（不是冰水）轻轻打湿猫的毛。
+1. 立即联系兽医，按兽医指示出发。
+
+`CG-0030` · 紧急情况 · 证据 **C**（有限证据） · 紧急程度：紧急
+
+**建议：** 发现中暑迹象时，立即把猫移到通风凉爽处，用凉水（不要冰水）轻轻打湿毛发，同时马上联系兽医。
+
+**为什么：** 康奈尔大学猫健康中心指出，中暑可以非常快地危及生命；常见表现是虚弱或倒地、过度喘气、流口水、呕吐和腹泻。 预防成本很低：保证随时有水、提供阴凉处、极端高温时让猫待在有空调的室内、检查车库和杂物间有没有把猫关在里面。
+
+**不要这样做：**
+
+- 不要用冰水或冰块直接大面积敷在身上。
+- 降温后看起来好转也不要取消就医。
+
+**需要警惕的信号：**
+
+- 虚弱、站不稳或倒地
+- 大口喘气
+- 流口水
+- 呕吐、腹泻
+
+**证据说明：** 目前只有一个大学兽医学院的科普页面；降温方法（凉水而非冰水、通风）和立即就医的原则在该页面中明确写出。
+
+**尚未解决：**
+
+- TODO: 纳入兽医急诊教材或指南中关于猫中暑的内容。
+- UNKNOWN: “不要把猫留在车里”是常识性推断，所读来源只提到检查车库、棚屋等可能困住猫的地方。
+
+**来源：**
+
+- Feline Heat Safety. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-heat-safety)
+  - 支持内容：中暑可以很快危及生命，表现为虚弱/倒地、过度喘气、流口水、呕吐、腹泻；发现时立即移到通风凉爽处，用凉水（不是很冷的水）轻轻打湿毛发，并立即联系兽医；预防措施包括随时供水、阴凉处、极端高温时留在空调房、检查棚屋车库。（AI 已核对，读到：网页正文，位置：全文要点列表）
+
+*AI 研究整理，尚未经兽医审核 · 最近复核 2026-11-20*
+
+### <a id="cg-0031"></a>🚨 猫吞了线、绳子、丝带或彩带：马上就医
+
+> [!CAUTION]
+> **线状异物可能缠在舌根或卡在肠道里，像钢丝一样割穿肠壁，危及生命。看到线头也不要硬拉。**
+>
+> 出现这种情况，不要继续浏览指南，请尽快联系兽医或急诊。
+
+**现在就做：**
+
+1. 立即联系兽医，说明吞了什么、大概多长、多久以前。
+1. 如果看到线从嘴里或肛门露出来，保持原样，尽快就医。
+
+`CG-0031` · 紧急情况 · 证据 **C**（有限证据） · 紧急程度：紧急
+
+**建议：** 发现或怀疑猫吞了线、毛线、丝带、彩带（圣诞装饰金属丝）等，立即联系兽医；平时把这类东西收好。
+
+**为什么：** 康奈尔大学猫健康中心的行为医学医生指出，彩带等线状物可能卡在肠道里，有的能排出，有的需要手术；如果线绕在舌根再被吞下，会在消化过程中像钢丝一样切穿肠壁，“非常危及生命”。 康奈尔的呕吐页面也把吞下线或毛线列为猫呕吐的常见原因之一。
+
+**不要这样做：**
+
+- 不要用力拉露在外面的线头。
+- 不要自己催吐。
+
+**需要警惕的信号：**
+
+- 看到猫在嚼线、丝带、彩带，之后东西不见了
+- 反复呕吐、不吃东西
+- 舌头下面或嘴里看到缠绕的线
+- 精神差、腹部疼痛（不让摸肚子）
+
+**证据说明：** 来自同一大学兽医学院的三个页面（节日危险、玩具安全、呕吐）；描述了机制和后果，但没有给出发生率。
+
+**尚未解决：**
+
+- UNKNOWN: “不要拉露出的线头”是兽医急诊的通行做法，但本条已读来源没有直接写出；已列入兽医审核重点。
+- TODO: 纳入线状异物病例研究。
+
+**来源：**
+
+- Beware Holiday Hazards. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/beware-holiday-hazards)
+  - 支持内容：猫可能吞下彩带，部分需要手术取出；彩带如果绕在舌根再被吞下，会像钢丝一样在消化时切穿肠道，非常危及生命；包装礼物避免长丝带。（AI 已核对，读到：网页正文，位置：tinsel 段落）
+- Safe toys and gifts. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/safe-toys-and-gifts)
+  - 支持内容：避免带小零件或线状部件（羽毛、绳子）的玩具，以免脱落被吞下；有电线的东西都要避免。（AI 已核对，读到：网页正文，位置：第 4 段）
+- Vomiting. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2021. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/vomiting)
+  - 支持内容：吞下线或毛线是猫呕吐的常见原因之一；异物梗阻常需内镜或手术取出。（AI 已核对，读到：网页正文，位置：呕吐原因段落）
+
+*AI 研究整理，尚未经兽医审核 · 最近复核 2026-11-20*
+
+### <a id="cg-0032"></a>🚨 怀疑猫中毒：马上打电话，不要自己催吐
+
+> [!CAUTION]
+> **怀疑猫吃了有毒的东西时，立即联系兽医或动物中毒热线，带上包装或样品。不要自行催吐，有些毒物吐出来伤害更大。**
+>
+> 出现这种情况，不要继续浏览指南，请尽快联系兽医或急诊。
+
+**现在就做：**
+
+1. 立即联系兽医；联系不上就找急诊或当地的动物中毒咨询热线。
+1. 说清楚：可能吃了什么、大概多少、多久以前、猫现在的表现。
+1. 带上包装、标签或剩下的样品去医院。
+
+`CG-0032` · 紧急情况 · 证据 **B**（中等证据） · 紧急程度：紧急
+
+**建议：** 怀疑中毒时，立即联系兽医；联系不上就找急诊或动物中毒咨询热线。保留毒物包装或样品。除非兽医明确要求，不要自己催吐。
+
+**为什么：** 康奈尔大学猫健康中心指出：等主人发现异常时，猫可能已经有严重风险，因此要立即咨询兽医；有些毒物在呕吐时造成的损伤比留在胃里更大，所以除非专业人员明确指示，不要催吐。 中毒常见表现包括呕吐、腹泻、抽搐、流口水、走路不稳、呼吸困难、尿不出来等。
+
+**不要这样做：**
+
+- 不要自行催吐（不要灌盐水、双氧水等）。
+- 不要喂牛奶、油或“解毒”偏方。
+- 不要等症状出现才行动。
+
+**需要警惕的信号：**
+
+- 呕吐、腹泻、流口水
+- 走路不稳、发抖、抽搐
+- 突然精神很差、不吃东西
+- 呼吸困难、心跳不规律
+- 尿不出来、尿或便中带血、牙龈出血或鼻出血
+
+**地区差异：** 来源中的中毒热线是美国的（ASPCA、Pet Poison Helpline）。中国大陆目前没有确认可靠的全国性宠物中毒热线，请提前存好附近 24 小时动物医院的电话。
+
+**证据说明：** 大学兽医学院两个页面一致，且与 ASPCA 动物中毒控制中心的建议一致：立即咨询、带上标签、不要自行催吐。
+
+**尚未解决：**
+
+- UNKNOWN: 中国大陆可用的宠物中毒咨询渠道，未找到可核实的来源。
+
+**来源：**
+
+- Common Cat Hazards. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards)
+  - 支持内容：怀疑中毒时立即联系兽医，联系不上找急诊或中毒热线；带上毒物样品或标签；除非明确指示不要催吐，某些毒物呕吐时损伤更大；列出中毒表现（呕吐、腹泻、抽搐、血便血尿、精神差、厌食、瘀青、鼻出血、心律不齐、尿不出来、呼吸困难）；发现时猫可能已有严重风险。（AI 已核对，读到：网页正文，位置：What should I do / Signs of Poisoning 段落）
+- Poisons. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/poisons)
+  - 支持内容：精神差、走路不稳、流口水、呼吸急促、腹泻、抽搐、突然呕吐是常见中毒表现，应寻求紧急治疗；不要催吐，除非被明确指示。（AI 已核对，读到：网页正文，位置：第 1 段与最后一段）
+
+*AI 研究整理，尚未经兽医审核 · 最近复核 2026-11-20*
+
+### <a id="cg-0034"></a>🚨 后腿突然瘫软、剧痛：立即急诊
+
+> [!CAUTION]
+> **猫突然后腿拖地、不能动或疼得叫，可能是心脏病形成的血栓堵住了后腿血管，是急症。**
+>
+> 出现这种情况，不要继续浏览指南，请尽快联系兽医或急诊。
+
+**现在就做：**
+
+1. 立即联系急诊。
+1. 用毛巾托住身体，放进航空箱，尽量不碰疼痛的后腿。
+
+`CG-0034` · 紧急情况 · 证据 **C**（有限证据） · 紧急程度：紧急
+
+**建议：** 猫突然出现后腿无力、拖行、瘫痪或明显疼痛时，立即去急诊。
+
+**为什么：** 康奈尔大学猫健康中心指出，肥厚型心肌病是猫最常见的心脏病，很多患病的猫看起来完全正常。 它的严重后果之一是心脏里形成血栓，血栓最常堵住后腿的血流，造成后腿突然剧痛，严重时瘫痪。这类表现提示预后较差，需要立即治疗。
+
+**不要这样做：**
+
+- 不要以为是“扭到了”而在家观察。
+- 不要给人用止痛药。
+
+**需要警惕的信号：**
+
+- 后腿突然无力、拖着走或完全不能动
+- 突然尖叫、明显疼痛
+- 同时呼吸急促或张嘴呼吸
+
+**证据说明：** 来自大学兽医学院的心肌病页面，机制和表现写得明确；但只有一个来源，也没有给出发生率。
+
+**尚未解决：**
+
+- TODO: 纳入猫动脉血栓栓塞（ATE）的指南或病例研究。
+- UNKNOWN: “爪垫发凉、发紫”等常被提到的体征，本条已读来源没有写，暂不列入。
+
+**来源：**
+
+- Hypertrophic Cardiomyopathy. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2025. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/hypertrophic-cardiomyopathy)
+  - 支持内容：HCM 是猫最常见心脏病，很多患猫没有症状；心内血栓最常阻断后肢血流，造成急性后肢疼痛，严重时后肢瘫痪；血栓栓塞是预后较差的表现；部分品种（缅因、布偶、英短等）更常见。（AI 已核对，读到：网页正文，位置：临床表现与预后段落）
+
+*AI 研究整理，尚未经兽医审核 · 最近复核 2026-11-20*
+
+### <a id="cg-0050"></a>猫从高处摔下，看起来没事也要尽快看兽医
+
+**结论：** 坠楼的猫大多能救活，但约三分之一有胸部创伤、约五分之一有气胸，这些伤从外面不一定看得出来。
+
+`CG-0050` · 建议 · 证据 **C**（有限证据） · 性价比 **C**（较低） · 紧急程度：尽快
+
+适用：所有猫 · 花费：中 · 时间 2/5 · 难度 2/5 · 收益 4/5
+
+**建议：** 猫从阳台、窗户或高处摔下后，即使能走、看起来正常，也尽快带去兽医检查；出现呼吸急促或张嘴呼吸时立即急诊。
+
+**为什么：** 一项 119 例猫高楼坠落的病例研究中，96.5% 的猫存活，但 33.6% 有胸部创伤、20% 有气胸、46.2% 有四肢骨折，楼层越高伤情越重。 胸部创伤和气胸会导致呼吸困难，而呼吸困难的猫不及时治疗死亡风险很高。存活率高说明值得救治，不说明可以不处理。
+
+**不要这样做：**
+
+- 不要因为猫能走路就在家观察。
+- 不要给人用止痛药。
+
+**需要警惕的信号：**
+
+- 呼吸急促、张嘴呼吸
+- 跛行、不让碰某条腿
+- 鼻子或嘴里出血、下巴歪斜
+- 精神差、躲起来、不吃
+
+**证据说明：** 伤情比例来自单一医院的病例系列（摘要），“看起来没事也要检查”是根据隐匿胸部损伤比例高做出的推断，加上大学兽医学院“呼吸困难立即就医”的原则。
+
+**尚未解决：**
+
+- UNKNOWN: 坠落后多久内必须就诊，已读来源没有给出时间窗。
+- TODO: 读取 Vnuk 2004 全文，确认是否有关于延迟出现症状的描述。
+
+**来源：**
+
+- Vnuk. Feline high-rise syndrome: 119 cases (1998-2001). Journal of Feline Medicine and Surgery, 2004. DOI: [10.1016/j.jfms.2003.07.001](https://doi.org/10.1016/j.jfms.2003.07.001)
+  - 支持内容：119 例坠落猫中 96.5% 存活；46.2% 四肢骨折；33.6% 胸部创伤；20% 气胸；七层及以上伤情更重。（AI 已核对，读到：摘要，位置：Abstract）
+- Dyspnea (Difficulty Breathing). Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/dyspnea-difficulty-breathing)
+  - 支持内容：胸部损伤是呼吸困难的原因之一；有呼吸困难的猫不及时治疗死亡风险高，应立即就医。（AI 已核对，读到：网页正文，位置：原因与建议段落）
+
+*AI 研究整理，尚未经兽医审核 · 最近复核 2026-11-20*
+
 ## 医院与就医
 
 ### <a id="cg-0028"></a>就医前记录变化、拍视频
@@ -940,6 +1821,35 @@
 *AI 研究整理，尚未经兽医审核 · 最近复核 2026-11-20*
 
 ## 值得买吗
+
+### <a id="cg-0047"></a>玩具不用贵，但要避开小零件和线状部件
+
+**结论：** 纸袋、纸箱、乒乓球就能让猫玩得很开心。真正要注意的是会脱落被吞下的小零件、羽毛和绳子。
+
+`CG-0047` · 建议 · 证据 **C**（有限证据） · 性价比 **C**（较低） · 紧急程度：日常
+
+适用：所有猫 · 花费：几乎免费 · 时间 2/5 · 难度 1/5 · 收益 3/5
+
+**建议：** 优先用便宜的纸袋、纸箱、乒乓球；避免带小零件、羽毛、绳子等容易脱落被吞下的玩具；带绳的逗猫棒只在人陪着时用。轮换玩具防止玩腻。
+
+**为什么：** 康奈尔大学猫健康中心指出，玩具能让猫锻炼身体、动脑，避免肥胖和抓坏家具、乱尿等行为问题；好玩具不必贵，纸袋、纸箱和乒乓球就很受欢迎。 选择时要避开带小零件或线状部件（羽毛、绳子）的玩具，它们可能在啃咬时脱落被吞下；玩耍区域不要有会砸到猫的重物或会让猫摔下的地方。
+
+**怎么做：**
+
+- 每次拿出几样玩具，过几天换一批。
+- 逗猫棒玩完收起来。
+- 玩具坏了、掉零件就扔掉。
+
+**证据说明：** 来自大学兽医学院的一个科普页面；玩耍对行为健康的作用另见 2013 AAFP/ISFM 环境需求指南。
+
+**来源：**
+
+- Safe toys and gifts. Cornell Feline Health Center, Cornell University College of Veterinary Medicine, 2026. *Cornell Feline Health Topics*. [链接](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/safe-toys-and-gifts)
+  - 支持内容：玩具有助于锻炼和认知丰富，可避免肥胖、破坏性抓挠和乱尿；好玩具不必贵，纸袋、纸箱、乒乓球都很有趣；避免带小零件或线状部件（羽毛、绳）的玩具；注意重物和坠落风险；轮换玩具防止无聊。（AI 已核对，读到：网页正文，位置：全文）
+- Ellis 等. AAFP and ISFM Feline Environmental Needs Guidelines. AAFP / ISFM, 2013. *Journal of Feline Medicine and Surgery*. DOI: [10.1177/1098612X13477537](https://doi.org/10.1177/1098612X13477537)
+  - 支持内容：提供玩耍和捕猎行为的机会是猫的五大环境需求之一。（AI 已核对，读到：全文，位置：Pillar 3）
+
+*AI 研究整理，尚未经兽医审核 · 最近复核 2026-11-20*
 
 ### <a id="cg-0013"></a>自动饮水机值得买吗？
 

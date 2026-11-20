@@ -1,0 +1,57 @@
+id: CG-0037
+slug: drinking-and-peeing-more
+type: recommendation
+title: 喝水变多、尿变多：尽快查血查尿
+summary: 猫突然比以前喝得多、尿团变大变多，是慢性肾病、糖尿病、甲亢等常见病的早期信号，尤其是中老年猫。
+category: early-signs
+tags: [drinking-more, kidney-disease, hidden-illness]
+recommendation: 发现猫喝水明显变多、猫砂结团变大或变多，预约兽医做血液和尿液检查；同时有体重下降时更要尽快。
+why_it_matters: >-
+  康奈尔大学猫健康中心的三篇疾病页面都把“多饮多尿”列为主人在家最能发现的信号：
+  慢性肾病影响 10 岁以上猫的约 40%、15 岁以上猫的约 80%，早期常没有明显症状，之后会尿多、喝多；糖尿病最常见的两个信号是“吃得多却变瘦”和多饮多尿；甲亢的常见信号是体重下降、食欲增加、多饮多尿。
+  这些病越早发现，越好控制。
+how_to_do_it:
+  - 固定用同样大小的水碗，留意每天要加多少水。
+  - 铲屎时留意尿团数量和大小的变化。
+  - 去医院时最好带上新鲜尿样，或按兽医指导用不吸水的猫砂收集。
+warning_signs:
+  - 喝水明显变多，水碗空得快
+  - 尿团变大变多，猫砂消耗变快
+  - 同时吃得多却变瘦
+  - 在猫砂盆外排尿（尿量变多也可能导致这种情况）
+applies_to: [all, adult, senior]
+urgency: important
+related: [CG-0016, CG-0018, CG-0038]
+scores:
+  benefit: 4
+  risk_reduction: 4
+  money_cost: 3
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 同一大学兽医学院的三篇疾病页面（肾病、糖尿病、甲亢）各自独立描述多饮多尿；老年猫页面补充了尿量增加与乱尿的关系。
+  gaps:
+    - "TODO: 用 2021 老年猫指南全文核对多饮多尿的表述。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-ckd
+    supports: CKD 影响约 40% 的 10 岁以上猫和 80% 的 15 岁以上猫；早期常无明显症状，随后尿量增加、饮水增加；早期诊断预后更好，老年猫应定期监测。
+    support_check: ai_checked
+    locator: 第 1–2 段、总结段落
+  - id: cornell-diabetes
+    supports: 主人最常发现的两个糖尿病信号是“食欲好却体重下降”和饮水、排尿增加；肥胖猫患糖尿病风险最高可达理想体重猫的 4 倍。
+    support_check: ai_checked
+    locator: 临床表现段落
+  - id: cornell-hyperthyroid
+    supports: 甲亢最常见的表现是体重下降、食欲增加、多饮多尿。
+    support_check: ai_checked
+    locator: 临床表现段落
+  - id: cornell-senior
+    supports: 肾衰、糖尿病、甲亢等老年常见病导致尿量增加，猫砂盆更快变脏，可能使猫在盆外排泄。
+    support_check: ai_checked
+    locator: 行为变化段落

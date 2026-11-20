@@ -18,10 +18,10 @@ do_not:
   - 不要突然让猫一两天不吃东西。
   - 不要用“饿几顿就瘦了”的办法减肥。
 warning_signs:
-  - 猫完全不吃东西超过一天，尤其是胖猫：联系兽医。
+  - 猫完全不吃东西超过 24 小时，尤其是胖猫：联系兽医（见 CG-0035）。
 applies_to: [adult, senior]
 urgency: important
-related: [CG-0011, CG-0023]
+related: [CG-0011, CG-0023, CG-0035]
 scores:
   benefit: 4
   risk_reduction: 4
@@ -34,13 +34,17 @@ evidence:
   level: B
   summary: 大学兽医学院资料给出了缓慢减重的速度、兽医指导的要求，以及厌食与脂肪肝、肥胖的关系。
   gaps:
-    - "UNKNOWN: 猫不吃东西多久会开始有脂肪肝风险，已读来源没有给出具体天数，所以正文没有写。"
+    - "部分解决（2026-11-20）：康奈尔厌食页面指出成年猫持续 24 小时不吃就可能严重影响健康；但脂肪肝开始发生的具体天数仍没有来源，正文不写。"
     - "TODO: 核对 AAHA 2021 营养与体重管理指南中的减重速度建议。"
 medical_review_required: false
 review_status: ai_researched
 created: 2026-11-20
 last_reviewed: 2026-11-20
 sources:
+  - id: cornell-anorexia
+    supports: 成年猫持续不吃 24 小时就可能严重影响健康；不吃的猫需要兽医检查。
+    support_check: ai_checked
+    locator: 第 1 段
   - id: cornell-obesity
     supports: 建议逐步减重，大约每周减体重的 1% 到 2%；减重应在兽医指导下进行。
     support_check: ai_checked

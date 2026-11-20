@@ -1,0 +1,54 @@
+id: CG-0032
+slug: suspected-poisoning
+type: emergency
+title: 怀疑猫中毒：马上打电话，不要自己催吐
+summary: 怀疑猫吃了有毒的东西时，立即联系兽医或动物中毒热线，带上包装或样品。不要自行催吐，有些毒物吐出来伤害更大。
+category: emergency
+tags: [poisoning]
+recommendation: 怀疑中毒时，立即联系兽医；联系不上就找急诊或动物中毒咨询热线。保留毒物包装或样品。除非兽医明确要求，不要自己催吐。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出：等主人发现异常时，猫可能已经有严重风险，因此要立即咨询兽医；有些毒物在呕吐时造成的损伤比留在胃里更大，所以除非专业人员明确指示，不要催吐。
+  中毒常见表现包括呕吐、腹泻、抽搐、流口水、走路不稳、呼吸困难、尿不出来等。
+emergency_action:
+  - 立即联系兽医；联系不上就找急诊或当地的动物中毒咨询热线。
+  - 说清楚：可能吃了什么、大概多少、多久以前、猫现在的表现。
+  - 带上包装、标签或剩下的样品去医院。
+do_not:
+  - 不要自行催吐（不要灌盐水、双氧水等）。
+  - 不要喂牛奶、油或“解毒”偏方。
+  - 不要等症状出现才行动。
+warning_signs:
+  - 呕吐、腹泻、流口水
+  - 走路不稳、发抖、抽搐
+  - 突然精神很差、不吃东西
+  - 呼吸困难、心跳不规律
+  - 尿不出来、尿或便中带血、牙龈出血或鼻出血
+applies_to: [all]
+urgency: emergency
+region_notes: 来源中的中毒热线是美国的（ASPCA、Pet Poison Helpline）。中国大陆目前没有确认可靠的全国性宠物中毒热线，请提前存好附近 24 小时动物医院的电话。
+related: [CG-0004, CG-0033, CG-0044]
+scores:
+  benefit: 5
+  risk_reduction: 5
+  money_cost: 3
+  time_cost: 2
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 大学兽医学院两个页面一致，且与 ASPCA 动物中毒控制中心的建议一致：立即咨询、带上标签、不要自行催吐。
+  gaps:
+    - "UNKNOWN: 中国大陆可用的宠物中毒咨询渠道，未找到可核实的来源。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-hazards
+    supports: 怀疑中毒时立即联系兽医，联系不上找急诊或中毒热线；带上毒物样品或标签；除非明确指示不要催吐，某些毒物呕吐时损伤更大；列出中毒表现（呕吐、腹泻、抽搐、血便血尿、精神差、厌食、瘀青、鼻出血、心律不齐、尿不出来、呼吸困难）；发现时猫可能已有严重风险。
+    support_check: ai_checked
+    locator: What should I do / Signs of Poisoning 段落
+  - id: cornell-poisons
+    supports: 精神差、走路不稳、流口水、呼吸急促、腹泻、抽搐、突然呕吐是常见中毒表现，应寻求紧急治疗；不要催吐，除非被明确指示。
+    support_check: ai_checked
+    locator: 第 1 段与最后一段

@@ -1,0 +1,40 @@
+id: CG-0046
+slug: cords-candles-and-trees
+type: recommendation
+title: 电线收好、明火不离人、圣诞树要固定
+summary: 啃电线（尤其通电时）很危险；猫会拍打蜡烛火焰被烧伤；没固定的圣诞树可能被猫爬倒。
+category: safety
+tags: [home-safety]
+recommendation: 电线用线槽或保护套包起来；点蜡烛时人不离开，或改用电子蜡烛；圣诞树等高大装饰固定在墙上或天花板上，下层挂不易碎的装饰。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出：啃咬灯泡、电线、电话线，尤其是通电的电线，对猫很危险，可以用五金店买的塑料线槽保护；猫拍打火焰会烧伤爪子、尾巴和胡须，打翻的蜡烛还可能引发火灾；没有固定的圣诞树可能被猫爬倒，玻璃和陶瓷装饰碎了也会伤猫。
+how_to_do_it:
+  - 充电线不用时拔掉收起来。
+  - 用线槽把常用电线贴墙固定。
+  - 装饰物用布、木头、稻草等不易碎材质，用布圈而不是挂钩固定。
+applies_to: [all, kitten]
+urgency: routine
+related: [CG-0031, CG-0045]
+scores:
+  benefit: 2
+  risk_reduction: 3
+  money_cost: 1
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 来自大学兽医学院的节日安全页面，基于兽医临床经验；没有发生率数据。
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-holiday
+    supports: 啃咬灯泡、电线、电话线（尤其通电时）都危险，可用塑料线槽保护；圣诞树要固定；装饰用不易碎材质；猫拍打火焰会烧伤爪、尾、胡须；不要让猫独自待在有明火的房间。
+    support_check: ai_checked
+    locator: 圣诞树、电线、蜡烛段落
+  - id: cornell-toys
+    supports: 任何猫能啃到的带电线物品都应避免。
+    support_check: ai_checked
+    locator: 第 4 段

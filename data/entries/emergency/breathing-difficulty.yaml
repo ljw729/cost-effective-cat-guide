@@ -1,0 +1,54 @@
+id: CG-0029
+slug: breathing-difficulty
+type: emergency
+title: 猫呼吸困难、张嘴喘气：立即就医
+summary: 猫不像狗那样常喘气。呼吸明显费力、张嘴喘、呼吸很快，可能是哮喘、心衰或胸腔积液，随时可能危及生命。
+category: emergency
+tags: [breathing-difficulty]
+recommendation: 只要怀疑猫呼吸不顺畅，就立刻联系兽医或去急诊，不要在家观察或自己处理。
+why_it_matters: >-
+  康奈尔大学猫健康中心的急诊医学专家指出，呼吸困难本身不是一种病，而是数百种疾病的共同表现；最常见的三个原因是哮喘急性发作、心力衰竭导致肺部积液、胸腔积液。
+  无论原因是什么，有呼吸困难的猫如果不及时治疗，死亡风险很高。只有兽医能通过检查找到原因并对症处理。
+emergency_action:
+  - 立即打电话给兽医或急诊，说明“猫呼吸困难 / 张嘴喘气”。
+  - 让猫保持安静，尽量少折腾，用航空箱平稳转运。
+  - 如果能做到，拍一段猫呼吸时的视频给兽医看，但不要为了拍视频耽误出发。
+do_not:
+  - 不要等“看看会不会自己好”。
+  - 不要自己喂药、灌水或尝试按压胸部。
+warning_signs:
+  - 张嘴呼吸、喘气（猫正常情况下很少这样）
+  - 呼吸明显加快或每次呼吸都很费力
+  - 低头、身体前伸，像要呕吐一样干咳或干呕
+  - 牙龈或舌头发紫、发白
+  - 呼吸困难同时精神很差、躲起来
+applies_to: [all]
+urgency: emergency
+related: [CG-0018]
+scores:
+  benefit: 5
+  risk_reduction: 5
+  money_cost: 4
+  time_cost: 2
+  effort: 2
+  harm_potential: 0
+evidence:
+  level: B
+  summary: >-
+    大学兽医学院两篇资料（呼吸困难、肥厚型心肌病）一致：呼吸困难需要立即就医；心肌病导致心衰时会出现张嘴呼吸和呼吸急促。
+    这是急症处理原则，不涉及具体治疗。
+  gaps:
+    - "TODO: 纳入急诊或呼吸系统疾病的指南级来源。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-dyspnea
+    supports: 呼吸困难常伴呼吸急促、张嘴喘气、咳嗽、低头前伸；三大常见原因是哮喘、心衰、胸腔积液；有呼吸困难的猫不及时治疗死亡风险高；只要怀疑呼吸不顺就立刻看兽医，不要在家处理。
+    support_check: ai_checked
+    locator: 全文（Dr. Fletcher 的建议段落）
+  - id: cornell-hcm
+    supports: 肥厚型心肌病可引起充血性心衰，表现为呼吸费力或急促、张嘴呼吸、精神差。
+    support_check: ai_checked
+    locator: 临床表现段落

@@ -464,3 +464,291 @@
   accessed: 2026-11-20
   notes: VOHC reviews manufacturer-submitted trial data; it does not test products itself. Each product's claim is "plaque", "tartar" or both.
   verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read (home page and accepted-products page) }
+
+- id: cornell-dyspnea
+  title: "Dyspnea (Difficulty Breathing)"
+  organization: Cornell Feline Health Center, Cornell University College of Veterinary Medicine
+  year: 2026
+  container: Cornell Feline Health Topics
+  url: https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/dyspnea-difficulty-breathing
+  source_type: organization_page
+  tier: 1
+  accessed: 2026-11-20
+  notes: "No content date shown on the page; year is the access year."
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: cornell-hcm
+  title: "Hypertrophic Cardiomyopathy"
+  organization: Cornell Feline Health Center, Cornell University College of Veterinary Medicine
+  year: 2025
+  container: Cornell Feline Health Topics
+  url: https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/hypertrophic-cardiomyopathy
+  source_type: organization_page
+  tier: 1
+  accessed: 2026-11-20
+  notes: "Page states \"Updated May 2025\"."
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: cornell-heat
+  title: "Feline Heat Safety"
+  organization: Cornell Feline Health Center, Cornell University College of Veterinary Medicine
+  year: 2026
+  container: Cornell Feline Health Topics
+  url: https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-heat-safety
+  source_type: organization_page
+  tier: 1
+  accessed: 2026-11-20
+  notes: "No content date shown on the page; year is the access year."
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: cornell-holiday
+  title: "Beware Holiday Hazards"
+  organization: Cornell Feline Health Center, Cornell University College of Veterinary Medicine
+  year: 2026
+  container: Cornell Feline Health Topics
+  url: https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/beware-holiday-hazards
+  source_type: organization_page
+  tier: 1
+  accessed: 2026-11-20
+  notes: "No content date shown on the page; year is the access year."
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: cornell-toys
+  title: "Safe toys and gifts"
+  organization: Cornell Feline Health Center, Cornell University College of Veterinary Medicine
+  year: 2026
+  container: Cornell Feline Health Topics
+  url: https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/safe-toys-and-gifts
+  source_type: organization_page
+  tier: 1
+  accessed: 2026-11-20
+  notes: "No content date shown on the page; year is the access year."
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: cornell-vomiting
+  title: "Vomiting"
+  organization: Cornell Feline Health Center, Cornell University College of Veterinary Medicine
+  year: 2021
+  container: Cornell Feline Health Topics
+  url: https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/vomiting
+  source_type: organization_page
+  tier: 1
+  accessed: 2026-11-20
+  notes: "Page states \"Last updated 2021\"."
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: cornell-hazards
+  title: "Common Cat Hazards"
+  organization: Cornell Feline Health Center, Cornell University College of Veterinary Medicine
+  year: 2026
+  container: Cornell Feline Health Topics
+  url: https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/common-cat-hazards
+  source_type: organization_page
+  tier: 1
+  accessed: 2026-11-20
+  notes: "No content date shown on the page; year is the access year."
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: cornell-poisons
+  title: "Poisons"
+  organization: Cornell Feline Health Center, Cornell University College of Veterinary Medicine
+  year: 2026
+  container: Cornell Feline Health Topics
+  url: https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/poisons
+  source_type: organization_page
+  tier: 1
+  accessed: 2026-11-20
+  notes: "No content date shown on the page; year is the access year."
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: cornell-spay
+  title: "Spaying and Neutering"
+  organization: Cornell Feline Health Center, Cornell University College of Veterinary Medicine
+  year: 2026
+  container: Cornell Feline Health Topics
+  url: https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/spaying-and-neutering
+  source_type: organization_page
+  tier: 1
+  accessed: 2026-11-20
+  notes: "No content date shown on the page; year is the access year."
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: cornell-anorexia
+  title: "Anorexia"
+  organization: Cornell Feline Health Center, Cornell University College of Veterinary Medicine
+  year: 2026
+  container: Cornell Feline Health Topics
+  url: https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/anorexia
+  source_type: organization_page
+  tier: 1
+  accessed: 2026-11-20
+  notes: "No content date shown on the page; year is the access year."
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: cornell-hairball
+  title: "The Danger of Hairballs"
+  organization: Cornell Feline Health Center, Cornell University College of Veterinary Medicine
+  year: 2026
+  container: Cornell Feline Health Topics
+  url: https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/danger-hairballs
+  source_type: organization_page
+  tier: 1
+  accessed: 2026-11-20
+  notes: "No content date shown on the page; year is the access year."
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: cornell-ckd
+  title: "Chronic Kidney Disease"
+  organization: Cornell Feline Health Center, Cornell University College of Veterinary Medicine
+  year: 2026
+  container: Cornell Feline Health Topics
+  url: https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/chronic-kidney-disease
+  source_type: organization_page
+  tier: 1
+  accessed: 2026-11-20
+  notes: "No content date shown on the page; year is the access year."
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: cornell-diabetes
+  title: "Feline Diabetes"
+  organization: Cornell Feline Health Center, Cornell University College of Veterinary Medicine
+  year: 2024
+  container: Cornell Feline Health Topics
+  url: https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-diabetes
+  source_type: organization_page
+  tier: 1
+  accessed: 2026-11-20
+  notes: "Page states \"Updated 2024\"."
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: cornell-hyperthyroid
+  title: "Hyperthyroidism in Cats"
+  organization: Cornell Feline Health Center, Cornell University College of Veterinary Medicine
+  year: 2026
+  container: Cornell Feline Health Topics
+  url: https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/hyperthyroidism-cats
+  source_type: organization_page
+  tier: 1
+  accessed: 2026-11-20
+  notes: "No content date shown on the page; year is the access year."
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: cornell-senior
+  title: "The Special Needs of the Senior Cat"
+  organization: Cornell Feline Health Center, Cornell University College of Veterinary Medicine
+  year: 2016
+  container: Cornell Feline Health Topics
+  url: https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/special-needs-senior-cat
+  source_type: organization_page
+  tier: 1
+  accessed: 2026-11-20
+  notes: "Page states \"Updated December 2016\"."
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: cornell-cancer-signs
+  title: "Warning signs of cancer"
+  organization: Cornell Feline Health Center, Cornell University College of Veterinary Medicine
+  year: 2026
+  container: Cornell Feline Health Topics
+  url: https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/warning-signs-cancer
+  source_type: organization_page
+  tier: 1
+  accessed: 2026-11-20
+  notes: "No content date shown on the page; year is the access year."
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: cornell-fiv
+  title: "Feline Immunodeficiency Virus (FIV)"
+  organization: Cornell Feline Health Center, Cornell University College of Veterinary Medicine
+  year: 2021
+  container: Cornell Feline Health Topics
+  url: https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-immunodeficiency-virus-fiv
+  source_type: organization_page
+  tier: 1
+  accessed: 2026-11-20
+  notes: "Page states \"Last updated 2021\"."
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: cornell-aggression
+  title: "Feline Behavior Problems: Aggression"
+  organization: Cornell Feline Health Center, Cornell University College of Veterinary Medicine
+  year: 2016
+  container: Cornell Feline Health Topics
+  url: https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-behavior-problems-aggression
+  source_type: organization_page
+  tier: 1
+  accessed: 2026-11-20
+  notes: "Page states \"Updated December 2016\"."
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: cornell-slowing
+  title: "Is Your Cat Slowing Down?"
+  organization: Cornell Feline Health Center, Cornell University College of Veterinary Medicine
+  year: 2026
+  container: Cornell Feline Health Topics
+  url: https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/your-cat-slowing-down
+  source_type: organization_page
+  tier: 1
+  accessed: 2026-11-20
+  notes: "No content date shown on the page; year is the access year."
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: cornell-bad-breath
+  title: "Bad Breath: Sign of Illness?"
+  organization: Cornell Feline Health Center, Cornell University College of Veterinary Medicine
+  year: 2026
+  container: Cornell Feline Health Topics
+  url: https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/bad-breath-sign-illness
+  source_type: organization_page
+  tier: 1
+  accessed: 2026-11-20
+  notes: "No content date shown on the page; year is the access year."
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: cornell-sudden-blind
+  title: "Sudden Blindness"
+  organization: Cornell Feline Health Center, Cornell University College of Veterinary Medicine
+  year: 2026
+  container: Cornell Feline Health Topics
+  url: https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/sudden-blindness
+  source_type: organization_page
+  tier: 1
+  accessed: 2026-11-20
+  notes: "No content date shown on the page; year is the access year."
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: cornell-h5n1
+  title: "H5N1 Avian Influenza and your cat"
+  organization: Cornell Feline Health Center, Cornell University College of Veterinary Medicine
+  year: 2026
+  container: Cornell Feline Health Topics
+  url: https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/h5n1-avian-influenza-and-your-cat
+  source_type: organization_page
+  tier: 1
+  accessed: 2026-11-20
+  notes: "No content date shown on the page; year is the access year."
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: cornell-gi-parasites
+  title: "Gastrointestinal Parasites of Cats"
+  organization: Cornell Feline Health Center, Cornell University College of Veterinary Medicine
+  year: 2018
+  container: Cornell Feline Health Topics
+  url: https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/gastrointestinal-parasites-cats
+  source_type: organization_page
+  tier: 1
+  accessed: 2026-11-20
+  notes: "Page states \"Updated June 2018\"."
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }
+
+- id: cornell-toxo
+  title: "Toxoplasmosis in Cats"
+  organization: Cornell Feline Health Center, Cornell University College of Veterinary Medicine
+  year: 2018
+  container: Cornell Feline Health Topics
+  url: https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/toxoplasmosis-cats
+  source_type: organization_page
+  tier: 1
+  accessed: 2026-11-20
+  notes: "Page states \"Updated June 2018\"."
+  verification: { exists: true, metadata_match: true, read_level: page, checked: 2026-11-20, method: HTTP 200 + page read }

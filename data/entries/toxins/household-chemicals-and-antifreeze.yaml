@@ -1,0 +1,46 @@
+id: CG-0044
+slug: household-chemicals-and-antifreeze
+type: dont
+title: 防冻液、灭鼠药、杀虫剂、清洁剂都要锁好
+summary: 杀虫剂、灭鼠药、漂白剂等清洁剂、防冻液和含铅油漆是猫中毒最常见的来源。洒出来要马上清理干净。
+category: toxins
+tags: [poisoning, household-chemicals]
+recommendation: 清洁剂、杀虫剂、灭鼠药、蜗牛药、化肥、防冻液、油漆稀释剂、泳池化学品放在猫进不去的柜子或房间；洒出来立刻清理。家里有猫时尽量不用灭鼠药。
+why_it_matters: >-
+  康奈尔大学猫健康中心转引 ASPCA 的数据：猫中毒最常见的原因包括草坪花园用杀虫剂、灭鼠药、漂白剂等清洁剂、洒出后被舔食的防冻液，以及老房子里的含铅油漆。
+  灭鼠药可导致内出血、抽搐和肾损伤；防冻液、油漆稀释剂和泳池化学品可导致肾衰竭、胃肠不适、呼吸困难或化学烧伤；清洁剂吞下后可引起严重的胃肠和呼吸道问题。
+  猫会舔爪子和毛，沾在地上、身上的化学品也会被吃进去。
+how_to_do_it:
+  - 清洁后等地面干透再让猫进入。
+  - 老房子翻修打磨时，把猫关在远离施工的房间。
+  - 不让猫接触车库地面（防冻液常从车里漏出）。
+warning_signs:
+  - 怀疑接触或舔食了化学品：立即联系兽医，带上包装（见“怀疑猫中毒”条目）。
+applies_to: [all]
+urgency: important
+related: [CG-0032]
+scores:
+  benefit: 3
+  risk_reduction: 4
+  money_cost: 0
+  time_cost: 1
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: B
+  summary: 大学兽医学院两个页面一致，并引用 ASPCA 动物中毒控制中心的来电数据。
+  gaps:
+    - "TODO: 纳入防冻液（乙二醇）中毒的猫病例研究。"
+medical_review_required: true
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-poisons
+    supports: 引用 ASPCA，最常见猫中毒原因包括草坪花园杀虫剂、灭鼠药、漂白剂等清洁剂、洒出的防冻液、含铅油漆；灭鼠药可致内出血、抽搐、肾损伤；防冻液、油漆稀释剂、泳池化学品可致肾衰、胃肠不适、呼吸困难或化学烧伤；清洁剂可致严重胃肠和呼吸道问题。
+    support_check: ai_checked
+    locator: 第 2 段与 10 类清单
+  - id: cornell-hazards
+    supports: 家用化学品要放在猫够不到的地方，洒出要及时清理；列出杀虫剂、灭鼠药、化肥、除草剂、蜗牛药、防冻液、油漆稀释剂、泳池化学品、清洁剂。
+    support_check: ai_checked
+    locator: Household chemicals 段落

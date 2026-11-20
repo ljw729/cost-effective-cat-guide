@@ -1,0 +1,41 @@
+id: CG-0047
+slug: safe-cheap-toys
+type: recommendation
+title: 玩具不用贵，但要避开小零件和线状部件
+summary: 纸袋、纸箱、乒乓球就能让猫玩得很开心。真正要注意的是会脱落被吞下的小零件、羽毛和绳子。
+category: worth-buying
+tags: [play, foreign-body]
+recommendation: 优先用便宜的纸袋、纸箱、乒乓球；避免带小零件、羽毛、绳子等容易脱落被吞下的玩具；带绳的逗猫棒只在人陪着时用。轮换玩具防止玩腻。
+why_it_matters: >-
+  康奈尔大学猫健康中心指出，玩具能让猫锻炼身体、动脑，避免肥胖和抓坏家具、乱尿等行为问题；好玩具不必贵，纸袋、纸箱和乒乓球就很受欢迎。
+  选择时要避开带小零件或线状部件（羽毛、绳子）的玩具，它们可能在啃咬时脱落被吞下；玩耍区域不要有会砸到猫的重物或会让猫摔下的地方。
+how_to_do_it:
+  - 每次拿出几样玩具，过几天换一批。
+  - 逗猫棒玩完收起来。
+  - 玩具坏了、掉零件就扔掉。
+applies_to: [all]
+urgency: routine
+related: [CG-0022, CG-0031]
+scores:
+  benefit: 3
+  risk_reduction: 2
+  money_cost: 0
+  time_cost: 2
+  effort: 1
+  harm_potential: 0
+evidence:
+  level: C
+  summary: 来自大学兽医学院的一个科普页面；玩耍对行为健康的作用另见 2013 AAFP/ISFM 环境需求指南。
+medical_review_required: false
+review_status: ai_researched
+created: 2026-11-20
+last_reviewed: 2026-11-20
+sources:
+  - id: cornell-toys
+    supports: 玩具有助于锻炼和认知丰富，可避免肥胖、破坏性抓挠和乱尿；好玩具不必贵，纸袋、纸箱、乒乓球都很有趣；避免带小零件或线状部件（羽毛、绳）的玩具；注意重物和坠落风险；轮换玩具防止无聊。
+    support_check: ai_checked
+    locator: 全文
+  - id: aafp-isfm-environmental-needs-2013
+    supports: 提供玩耍和捕猎行为的机会是猫的五大环境需求之一。
+    support_check: ai_checked
+    locator: Pillar 3
